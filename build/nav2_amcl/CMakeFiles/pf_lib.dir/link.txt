@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libpf_lib.so -o libpf_lib.so CMakeFiles/pf_lib.dir/src/pf/pf.c.o CMakeFiles/pf_lib.dir/src/pf/pf_kdtree.c.o CMakeFiles/pf_lib.dir/src/pf/pf_pdf.c.o CMakeFiles/pf_lib.dir/src/pf/pf_vector.c.o CMakeFiles/pf_lib.dir/src/pf/eig3.c.o CMakeFiles/pf_lib.dir/src/pf/pf_draw.c.o 

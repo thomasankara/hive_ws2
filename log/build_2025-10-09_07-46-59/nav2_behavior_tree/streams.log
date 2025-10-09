@@ -1,0 +1,348 @@
+[0.038s] Invoking command in '/home/thomas24/hive_ws2/build/nav2_behavior_tree': CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/home/thomas24/hive_ws2/install/nav2_bringup:/home/thomas24/hive_ws2/install/navigation2:/home/thomas24/hive_ws2/install/opennav_docking:/home/thomas24/hive_ws2/install/opennav_docking_core:/home/thomas24/hive_ws2/install/opennav_docking_bt:/home/thomas24/hive_ws2/install/nav2_dwb_controller:/home/thomas24/hive_ws2/install/dwb_plugins:/home/thomas24/hive_ws2/install/dwb_critics:/home/thomas24/hive_ws2/install/dwb_core:/home/thomas24/hive_ws2/install/nav_2d_utils:/home/thomas24/hive_ws2/install/dwb_msgs:/home/thomas24/hive_ws2/install/nav_2d_msgs:/home/thomas24/hive_ws2/install/nav2_waypoint_follower:/home/thomas24/hive_ws2/install/nav2_theta_star_planner:/home/thomas24/hive_ws2/install/nav2_smoother:/home/thomas24/hive_ws2/install/nav2_smac_planner:/home/thomas24/hive_ws2/install/nav2_rviz_plugins:/home/thomas24/hive_ws2/install/nav2_route:/home/thomas24/hive_ws2/install/nav2_rotation_shim_controller:/home/thomas24/hive_ws2/install/nav2_regulated_pure_pursuit_controller:/home/thomas24/hive_ws2/install/nav2_planner:/home/thomas24/hive_ws2/install/nav2_navfn_planner:/home/thomas24/hive_ws2/install/nav2_mppi_controller:/home/thomas24/hive_ws2/install/nav2_graceful_controller:/home/thomas24/hive_ws2/install/nav2_controller:/home/thomas24/hive_ws2/install/nav2_constrained_smoother:/home/thomas24/hive_ws2/install/nav2_bt_navigator:/home/thomas24/hive_ws2/install/nav2_behaviors:/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_collision_monitor:/home/thomas24/hive_ws2/install/costmap_queue:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_velocity_smoother:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_amcl:/home/thomas24/hive_ws2/install/nav2_system_tests:/home/thomas24/hiveverse_ws/install/hive_simulation:/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas24/hive_ws2/install/vanilla_brain_nav2:/home/thomas24/hive_ws2/install/nav2_loopback_sim:/home/thomas24/hive_ws2/install/nav2_simple_commander:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:/home/thomas24/hive_ws2/install/opennav_docking/lib:/home/thomas24/hive_ws2/install/opennav_docking_bt/lib:/home/thomas24/hive_ws2/install/dwb_plugins/lib:/home/thomas24/hive_ws2/install/dwb_critics/lib:/home/thomas24/hive_ws2/install/dwb_core/lib:/home/thomas24/hive_ws2/install/nav_2d_utils/lib:/home/thomas24/hive_ws2/install/dwb_msgs/lib:/home/thomas24/hive_ws2/install/nav_2d_msgs/lib:/home/thomas24/hive_ws2/install/nav2_waypoint_follower/lib:/home/thomas24/hive_ws2/install/nav2_theta_star_planner/lib:/home/thomas24/hive_ws2/install/nav2_smoother/lib:/home/thomas24/hive_ws2/install/nav2_smac_planner/lib:/home/thomas24/hive_ws2/install/nav2_rviz_plugins/lib:/home/thomas24/hive_ws2/install/nav2_route/lib:/home/thomas24/hive_ws2/install/nav2_rotation_shim_controller/lib:/home/thomas24/hive_ws2/install/nav2_regulated_pure_pursuit_controller/lib:/home/thomas24/hive_ws2/install/nav2_planner/lib:/home/thomas24/hive_ws2/install/nav2_navfn_planner/lib:/home/thomas24/hive_ws2/install/nav2_mppi_controller/lib:/home/thomas24/hive_ws2/install/nav2_graceful_controller/lib:/home/thomas24/hive_ws2/install/nav2_controller/lib:/home/thomas24/hive_ws2/install/nav2_constrained_smoother/lib:/home/thomas24/hive_ws2/install/nav2_bt_navigator/lib:/home/thomas24/hive_ws2/install/nav2_behaviors/lib:/home/thomas24/hive_ws2/install/nav2_collision_monitor/lib:/home/thomas24/hive_ws2/install/costmap_queue/lib:/home/thomas24/hive_ws2/install/nav2_costmap_2d/lib:/home/thomas24/hive_ws2/install/nav2_voxel_grid/lib:/home/thomas24/hive_ws2/install/nav2_velocity_smoother/lib:/home/thomas24/hive_ws2/install/nav2_map_server/lib:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager/lib:/home/thomas24/hive_ws2/install/nav2_behavior_tree/lib:/home/thomas24/hive_ws2/install/nav2_amcl/lib:/home/thomas24/hive_ws2/install/nav2_system_tests/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/vanilla_brain_nav2/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav_2d_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_loopback_sim/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages:/home/thomas24/hiveverse_ws/install/hive_tools/lib/python3.12/site-packages:/home/thomas24/hiveverse_ws/install/hive_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/thomas24/hive_ws2/build/nav2_behavior_tree -- -j16 -l16
+[0.205s] [  0%] Built target nav2_controller_cancel_bt_node
+[0.206s] [  1%] Built target nav2_behavior_tree
+[0.212s] [  1%] Built target nav2_spin_cancel_bt_node
+[0.212s] [  2%] Built target nav2_compute_path_through_poses_action_bt_node
+[0.214s] [  2%] Built target nav2_compute_path_to_pose_action_bt_node
+[0.214s] [  3%] Built target nav2_assisted_teleop_cancel_bt_node
+[0.219s] [  4%] Built target nav2_wait_cancel_bt_node
+[0.223s] [  5%] Built target nav2_spin_action_bt_node
+[0.229s] [  5%] Built target nav2_wait_action_bt_node
+[0.233s] [  6%] Built target nav2_drive_on_heading_cancel_bt_node
+[0.236s] [  7%] Built target nav2_drive_on_heading_bt_node
+[0.237s] [  8%] Built target nav2_smooth_path_action_bt_node
+[0.238s] [  9%] Built target nav2_back_up_action_bt_node
+[0.240s] [  9%] Built target nav2_back_up_cancel_bt_node
+[0.242s] [ 10%] Built target nav2_follow_path_action_bt_node
+[0.299s] [ 10%] Built target nav2_assisted_teleop_action_bt_node
+[0.304s] [ 11%] Built target nav2_globally_updated_goal_condition_bt_node
+[0.309s] [ 11%] Built target nav2_transform_available_condition_bt_node
+[0.319s] [ 11%] Built target nav2_is_pose_occupied_condition_bt_node
+[0.319s] [ 12%] Built target nav2_is_stuck_condition_bt_node
+[0.319s] [ 13%] Built target nav2_is_stopped_condition_bt_node
+[0.320s] [ 14%] Built target nav2_clear_costmap_service_bt_node
+[0.325s] [ 14%] Built target nav2_path_expiring_timer_condition_bt_node
+[0.328s] [ 15%] Built target nav2_time_expired_condition_bt_node
+[0.335s] [ 16%] Built target nav2_are_poses_near_condition_bt_node
+[0.336s] [ 17%] Built target nav2_initial_pose_received_condition_bt_node
+[0.348s] [ 17%] Built target nav2_distance_traveled_condition_bt_node
+[0.348s] [ 18%] Built target nav2_is_path_valid_condition_bt_node
+[0.350s] [ 19%] Built target nav2_goal_updated_condition_bt_node
+[0.360s] [ 20%] Built target nav2_goal_reached_condition_bt_node
+[0.360s] [ 20%] Built target nav2_is_battery_charging_condition_bt_node
+[0.379s] [ 21%] Built target nav2_is_battery_low_condition_bt_node
+[0.402s] [ 22%] Built target nav2_would_a_controller_recovery_help_condition_bt_node
+[0.402s] [ 23%] Built target nav2_are_error_codes_active_condition_bt_node
+[0.405s] [ 23%] Built target nav2_would_a_planner_recovery_help_condition_bt_node
+[0.439s] [ 25%] Built target nav2_concatenate_paths_action_bt_node
+[0.439s] [ 25%] Built target nav2_speed_controller_bt_node
+[0.440s] [ 26%] Built target nav2_would_a_route_recovery_help_condition_bt_node
+[0.440s] [ 27%] Built target nav2_rate_controller_bt_node
+[0.440s] [ 27%] Built target nav2_reinitialize_global_localization_service_bt_node
+[0.440s] [ 28%] Built target nav2_would_a_smoother_recovery_help_condition_bt_node
+[0.442s] [ 29%] Built target nav2_truncate_path_local_action_bt_node
+[0.442s] [ 30%] Built target nav2_truncate_path_action_bt_node
+[0.442s] [ 31%] Built target nav2_distance_controller_bt_node
+[0.451s] [ 32%] Built target nav2_recovery_node_bt_node
+[0.451s] [ 33%] Built target nav2_path_longer_on_approach_bt_node
+[0.458s] [ 34%] Built target nav2_goal_updater_node_bt_node
+[0.487s] [ 35%] Built target nav2_navigate_to_pose_action_bt_node
+[0.494s] [ 35%] Built target nav2_navigate_through_poses_action_bt_node
+[0.503s] [ 36%] Built target nav2_remove_passed_goals_action_bt_node
+[0.512s] [ 36%] Built target nav2_round_robin_node_bt_node
+[0.518s] [ 37%] Built target nav2_pause_resume_controller_bt_node
+[0.521s] [ 38%] Built target nav2_remove_in_collision_goals_action_bt_node
+[0.543s] [ 39%] Built target nav2_nonblocking_sequence_bt_node
+[0.543s] [ 39%] Built target nav2_append_goal_pose_to_goals_action_bt_node
+[0.543s] [ 39%] Built target nav2_extract_route_nodes_as_goals_action_bt_node
+[0.543s] [ 40%] Built target nav2_pipeline_sequence_bt_node
+[0.543s] [ 41%] Built target nav2_get_current_pose_action_bt_node
+[0.545s] [ 42%] Built target nav2_get_pose_from_path_action_bt_node
+[0.545s] [ 43%] Built target nav2_single_trigger_bt_node
+[0.559s] [ 43%] Built target nav2_get_next_few_goals_action_bt_node
+[0.560s] [ 43%] Built target nav2_persistent_sequence_bt_node
+[0.562s] [ 44%] Built target nav2_planner_selector_bt_node
+[0.590s] [ 45%] Built target nav2_controller_selector_bt_node
+[0.596s] [ 46%] Built target nav2_compute_and_track_route_cancel_bt_node
+[0.603s] [ 46%] Built target nav2_goal_checker_selector_bt_node
+[0.615s] [ 46%] Built target nav2_smoother_selector_bt_node
+[0.615s] [ 46%] Built target nav2_compute_and_track_route_bt_node
+[0.617s] [ 46%] Built target nav2_goal_updated_controller_bt_node
+[0.617s] [ 46%] Built target nav2_progress_checker_selector_bt_node
+[0.621s] [ 47%] Built target nav2_toggle_collision_monitor_service_bt_node
+[0.622s] [ 49%] Built target gtest_main
+[0.622s] [ 49%] Built target gtest
+[0.625s] [ 50%] Built target nav2_compute_route_bt_node
+[0.628s] [ 50%] Built target generate_nav2_tree_nodes_xml
+[0.686s] [ 51%] Built target test_json_utils
+[0.702s] [ 51%] Built target test_condition_is_stopped
+[0.702s] [ 51%] Built target test_bt_utils
+[0.709s] [ 52%] Built target test_condition_path_expiring_timer
+[0.710s] [ 53%] Built target test_condition_initial_pose_received
+[0.710s] [ 54%] Built target test_condition_goal_reached
+[0.714s] [ 55%] Built target test_condition_is_stuck
+[0.717s] [ 56%] Built target test_condition_globally_updated_goal
+[0.722s] [ 57%] Built target test_condition_are_poses_near
+[0.723s] [ 58%] Built target test_condition_transform_available
+[0.724s] [ 58%] Built target test_condition_distance_traveled
+[0.731s] [ 58%] Built target test_condition_is_battery_low
+[0.743s] [ 58%] Built target test_condition_time_expired
+[0.743s] [ 59%] Built target test_condition_is_battery_charging
+[0.744s] [ 59%] Built target test_condition_goal_updated
+[0.765s] [ 60%] Built target test_condition_is_path_valid
+[0.781s] [ 61%] Built target test_condition_is_pose_occupied
+[0.797s] [ 62%] Built target test_decorator_speed_controller
+[0.797s] [ 62%] Built target test_goal_updater_node
+[0.797s] [ 62%] Built target test_would_a_controller_recovery_help
+[0.798s] [ 63%] Built target test_would_a_planner_recovery_help
+[0.802s] [ 64%] Built target test_would_a_route_recovery_help
+[0.802s] [ 65%] Built target test_goal_updated_controller
+[0.804s] [ 66%] Built target test_are_error_codes_present
+[0.804s] [ 67%] Built target test_decorator_distance_controller
+[0.805s] [ 68%] Built target test_would_a_smoother_recovery_help
+[0.806s] [ 69%] Built target test_single_trigger_node
+[0.814s] [ 70%] Built target test_decorator_rate_controller
+[0.815s] [ 71%] Built target test_control_recovery_node
+[0.843s] [ 72%] Built target test_control_pipeline_sequence
+[0.843s] [ 72%] Built target test_decorator_path_longer_on_approach
+[0.859s] [ 72%] Built target test_control_round_robin_node
+[0.869s] [ 73%] Built target test_control_nonblocking_sequence
+[0.879s] [ 73%] Built target test_control_pause_resume_controller
+[0.887s] [ 74%] Built target test_action_spin_action
+[0.897s] [ 75%] Built target test_action_drive_on_heading
+[0.900s] [ 75%] Built target test_action_spin_cancel_action
+[0.905s] [ 76%] Built target test_action_back_up_action
+[0.905s] [ 77%] Built target test_persistent_sequence
+[0.905s] [ 78%] Built target test_bt_action_node
+[0.906s] [ 78%] Built target test_action_controller_cancel_action
+[0.918s] [ 79%] Built target test_action_wait_action
+[0.922s] [ 80%] Built target test_action_back_up_cancel_action
+[0.927s] [ 81%] Built target test_action_assisted_teleop_action
+[0.930s] [ 82%] Built target test_action_wait_cancel_action
+[0.936s] [ 82%] Built target test_action_assisted_teleop_cancel_action
+[0.945s] [ 83%] Built target test_action_compute_and_track_route_cancel_action
+[0.956s] [ 84%] Built target test_action_drive_on_heading_cancel_action
+[0.985s] [ 85%] Built target test_action_compute_and_track_route_action
+[0.991s] [ 85%] Built target test_action_clear_costmap_service
+[0.993s] [ 85%] Built target test_action_compute_path_through_poses_action
+[0.995s] [ 85%] Built target test_action_reinitialize_global_localization_service
+[1.000s] [ 86%] Built target test_action_compute_path_to_pose_action
+[1.001s] [ 87%] Built target test_action_navigate_through_poses_action
+[1.005s] [ 88%] Built target test_action_smooth_path_action
+[1.007s] [ 89%] Built target test_action_compute_route_action
+[1.015s] [ 90%] Built target test_concatenate_paths_action
+[1.015s] [ 90%] Built target test_action_follow_path_action
+[1.015s] [ 91%] Built target test_truncate_path_action
+[1.015s] [ 92%] Built target test_get_current_pose_action
+[1.015s] [ 93%] Built target test_action_navigate_to_pose_action
+[1.031s] [ 94%] Built target test_truncate_path_local_action
+[1.036s] [ 94%] Built target test_remove_passed_goals_action
+[1.049s] [ 95%] Built target test_get_next_few_goals_action
+[1.057s] [ 96%] Built target test_remove_in_collision_goals_action
+[1.072s] [ 96%] Built target test_append_goal_pose_to_goals_action
+[1.072s] [ 96%] Built target test_extract_route_nodes_as_goals_action
+[1.073s] [ 97%] Built target test_smoother_selector_node
+[1.075s] [ 98%] Built target test_goal_checker_selector_node
+[1.076s] [ 99%] Built target test_progress_checker_selector_node
+[1.078s] [ 99%] Built target test_get_pose_from_path_action
+[1.082s] [100%] Built target test_controller_selector_node
+[1.082s] [100%] Built target test_planner_selector_node
+[1.083s] [100%] Built target test_toggle_collision_monitor_service
+[1.111s] Invoked command in '/home/thomas24/hive_ws2/build/nav2_behavior_tree' returned '0': CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/home/thomas24/hive_ws2/install/nav2_bringup:/home/thomas24/hive_ws2/install/navigation2:/home/thomas24/hive_ws2/install/opennav_docking:/home/thomas24/hive_ws2/install/opennav_docking_core:/home/thomas24/hive_ws2/install/opennav_docking_bt:/home/thomas24/hive_ws2/install/nav2_dwb_controller:/home/thomas24/hive_ws2/install/dwb_plugins:/home/thomas24/hive_ws2/install/dwb_critics:/home/thomas24/hive_ws2/install/dwb_core:/home/thomas24/hive_ws2/install/nav_2d_utils:/home/thomas24/hive_ws2/install/dwb_msgs:/home/thomas24/hive_ws2/install/nav_2d_msgs:/home/thomas24/hive_ws2/install/nav2_waypoint_follower:/home/thomas24/hive_ws2/install/nav2_theta_star_planner:/home/thomas24/hive_ws2/install/nav2_smoother:/home/thomas24/hive_ws2/install/nav2_smac_planner:/home/thomas24/hive_ws2/install/nav2_rviz_plugins:/home/thomas24/hive_ws2/install/nav2_route:/home/thomas24/hive_ws2/install/nav2_rotation_shim_controller:/home/thomas24/hive_ws2/install/nav2_regulated_pure_pursuit_controller:/home/thomas24/hive_ws2/install/nav2_planner:/home/thomas24/hive_ws2/install/nav2_navfn_planner:/home/thomas24/hive_ws2/install/nav2_mppi_controller:/home/thomas24/hive_ws2/install/nav2_graceful_controller:/home/thomas24/hive_ws2/install/nav2_controller:/home/thomas24/hive_ws2/install/nav2_constrained_smoother:/home/thomas24/hive_ws2/install/nav2_bt_navigator:/home/thomas24/hive_ws2/install/nav2_behaviors:/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_collision_monitor:/home/thomas24/hive_ws2/install/costmap_queue:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_velocity_smoother:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_amcl:/home/thomas24/hive_ws2/install/nav2_system_tests:/home/thomas24/hiveverse_ws/install/hive_simulation:/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas24/hive_ws2/install/vanilla_brain_nav2:/home/thomas24/hive_ws2/install/nav2_loopback_sim:/home/thomas24/hive_ws2/install/nav2_simple_commander:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:/home/thomas24/hive_ws2/install/opennav_docking/lib:/home/thomas24/hive_ws2/install/opennav_docking_bt/lib:/home/thomas24/hive_ws2/install/dwb_plugins/lib:/home/thomas24/hive_ws2/install/dwb_critics/lib:/home/thomas24/hive_ws2/install/dwb_core/lib:/home/thomas24/hive_ws2/install/nav_2d_utils/lib:/home/thomas24/hive_ws2/install/dwb_msgs/lib:/home/thomas24/hive_ws2/install/nav_2d_msgs/lib:/home/thomas24/hive_ws2/install/nav2_waypoint_follower/lib:/home/thomas24/hive_ws2/install/nav2_theta_star_planner/lib:/home/thomas24/hive_ws2/install/nav2_smoother/lib:/home/thomas24/hive_ws2/install/nav2_smac_planner/lib:/home/thomas24/hive_ws2/install/nav2_rviz_plugins/lib:/home/thomas24/hive_ws2/install/nav2_route/lib:/home/thomas24/hive_ws2/install/nav2_rotation_shim_controller/lib:/home/thomas24/hive_ws2/install/nav2_regulated_pure_pursuit_controller/lib:/home/thomas24/hive_ws2/install/nav2_planner/lib:/home/thomas24/hive_ws2/install/nav2_navfn_planner/lib:/home/thomas24/hive_ws2/install/nav2_mppi_controller/lib:/home/thomas24/hive_ws2/install/nav2_graceful_controller/lib:/home/thomas24/hive_ws2/install/nav2_controller/lib:/home/thomas24/hive_ws2/install/nav2_constrained_smoother/lib:/home/thomas24/hive_ws2/install/nav2_bt_navigator/lib:/home/thomas24/hive_ws2/install/nav2_behaviors/lib:/home/thomas24/hive_ws2/install/nav2_collision_monitor/lib:/home/thomas24/hive_ws2/install/costmap_queue/lib:/home/thomas24/hive_ws2/install/nav2_costmap_2d/lib:/home/thomas24/hive_ws2/install/nav2_voxel_grid/lib:/home/thomas24/hive_ws2/install/nav2_velocity_smoother/lib:/home/thomas24/hive_ws2/install/nav2_map_server/lib:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager/lib:/home/thomas24/hive_ws2/install/nav2_behavior_tree/lib:/home/thomas24/hive_ws2/install/nav2_amcl/lib:/home/thomas24/hive_ws2/install/nav2_system_tests/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/vanilla_brain_nav2/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav_2d_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_loopback_sim/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages:/home/thomas24/hiveverse_ws/install/hive_tools/lib/python3.12/site-packages:/home/thomas24/hiveverse_ws/install/hive_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/thomas24/hive_ws2/build/nav2_behavior_tree -- -j16 -l16
+[1.114s] Invoking command in '/home/thomas24/hive_ws2/build/nav2_behavior_tree': CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/home/thomas24/hive_ws2/install/nav2_bringup:/home/thomas24/hive_ws2/install/navigation2:/home/thomas24/hive_ws2/install/opennav_docking:/home/thomas24/hive_ws2/install/opennav_docking_core:/home/thomas24/hive_ws2/install/opennav_docking_bt:/home/thomas24/hive_ws2/install/nav2_dwb_controller:/home/thomas24/hive_ws2/install/dwb_plugins:/home/thomas24/hive_ws2/install/dwb_critics:/home/thomas24/hive_ws2/install/dwb_core:/home/thomas24/hive_ws2/install/nav_2d_utils:/home/thomas24/hive_ws2/install/dwb_msgs:/home/thomas24/hive_ws2/install/nav_2d_msgs:/home/thomas24/hive_ws2/install/nav2_waypoint_follower:/home/thomas24/hive_ws2/install/nav2_theta_star_planner:/home/thomas24/hive_ws2/install/nav2_smoother:/home/thomas24/hive_ws2/install/nav2_smac_planner:/home/thomas24/hive_ws2/install/nav2_rviz_plugins:/home/thomas24/hive_ws2/install/nav2_route:/home/thomas24/hive_ws2/install/nav2_rotation_shim_controller:/home/thomas24/hive_ws2/install/nav2_regulated_pure_pursuit_controller:/home/thomas24/hive_ws2/install/nav2_planner:/home/thomas24/hive_ws2/install/nav2_navfn_planner:/home/thomas24/hive_ws2/install/nav2_mppi_controller:/home/thomas24/hive_ws2/install/nav2_graceful_controller:/home/thomas24/hive_ws2/install/nav2_controller:/home/thomas24/hive_ws2/install/nav2_constrained_smoother:/home/thomas24/hive_ws2/install/nav2_bt_navigator:/home/thomas24/hive_ws2/install/nav2_behaviors:/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_collision_monitor:/home/thomas24/hive_ws2/install/costmap_queue:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_velocity_smoother:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_amcl:/home/thomas24/hive_ws2/install/nav2_system_tests:/home/thomas24/hiveverse_ws/install/hive_simulation:/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas24/hive_ws2/install/vanilla_brain_nav2:/home/thomas24/hive_ws2/install/nav2_loopback_sim:/home/thomas24/hive_ws2/install/nav2_simple_commander:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:/home/thomas24/hive_ws2/install/opennav_docking/lib:/home/thomas24/hive_ws2/install/opennav_docking_bt/lib:/home/thomas24/hive_ws2/install/dwb_plugins/lib:/home/thomas24/hive_ws2/install/dwb_critics/lib:/home/thomas24/hive_ws2/install/dwb_core/lib:/home/thomas24/hive_ws2/install/nav_2d_utils/lib:/home/thomas24/hive_ws2/install/dwb_msgs/lib:/home/thomas24/hive_ws2/install/nav_2d_msgs/lib:/home/thomas24/hive_ws2/install/nav2_waypoint_follower/lib:/home/thomas24/hive_ws2/install/nav2_theta_star_planner/lib:/home/thomas24/hive_ws2/install/nav2_smoother/lib:/home/thomas24/hive_ws2/install/nav2_smac_planner/lib:/home/thomas24/hive_ws2/install/nav2_rviz_plugins/lib:/home/thomas24/hive_ws2/install/nav2_route/lib:/home/thomas24/hive_ws2/install/nav2_rotation_shim_controller/lib:/home/thomas24/hive_ws2/install/nav2_regulated_pure_pursuit_controller/lib:/home/thomas24/hive_ws2/install/nav2_planner/lib:/home/thomas24/hive_ws2/install/nav2_navfn_planner/lib:/home/thomas24/hive_ws2/install/nav2_mppi_controller/lib:/home/thomas24/hive_ws2/install/nav2_graceful_controller/lib:/home/thomas24/hive_ws2/install/nav2_controller/lib:/home/thomas24/hive_ws2/install/nav2_constrained_smoother/lib:/home/thomas24/hive_ws2/install/nav2_bt_navigator/lib:/home/thomas24/hive_ws2/install/nav2_behaviors/lib:/home/thomas24/hive_ws2/install/nav2_collision_monitor/lib:/home/thomas24/hive_ws2/install/costmap_queue/lib:/home/thomas24/hive_ws2/install/nav2_costmap_2d/lib:/home/thomas24/hive_ws2/install/nav2_voxel_grid/lib:/home/thomas24/hive_ws2/install/nav2_velocity_smoother/lib:/home/thomas24/hive_ws2/install/nav2_map_server/lib:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager/lib:/home/thomas24/hive_ws2/install/nav2_behavior_tree/lib:/home/thomas24/hive_ws2/install/nav2_amcl/lib:/home/thomas24/hive_ws2/install/nav2_system_tests/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/vanilla_brain_nav2/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav_2d_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_loopback_sim/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages:/home/thomas24/hiveverse_ws/install/hive_tools/lib/python3.12/site-packages:/home/thomas24/hiveverse_ws/install/hive_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/thomas24/hive_ws2/build/nav2_behavior_tree
+[1.131s] -- Install configuration: "Release"
+[1.131s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_behavior_tree.so
+[1.132s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_compute_path_to_pose_action_bt_node.so
+[1.132s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_compute_path_through_poses_action_bt_node.so
+[1.133s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_controller_cancel_bt_node.so
+[1.133s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_wait_cancel_bt_node.so
+[1.133s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_spin_cancel_bt_node.so
+[1.133s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_back_up_cancel_bt_node.so
+[1.134s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_cancel_bt_node.so
+[1.134s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_cancel_bt_node.so
+[1.134s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_smooth_path_action_bt_node.so
+[1.134s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_follow_path_action_bt_node.so
+[1.134s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_back_up_action_bt_node.so
+[1.135s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_bt_node.so
+[1.135s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_spin_action_bt_node.so
+[1.136s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_wait_action_bt_node.so
+[1.138s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_action_bt_node.so
+[1.138s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_clear_costmap_service_bt_node.so
+[1.138s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_is_stuck_condition_bt_node.so
+[1.138s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_is_stopped_condition_bt_node.so
+[1.138s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_transform_available_condition_bt_node.so
+[1.138s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_goal_reached_condition_bt_node.so
+[1.138s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_are_poses_near_condition_bt_node.so
+[1.138s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_globally_updated_goal_condition_bt_node.so
+[1.138s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_goal_updated_condition_bt_node.so
+[1.138s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_is_path_valid_condition_bt_node.so
+[1.139s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_is_pose_occupied_condition_bt_node.so
+[1.140s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_time_expired_condition_bt_node.so
+[1.140s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_path_expiring_timer_condition_bt_node.so
+[1.140s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_distance_traveled_condition_bt_node.so
+[1.140s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_initial_pose_received_condition_bt_node.so
+[1.140s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_is_battery_charging_condition_bt_node.so
+[1.141s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_is_battery_low_condition_bt_node.so
+[1.141s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_are_error_codes_active_condition_bt_node.so
+[1.141s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_would_a_controller_recovery_help_condition_bt_node.so
+[1.142s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_would_a_planner_recovery_help_condition_bt_node.so
+[1.142s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_would_a_smoother_recovery_help_condition_bt_node.so
+[1.143s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_would_a_route_recovery_help_condition_bt_node.so
+[1.144s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_reinitialize_global_localization_service_bt_node.so
+[1.144s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_rate_controller_bt_node.so
+[1.144s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_distance_controller_bt_node.so
+[1.145s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_speed_controller_bt_node.so
+[1.145s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_truncate_path_action_bt_node.so
+[1.145s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_concatenate_paths_action_bt_node.so
+[1.145s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_truncate_path_local_action_bt_node.so
+[1.145s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_goal_updater_node_bt_node.so
+[1.145s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_path_longer_on_approach_bt_node.so
+[1.145s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_recovery_node_bt_node.so
+[1.146s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_navigate_to_pose_action_bt_node.so
+[1.146s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_navigate_through_poses_action_bt_node.so
+[1.146s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_remove_passed_goals_action_bt_node.so
+[1.147s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_remove_in_collision_goals_action_bt_node.so
+[1.147s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_append_goal_pose_to_goals_action_bt_node.so
+[1.147s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_get_pose_from_path_action_bt_node.so
+[1.147s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_extract_route_nodes_as_goals_action_bt_node.so
+[1.147s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_get_next_few_goals_action_bt_node.so
+[1.148s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_get_current_pose_action_bt_node.so
+[1.148s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_pipeline_sequence_bt_node.so
+[1.148s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_nonblocking_sequence_bt_node.so
+[1.148s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_round_robin_node_bt_node.so
+[1.148s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_pause_resume_controller_bt_node.so
+[1.148s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_persistent_sequence_bt_node.so
+[1.149s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_single_trigger_bt_node.so
+[1.149s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_planner_selector_bt_node.so
+[1.149s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_controller_selector_bt_node.so
+[1.150s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_smoother_selector_bt_node.so
+[1.150s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_goal_checker_selector_bt_node.so
+[1.150s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_progress_checker_selector_bt_node.so
+[1.150s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_goal_updated_controller_bt_node.so
+[1.151s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_compute_and_track_route_cancel_bt_node.so
+[1.151s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_compute_and_track_route_bt_node.so
+[1.151s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_compute_route_bt_node.so
+[1.152s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/libnav2_toggle_collision_monitor_service_bt_node.so
+[1.152s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/lib/nav2_behavior_tree/generate_nav2_tree_nodes_xml
+[1.152s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree
+[1.152s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree
+[1.152s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/bt_cancel_action_node.hpp
+[1.152s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/ros_topic_logger.hpp
+[1.153s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/json_utils.hpp
+[1.153s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/bt_utils.hpp
+[1.153s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/behavior_tree_engine.hpp
+[1.155s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/bt_action_server.hpp
+[1.156s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/bt_action_server_impl.hpp
+[1.157s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/bt_service_node.hpp
+[1.157s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/utils
+[1.157s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/utils/test_action_server.hpp
+[1.157s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/utils/loop_rate.hpp
+[1.157s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/bt_action_node.hpp
+[1.157s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins
+[1.157s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action
+[1.157s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/drive_on_heading_cancel_node.hpp
+[1.157s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/wait_cancel_node.hpp
+[1.157s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/compute_and_track_route_action.hpp
+[1.157s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/back_up_cancel_node.hpp
+[1.158s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/follow_path_action.hpp
+[1.158s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/reinitialize_global_localization_service.hpp
+[1.158s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/remove_passed_goals_action.hpp
+[1.158s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/get_pose_from_path_action.hpp
+[1.158s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/assisted_teleop_cancel_node.hpp
+[1.158s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/append_goal_pose_to_goals_action.hpp
+[1.158s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/spin_cancel_node.hpp
+[1.159s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/spin_action.hpp
+[1.159s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/goal_checker_selector_node.hpp
+[1.159s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/clear_costmap_service.hpp
+[1.159s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/assisted_teleop_action.hpp
+[1.159s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/concatenate_paths_action.hpp
+[1.159s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/compute_route_action.hpp
+[1.159s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/drive_on_heading_action.hpp
+[1.159s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/navigate_to_pose_action.hpp
+[1.159s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/controller_cancel_node.hpp
+[1.159s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/back_up_action.hpp
+[1.159s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/smoother_selector_node.hpp
+[1.160s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/toggle_collision_monitor_service.hpp
+[1.160s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/planner_selector_node.hpp
+[1.160s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/controller_selector_node.hpp
+[1.160s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/get_current_pose_action.hpp
+[1.160s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/navigate_through_poses_action.hpp
+[1.160s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/get_next_few_goals_action.hpp
+[1.160s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/compute_path_to_pose_action.hpp
+[1.160s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/compute_and_track_route_cancel_node.hpp
+[1.160s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/progress_checker_selector_node.hpp
+[1.160s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/truncate_path_local_action.hpp
+[1.160s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/remove_in_collision_goals_action.hpp
+[1.160s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/wait_action.hpp
+[1.161s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/compute_path_through_poses_action.hpp
+[1.161s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/smooth_path_action.hpp
+[1.161s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/truncate_path_action.hpp
+[1.161s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/action/extract_route_nodes_as_goals_action.hpp
+[1.161s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/decorator
+[1.161s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/decorator/goal_updated_controller.hpp
+[1.161s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/decorator/distance_controller.hpp
+[1.161s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/decorator/path_longer_on_approach.hpp
+[1.161s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/decorator/speed_controller.hpp
+[1.161s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/decorator/rate_controller.hpp
+[1.161s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/decorator/goal_updater_node.hpp
+[1.161s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/decorator/single_trigger_node.hpp
+[1.163s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition
+[1.163s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/would_a_route_recovery_help_condition.hpp
+[1.163s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/time_expired_condition.hpp
+[1.163s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/is_battery_low_condition.hpp
+[1.163s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/distance_traveled_condition.hpp
+[1.163s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/would_a_controller_recovery_help_condition.hpp
+[1.164s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/would_a_planner_recovery_help_condition.hpp
+[1.164s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/path_expiring_timer_condition.hpp
+[1.164s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/goal_reached_condition.hpp
+[1.164s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/are_error_codes_present_condition.hpp
+[1.164s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/transform_available_condition.hpp
+[1.164s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/is_battery_charging_condition.hpp
+[1.164s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/is_path_valid_condition.hpp
+[1.164s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/are_poses_near_condition.hpp
+[1.164s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/initial_pose_received_condition.hpp
+[1.164s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/is_pose_occupied_condition.hpp
+[1.165s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/is_stuck_condition.hpp
+[1.165s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/would_a_smoother_recovery_help_condition.hpp
+[1.166s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/globally_updated_goal_condition.hpp
+[1.166s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/is_stopped_condition.hpp
+[1.166s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/goal_updated_condition.hpp
+[1.166s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/control
+[1.166s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/control/pause_resume_controller.hpp
+[1.166s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/control/pipeline_sequence.hpp
+[1.166s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/control/nonblocking_sequence.hpp
+[1.166s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/control/recovery_node.hpp
+[1.166s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/control/round_robin_node.hpp
+[1.166s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/control/persistent_sequence.hpp
+[1.166s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils
+[1.167s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils/test_dummy_tree_node.hpp
+[1.167s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils/test_service.hpp
+[1.167s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils/test_transform_handler.hpp
+[1.167s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils/get_node_from_tree.hpp
+[1.167s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils/test_behavior_tree_fixture.hpp
+[1.167s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/share/nav2_behavior_tree/nav2_tree_nodes.xml
+[1.167s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins_list.hpp
+[1.167s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.sh
+[1.167s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.dsv
+[1.167s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/share/ament_index/resource_index/package_run_dependencies/nav2_behavior_tree
+[1.167s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/share/ament_index/resource_index/parent_prefix_path/nav2_behavior_tree
+[1.167s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.sh
+[1.168s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.dsv
+[1.168s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.sh
+[1.168s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.dsv
+[1.168s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.bash
+[1.168s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.sh
+[1.168s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.zsh
+[1.168s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.dsv
+[1.168s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behavior_tree/share/nav2_behavior_tree/package.dsv
+[1.168s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/share/ament_index/resource_index/packages/nav2_behavior_tree
+[1.168s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeExport.cmake
+[1.168s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeExport-release.cmake
+[1.169s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.169s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_libraries-extras.cmake
+[1.169s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.169s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_targets-extras.cmake
+[1.169s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig.cmake
+[1.169s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig-version.cmake
+[1.169s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behavior_tree/share/nav2_behavior_tree/package.xml
+[1.177s] Invoked command in '/home/thomas24/hive_ws2/build/nav2_behavior_tree' returned '0': CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/home/thomas24/hive_ws2/install/nav2_bringup:/home/thomas24/hive_ws2/install/navigation2:/home/thomas24/hive_ws2/install/opennav_docking:/home/thomas24/hive_ws2/install/opennav_docking_core:/home/thomas24/hive_ws2/install/opennav_docking_bt:/home/thomas24/hive_ws2/install/nav2_dwb_controller:/home/thomas24/hive_ws2/install/dwb_plugins:/home/thomas24/hive_ws2/install/dwb_critics:/home/thomas24/hive_ws2/install/dwb_core:/home/thomas24/hive_ws2/install/nav_2d_utils:/home/thomas24/hive_ws2/install/dwb_msgs:/home/thomas24/hive_ws2/install/nav_2d_msgs:/home/thomas24/hive_ws2/install/nav2_waypoint_follower:/home/thomas24/hive_ws2/install/nav2_theta_star_planner:/home/thomas24/hive_ws2/install/nav2_smoother:/home/thomas24/hive_ws2/install/nav2_smac_planner:/home/thomas24/hive_ws2/install/nav2_rviz_plugins:/home/thomas24/hive_ws2/install/nav2_route:/home/thomas24/hive_ws2/install/nav2_rotation_shim_controller:/home/thomas24/hive_ws2/install/nav2_regulated_pure_pursuit_controller:/home/thomas24/hive_ws2/install/nav2_planner:/home/thomas24/hive_ws2/install/nav2_navfn_planner:/home/thomas24/hive_ws2/install/nav2_mppi_controller:/home/thomas24/hive_ws2/install/nav2_graceful_controller:/home/thomas24/hive_ws2/install/nav2_controller:/home/thomas24/hive_ws2/install/nav2_constrained_smoother:/home/thomas24/hive_ws2/install/nav2_bt_navigator:/home/thomas24/hive_ws2/install/nav2_behaviors:/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_collision_monitor:/home/thomas24/hive_ws2/install/costmap_queue:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_velocity_smoother:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_amcl:/home/thomas24/hive_ws2/install/nav2_system_tests:/home/thomas24/hiveverse_ws/install/hive_simulation:/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas24/hive_ws2/install/vanilla_brain_nav2:/home/thomas24/hive_ws2/install/nav2_loopback_sim:/home/thomas24/hive_ws2/install/nav2_simple_commander:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:/home/thomas24/hive_ws2/install/opennav_docking/lib:/home/thomas24/hive_ws2/install/opennav_docking_bt/lib:/home/thomas24/hive_ws2/install/dwb_plugins/lib:/home/thomas24/hive_ws2/install/dwb_critics/lib:/home/thomas24/hive_ws2/install/dwb_core/lib:/home/thomas24/hive_ws2/install/nav_2d_utils/lib:/home/thomas24/hive_ws2/install/dwb_msgs/lib:/home/thomas24/hive_ws2/install/nav_2d_msgs/lib:/home/thomas24/hive_ws2/install/nav2_waypoint_follower/lib:/home/thomas24/hive_ws2/install/nav2_theta_star_planner/lib:/home/thomas24/hive_ws2/install/nav2_smoother/lib:/home/thomas24/hive_ws2/install/nav2_smac_planner/lib:/home/thomas24/hive_ws2/install/nav2_rviz_plugins/lib:/home/thomas24/hive_ws2/install/nav2_route/lib:/home/thomas24/hive_ws2/install/nav2_rotation_shim_controller/lib:/home/thomas24/hive_ws2/install/nav2_regulated_pure_pursuit_controller/lib:/home/thomas24/hive_ws2/install/nav2_planner/lib:/home/thomas24/hive_ws2/install/nav2_navfn_planner/lib:/home/thomas24/hive_ws2/install/nav2_mppi_controller/lib:/home/thomas24/hive_ws2/install/nav2_graceful_controller/lib:/home/thomas24/hive_ws2/install/nav2_controller/lib:/home/thomas24/hive_ws2/install/nav2_constrained_smoother/lib:/home/thomas24/hive_ws2/install/nav2_bt_navigator/lib:/home/thomas24/hive_ws2/install/nav2_behaviors/lib:/home/thomas24/hive_ws2/install/nav2_collision_monitor/lib:/home/thomas24/hive_ws2/install/costmap_queue/lib:/home/thomas24/hive_ws2/install/nav2_costmap_2d/lib:/home/thomas24/hive_ws2/install/nav2_voxel_grid/lib:/home/thomas24/hive_ws2/install/nav2_velocity_smoother/lib:/home/thomas24/hive_ws2/install/nav2_map_server/lib:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager/lib:/home/thomas24/hive_ws2/install/nav2_behavior_tree/lib:/home/thomas24/hive_ws2/install/nav2_amcl/lib:/home/thomas24/hive_ws2/install/nav2_system_tests/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/vanilla_brain_nav2/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav_2d_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_loopback_sim/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages:/home/thomas24/hiveverse_ws/install/hive_tools/lib/python3.12/site-packages:/home/thomas24/hiveverse_ws/install/hive_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/thomas24/hive_ws2/build/nav2_behavior_tree

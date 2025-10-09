@@ -1,0 +1,8 @@
+# CMake generated Testfile for 
+# Source directory: /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/test/regression
+# Build directory: /home/thomas24/hive_ws2/build/nav2_costmap_2d/test/regression
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(plugin_api_order "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/thomas24/hive_ws2/build/nav2_costmap_2d/test_results/nav2_costmap_2d/plugin_api_order.gtest.xml" "--package-name" "nav2_costmap_2d" "--output-file" "/home/thomas24/hive_ws2/build/nav2_costmap_2d/ament_cmake_gtest/plugin_api_order.txt" "--command" "/home/thomas24/hive_ws2/build/nav2_costmap_2d/test/regression/plugin_api_order" "--gtest_output=xml:/home/thomas24/hive_ws2/build/nav2_costmap_2d/test_results/nav2_costmap_2d/plugin_api_order.gtest.xml")
+set_tests_properties(plugin_api_order PROPERTIES  LABELS "gtest" REQUIRED_FILES "/home/thomas24/hive_ws2/build/nav2_costmap_2d/test/regression/plugin_api_order" TIMEOUT "60" WORKING_DIRECTORY "/home/thomas24/hive_ws2/build/nav2_costmap_2d/test/regression" _BACKTRACE_TRIPLES "/opt/ros/jazzy/share/ament_cmake_test/cmake/ament_add_test.cmake;125;add_test;/opt/ros/jazzy/share/ament_cmake_gtest/cmake/ament_add_gtest_test.cmake;95;ament_add_test;/opt/ros/jazzy/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake;93;ament_add_gtest_test;/home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/test/regression/CMakeLists.txt;14;ament_add_gtest;/home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/test/regression/CMakeLists.txt;0;")

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: vanilla-brain-nav2
+Version: 0.0.1
+Summary: Minimal brain to orchestrate Nav2 planner+controller with manual goals.
+Maintainer: Thomas
+Maintainer-email: you@example.com
+License: Apache-2.0

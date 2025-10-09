@@ -1,0 +1,142 @@
+[0.054s] Invoking command in '/home/thomas24/hive_ws2/build/nav2_behaviors': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_costmap_2d/lib:/home/thomas24/hive_ws2/install/nav2_map_server/lib:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager/lib:/home/thomas24/hive_ws2/install/nav2_behavior_tree/lib:/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_voxel_grid/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thomas24/hive_ws2/src/navigation2/nav2_behaviors -DCMAKE_INSTALL_PREFIX=/home/thomas24/hive_ws2/install/nav2_behaviors
+[0.153s] -- The C compiler identification is GNU 13.3.0
+[0.320s] -- The CXX compiler identification is GNU 13.3.0
+[0.360s] -- Detecting C compiler ABI info
+[0.751s] -- Detecting C compiler ABI info - done
+[0.778s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.778s] -- Detecting C compile features
+[0.778s] -- Detecting C compile features - done
+[0.805s] -- Detecting CXX compiler ABI info
+[1.158s] -- Detecting CXX compiler ABI info - done
+[1.181s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.182s] -- Detecting CXX compile features
+[1.184s] -- Detecting CXX compile features - done
+[1.198s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.627s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.811s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.890s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.911s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.942s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.975s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.044s] -- Found nav2_common: 1.4.0 (/home/thomas24/hive_ws2/install/nav2_common/share/nav2_common/cmake)
+[2.044s] -- Found nav2_core: 1.4.0 (/home/thomas24/hive_ws2/install/nav2_core/share/nav2_core/cmake)
+[2.447s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.450s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.730s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.793s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.850s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.117s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[3.119s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.120s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.502s] -- Setting build type to Release as none was specified.
+[3.506s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.837s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.858s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.236s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.237s] -- Found Threads: TRUE  
+[4.263s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.275s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.279s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/thomas24/hive_ws2/src/navigation2/nav2_behaviors/include>
+[4.279s] -- Configured cppcheck exclude dirs and/or files: 
+[4.289s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.289s] -- Configured cpplint exclude dirs and/or files: 
+[4.289s] -- Added test 'lint_cmake' to check CMake code style
+[4.301s] -- Added test 'uncrustify' to check C / C++ code style
+[4.301s] -- Configured uncrustify additional arguments: 
+[4.315s] -- Added test 'xmllint' to check XML markup files
+[4.332s] -- Configuring done (4.3s)
+[4.710s] -- Generating done (0.3s)
+[4.739s] -- Build files have been written to: /home/thomas24/hive_ws2/build/nav2_behaviors
+[4.811s] Invoked command in '/home/thomas24/hive_ws2/build/nav2_behaviors' returned '0': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_costmap_2d/lib:/home/thomas24/hive_ws2/install/nav2_map_server/lib:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager/lib:/home/thomas24/hive_ws2/install/nav2_behavior_tree/lib:/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_voxel_grid/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thomas24/hive_ws2/src/navigation2/nav2_behaviors -DCMAKE_INSTALL_PREFIX=/home/thomas24/hive_ws2/install/nav2_behaviors
+[4.813s] Invoking command in '/home/thomas24/hive_ws2/build/nav2_behaviors': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_costmap_2d/lib:/home/thomas24/hive_ws2/install/nav2_map_server/lib:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager/lib:/home/thomas24/hive_ws2/install/nav2_behavior_tree/lib:/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_voxel_grid/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas24/hive_ws2/build/nav2_behaviors -- -j16 -l16
+[5.361s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_spin_behavior.dir/plugins/spin.cpp.o[0m
+[22.656s] [ 10%] [32m[1mLinking CXX shared library libnav2_spin_behavior.so[0m
+[23.016s] [ 10%] Built target nav2_spin_behavior
+[23.074s] [ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[35.297s] [ 20%] [32m[1mLinking CXX static library libgtest.a[0m
+[35.444s] [ 20%] Built target gtest
+[35.509s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[36.790s] [ 30%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[36.869s] [ 30%] Built target gtest_main
+[36.937s] [ 35%] [32mBuilding CXX object CMakeFiles/behavior_server_core.dir/src/behavior_server.cpp.o[0m
+[72.265s] [ 40%] [32m[1mLinking CXX shared library libbehavior_server_core.so[0m
+[72.655s] [ 40%] Built target behavior_server_core
+[72.705s] [ 45%] [32mBuilding CXX object CMakeFiles/nav2_assisted_teleop_behavior.dir/plugins/assisted_teleop.cpp.o[0m
+[98.745s] [ 50%] [32m[1mLinking CXX shared library libnav2_assisted_teleop_behavior.so[0m
+[99.178s] [ 50%] Built target nav2_assisted_teleop_behavior
+[99.215s] [ 55%] [32mBuilding CXX object test/CMakeFiles/test_behaviors.dir/test_behaviors.cpp.o[0m
+[127.765s] [ 60%] [32m[1mLinking CXX executable test_behaviors[0m
+[128.254s] [ 60%] Built target test_behaviors
+[128.289s] [ 65%] [32mBuilding CXX object CMakeFiles/behavior_server.dir/src/main.cpp.o[0m
+[134.078s] [ 70%] [32m[1mLinking CXX executable behavior_server[0m
+[134.412s] [ 70%] Built target behavior_server
+[134.448s] [ 75%] [32mBuilding CXX object CMakeFiles/nav2_back_up_behavior.dir/plugins/back_up.cpp.o[0m
+[146.712s] [ 80%] [32m[1mLinking CXX shared library libnav2_back_up_behavior.so[0m
+[147.052s] [ 80%] Built target nav2_back_up_behavior
+[147.089s] [ 85%] [32mBuilding CXX object CMakeFiles/nav2_drive_on_heading_behavior.dir/plugins/drive_on_heading.cpp.o[0m
+[158.733s] [ 90%] [32m[1mLinking CXX shared library libnav2_drive_on_heading_behavior.so[0m
+[158.976s] [ 90%] Built target nav2_drive_on_heading_behavior
+[159.014s] [ 95%] [32mBuilding CXX object CMakeFiles/nav2_wait_behavior.dir/plugins/wait.cpp.o[0m
+[169.304s] [100%] [32m[1mLinking CXX shared library libnav2_wait_behavior.so[0m
+[169.512s] [100%] Built target nav2_wait_behavior
+[169.530s] Invoked command in '/home/thomas24/hive_ws2/build/nav2_behaviors' returned '0': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_costmap_2d/lib:/home/thomas24/hive_ws2/install/nav2_map_server/lib:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager/lib:/home/thomas24/hive_ws2/install/nav2_behavior_tree/lib:/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_voxel_grid/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas24/hive_ws2/build/nav2_behaviors -- -j16 -l16
+[169.532s] Invoking command in '/home/thomas24/hive_ws2/build/nav2_behaviors': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_costmap_2d/lib:/home/thomas24/hive_ws2/install/nav2_map_server/lib:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager/lib:/home/thomas24/hive_ws2/install/nav2_behavior_tree/lib:/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_voxel_grid/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas24/hive_ws2/build/nav2_behaviors
+[169.545s] -- Install configuration: "Release"
+[169.545s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/nav2_behaviors/behavior_plugin.xml
+[169.545s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/lib/libbehavior_server_core.so
+[169.550s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/nav2_behaviors/lib/libbehavior_server_core.so" to ""
+[169.550s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/lib/libnav2_spin_behavior.so
+[169.551s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/nav2_behaviors/lib/libnav2_spin_behavior.so" to ""
+[169.552s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/lib/libnav2_wait_behavior.so
+[169.553s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/nav2_behaviors/lib/libnav2_wait_behavior.so" to ""
+[169.554s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/lib/libnav2_assisted_teleop_behavior.so
+[169.557s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/nav2_behaviors/lib/libnav2_assisted_teleop_behavior.so" to ""
+[169.557s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/lib/libnav2_drive_on_heading_behavior.so
+[169.559s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/nav2_behaviors/lib/libnav2_drive_on_heading_behavior.so" to ""
+[169.559s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/lib/libnav2_back_up_behavior.so
+[169.560s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/nav2_behaviors/lib/libnav2_back_up_behavior.so" to ""
+[169.561s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/lib/nav2_behaviors/behavior_server
+[169.561s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/nav2_behaviors/lib/nav2_behaviors/behavior_server" to ""
+[169.562s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/include/nav2_behaviors
+[169.562s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/include/nav2_behaviors/nav2_behaviors
+[169.562s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/include/nav2_behaviors/nav2_behaviors/behavior_server.hpp
+[169.562s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/include/nav2_behaviors/nav2_behaviors/timed_behavior.hpp
+[169.562s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/include/nav2_behaviors/nav2_behaviors/plugins
+[169.563s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/include/nav2_behaviors/nav2_behaviors/plugins/back_up.hpp
+[169.563s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/include/nav2_behaviors/nav2_behaviors/plugins/spin.hpp
+[169.563s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/include/nav2_behaviors/nav2_behaviors/plugins/wait.hpp
+[169.563s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/include/nav2_behaviors/nav2_behaviors/plugins/drive_on_heading.hpp
+[169.563s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/include/nav2_behaviors/nav2_behaviors/plugins/assisted_teleop.hpp
+[169.563s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_behaviors/share/nav2_behaviors/behavior_plugin.xml
+[169.564s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/nav2_behaviors/plugins/
+[169.564s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/nav2_behaviors/plugins//drive_on_heading.cpp
+[169.564s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/nav2_behaviors/plugins//back_up.cpp
+[169.564s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/nav2_behaviors/plugins//assisted_teleop.cpp
+[169.564s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/nav2_behaviors/plugins//spin.cpp
+[169.564s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/nav2_behaviors/plugins//wait.cpp
+[169.564s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/nav2_behaviors/environment/library_path.sh
+[169.564s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/nav2_behaviors/environment/library_path.dsv
+[169.565s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/ament_index/resource_index/package_run_dependencies/nav2_behaviors
+[169.565s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/ament_index/resource_index/parent_prefix_path/nav2_behaviors
+[169.565s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/nav2_behaviors/environment/ament_prefix_path.sh
+[169.565s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/nav2_behaviors/environment/ament_prefix_path.dsv
+[169.565s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/nav2_behaviors/environment/path.sh
+[169.565s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/nav2_behaviors/environment/path.dsv
+[169.565s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/nav2_behaviors/local_setup.bash
+[169.566s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/nav2_behaviors/local_setup.sh
+[169.566s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/nav2_behaviors/local_setup.zsh
+[169.566s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/nav2_behaviors/local_setup.dsv
+[169.566s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/nav2_behaviors/package.dsv
+[169.566s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/ament_index/resource_index/packages/nav2_behaviors
+[169.567s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_behaviors
+[169.567s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/ament_index/resource_index/rclcpp_components/nav2_behaviors
+[169.567s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/nav2_behaviors/cmake/behavior_server_coreExport.cmake
+[169.567s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/nav2_behaviors/cmake/behavior_server_coreExport-release.cmake
+[169.567s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_include_directories-extras.cmake
+[169.567s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_libraries-extras.cmake
+[169.567s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_dependencies-extras.cmake
+[169.568s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_targets-extras.cmake
+[169.568s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/nav2_behaviors/cmake/nav2_behaviorsConfig.cmake
+[169.568s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/nav2_behaviors/cmake/nav2_behaviorsConfig-version.cmake
+[169.568s] -- Installing: /home/thomas24/hive_ws2/install/nav2_behaviors/share/nav2_behaviors/package.xml
+[169.573s] Invoked command in '/home/thomas24/hive_ws2/build/nav2_behaviors' returned '0': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_costmap_2d/lib:/home/thomas24/hive_ws2/install/nav2_map_server/lib:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager/lib:/home/thomas24/hive_ws2/install/nav2_behavior_tree/lib:/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_voxel_grid/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas24/hive_ws2/build/nav2_behaviors

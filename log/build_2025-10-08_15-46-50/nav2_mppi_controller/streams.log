@@ -1,0 +1,197 @@
+[0.042s] Invoking command in '/home/thomas24/hive_ws2/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_costmap_2d/lib:/home/thomas24/hive_ws2/install/nav2_map_server/lib:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager/lib:/home/thomas24/hive_ws2/install/nav2_behavior_tree/lib:/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_voxel_grid/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thomas24/hive_ws2/src/navigation2/nav2_mppi_controller -DCMAKE_INSTALL_PREFIX=/home/thomas24/hive_ws2/install/nav2_mppi_controller
+[0.197s] -- The C compiler identification is GNU 13.3.0
+[0.310s] -- The CXX compiler identification is GNU 13.3.0
+[0.350s] -- Detecting C compiler ABI info
+[0.535s] -- Detecting C compiler ABI info - done
+[0.590s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.590s] -- Detecting C compile features
+[0.590s] -- Detecting C compile features - done
+[0.621s] -- Detecting CXX compiler ABI info
+[0.927s] -- Detecting CXX compiler ABI info - done
+[0.949s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.949s] -- Detecting CXX compile features
+[0.949s] -- Detecting CXX compile features - done
+[0.969s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.398s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.851s] -- Found angles: 1.16.0 (/opt/ros/jazzy/share/angles/cmake)
+[1.887s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.097s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.179s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.263s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.375s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.547s] -- Found nav2_common: 1.4.0 (/home/thomas24/hive_ws2/install/nav2_common/share/nav2_common/cmake)
+[2.547s] -- Found nav2_core: 1.4.0 (/home/thomas24/hive_ws2/install/nav2_core/share/nav2_core/cmake)
+[3.475s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.489s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.707s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.788s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.874s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.339s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[4.339s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.339s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.707s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[4.738s] -- Setting build type to Release as none was specified.
+[4.746s] -- Performing Test COMPILER_SUPPORTS_FMA
+[5.024s] -- Performing Test COMPILER_SUPPORTS_FMA - Success
+[5.037s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.048s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[5.369s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.387s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.738s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.738s] -- Found Threads: TRUE  
+[5.818s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.819s] -- Configured cppcheck include dirs: /home/thomas24/hive_ws2/src/navigation2/nav2_mppi_controller/include;$<BUILD_INTERFACE:/home/thomas24/hive_ws2/src/navigation2/nav2_mppi_controller/include>
+[5.823s] -- Configured cppcheck exclude dirs and/or files: 
+[5.832s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.832s] -- Configured cpplint exclude dirs and/or files: 
+[5.839s] -- Added test 'lint_cmake' to check CMake code style
+[5.844s] -- Added test 'uncrustify' to check C / C++ code style
+[5.844s] -- Configured uncrustify additional arguments: 
+[5.846s] -- Added test 'xmllint' to check XML markup files
+[5.851s] -- Configuring done (5.8s)
+[6.437s] -- Generating done (0.5s)
+[6.558s] -- Build files have been written to: /home/thomas24/hive_ws2/build/nav2_mppi_controller
+[6.655s] Invoked command in '/home/thomas24/hive_ws2/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_costmap_2d/lib:/home/thomas24/hive_ws2/install/nav2_map_server/lib:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager/lib:/home/thomas24/hive_ws2/install/nav2_behavior_tree/lib:/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_voxel_grid/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thomas24/hive_ws2/src/navigation2/nav2_mppi_controller -DCMAKE_INSTALL_PREFIX=/home/thomas24/hive_ws2/install/nav2_mppi_controller
+[6.662s] Invoking command in '/home/thomas24/hive_ws2/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_costmap_2d/lib:/home/thomas24/hive_ws2/install/nav2_map_server/lib:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager/lib:/home/thomas24/hive_ws2/install/nav2_behavior_tree/lib:/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_voxel_grid/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas24/hive_ws2/build/nav2_mppi_controller -- -j16 -l16
+[69.550s] [  1%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/controller.cpp.o[0m
+[69.550s] [  3%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/trajectory_visualizer.cpp.o[0m
+[69.550s] [  5%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/path_handler.cpp.o[0m
+[69.660s] [  7%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/parameters_handler.cpp.o[0m
+[75.024s] [  9%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/optimizer.cpp.o[0m
+[94.688s] [ 11%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/noise_generator.cpp.o[0m
+[101.896s] [ 12%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/critic_manager.cpp.o[0m
+[119.161s] [ 14%] [32m[1mLinking CXX shared library libmppi_controller.so[0m
+[119.585s] [ 14%] Built target mppi_controller
+[119.625s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[128.076s] [ 18%] [32m[1mLinking CXX static library libgtest.a[0m
+[128.161s] [ 18%] Built target gtest
+[128.203s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[129.121s] [ 22%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[129.188s] [ 22%] Built target gtest_main
+[129.228s] [ 24%] [32mBuilding CXX object CMakeFiles/mppi_trajectory_validators.dir/src/trajectory_validators/optimal_trajectory_validator.cpp.o[0m
+[137.503s] [ 25%] [32m[1mLinking CXX shared library libmppi_trajectory_validators.so[0m
+[137.783s] [ 25%] Built target mppi_trajectory_validators
+[137.819s] [ 27%] [32mBuilding CXX object test/CMakeFiles/optimizer_unit_tests.dir/optimizer_unit_tests.cpp.o[0m
+[156.771s] [ 29%] [32m[1mLinking CXX executable optimizer_unit_tests[0m
+[157.243s] [ 29%] Built target optimizer_unit_tests
+[157.281s] [ 31%] [32mBuilding CXX object test/CMakeFiles/critic_manager_test.dir/critic_manager_test.cpp.o[0m
+[171.023s] [ 33%] [32m[1mLinking CXX executable critic_manager_test[0m
+[171.404s] [ 33%] Built target critic_manager_test
+[171.438s] [ 35%] [32mBuilding CXX object test/CMakeFiles/path_handler_test.dir/path_handler_test.cpp.o[0m
+[180.236s] [ 37%] [32m[1mLinking CXX executable path_handler_test[0m
+[180.596s] [ 37%] Built target path_handler_test
+[180.624s] [ 38%] [32mBuilding CXX object test/CMakeFiles/utils_test.dir/utils_test.cpp.o[0m
+[192.721s] [ 40%] [32m[1mLinking CXX executable utils_test[0m
+[193.027s] [ 40%] Built target utils_test
+[193.056s] [ 42%] [32mBuilding CXX object test/CMakeFiles/trajectory_visualizer_tests.dir/trajectory_visualizer_tests.cpp.o[0m
+[212.740s] [ 44%] [32m[1mLinking CXX executable trajectory_visualizer_tests[0m
+[213.112s] [ 44%] Built target trajectory_visualizer_tests
+[213.143s] [ 46%] [32mBuilding CXX object test/CMakeFiles/motion_model_tests.dir/motion_model_tests.cpp.o[0m
+[224.030s] [ 48%] [32m[1mLinking CXX executable motion_model_tests[0m
+[224.361s] [ 48%] Built target motion_model_tests
+[224.392s] [ 50%] [32mBuilding CXX object test/CMakeFiles/parameter_handler_test.dir/parameter_handler_test.cpp.o[0m
+[230.785s] [ 51%] [32m[1mLinking CXX executable parameter_handler_test[0m
+[231.106s] [ 51%] Built target parameter_handler_test
+[231.132s] [ 53%] [32mBuilding CXX object test/CMakeFiles/noise_generator_test.dir/noise_generator_test.cpp.o[0m
+[237.789s] [ 55%] [32m[1mLinking CXX executable noise_generator_test[0m
+[238.083s] [ 55%] Built target noise_generator_test
+[238.113s] [ 57%] [32mBuilding CXX object test/CMakeFiles/models_test.dir/models_test.cpp.o[0m
+[243.379s] [ 59%] [32m[1mLinking CXX executable models_test[0m
+[243.588s] [ 59%] Built target models_test
+[243.615s] [ 61%] [32mBuilding CXX object test/CMakeFiles/controller_state_transition_test.dir/controller_state_transition_test.cpp.o[0m
+[257.596s] [ 62%] [32m[1mLinking CXX executable controller_state_transition_test[0m
+[257.954s] [ 62%] Built target controller_state_transition_test
+[257.981s] [ 64%] [32mBuilding CXX object test/CMakeFiles/optimizer_smoke_test.dir/optimizer_smoke_test.cpp.o[0m
+[273.386s] [ 66%] [32m[1mLinking CXX executable optimizer_smoke_test[0m
+[273.849s] [ 66%] Built target optimizer_smoke_test
+[273.887s] [ 68%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/cost_critic.cpp.o[0m
+[273.887s] [ 70%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/goal_critic.cpp.o[0m
+[273.888s] [ 72%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/constraint_critic.cpp.o[0m
+[286.621s] [ 74%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/velocity_deadband_critic.cpp.o[0m
+[295.061s] [ 75%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/twirling_critic.cpp.o[0m
+[302.487s] [ 77%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/prefer_forward_critic.cpp.o[0m
+[309.929s] [ 81%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_angle_critic.cpp.o[0m
+[309.929s] [ 81%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_follow_critic.cpp.o[0m
+[318.422s] [ 83%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_align_critic.cpp.o[0m
+[326.519s] [ 85%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/obstacles_critic.cpp.o[0m
+[326.519s] [ 87%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/goal_angle_critic.cpp.o[0m
+[335.922s] [ 88%] [32m[1mLinking CXX shared library libmppi_critics.so[0m
+[336.201s] [ 88%] Built target mppi_critics
+[336.230s] [ 90%] [32mBuilding CXX object test/CMakeFiles/critics_tests.dir/critics_tests.cpp.o[0m
+[349.542s] [ 92%] [32m[1mLinking CXX executable critics_tests[0m
+[349.866s] [ 92%] Built target critics_tests
+[349.889s] [ 96%] [32mBuilding CXX object benchmark/CMakeFiles/controller_benchmark.dir/controller_benchmark.cpp.o[0m
+[349.890s] [ 96%] [32mBuilding CXX object benchmark/CMakeFiles/optimizer_benchmark.dir/optimizer_benchmark.cpp.o[0m
+[363.808s] [ 98%] [32m[1mLinking CXX executable optimizer_benchmark[0m
+[364.160s] [ 98%] Built target optimizer_benchmark
+[365.220s] [100%] [32m[1mLinking CXX executable controller_benchmark[0m
+[365.505s] [100%] Built target controller_benchmark
+[365.521s] Invoked command in '/home/thomas24/hive_ws2/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_costmap_2d/lib:/home/thomas24/hive_ws2/install/nav2_map_server/lib:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager/lib:/home/thomas24/hive_ws2/install/nav2_behavior_tree/lib:/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_voxel_grid/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas24/hive_ws2/build/nav2_mppi_controller -- -j16 -l16
+[365.522s] Invoking command in '/home/thomas24/hive_ws2/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_costmap_2d/lib:/home/thomas24/hive_ws2/install/nav2_map_server/lib:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager/lib:/home/thomas24/hive_ws2/install/nav2_behavior_tree/lib:/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_voxel_grid/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas24/hive_ws2/build/nav2_mppi_controller
+[365.531s] -- Install configuration: "Release"
+[365.531s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/lib/libmppi_controller.so
+[365.533s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/nav2_mppi_controller/lib/libmppi_controller.so" to ""
+[365.533s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/lib/libmppi_critics.so
+[365.534s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/nav2_mppi_controller/lib/libmppi_critics.so" to ""
+[365.534s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/lib/libmppi_trajectory_validators.so
+[365.534s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/nav2_mppi_controller/lib/libmppi_trajectory_validators.so" to ""
+[365.534s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller
+[365.535s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller
+[365.535s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/critic_manager.hpp
+[365.535s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/critics
+[365.535s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/critics/goal_critic.hpp
+[365.535s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/critics/constraint_critic.hpp
+[365.535s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/critics/goal_angle_critic.hpp
+[365.535s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/critics/cost_critic.hpp
+[365.535s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/critics/twirling_critic.hpp
+[365.535s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/critics/path_follow_critic.hpp
+[365.536s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/critics/prefer_forward_critic.hpp
+[365.536s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/critics/velocity_deadband_critic.hpp
+[365.536s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/critics/obstacles_critic.hpp
+[365.536s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/critics/path_align_critic.hpp
+[365.536s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/critics/path_angle_critic.hpp
+[365.536s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/critic_data.hpp
+[365.536s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/optimal_trajectory_validator.hpp
+[365.536s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/optimizer.hpp
+[365.536s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/models
+[365.536s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/models/state.hpp
+[365.536s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/models/path.hpp
+[365.536s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/models/optimizer_settings.hpp
+[365.536s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/models/trajectories.hpp
+[365.537s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/models/constraints.hpp
+[365.537s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/models/control_sequence.hpp
+[365.537s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/controller.hpp
+[365.537s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/critic_function.hpp
+[365.537s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/motion_models.hpp
+[365.537s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/tools
+[365.537s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/tools/noise_generator.hpp
+[365.537s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/tools/utils.hpp
+[365.537s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/tools/trajectory_visualizer.hpp
+[365.537s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/tools/parameters_handler.hpp
+[365.537s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/include/nav2_mppi_controller/nav2_mppi_controller/tools/path_handler.hpp
+[365.537s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/share/nav2_mppi_controller/mppic.xml
+[365.538s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/share/nav2_mppi_controller/critics.xml
+[365.538s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/share/nav2_mppi_controller/trajectory_validators.xml
+[365.538s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/share/ament_index/resource_index/package_run_dependencies/nav2_mppi_controller
+[365.538s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/share/ament_index/resource_index/parent_prefix_path/nav2_mppi_controller
+[365.538s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/ament_prefix_path.sh
+[365.539s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/ament_prefix_path.dsv
+[365.539s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/path.sh
+[365.539s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/path.dsv
+[365.539s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.bash
+[365.539s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.sh
+[365.539s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.zsh
+[365.539s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.dsv
+[365.539s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/share/nav2_mppi_controller/package.dsv
+[365.540s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/share/ament_index/resource_index/packages/nav2_mppi_controller
+[365.540s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_mppi_controller
+[365.540s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/share/ament_index/resource_index/nav2_mppi_controller__pluginlib__plugin/nav2_mppi_controller
+[365.540s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/nav2_mppi_controllerExport.cmake
+[365.540s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/nav2_mppi_controllerExport-release.cmake
+[365.540s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[365.541s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[365.541s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_targets-extras.cmake
+[365.541s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/nav2_mppi_controllerConfig.cmake
+[365.541s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/nav2_mppi_controllerConfig-version.cmake
+[365.541s] -- Installing: /home/thomas24/hive_ws2/install/nav2_mppi_controller/share/nav2_mppi_controller/package.xml
+[365.544s] Invoked command in '/home/thomas24/hive_ws2/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_costmap_2d/lib:/home/thomas24/hive_ws2/install/nav2_map_server/lib:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager/lib:/home/thomas24/hive_ws2/install/nav2_behavior_tree/lib:/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_voxel_grid/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas24/hive_ws2/build/nav2_mppi_controller

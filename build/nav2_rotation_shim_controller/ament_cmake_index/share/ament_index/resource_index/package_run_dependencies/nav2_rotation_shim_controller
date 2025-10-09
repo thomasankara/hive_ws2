@@ -1,0 +1,1 @@
+angles;backward_ros;geometry_msgs;nav2_core;nav2_controller;nav2_costmap_2d;nav2_msgs;nav2_util;pluginlib;rclcpp;rclcpp_lifecycle;rcl_interfaces;tf2;tf2_ros;nav2_ros_common;ament_cmake_gtest;ament_lint_common;ament_lint_auto;nav2_regulated_pure_pursuit_controller

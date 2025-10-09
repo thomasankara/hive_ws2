@@ -1,0 +1,9 @@
+/home/thomas24/hive_ws2/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/CriticScore.idl
+/home/thomas24/hive_ws2/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/LocalPlanEvaluation.idl
+/home/thomas24/hive_ws2/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/Trajectory2D.idl
+/home/thomas24/hive_ws2/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/TrajectoryScore.idl
+/home/thomas24/hive_ws2/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/DebugLocalPlan.idl
+/home/thomas24/hive_ws2/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GenerateTrajectory.idl
+/home/thomas24/hive_ws2/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GenerateTwists.idl
+/home/thomas24/hive_ws2/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GetCriticScore.idl
+/home/thomas24/hive_ws2/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/ScoreTrajectory.idl

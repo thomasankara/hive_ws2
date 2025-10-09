@@ -1,0 +1,35 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found nav2_common: 1.4.0 (/home/thomas24/hive_ws2/install/nav2_common/share/nav2_common/cmake)
+-- Setting build type to Release as none was specified.
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/thomas24/hive_ws2/build/nav2_dwb_controller
+-- Install configuration: "Release"
+-- Installing: /home/thomas24/hive_ws2/install/nav2_dwb_controller/share/ament_index/resource_index/package_run_dependencies/nav2_dwb_controller
+-- Installing: /home/thomas24/hive_ws2/install/nav2_dwb_controller/share/ament_index/resource_index/parent_prefix_path/nav2_dwb_controller
+-- Installing: /home/thomas24/hive_ws2/install/nav2_dwb_controller/share/nav2_dwb_controller/environment/ament_prefix_path.sh
+-- Installing: /home/thomas24/hive_ws2/install/nav2_dwb_controller/share/nav2_dwb_controller/environment/ament_prefix_path.dsv
+-- Installing: /home/thomas24/hive_ws2/install/nav2_dwb_controller/share/nav2_dwb_controller/environment/path.sh
+-- Installing: /home/thomas24/hive_ws2/install/nav2_dwb_controller/share/nav2_dwb_controller/environment/path.dsv
+-- Installing: /home/thomas24/hive_ws2/install/nav2_dwb_controller/share/nav2_dwb_controller/local_setup.bash
+-- Installing: /home/thomas24/hive_ws2/install/nav2_dwb_controller/share/nav2_dwb_controller/local_setup.sh
+-- Installing: /home/thomas24/hive_ws2/install/nav2_dwb_controller/share/nav2_dwb_controller/local_setup.zsh
+-- Installing: /home/thomas24/hive_ws2/install/nav2_dwb_controller/share/nav2_dwb_controller/local_setup.dsv
+-- Installing: /home/thomas24/hive_ws2/install/nav2_dwb_controller/share/nav2_dwb_controller/package.dsv
+-- Installing: /home/thomas24/hive_ws2/install/nav2_dwb_controller/share/ament_index/resource_index/packages/nav2_dwb_controller
+-- Installing: /home/thomas24/hive_ws2/install/nav2_dwb_controller/share/nav2_dwb_controller/cmake/nav2_dwb_controllerConfig.cmake
+-- Installing: /home/thomas24/hive_ws2/install/nav2_dwb_controller/share/nav2_dwb_controller/cmake/nav2_dwb_controllerConfig-version.cmake
+-- Installing: /home/thomas24/hive_ws2/install/nav2_dwb_controller/share/nav2_dwb_controller/package.xml

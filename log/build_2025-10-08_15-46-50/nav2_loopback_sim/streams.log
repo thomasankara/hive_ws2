@@ -1,0 +1,38 @@
+[0.731s] Invoking command in '/home/thomas24/hive_ws2/src/navigation2/nav2_loopback_sim': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_simple_commander:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/build/nav2_loopback_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas24/hive_ws2/install/nav2_loopback_sim/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nav2_loopback_sim build --build-base /home/thomas24/hive_ws2/build/nav2_loopback_sim/build install --record /home/thomas24/hive_ws2/build/nav2_loopback_sim/install.log --single-version-externally-managed install_data
+[0.965s] running egg_info
+[0.965s] creating ../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info
+[0.982s] writing ../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/PKG-INFO
+[0.982s] writing dependency_links to ../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/dependency_links.txt
+[0.982s] writing entry points to ../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/entry_points.txt
+[0.982s] writing requirements to ../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/requires.txt
+[0.983s] writing top-level names to ../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/top_level.txt
+[0.983s] writing manifest file '../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/SOURCES.txt'
+[1.018s] reading manifest file '../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/SOURCES.txt'
+[1.018s] writing manifest file '../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/SOURCES.txt'
+[1.019s] running build
+[1.019s] running build_py
+[1.019s] creating /home/thomas24/hive_ws2/build/nav2_loopback_sim/build
+[1.019s] creating /home/thomas24/hive_ws2/build/nav2_loopback_sim/build/lib
+[1.019s] creating /home/thomas24/hive_ws2/build/nav2_loopback_sim/build/lib/nav2_loopback_sim
+[1.019s] copying nav2_loopback_sim/loopback_simulator.py -> /home/thomas24/hive_ws2/build/nav2_loopback_sim/build/lib/nav2_loopback_sim
+[1.019s] copying nav2_loopback_sim/utils.py -> /home/thomas24/hive_ws2/build/nav2_loopback_sim/build/lib/nav2_loopback_sim
+[1.020s] running install
+[1.025s] running install_lib
+[1.043s] creating /home/thomas24/hive_ws2/install/nav2_loopback_sim/lib/python3.12/site-packages/nav2_loopback_sim
+[1.043s] copying /home/thomas24/hive_ws2/build/nav2_loopback_sim/build/lib/nav2_loopback_sim/loopback_simulator.py -> /home/thomas24/hive_ws2/install/nav2_loopback_sim/lib/python3.12/site-packages/nav2_loopback_sim
+[1.043s] copying /home/thomas24/hive_ws2/build/nav2_loopback_sim/build/lib/nav2_loopback_sim/utils.py -> /home/thomas24/hive_ws2/install/nav2_loopback_sim/lib/python3.12/site-packages/nav2_loopback_sim
+[1.043s] byte-compiling /home/thomas24/hive_ws2/install/nav2_loopback_sim/lib/python3.12/site-packages/nav2_loopback_sim/loopback_simulator.py to loopback_simulator.cpython-312.pyc
+[1.046s] byte-compiling /home/thomas24/hive_ws2/install/nav2_loopback_sim/lib/python3.12/site-packages/nav2_loopback_sim/utils.py to utils.cpython-312.pyc
+[1.047s] running install_data
+[1.047s] creating /home/thomas24/hive_ws2/install/nav2_loopback_sim/share/ament_index
+[1.047s] creating /home/thomas24/hive_ws2/install/nav2_loopback_sim/share/ament_index/resource_index
+[1.047s] creating /home/thomas24/hive_ws2/install/nav2_loopback_sim/share/ament_index/resource_index/packages
+[1.047s] copying resource/nav2_loopback_sim -> /home/thomas24/hive_ws2/install/nav2_loopback_sim/share/ament_index/resource_index/packages
+[1.047s] copying package.xml -> /home/thomas24/hive_ws2/install/nav2_loopback_sim/share/nav2_loopback_sim
+[1.047s] copying launch/loopback_simulation.launch.py -> /home/thomas24/hive_ws2/install/nav2_loopback_sim/share/nav2_loopback_sim
+[1.048s] running install_egg_info
+[1.067s] Copying ../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info to /home/thomas24/hive_ws2/install/nav2_loopback_sim/lib/python3.12/site-packages/nav2_loopback_sim-1.0.0-py3.12.egg-info
+[1.067s] running install_scripts
+[1.189s] Installing loopback_simulator script to /home/thomas24/hive_ws2/install/nav2_loopback_sim/lib/nav2_loopback_sim
+[1.190s] writing list of installed files to '/home/thomas24/hive_ws2/build/nav2_loopback_sim/install.log'
+[1.233s] Invoked command in '/home/thomas24/hive_ws2/src/navigation2/nav2_loopback_sim' returned '0': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_simple_commander:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/build/nav2_loopback_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas24/hive_ws2/install/nav2_loopback_sim/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nav2_loopback_sim build --build-base /home/thomas24/hive_ws2/build/nav2_loopback_sim/build install --record /home/thomas24/hive_ws2/build/nav2_loopback_sim/install.log --single-version-externally-managed install_data

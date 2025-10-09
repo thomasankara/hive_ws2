@@ -1,0 +1,183 @@
+[0.021s] Invoking command in '/home/thomas24/hive_ws2/build/nav2_map_server': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thomas24/hive_ws2/src/navigation2/nav2_map_server -DCMAKE_INSTALL_PREFIX=/home/thomas24/hive_ws2/install/nav2_map_server
+[0.073s] -- The C compiler identification is GNU 13.3.0
+[0.124s] -- The CXX compiler identification is GNU 13.3.0
+[0.140s] -- Detecting C compiler ABI info
+[0.228s] -- Detecting C compiler ABI info - done
+[0.236s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.236s] -- Detecting C compile features
+[0.236s] -- Detecting C compile features - done
+[0.245s] -- Detecting CXX compiler ABI info
+[0.347s] -- Detecting CXX compiler ABI info - done
+[0.355s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.356s] -- Detecting CXX compile features
+[0.356s] -- Detecting CXX compile features - done
+[0.360s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.518s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.645s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.696s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.711s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.730s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.750s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.795s] -- Found GRAPHICSMAGICKCPP: /usr/include/GraphicsMagick  
+[0.798s] -- Found lifecycle_msgs: 2.0.3 (/opt/ros/jazzy/share/lifecycle_msgs/cmake)
+[0.831s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.853s] -- Found nav2_common: 1.4.0 (/home/thomas24/hive_ws2/install/nav2_common/share/nav2_common/cmake)
+[0.854s] -- Found nav2_msgs: 1.4.0 (/home/thomas24/hive_ws2/install/nav2_msgs/share/nav2_msgs/cmake)
+[0.972s] -- Found nav2_util: 1.4.0 (/home/thomas24/hive_ws2/install/nav2_util/share/nav2_util/cmake)
+[1.051s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.055s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.150s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.176s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.201s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.350s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.350s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.351s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.469s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[1.474s] -- Found yaml_cpp_vendor: 9.0.1 (/opt/ros/jazzy/share/yaml_cpp_vendor/cmake)
+[1.474s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[1.478s] -- Checking for one of the modules 'uuid'
+[1.547s] -- Setting build type to Release as none was specified.
+[1.552s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.709s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.717s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.854s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.855s] -- Found Threads: TRUE  
+[1.876s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.876s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/thomas24/hive_ws2/src/navigation2/nav2_map_server/include>
+[1.876s] -- Configured cppcheck exclude dirs and/or files: 
+[1.880s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.880s] -- Configured cpplint exclude dirs and/or files: 
+[1.881s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.881s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.883s] -- Added test 'lint_cmake' to check CMake code style
+[1.884s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.887s] -- Added test 'uncrustify' to check C / C++ code style
+[1.888s] -- Configured uncrustify additional arguments: 
+[1.889s] -- Added test 'xmllint' to check XML markup files
+[1.894s] -- Configuring done (1.9s)
+[2.123s] -- Generating done (0.2s)
+[2.180s] -- Build files have been written to: /home/thomas24/hive_ws2/build/nav2_map_server
+[2.231s] Invoked command in '/home/thomas24/hive_ws2/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thomas24/hive_ws2/src/navigation2/nav2_map_server -DCMAKE_INSTALL_PREFIX=/home/thomas24/hive_ws2/install/nav2_map_server
+[2.231s] Invoking command in '/home/thomas24/hive_ws2/build/nav2_map_server': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas24/hive_ws2/build/nav2_map_server -- -j16 -l16
+[2.389s] [  6%] [32mBuilding CXX object CMakeFiles/vector_object_core.dir/src/vo_server/vector_object_shapes.cpp.o[0m
+[2.391s] [  6%] [32mBuilding CXX object CMakeFiles/vector_object_core.dir/src/vo_server/vector_object_server.cpp.o[0m
+[2.391s] [  8%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_mode.cpp.o[0m
+[2.392s] [  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.396s] [ 13%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.397s] [ 13%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_io.cpp.o[0m
+[4.368s] [ 15%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.475s] [ 15%] Built target gtest_main
+[18.579s] [ 17%] [32m[1mLinking CXX static library libgtest.a[0m
+[18.702s] [ 17%] Built target gtest
+[20.830s] [ 20%] [32m[1mLinking CXX shared library libmap_io.so[0m
+[21.258s] [ 20%] Built target map_io
+[23.923s] [ 22%] [32m[1mLinking CXX shared library libvector_object_core.so[0m
+[24.278s] [ 22%] Built target vector_object_core
+[24.335s] [ 24%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/test_map_saver_publisher.cpp.o[0m
+[30.093s] [ 26%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/__/test_constants.cpp.o[0m
+[30.246s] [ 28%] [32m[1mLinking CXX executable test_map_saver_publisher[0m
+[30.505s] [ 28%] Built target test_map_saver_publisher
+[30.535s] [ 31%] [32mBuilding CXX object test/unit/CMakeFiles/test_vector_object_server.dir/test_vector_object_server.cpp.o[0m
+[47.737s] [ 33%] [32m[1mLinking CXX executable test_vector_object_server[0m
+[48.021s] [ 33%] Built target test_vector_object_server
+[48.049s] [ 35%] [32mBuilding CXX object test/unit/CMakeFiles/test_vector_object_shapes.dir/test_vector_object_shapes.cpp.o[0m
+[56.424s] [ 37%] [32m[1mLinking CXX executable test_vector_object_shapes[0m
+[56.683s] [ 37%] Built target test_vector_object_shapes
+[56.709s] [ 40%] [32mBuilding CXX object CMakeFiles/vector_object_server.dir/src/vo_server/main.cpp.o[0m
+[60.669s] [ 42%] [32m[1mLinking CXX executable vector_object_server[0m
+[60.852s] [ 42%] Built target vector_object_server
+[60.878s] [ 44%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/test_map_io.cpp.o[0m
+[65.929s] [ 46%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/__/test_constants.cpp.o[0m
+[66.064s] [ 48%] [32m[1mLinking CXX executable test_map_io[0m
+[66.282s] [ 48%] Built target test_map_io
+[66.305s] [ 51%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_server/map_server.cpp.o[0m
+[73.948s] [ 55%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/costmap_filter_info/costmap_filter_info_server.cpp.o[0m
+[73.948s] [ 55%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_saver/map_saver.cpp.o[0m
+[86.350s] [ 57%] [32m[1mLinking CXX shared library libmap_server_core.so[0m
+[86.600s] [ 57%] Built target map_server_core
+[86.635s] [ 60%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o[0m
+[92.381s] [ 62%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o[0m
+[92.511s] [ 64%] [32m[1mLinking CXX executable test_map_saver_cli[0m
+[92.669s] [ 64%] Built target test_map_saver_cli
+[92.693s] [ 73%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/__/test_constants.cpp.o[0m
+[92.693s] [ 73%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/test_map_saver_node.cpp.o[0m
+[92.693s] [ 73%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/test_map_server_node.cpp.o[0m
+[92.693s] [ 73%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/__/test_constants.cpp.o[0m
+[99.460s] [ 75%] [32m[1mLinking CXX executable test_map_saver_node[0m
+[99.835s] [ 75%] Built target test_map_saver_node
+[99.874s] [ 77%] [32mBuilding CXX object test/unit/CMakeFiles/test_costmap_filter_info_server.dir/test_costmap_filter_info_server.cpp.o[0m
+[99.891s] [ 82%] [32mBuilding CXX object CMakeFiles/map_saver_server.dir/src/map_saver/main_server.cpp.o[0m
+[99.892s] [ 82%] [32mBuilding CXX object CMakeFiles/costmap_filter_info_server.dir/src/costmap_filter_info/main.cpp.o[0m
+[100.904s] [ 84%] [32m[1mLinking CXX executable test_map_server_node[0m
+[101.632s] [ 84%] Built target test_map_server_node
+[104.498s] [ 86%] [32m[1mLinking CXX executable costmap_filter_info_server[0m
+[104.923s] [ 88%] [32m[1mLinking CXX executable map_saver_server[0m
+[104.935s] [ 88%] Built target costmap_filter_info_server
+[105.263s] [ 88%] Built target map_saver_server
+[111.570s] [ 91%] [32m[1mLinking CXX executable test_costmap_filter_info_server[0m
+[111.858s] [ 91%] Built target test_costmap_filter_info_server
+[111.883s] [ 93%] [32mBuilding CXX object CMakeFiles/map_saver_cli.dir/src/map_saver/main_cli.cpp.o[0m
+[115.129s] [ 95%] [32m[1mLinking CXX executable map_saver_cli[0m
+[115.344s] [ 95%] Built target map_saver_cli
+[115.370s] [ 97%] [32mBuilding CXX object CMakeFiles/map_server.dir/src/map_server/main.cpp.o[0m
+[118.557s] [100%] [32m[1mLinking CXX executable map_server[0m
+[118.768s] [100%] Built target map_server
+[118.786s] Invoked command in '/home/thomas24/hive_ws2/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas24/hive_ws2/build/nav2_map_server -- -j16 -l16
+[118.787s] Invoking command in '/home/thomas24/hive_ws2/build/nav2_map_server': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas24/hive_ws2/build/nav2_map_server
+[118.797s] -- Install configuration: "Release"
+[118.797s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/lib/libmap_server_core.so
+[118.799s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/nav2_map_server/lib/libmap_server_core.so" to ""
+[118.799s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/lib/libmap_io.so
+[118.799s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/nav2_map_server/lib/libmap_io.so" to ""
+[118.799s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/lib/libvector_object_core.so
+[118.800s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/nav2_map_server/lib/libvector_object_core.so" to ""
+[118.800s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/lib/nav2_map_server/map_server
+[118.801s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/nav2_map_server/lib/nav2_map_server/map_server" to ""
+[118.801s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+[118.801s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/nav2_map_server/lib/nav2_map_server/map_saver_cli" to ""
+[118.801s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+[118.802s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/nav2_map_server/lib/nav2_map_server/map_saver_server" to ""
+[118.802s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server
+[118.802s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server" to ""
+[118.802s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/lib/nav2_map_server/vector_object_server
+[118.803s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/nav2_map_server/lib/nav2_map_server/vector_object_server" to ""
+[118.803s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/include/nav2_map_server
+[118.803s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/include/nav2_map_server/nav2_map_server
+[118.803s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/include/nav2_map_server/nav2_map_server/vector_object_server.hpp
+[118.803s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/include/nav2_map_server/nav2_map_server/vector_object_shapes.hpp
+[118.803s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/include/nav2_map_server/nav2_map_server/map_io.hpp
+[118.803s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/include/nav2_map_server/nav2_map_server/costmap_filter_info_server.hpp
+[118.803s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/include/nav2_map_server/nav2_map_server/map_mode.hpp
+[118.803s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/include/nav2_map_server/nav2_map_server/map_server.hpp
+[118.804s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/include/nav2_map_server/nav2_map_server/map_saver.hpp
+[118.804s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/include/nav2_map_server/nav2_map_server/vector_object_utils.hpp
+[118.804s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/share/nav2_map_server/launch
+[118.804s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/share/nav2_map_server/launch/vector_object_server.launch.py
+[118.804s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+[118.804s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/share/nav2_map_server/params
+[118.804s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/share/nav2_map_server/params/vector_object_server_params.yaml
+[118.804s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+[118.804s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+[118.805s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+[118.805s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+[118.805s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+[118.805s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+[118.805s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+[118.805s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+[118.805s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+[118.806s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+[118.806s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+[118.806s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+[118.806s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/share/nav2_map_server/package.dsv
+[118.806s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+[118.806s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/share/ament_index/resource_index/rclcpp_components/nav2_map_server
+[118.807s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/share/nav2_map_server/cmake/map_server_coreExport.cmake
+[118.807s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/share/nav2_map_server/cmake/map_server_coreExport-release.cmake
+[118.807s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[118.807s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[118.807s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[118.807s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_targets-extras.cmake
+[118.807s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+[118.807s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+[118.808s] -- Installing: /home/thomas24/hive_ws2/install/nav2_map_server/share/nav2_map_server/package.xml
+[118.810s] Invoked command in '/home/thomas24/hive_ws2/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas24/hive_ws2/build/nav2_map_server

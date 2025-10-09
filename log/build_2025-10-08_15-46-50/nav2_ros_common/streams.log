@@ -1,0 +1,118 @@
+[0.009s] Invoking command in '/home/thomas24/hive_ws2/build/nav2_ros_common': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common -DCMAKE_INSTALL_PREFIX=/home/thomas24/hive_ws2/install/nav2_ros_common
+[0.060s] -- The C compiler identification is GNU 13.3.0
+[0.109s] -- The CXX compiler identification is GNU 13.3.0
+[0.124s] -- Detecting C compiler ABI info
+[0.215s] -- Detecting C compiler ABI info - done
+[0.221s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.222s] -- Detecting C compile features
+[0.222s] -- Detecting C compile features - done
+[0.231s] -- Detecting CXX compiler ABI info
+[0.329s] -- Detecting CXX compiler ABI info - done
+[0.336s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.336s] -- Detecting CXX compile features
+[0.336s] -- Detecting CXX compile features - done
+[0.340s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.480s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.589s] -- Found bond: 4.1.2 (/opt/ros/jazzy/share/bond/cmake)
+[0.637s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.652s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.669s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.688s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.733s] -- Found bondcpp: 4.1.2 (/opt/ros/jazzy/share/bondcpp/cmake)
+[0.799s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.803s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.885s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.906s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.930s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.036s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.048s] -- Found nav2_common: 1.4.0 (/home/thomas24/hive_ws2/install/nav2_common/share/nav2_common/cmake)
+[1.048s] -- Found nav2_msgs: 1.4.0 (/home/thomas24/hive_ws2/install/nav2_msgs/share/nav2_msgs/cmake)
+[1.183s] -- Found rclcpp_action: 28.1.11 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.197s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[1.203s] -- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.223s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.225s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.225s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.306s] -- Found pluginlib: 5.4.2 (/opt/ros/jazzy/share/pluginlib/cmake)
+[1.311s] -- Setting build type to Release as none was specified.
+[1.314s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.317s] -- Found ament_cmake_pytest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+[1.469s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.471s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.579s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.580s] -- Found Threads: TRUE  
+[1.591s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.591s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include>
+[1.591s] -- Configured cppcheck exclude dirs and/or files: 
+[1.593s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.593s] -- Configured cpplint exclude dirs and/or files: 
+[1.594s] -- Added test 'lint_cmake' to check CMake code style
+[1.595s] -- Added test 'uncrustify' to check C / C++ code style
+[1.595s] -- Configured uncrustify additional arguments: 
+[1.596s] -- Added test 'xmllint' to check XML markup files
+[1.599s] -- Configuring done (1.6s)
+[1.646s] -- Generating done (0.0s)
+[1.659s] -- Build files have been written to: /home/thomas24/hive_ws2/build/nav2_ros_common
+[1.679s] Invoked command in '/home/thomas24/hive_ws2/build/nav2_ros_common' returned '0': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common -DCMAKE_INSTALL_PREFIX=/home/thomas24/hive_ws2/install/nav2_ros_common
+[1.680s] Invoking command in '/home/thomas24/hive_ws2/build/nav2_ros_common': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas24/hive_ws2/build/nav2_ros_common -- -j16 -l16
+[1.740s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.740s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.449s] [ 18%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.490s] [ 18%] Built target gtest_main
+[8.127s] [ 25%] [32m[1mLinking CXX static library libgtest.a[0m
+[8.176s] [ 25%] Built target gtest
+[8.200s] [ 62%] [32mBuilding CXX object test/CMakeFiles/test_actions.dir/test_actions.cpp.o[0m
+[8.200s] [ 62%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_node.dir/test_lifecycle_node.cpp.o[0m
+[8.200s] [ 62%] [32mBuilding CXX object test/CMakeFiles/test_node_utils.dir/test_node_utils.cpp.o[0m
+[8.200s] [ 62%] [32mBuilding CXX object test/CMakeFiles/test_service_server.dir/test_service_server.cpp.o[0m
+[8.200s] [ 62%] [32mBuilding CXX object test/CMakeFiles/test_service_client.dir/test_service_client.cpp.o[0m
+[8.201s] [ 62%] [32mBuilding CXX object test/CMakeFiles/test_validation_messages.dir/test_validation_messages.cpp.o[0m
+[9.671s] [ 68%] [32m[1mLinking CXX executable test_validation_messages[0m
+[9.945s] [ 68%] Built target test_validation_messages
+[12.583s] [ 75%] [32m[1mLinking CXX executable test_node_utils[0m
+[12.801s] [ 75%] Built target test_node_utils
+[13.528s] [ 81%] [32m[1mLinking CXX executable test_lifecycle_node[0m
+[13.699s] [ 87%] [32m[1mLinking CXX executable test_service_server[0m
+[13.713s] [ 87%] Built target test_lifecycle_node
+[13.878s] [ 87%] Built target test_service_server
+[18.752s] [ 93%] [32m[1mLinking CXX executable test_service_client[0m
+[18.972s] [ 93%] Built target test_service_client
+[22.160s] [100%] [32m[1mLinking CXX executable test_actions[0m
+[22.407s] [100%] Built target test_actions
+[22.420s] Invoked command in '/home/thomas24/hive_ws2/build/nav2_ros_common' returned '0': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas24/hive_ws2/build/nav2_ros_common -- -j16 -l16
+[22.421s] Invoking command in '/home/thomas24/hive_ws2/build/nav2_ros_common': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas24/hive_ws2/build/nav2_ros_common
+[22.430s] -- Install configuration: "Release"
+[22.430s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common
+[22.431s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common
+[22.431s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_client.hpp
+[22.431s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/lifecycle_node.hpp
+[22.431s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/qos_profiles.hpp
+[22.431s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/simple_action_server.hpp
+[22.431s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/validate_messages.hpp
+[22.431s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_server.hpp
+[22.431s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/subscription.hpp
+[22.431s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_thread.hpp
+[22.431s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/action_client.hpp
+[22.431s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/interface_factories.hpp
+[22.431s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_utils.hpp
+[22.432s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/publisher.hpp
+[22.432s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/share/ament_index/resource_index/package_run_dependencies/nav2_ros_common
+[22.432s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/share/ament_index/resource_index/parent_prefix_path/nav2_ros_common
+[22.432s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/environment/ament_prefix_path.sh
+[22.432s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/environment/ament_prefix_path.dsv
+[22.432s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/environment/path.sh
+[22.432s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/environment/path.dsv
+[22.432s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/local_setup.bash
+[22.432s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/local_setup.sh
+[22.432s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/local_setup.zsh
+[22.433s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/local_setup.dsv
+[22.433s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/package.dsv
+[22.433s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/share/ament_index/resource_index/packages/nav2_ros_common
+[22.433s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/cmake/nav2_ros_commonExport.cmake
+[22.433s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.433s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.433s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/cmake/ament_cmake_export_targets-extras.cmake
+[22.433s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/cmake/nav2_ros_commonConfig.cmake
+[22.433s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/cmake/nav2_ros_commonConfig-version.cmake
+[22.433s] -- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/package.xml
+[22.436s] Invoked command in '/home/thomas24/hive_ws2/build/nav2_ros_common' returned '0': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas24/hive_ws2/build/nav2_ros_common

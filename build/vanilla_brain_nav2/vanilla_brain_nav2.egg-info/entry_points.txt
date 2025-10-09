@@ -1,0 +1,2 @@
+[console_scripts]
+vanilla_knifebrain = vanilla_brain_nav2.vanilla_knifebrain_node:main

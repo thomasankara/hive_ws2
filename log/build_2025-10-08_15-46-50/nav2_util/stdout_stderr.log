@@ -1,0 +1,160 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found bond: 4.1.2 (/opt/ros/jazzy/share/bond/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found bondcpp: 4.1.2 (/opt/ros/jazzy/share/bondcpp/cmake)
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found nav2_common: 1.4.0 (/home/thomas24/hive_ws2/install/nav2_common/share/nav2_common/cmake)
+-- Found nav2_msgs: 1.4.0 (/home/thomas24/hive_ws2/install/nav2_msgs/share/nav2_msgs/cmake)
+-- Found rclcpp_action: 28.1.11 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+-- Found nav2_ros_common: 1.4.0 (/home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found angles: 1.16.0 (/opt/ros/jazzy/share/angles/cmake)
+-- Setting build type to Release as none was specified.
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Found ament_cmake_pytest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.5s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/thomas24/hive_ws2/build/nav2_util
+[ 16%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/controller_utils.cpp.o[0m
+[ 16%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/robot_utils.cpp.o[0m
+[ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 16%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/costmap.cpp.o[0m
+[ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 16%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/odometry_utils.cpp.o[0m
+[ 16%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/string_utils.cpp.o[0m
+[ 19%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/array_parser.cpp.o[0m
+[ 21%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_service_client.cpp.o[0m
+[ 23%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 23%] Built target gtest_main
+[ 26%] [32m[1mLinking CXX shared library libnav2_util_core.so[0m
+[ 26%] Built target nav2_util_core
+[ 30%] [32mBuilding CXX object src/CMakeFiles/base_footprint_publisher.dir/base_footprint_publisher.cpp.o[0m
+[ 30%] [32mBuilding CXX object src/CMakeFiles/lifecycle_bringup.dir/lifecycle_bringup_commandline.cpp.o[0m
+[ 33%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 33%] Built target gtest
+[ 38%] [32mBuilding CXX object test/CMakeFiles/test_odometry_utils.dir/test_odometry_utils.cpp.o[0m
+[ 38%] [32mBuilding CXX object test/regression/CMakeFiles/map_bresenham_2d.dir/map_bresenham_2d.cpp.o[0m
+[ 42%] [32mBuilding CXX object test/CMakeFiles/test_controller_utils.dir/test_controller_utils.cpp.o[0m
+[ 42%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_cli_node.dir/test_lifecycle_cli_node.cpp.o[0m
+[ 45%] [32mBuilding CXX object test/CMakeFiles/test_string_utils.dir/test_string_utils.cpp.o[0m
+[ 47%] [32mBuilding CXX object test/CMakeFiles/test_geometry_utils.dir/test_geometry_utils.cpp.o[0m
+[ 50%] [32mBuilding CXX object test/CMakeFiles/test_robot_utils.dir/test_robot_utils.cpp.o[0m
+[ 52%] [32mBuilding CXX object test/CMakeFiles/test_smoother_utils.dir/test_smoother_utils.cpp.o[0m
+[ 54%] [32mBuilding CXX object test/CMakeFiles/test_execution_timer.dir/test_execution_timer.cpp.o[0m
+[ 57%] [32mBuilding CXX object test/CMakeFiles/test_array_parser.dir/test_array_parser.cpp.o[0m
+[ 59%] [32mBuilding CXX object test/CMakeFiles/test_twist_publisher.dir/test_twist_publisher.cpp.o[0m
+[ 61%] [32mBuilding CXX object test/CMakeFiles/test_base_footprint_publisher.dir/test_base_footprint_publisher.cpp.o[0m
+[ 64%] [32mBuilding CXX object test/CMakeFiles/test_twist_subscriber.dir/test_twist_subscriber.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable lifecycle_bringup[0m
+[ 66%] Built target lifecycle_bringup
+[ 69%] [32m[1mLinking CXX executable map_bresenham_2d[0m
+[ 71%] [32m[1mLinking CXX executable test_string_utils[0m
+[ 73%] [32m[1mLinking CXX executable test_array_parser[0m
+[ 73%] Built target test_string_utils
+[ 73%] Built target map_bresenham_2d
+[ 73%] Built target test_array_parser
+[ 76%] [32m[1mLinking CXX executable test_execution_timer[0m
+[ 76%] Built target test_execution_timer
+[ 78%] [32m[1mLinking CXX executable test_controller_utils[0m
+[ 78%] Built target test_controller_utils
+[ 80%] [32m[1mLinking CXX executable test_smoother_utils[0m
+[ 83%] [32m[1mLinking CXX executable test_geometry_utils[0m
+[ 85%] [32m[1mLinking CXX executable base_footprint_publisher[0m
+[ 85%] Built target test_smoother_utils
+[ 85%] Built target test_geometry_utils
+[ 85%] Built target base_footprint_publisher
+[ 88%] [32m[1mLinking CXX executable test_lifecycle_cli_node[0m
+[ 88%] Built target test_lifecycle_cli_node
+[ 90%] [32m[1mLinking CXX executable test_robot_utils[0m
+[ 90%] Built target test_robot_utils
+[ 92%] [32m[1mLinking CXX executable test_base_footprint_publisher[0m
+[ 92%] Built target test_base_footprint_publisher
+[ 95%] [32m[1mLinking CXX executable test_odometry_utils[0m
+[ 95%] Built target test_odometry_utils
+[ 97%] [32m[1mLinking CXX executable test_twist_publisher[0m
+[ 97%] Built target test_twist_publisher
+[100%] [32m[1mLinking CXX executable test_twist_subscriber[0m
+[100%] Built target test_twist_subscriber
+-- Install configuration: "Release"
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/twist_subscriber.hpp
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/geometry_utils.hpp
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/twist_publisher.hpp
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/line_iterator.hpp
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/lifecycle_service_client.hpp
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/odometry_utils.hpp
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/controller_utils.hpp
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/occ_grid_values.hpp
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/execution_timer.hpp
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/array_parser.hpp
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/costmap.hpp
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/string_utils.hpp
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/robot_utils.hpp
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/raytrace_line_2d.hpp
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/occ_grid_utils.hpp
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/smoother_utils.hpp
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/share/nav2_util/environment/library_path.sh
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/share/nav2_util/environment/library_path.dsv
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/share/ament_index/resource_index/package_run_dependencies/nav2_util
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/share/ament_index/resource_index/parent_prefix_path/nav2_util
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/share/nav2_util/environment/ament_prefix_path.sh
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/share/nav2_util/environment/ament_prefix_path.dsv
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/share/nav2_util/environment/path.sh
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/share/nav2_util/environment/path.dsv
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/share/nav2_util/local_setup.bash
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/share/nav2_util/local_setup.sh
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/share/nav2_util/local_setup.zsh
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/share/nav2_util/local_setup.dsv
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/share/nav2_util/package.dsv
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/share/ament_index/resource_index/packages/nav2_util
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/share/nav2_util/cmake/nav2_util_coreExport.cmake
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/share/nav2_util/cmake/nav2_util_coreExport-release.cmake
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig.cmake
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig-version.cmake
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/share/nav2_util/package.xml
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/lib/libnav2_util_core.so
+-- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/nav2_util/lib/libnav2_util_core.so" to ""
+-- Installing: /home/thomas24/hive_ws2/install/nav2_util/lib/nav2_util/lifecycle_bringup
+-- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/nav2_util/lib/nav2_util/lifecycle_bringup" to ""

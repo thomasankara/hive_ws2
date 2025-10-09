@@ -1,0 +1,98 @@
+[0.706s] Invoking command in '/home/thomas24/hive_ws2/src/navigation2/nav2_simple_commander': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/thomas24/hive_ws2/build/nav2_simple_commander/build install --record /home/thomas24/hive_ws2/build/nav2_simple_commander/install.log --single-version-externally-managed install_data
+[0.932s] running egg_info
+[0.932s] creating ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info
+[0.951s] writing ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/PKG-INFO
+[0.952s] writing dependency_links to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/dependency_links.txt
+[0.952s] writing entry points to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/entry_points.txt
+[0.952s] writing requirements to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/requires.txt
+[0.952s] writing top-level names to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/top_level.txt
+[0.952s] writing manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[0.986s] reading manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[0.987s] writing manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[0.987s] running build
+[0.987s] running build_py
+[0.987s] creating /home/thomas24/hive_ws2/build/nav2_simple_commander/build
+[0.987s] creating /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib
+[0.987s] creating /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.987s] copying nav2_simple_commander/example_assisted_teleop.py -> /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.987s] copying nav2_simple_commander/demo_inspection.py -> /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.987s] copying nav2_simple_commander/robot_navigator.py -> /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.987s] copying nav2_simple_commander/costmap_2d.py -> /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.987s] copying nav2_simple_commander/example_nav_to_pose.py -> /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.988s] copying nav2_simple_commander/example_waypoint_follower.py -> /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.988s] copying nav2_simple_commander/demo_recoveries.py -> /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.988s] copying nav2_simple_commander/__init__.py -> /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.988s] copying nav2_simple_commander/demo_picking.py -> /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.988s] copying nav2_simple_commander/example_follow_path.py -> /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.988s] copying nav2_simple_commander/example_nav_through_poses.py -> /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.988s] copying nav2_simple_commander/footprint_collision_checker.py -> /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.988s] copying nav2_simple_commander/line_iterator.py -> /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.988s] copying nav2_simple_commander/demo_security.py -> /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.989s] copying nav2_simple_commander/example_route.py -> /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.989s] copying nav2_simple_commander/utils.py -> /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.989s] running install
+[0.994s] running install_lib
+[1.012s] creating /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.012s] copying /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_assisted_teleop.py -> /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.012s] copying /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_inspection.py -> /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.012s] copying /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander/robot_navigator.py -> /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.012s] copying /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander/costmap_2d.py -> /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.012s] copying /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_to_pose.py -> /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.012s] copying /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_waypoint_follower.py -> /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.013s] copying /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_recoveries.py -> /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.013s] copying /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander/__init__.py -> /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.013s] copying /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_picking.py -> /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.013s] copying /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_follow_path.py -> /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.013s] copying /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_through_poses.py -> /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.013s] copying /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander/footprint_collision_checker.py -> /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.013s] copying /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander/line_iterator.py -> /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.013s] copying /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_security.py -> /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.013s] copying /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_route.py -> /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.013s] copying /home/thomas24/hive_ws2/build/nav2_simple_commander/build/lib/nav2_simple_commander/utils.py -> /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.014s] byte-compiling /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/example_assisted_teleop.py to example_assisted_teleop.cpython-312.pyc
+[1.014s] byte-compiling /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/demo_inspection.py to demo_inspection.cpython-312.pyc
+[1.015s] byte-compiling /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/robot_navigator.py to robot_navigator.cpython-312.pyc
+[1.024s] byte-compiling /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/costmap_2d.py to costmap_2d.cpython-312.pyc
+[1.024s] byte-compiling /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/example_nav_to_pose.py to example_nav_to_pose.cpython-312.pyc
+[1.025s] byte-compiling /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/example_waypoint_follower.py to example_waypoint_follower.cpython-312.pyc
+[1.025s] byte-compiling /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/demo_recoveries.py to demo_recoveries.cpython-312.pyc
+[1.026s] byte-compiling /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/__init__.py to __init__.cpython-312.pyc
+[1.026s] byte-compiling /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/demo_picking.py to demo_picking.cpython-312.pyc
+[1.027s] byte-compiling /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/example_follow_path.py to example_follow_path.cpython-312.pyc
+[1.027s] byte-compiling /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/example_nav_through_poses.py to example_nav_through_poses.cpython-312.pyc
+[1.027s] byte-compiling /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/footprint_collision_checker.py to footprint_collision_checker.cpython-312.pyc
+[1.028s] byte-compiling /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/line_iterator.py to line_iterator.cpython-312.pyc
+[1.029s] byte-compiling /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/demo_security.py to demo_security.cpython-312.pyc
+[1.029s] byte-compiling /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/example_route.py to example_route.cpython-312.pyc
+[1.030s] byte-compiling /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/utils.py to utils.cpython-312.pyc
+[1.030s] running install_data
+[1.030s] creating /home/thomas24/hive_ws2/install/nav2_simple_commander/share/ament_index
+[1.031s] creating /home/thomas24/hive_ws2/install/nav2_simple_commander/share/ament_index/resource_index
+[1.031s] creating /home/thomas24/hive_ws2/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[1.031s] copying resource/nav2_simple_commander -> /home/thomas24/hive_ws2/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[1.031s] copying package.xml -> /home/thomas24/hive_ws2/install/nav2_simple_commander/share/nav2_simple_commander
+[1.031s] copying launch/waypoint_follower_example_launch.py -> /home/thomas24/hive_ws2/install/nav2_simple_commander/share/nav2_simple_commander
+[1.031s] copying launch/picking_demo_launch.py -> /home/thomas24/hive_ws2/install/nav2_simple_commander/share/nav2_simple_commander
+[1.031s] copying launch/assisted_teleop_example_launch.py -> /home/thomas24/hive_ws2/install/nav2_simple_commander/share/nav2_simple_commander
+[1.031s] copying launch/route_example_launch.py -> /home/thomas24/hive_ws2/install/nav2_simple_commander/share/nav2_simple_commander
+[1.031s] copying launch/inspection_demo_launch.py -> /home/thomas24/hive_ws2/install/nav2_simple_commander/share/nav2_simple_commander
+[1.032s] copying launch/nav_to_pose_example_launch.py -> /home/thomas24/hive_ws2/install/nav2_simple_commander/share/nav2_simple_commander
+[1.032s] copying launch/nav_through_poses_example_launch.py -> /home/thomas24/hive_ws2/install/nav2_simple_commander/share/nav2_simple_commander
+[1.032s] copying launch/security_demo_launch.py -> /home/thomas24/hive_ws2/install/nav2_simple_commander/share/nav2_simple_commander
+[1.032s] copying launch/follow_path_example_launch.py -> /home/thomas24/hive_ws2/install/nav2_simple_commander/share/nav2_simple_commander
+[1.032s] copying launch/recoveries_example_launch.py -> /home/thomas24/hive_ws2/install/nav2_simple_commander/share/nav2_simple_commander
+[1.032s] running install_egg_info
+[1.051s] Copying ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info to /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander-1.0.0-py3.12.egg-info
+[1.052s] running install_scripts
+[1.171s] Installing demo_inspection script to /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.171s] Installing demo_picking script to /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.171s] Installing demo_recoveries script to /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.171s] Installing demo_security script to /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.171s] Installing example_assisted_teleop script to /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.171s] Installing example_follow_path script to /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.171s] Installing example_nav_through_poses script to /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.171s] Installing example_nav_to_pose script to /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.172s] Installing example_route script to /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.172s] Installing example_waypoint_follower script to /home/thomas24/hive_ws2/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.172s] writing list of installed files to '/home/thomas24/hive_ws2/build/nav2_simple_commander/install.log'
+[1.208s] Invoked command in '/home/thomas24/hive_ws2/src/navigation2/nav2_simple_commander' returned '0': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/thomas24/hive_ws2/build/nav2_simple_commander/build install --record /home/thomas24/hive_ws2/build/nav2_simple_commander/install.log --single-version-externally-managed install_data

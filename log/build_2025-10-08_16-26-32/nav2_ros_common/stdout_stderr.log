@@ -1,0 +1,42 @@
+[ 25%] Built target gtest_main
+[ 25%] Built target gtest
+[100%] Built target test_service_server
+[100%] Built target test_node_utils
+[100%] Built target test_actions
+[100%] Built target test_service_client
+[100%] Built target test_lifecycle_node
+[100%] Built target test_validation_messages
+-- Install configuration: "Release"
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_client.hpp
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/lifecycle_node.hpp
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/qos_profiles.hpp
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/simple_action_server.hpp
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/validate_messages.hpp
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_server.hpp
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/subscription.hpp
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_thread.hpp
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/action_client.hpp
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/interface_factories.hpp
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_utils.hpp
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/publisher.hpp
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/share/ament_index/resource_index/package_run_dependencies/nav2_ros_common
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/share/ament_index/resource_index/parent_prefix_path/nav2_ros_common
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/environment/ament_prefix_path.sh
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/environment/path.sh
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/environment/path.dsv
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/local_setup.bash
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/local_setup.sh
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/local_setup.zsh
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/local_setup.dsv
+-- Installing: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/package.dsv
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/share/ament_index/resource_index/packages/nav2_ros_common
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/cmake/nav2_ros_commonExport.cmake
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/cmake/nav2_ros_commonConfig.cmake
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/cmake/nav2_ros_commonConfig-version.cmake
+-- Up-to-date: /home/thomas24/hive_ws2/install/nav2_ros_common/share/nav2_ros_common/package.xml
