@@ -1,7 +1,1 @@
-geometry_msgs/PoseStamped pose
-nav_2d_msgs/Twist2D velocity
-nav_msgs/Path global_plan
-Trajectory2D traj
-string critic_name
----
-CriticScore score
+/home/thomas24/hive_ws2/src/navigation2/nav2_dwb_controller/dwb_msgs/srv/GetCriticScore.srv

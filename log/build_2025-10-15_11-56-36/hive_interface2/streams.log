@@ -1,0 +1,19 @@
+[0.006s] Invoking command in '/home/thomas24/hive_ws2/build/hive_interface2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/thomas24/hive_ws2/src/hive_interface2 -DCMAKE_INSTALL_PREFIX=/home/thomas24/hive_ws2/install/hive_interface2
+[0.016s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.146s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.148s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.169s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.185s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.186s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.202s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.210s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.440s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):
+[0.441s]   Packages installing interfaces must include
+[0.441s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.441s]   package.xml
+[0.441s] Call Stack (most recent call first):
+[0.441s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[0.441s] 
+[0.441s] [0m
+[0.441s] -- Configuring incomplete, errors occurred!
+[0.446s] Invoked command in '/home/thomas24/hive_ws2/build/hive_interface2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/thomas24/hive_ws2/src/hive_interface2 -DCMAKE_INSTALL_PREFIX=/home/thomas24/hive_ws2/install/hive_interface2

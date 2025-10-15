@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "nav2_msgs/action/detail/spin__functions.h"
 #include "nav2_msgs/action/detail/spin__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "nav2_msgs/action/detail/spin__type_support.h"
+#include "nav2_msgs/action/detail/spin__functions.h"
 
 #ifdef __cplusplus
 extern "C"

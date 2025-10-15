@@ -1,2 +1,1 @@
-source;share/nav2_dwb_controller/environment/ament_prefix_path.sh
-source;share/nav2_dwb_controller/environment/path.sh
+/home/thomas24/hive_ws2/build/nav2_dwb_controller/ament_cmake_environment_hooks/local_setup.dsv

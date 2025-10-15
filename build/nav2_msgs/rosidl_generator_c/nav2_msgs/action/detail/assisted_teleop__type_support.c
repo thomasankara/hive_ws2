@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "nav2_msgs/action/detail/assisted_teleop__struct.h"
+#include "nav2_msgs/action/detail/assisted_teleop__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "nav2_msgs/action/detail/assisted_teleop__functions.h"
-#include "nav2_msgs/action/detail/assisted_teleop__type_support.h"
+#include "nav2_msgs/action/detail/assisted_teleop__struct.h"
 
 #ifdef __cplusplus
 extern "C"

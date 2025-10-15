@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "nav2_msgs/action/detail/follow_waypoints__functions.h"
+#include "nav2_msgs/action/detail/follow_waypoints__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "nav2_msgs/action/detail/follow_waypoints__type_support.h"
-#include "nav2_msgs/action/detail/follow_waypoints__struct.h"
+#include "nav2_msgs/action/detail/follow_waypoints__functions.h"
 
 #ifdef __cplusplus
 extern "C"

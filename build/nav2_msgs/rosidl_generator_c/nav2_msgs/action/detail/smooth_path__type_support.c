@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "nav2_msgs/action/detail/smooth_path__functions.h"
-#include "nav2_msgs/action/detail/smooth_path__type_support.h"
 #include "nav2_msgs/action/detail/smooth_path__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "nav2_msgs/action/detail/smooth_path__type_support.h"
+#include "nav2_msgs/action/detail/smooth_path__functions.h"
 
 #ifdef __cplusplus
 extern "C"

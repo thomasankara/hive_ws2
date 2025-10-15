@@ -6,8 +6,8 @@
 
 #include "rosidl_typesupport_interface/macros.h"
 #include "nav2_msgs/srv/detail/clear_entire_costmap__type_support.h"
-#include "nav2_msgs/srv/detail/clear_entire_costmap__functions.h"
 #include "nav2_msgs/srv/detail/clear_entire_costmap__struct.h"
+#include "nav2_msgs/srv/detail/clear_entire_costmap__functions.h"
 
 #ifdef __cplusplus
 extern "C"

@@ -1,1 +1,1 @@
-backward_ros;geometry_msgs;nav2_util;nav2_costmap_2d;nav2_msgs;rclcpp;rclcpp_components;rclcpp_lifecycle;sensor_msgs;std_msgs;tf2;tf2_ros;visualization_msgs;nav2_ros_common;point_cloud_transport;point_cloud_transport_plugins;ament_cmake_gtest;ament_lint_common;ament_lint_auto
+/home/thomas24/hive_ws2/build/nav2_collision_monitor/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/nav2_collision_monitor

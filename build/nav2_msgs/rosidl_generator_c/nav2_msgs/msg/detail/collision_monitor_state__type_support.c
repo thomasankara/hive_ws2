@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "nav2_msgs/msg/detail/collision_monitor_state__type_support.h"
-#include "nav2_msgs/msg/detail/collision_monitor_state__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "nav2_msgs/msg/detail/collision_monitor_state__struct.h"
+#include "nav2_msgs/msg/detail/collision_monitor_state__functions.h"
 
 #ifdef __cplusplus
 extern "C"

@@ -6,8 +6,8 @@
 
 #include "nav2_msgs/action/detail/dock_robot__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "nav2_msgs/action/detail/dock_robot__type_support.h"
 #include "nav2_msgs/action/detail/dock_robot__functions.h"
+#include "nav2_msgs/action/detail/dock_robot__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

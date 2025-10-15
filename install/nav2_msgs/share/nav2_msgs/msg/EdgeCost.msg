@@ -1,3 +1,1 @@
-# Edge cost to use with nav2_msgs/srv/DynamicEdges to adjust route edge costs
-uint16 edgeid
-float32 cost
+/home/thomas24/hive_ws2/src/navigation2/nav2_msgs/msg/EdgeCost.msg

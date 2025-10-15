@@ -1,0 +1,6 @@
+msg/LaneletMini2.idl
+msg/LaneletMini2.msg
+msg/LaneletMini2Array.idl
+msg/LaneletMini2Array.msg
+srv/ComputeRoute.idl
+srv/ComputeRoute.srv

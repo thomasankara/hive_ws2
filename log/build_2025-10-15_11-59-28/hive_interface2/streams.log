@@ -1,0 +1,32 @@
+[0.006s] Invoking command in '/home/thomas24/hive_ws2/build/hive_interface2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/thomas24/hive_ws2/src/hive_interface2 -DCMAKE_INSTALL_PREFIX=/home/thomas24/hive_ws2/install/hive_interface2
+[0.044s] -- The C compiler identification is GNU 13.3.0
+[0.078s] -- The CXX compiler identification is GNU 13.3.0
+[0.089s] -- Detecting C compiler ABI info
+[0.149s] -- Detecting C compiler ABI info - done
+[0.155s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.155s] -- Detecting C compile features
+[0.155s] -- Detecting C compile features - done
+[0.161s] -- Detecting CXX compiler ABI info
+[0.229s] -- Detecting CXX compiler ABI info - done
+[0.234s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.234s] -- Detecting CXX compile features
+[0.234s] -- Detecting CXX compile features - done
+[0.238s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.341s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.426s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.433s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.481s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.519s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.522s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.548s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.559s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.779s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):
+[0.779s]   Packages installing interfaces must include
+[0.779s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.779s]   package.xml
+[0.779s] Call Stack (most recent call first):
+[0.779s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[0.779s] 
+[0.779s] [0m
+[0.779s] -- Configuring incomplete, errors occurred!
+[0.785s] Invoked command in '/home/thomas24/hive_ws2/build/hive_interface2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/thomas24/hive_ws2/src/hive_interface2 -DCMAKE_INSTALL_PREFIX=/home/thomas24/hive_ws2/install/hive_interface2

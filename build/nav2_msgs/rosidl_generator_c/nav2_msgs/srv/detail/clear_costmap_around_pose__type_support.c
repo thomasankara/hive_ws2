@@ -4,8 +4,8 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
 #include "nav2_msgs/srv/detail/clear_costmap_around_pose__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "nav2_msgs/srv/detail/clear_costmap_around_pose__type_support.h"
 #include "nav2_msgs/srv/detail/clear_costmap_around_pose__struct.h"
 

@@ -1,5 +1,1 @@
-std_msgs/Header header
-unique_identifier_msgs/UUID uuid
-geometry_msgs/Point32[] points
-bool closed
-int8 value
+/home/thomas24/hive_ws2/src/navigation2/nav2_msgs/msg/PolygonObject.msg

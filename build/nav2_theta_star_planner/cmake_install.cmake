@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_theta_star_planner" TYPE FILE FILES "/home/thomas24/hive_ws2/src/navigation2/nav2_theta_star_planner/theta_star_planner.xml")
+  include("/home/thomas24/hive_ws2/build/nav2_theta_star_planner/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -58,7 +58,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnav2_theta_star_planner.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnav2_theta_star_planner.so"
-         OLD_RPATH "/home/thomas24/hive_ws2/install/nav2_behavior_tree/lib:/opt/ros/jazzy/lib:/home/thomas24/hive_ws2/install/nav2_costmap_2d/lib:/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:"
+         OLD_RPATH "/home/thomas24/hive_ws2/install/nav2_behavior_tree/lib:/home/thomas24/hive_ws2/install/nav2_costmap_2d/lib:/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:/opt/ros/jazzy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnav2_theta_star_planner.so")
@@ -67,74 +67,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/nav2_theta_star_planner" TYPE DIRECTORY FILES "/home/thomas24/hive_ws2/src/navigation2/nav2_theta_star_planner/include/")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_theta_star_planner" TYPE FILE FILES "/home/thomas24/hive_ws2/src/navigation2/nav2_theta_star_planner/theta_star_planner.xml")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_theta_star_planner/environment" TYPE FILE FILES "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_theta_star_planner/environment" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_theta_star_planner/ament_cmake_environment_hooks/library_path.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_theta_star_planner/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/nav2_theta_star_planner")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_theta_star_planner/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/nav2_theta_star_planner")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_theta_star_planner/environment" TYPE FILE FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_theta_star_planner/environment" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_theta_star_planner/ament_cmake_environment_hooks/ament_prefix_path.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_theta_star_planner/environment" TYPE FILE FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_theta_star_planner/environment" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_theta_star_planner/ament_cmake_environment_hooks/path.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_theta_star_planner" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_theta_star_planner/ament_cmake_environment_hooks/local_setup.bash")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_theta_star_planner" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_theta_star_planner/ament_cmake_environment_hooks/local_setup.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_theta_star_planner" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_theta_star_planner/ament_cmake_environment_hooks/local_setup.zsh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_theta_star_planner" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_theta_star_planner/ament_cmake_environment_hooks/local_setup.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_theta_star_planner" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_theta_star_planner/ament_cmake_environment_hooks/package.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_theta_star_planner/ament_cmake_index/share/ament_index/resource_index/packages/nav2_theta_star_planner")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/nav2_core__pluginlib__plugin" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_theta_star_planner/ament_cmake_index/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_theta_star_planner")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -158,33 +90,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_theta_star_planner/cmake" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_theta_star_planner/CMakeFiles/Export/1d8737397585b6438d73fa09dd73e96c/nav2_theta_star_plannerExport-release.cmake")
   endif()
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_theta_star_planner/cmake" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_theta_star_planner/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_theta_star_planner/cmake" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_theta_star_planner/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_theta_star_planner/cmake" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_theta_star_planner/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_theta_star_planner/cmake" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_theta_star_planner/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_theta_star_planner/cmake" TYPE FILE FILES
-    "/home/thomas24/hive_ws2/build/nav2_theta_star_planner/ament_cmake_core/nav2_theta_star_plannerConfig.cmake"
-    "/home/thomas24/hive_ws2/build/nav2_theta_star_planner/ament_cmake_core/nav2_theta_star_plannerConfig-version.cmake"
-    )
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_theta_star_planner" TYPE FILE FILES "/home/thomas24/hive_ws2/src/navigation2/nav2_theta_star_planner/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

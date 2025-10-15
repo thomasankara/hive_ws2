@@ -1,1 +1,1 @@
-prepend-non-duplicate;AMENT_PREFIX_PATH;
+/home/thomas24/hive_ws2/build/nav_2d_utils/ament_cmake_environment_hooks/ament_prefix_path.dsv

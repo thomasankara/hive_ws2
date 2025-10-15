@@ -4,8 +4,8 @@
 
 #include <string.h>
 
-#include "nav2_msgs/action/detail/drive_on_heading__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "nav2_msgs/action/detail/drive_on_heading__type_support.h"
 #include "nav2_msgs/action/detail/drive_on_heading__functions.h"
 #include "nav2_msgs/action/detail/drive_on_heading__struct.h"
 

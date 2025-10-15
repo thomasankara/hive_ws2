@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>dev_route_provider</name>
+  <version>0.0.1</version>
+  <description>DEV: Reads LaneletMini2 from MySQL and publishes to /&lt;namespace&gt;/route_data. Provides /&lt;namespace&gt;/get_route_data Trigger.</description>
+
+  <maintainer email="thomas.raynal@hiverobotics.fr">Thomas Raynal</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>std_srvs</depend>
+  <depend>hive_interface2</depend>
+
+  <!-- libmysqlclient is a system dependency, pulled via apt -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -1,0 +1,67 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Found hive_interface2: 0.0.1 (/home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake)
+-- Configuring done (1.6s)
+-- Generating done (0.0s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_INSTALL_INTO_PREFIX_ROOT
+
+[0m
+-- Build files have been written to: /home/thomas24/hive_ws2/build/hive_route_planner
+[ 66%] Built target route_utils
+[ 66%] Built target astar_planner
+[ 83%] [32mBuilding CXX object CMakeFiles/hive_route_planner_node.dir/src/hive_route_planner_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable hive_route_planner_node[0m
+[100%] Built target hive_route_planner_node
+-- Install configuration: ""
+-- Installing: /home/thomas24/hive_ws2/install/hive_route_planner/lib/hive_route_planner/hive_route_planner_node
+-- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/hive_route_planner/lib/hive_route_planner/hive_route_planner_node" to ""
+-- Installing: /home/thomas24/hive_ws2/install/hive_route_planner/lib/libroute_utils.a
+-- Installing: /home/thomas24/hive_ws2/install/hive_route_planner/lib/libastar_planner.a
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/include/hive_route_planner
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/include/hive_route_planner/route_utils.hpp
+-- Installing: /home/thomas24/hive_ws2/install/hive_route_planner/include/hive_route_planner/astar_planner.hpp
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/launch
+-- Installing: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/launch/hive_route_planner.launch.py
+-- Installing: /home/thomas24/hive_ws2/install/hive_route_planner/share/ament_index/resource_index/package_run_dependencies/hive_route_planner
+-- Installing: /home/thomas24/hive_ws2/install/hive_route_planner/share/ament_index/resource_index/parent_prefix_path/hive_route_planner
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/environment/ament_prefix_path.sh
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/environment/path.sh
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/environment/path.dsv
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/local_setup.bash
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/local_setup.sh
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/local_setup.zsh
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/local_setup.dsv
+-- Installing: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/package.dsv
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/share/ament_index/resource_index/packages/hive_route_planner
+-- Installing: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/cmake/hive_route_plannerConfig.cmake
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/cmake/hive_route_plannerConfig-version.cmake
+-- Installing: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/package.xml

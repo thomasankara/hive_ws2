@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "nav2_msgs/action/detail/navigate_through_poses__type_support.h"
 #include "nav2_msgs/action/detail/navigate_through_poses__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "nav2_msgs/action/detail/navigate_through_poses__functions.h"
+#include "nav2_msgs/action/detail/navigate_through_poses__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

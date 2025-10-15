@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "nav2_msgs/msg/detail/edge_cost__struct.h"
-#include "nav2_msgs/msg/detail/edge_cost__type_support.h"
 #include "nav2_msgs/msg/detail/edge_cost__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "nav2_msgs/msg/detail/edge_cost__type_support.h"
+#include "nav2_msgs/msg/detail/edge_cost__struct.h"
 
 #ifdef __cplusplus
 extern "C"

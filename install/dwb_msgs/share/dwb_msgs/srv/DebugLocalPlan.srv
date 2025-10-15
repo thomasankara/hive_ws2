@@ -1,6 +1,1 @@
-# For a given pose velocity and global_plan, run the local planner and return full results
-geometry_msgs/PoseStamped pose
-nav_2d_msgs/Twist2D velocity
-nav_msgs/Path global_plan
----
-LocalPlanEvaluation results
+/home/thomas24/hive_ws2/src/navigation2/nav2_dwb_controller/dwb_msgs/srv/DebugLocalPlan.srv

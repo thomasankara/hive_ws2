@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-8804af6612868a7421ee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "hive_costmap",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gridmap_fusion_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gridmap_fusion_plugin-ffbc42724fc1aa7b1af9.json",
+					"name" : "gridmap_fusion_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hive_costmap_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hive_costmap_uninstall-86f22348de79e8533038.json",
+					"name" : "hive_costmap_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_costmap_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_costmap_node-05f830ebd217550e0b8c.json",
+					"name" : "simple_costmap_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-578db9a052d4b6c6cb82.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/thomas24/hive_ws2/build/hive_costmap",
+		"source" : "/home/thomas24/hive_ws2/src/hive_costmap"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

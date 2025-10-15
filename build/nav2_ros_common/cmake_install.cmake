@@ -43,55 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/nav2_ros_common" TYPE DIRECTORY FILES "/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_ros_common/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/nav2_ros_common")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_ros_common/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/nav2_ros_common")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_ros_common/environment" TYPE FILE FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_ros_common/environment" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_ros_common/ament_cmake_environment_hooks/ament_prefix_path.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_ros_common/environment" TYPE FILE FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_ros_common/environment" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_ros_common/ament_cmake_environment_hooks/path.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_ros_common" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_ros_common/ament_cmake_environment_hooks/local_setup.bash")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_ros_common" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_ros_common/ament_cmake_environment_hooks/local_setup.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_ros_common" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_ros_common/ament_cmake_environment_hooks/local_setup.zsh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_ros_common" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_ros_common/ament_cmake_environment_hooks/local_setup.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_ros_common" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_ros_common/ament_cmake_environment_hooks/package.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_ros_common/ament_cmake_index/share/ament_index/resource_index/packages/nav2_ros_common")
+  include("/home/thomas24/hive_ws2/build/nav2_ros_common/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -112,29 +64,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     unset(_cmake_export_file_changed)
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_ros_common/cmake" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_ros_common/CMakeFiles/Export/2e9319c98e51e0de887305c0797e03d4/nav2_ros_commonExport.cmake")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_ros_common/cmake" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_ros_common/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_ros_common/cmake" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_ros_common/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_ros_common/cmake" TYPE FILE FILES "/home/thomas24/hive_ws2/build/nav2_ros_common/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_ros_common/cmake" TYPE FILE FILES
-    "/home/thomas24/hive_ws2/build/nav2_ros_common/ament_cmake_core/nav2_ros_commonConfig.cmake"
-    "/home/thomas24/hive_ws2/build/nav2_ros_common/ament_cmake_core/nav2_ros_commonConfig-version.cmake"
-    )
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_ros_common" TYPE FILE FILES "/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

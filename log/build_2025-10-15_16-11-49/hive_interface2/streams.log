@@ -1,0 +1,297 @@
+[0.014s] Invoking command in '/home/thomas24/hive_ws2/build/hive_interface2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas24/hive_ws2/install/vanilla_brain_nav2:/home/thomas24/hive_ws2/install/nav2_loopback_sim:/home/thomas24/hive_ws2/install/nav2_simple_commander:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas24/hive_ws2/build/hive_interface2 -- -j16 -l16
+[0.060s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.089s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.179s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.188s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.227s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.258s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.261s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.290s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.306s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.636s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.798s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.008s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.009s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.271s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.324s] -- Configuring done (1.3s)
+[1.365s] -- Generating done (0.0s)
+[1.375s] -- Build files have been written to: /home/thomas24/hive_ws2/build/hive_interface2
+[1.427s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.444s] [  1%] Built target ament_cmake_python_copy_hive_interface2
+[1.642s] running egg_info
+[1.659s] writing hive_interface2.egg-info/PKG-INFO
+[1.659s] writing dependency_links to hive_interface2.egg-info/dependency_links.txt
+[1.659s] writing top-level names to hive_interface2.egg-info/top_level.txt
+[1.706s] reading manifest file 'hive_interface2.egg-info/SOURCES.txt'
+[1.707s] writing manifest file 'hive_interface2.egg-info/SOURCES.txt'
+[1.741s] [  1%] Built target ament_cmake_python_build_hive_interface2_egg
+[1.804s] [  1%] Built target hive_interface2__rosidl_generator_type_description
+[1.819s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.836s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.326s] [  5%] Built target hive_interface2__cpp
+[2.378s] [ 16%] [32mBuilding C object CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/lanelet_mini2_array__description.c.o[0m
+[2.379s] [ 16%] [32mBuilding C object CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/srv/detail/compute_route__functions.c.o[0m
+[2.379s] [ 16%] [32mBuilding C object CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/lanelet_mini2__description.c.o[0m
+[2.379s] [ 18%] [32mBuilding C object CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/lanelet_mini2_array__functions.c.o[0m
+[2.379s] [ 18%] [32mBuilding C object CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/lanelet_mini2_array__type_support.c.o[0m
+[2.379s] [ 16%] [32mBuilding C object CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/srv/detail/compute_route__type_support.c.o[0m
+[2.379s] [ 16%] [32mBuilding C object CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/lanelet_mini2__type_support.c.o[0m
+[2.380s] [ 20%] [32mBuilding C object CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/lanelet_mini2__functions.c.o[0m
+[2.380s] [ 22%] [32mBuilding C object CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/srv/detail/compute_route__description.c.o[0m
+[2.463s] [ 24%] [32m[1mLinking C shared library libhive_interface2__rosidl_generator_c.so[0m
+[2.526s] [ 24%] Built target hive_interface2__rosidl_generator_c
+[2.543s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.543s] [ 35%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.543s] [ 35%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.543s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.543s] [ 35%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.543s] [ 35%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.055s] [ 40%] [32mBuilding CXX object CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/rosidl_typesupport_c/hive_interface2/srv/compute_route__type_support.cpp.o[0m
+[3.055s] [ 40%] [32mBuilding CXX object CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hive_interface2/msg/lanelet_mini2__type_support.cpp.o[0m
+[3.055s] [ 40%] [32mBuilding CXX object CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/rosidl_typesupport_c/hive_interface2/msg/lanelet_mini2__type_support.cpp.o[0m
+[3.056s] [ 42%] [32mBuilding CXX object CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hive_interface2/msg/lanelet_mini2_array__type_support.cpp.o[0m
+[3.056s] [ 44%] [32mBuilding CXX object CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hive_interface2/srv/compute_route__type_support.cpp.o[0m
+[3.064s] [ 46%] [32mBuilding CXX object CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/rosidl_typesupport_c/hive_interface2/msg/lanelet_mini2_array__type_support.cpp.o[0m
+[3.112s] [ 48%] [32mBuilding CXX object CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/lanelet_mini2__type_support.cpp.o[0m
+[3.112s] [ 50%] [32mBuilding CXX object CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hive_interface2/srv/detail/compute_route__type_support.cpp.o[0m
+[3.113s] [ 51%] [32mBuilding CXX object CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/lanelet_mini2_array__type_support.cpp.o[0m
+[3.123s] [ 55%] [32mBuilding C object CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hive_interface2/msg/detail/lanelet_mini2__type_support.c.o[0m
+[3.124s] [ 55%] [32mBuilding C object CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hive_interface2/msg/detail/lanelet_mini2_array__type_support.c.o[0m
+[3.145s] [ 57%] [32m[1mLinking CXX shared library libhive_interface2__rosidl_typesupport_c.so[0m
+[3.145s] [ 59%] [32mBuilding C object CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hive_interface2/srv/detail/compute_route__type_support.c.o[0m
+[3.194s] [ 61%] [32mBuilding CXX object CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp.o[0m
+[3.197s] [ 62%] [32mBuilding CXX object CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2_array__type_support.cpp.o[0m
+[3.205s] [ 64%] [32mBuilding CXX object CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_route__type_support.cpp.o[0m
+[3.227s] [ 66%] [32mBuilding CXX object CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/lanelet_mini2__type_support_c.cpp.o[0m
+[3.243s] [ 68%] [32m[1mLinking C shared library libhive_interface2__rosidl_typesupport_introspection_c.so[0m
+[3.243s] [ 70%] [32mBuilding CXX object CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hive_interface2/srv/detail/compute_route__type_support_c.cpp.o[0m
+[3.243s] [ 72%] [32mBuilding CXX object CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/lanelet_mini2_array__type_support_c.cpp.o[0m
+[3.247s] [ 72%] Built target hive_interface2__rosidl_typesupport_c
+[3.341s] [ 72%] Built target hive_interface2__rosidl_typesupport_introspection_c
+[3.537s] [ 74%] [32m[1mLinking CXX shared library libhive_interface2__rosidl_typesupport_cpp.so[0m
+[3.631s] [ 75%] [32m[1mLinking CXX shared library libhive_interface2__rosidl_typesupport_introspection_cpp.so[0m
+[3.664s] [ 75%] Built target hive_interface2__rosidl_typesupport_cpp
+[3.766s] [ 75%] Built target hive_interface2__rosidl_typesupport_introspection_cpp
+[3.804s] [ 77%] [32m[1mLinking CXX shared library libhive_interface2__rosidl_typesupport_fastrtps_c.so[0m
+[3.921s] [ 77%] Built target hive_interface2__rosidl_typesupport_fastrtps_c
+[3.940s] [ 79%] [32m[1mLinking CXX shared library libhive_interface2__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.033s] [ 79%] Built target hive_interface2__rosidl_typesupport_fastrtps_cpp
+[4.066s] [ 79%] Built target hive_interface2
+[4.103s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.890s] [ 81%] Built target hive_interface2__py
+[4.927s] [ 87%] [32mBuilding C object CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_array_s.c.o[0m
+[4.927s] [ 87%] [32mBuilding C object CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/srv/_compute_route_s.c.o[0m
+[4.927s] [ 87%] [32mBuilding C object CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_s.c.o[0m
+[5.095s] [ 88%] [32m[1mLinking C shared library libhive_interface2__rosidl_generator_py.so[0m
+[5.155s] [ 88%] Built target hive_interface2__rosidl_generator_py
+[5.189s] [ 92%] [32mBuilding C object CMakeFiles/hive_interface2_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.189s] [ 94%] [32mBuilding C object CMakeFiles/hive_interface2_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.189s] [ 94%] [32mBuilding C object CMakeFiles/hive_interface2_s__rosidl_typesupport_c.dir/rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_c.c.o[0m
+[5.299s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/hive_interface2/hive_interface2_s__rosidl_typesupport_c.so[0m
+[5.300s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/hive_interface2/hive_interface2_s__rosidl_typesupport_introspection_c.so[0m
+[5.304s] [100%] [32m[1mLinking C shared module rosidl_generator_py/hive_interface2/hive_interface2_s__rosidl_typesupport_fastrtps_c.so[0m
+[5.344s] [100%] Built target hive_interface2_s__rosidl_typesupport_c
+[5.344s] [100%] Built target hive_interface2_s__rosidl_typesupport_introspection_c
+[5.344s] [100%] Built target hive_interface2_s__rosidl_typesupport_fastrtps_c
+[5.362s] Invoked command in '/home/thomas24/hive_ws2/build/hive_interface2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas24/hive_ws2/install/vanilla_brain_nav2:/home/thomas24/hive_ws2/install/nav2_loopback_sim:/home/thomas24/hive_ws2/install/nav2_simple_commander:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas24/hive_ws2/build/hive_interface2 -- -j16 -l16
+[5.378s] Invoking command in '/home/thomas24/hive_ws2/build/hive_interface2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas24/hive_ws2/install/vanilla_brain_nav2:/home/thomas24/hive_ws2/install/nav2_loopback_sim:/home/thomas24/hive_ws2/install/nav2_simple_commander:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas24/hive_ws2/build/hive_interface2
+[5.393s] -- Install configuration: ""
+[5.393s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/share/ament_index/resource_index/rosidl_interfaces/hive_interface2
+[5.393s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/msg/LaneletMini2.json
+[5.394s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/msg/LaneletMini2Array.json
+[5.394s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/srv/ComputeRoute.json
+[5.394s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2
+[5.394s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv
+[5.394s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv/detail
+[5.394s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv/detail/compute_route__type_support.h
+[5.394s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv/detail/compute_route__type_support.c
+[5.394s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv/detail/compute_route__description.c
+[5.394s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv/detail/compute_route__functions.c
+[5.394s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv/detail/compute_route__struct.h
+[5.395s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv/detail/compute_route__functions.h
+[5.395s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv/compute_route.h
+[5.395s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg
+[5.395s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/lanelet_mini2_array.h
+[5.395s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/lanelet_mini2.h
+[5.395s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/rosidl_generator_c__visibility_control.h
+[5.395s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail
+[5.395s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2_array__description.c
+[5.395s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2_array__functions.c
+[5.395s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2__functions.h
+[5.396s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2__struct.h
+[5.396s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2_array__type_support.c
+[5.396s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2__description.c
+[5.396s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2_array__functions.h
+[5.396s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2__type_support.c
+[5.396s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2__type_support.h
+[5.396s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2__functions.c
+[5.397s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2_array__type_support.h
+[5.397s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2_array__struct.h
+[5.397s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/environment/library_path.sh
+[5.397s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/environment/library_path.dsv
+[5.397s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/libhive_interface2__rosidl_generator_c.so
+[5.397s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/hive_interface2/lib/libhive_interface2__rosidl_generator_c.so" to ""
+[5.398s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2
+[5.398s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv
+[5.398s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv/detail
+[5.398s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv/detail/compute_route__rosidl_typesupport_fastrtps_c.h
+[5.398s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg
+[5.398s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail
+[5.398s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2_array__rosidl_typesupport_fastrtps_c.h
+[5.398s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2__rosidl_typesupport_fastrtps_c.h
+[5.398s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.398s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/libhive_interface2__rosidl_typesupport_fastrtps_c.so
+[5.399s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/hive_interface2/lib/libhive_interface2__rosidl_typesupport_fastrtps_c.so" to ""
+[5.399s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2
+[5.399s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv
+[5.399s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv/detail
+[5.399s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv/detail/compute_route__rosidl_typesupport_introspection_c.h
+[5.400s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv/detail/compute_route__type_support.c
+[5.400s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg
+[5.400s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.400s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail
+[5.400s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2_array__type_support.c
+[5.400s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2_array__rosidl_typesupport_introspection_c.h
+[5.400s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2__type_support.c
+[5.400s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2__rosidl_typesupport_introspection_c.h
+[5.400s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/libhive_interface2__rosidl_typesupport_introspection_c.so
+[5.401s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/hive_interface2/lib/libhive_interface2__rosidl_typesupport_introspection_c.so" to ""
+[5.401s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/libhive_interface2__rosidl_typesupport_c.so
+[5.402s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/hive_interface2/lib/libhive_interface2__rosidl_typesupport_c.so" to ""
+[5.402s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2
+[5.402s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv
+[5.402s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv/compute_route.hpp
+[5.402s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv/detail
+[5.402s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv/detail/compute_route__type_support.hpp
+[5.402s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv/detail/compute_route__struct.hpp
+[5.402s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv/detail/compute_route__traits.hpp
+[5.403s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv/detail/compute_route__builder.hpp
+[5.403s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg
+[5.403s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/lanelet_mini2_array.hpp
+[5.403s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.403s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/lanelet_mini2.hpp
+[5.403s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail
+[5.403s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2__struct.hpp
+[5.403s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2_array__type_support.hpp
+[5.403s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2__builder.hpp
+[5.404s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2__type_support.hpp
+[5.404s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2_array__traits.hpp
+[5.404s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2__traits.hpp
+[5.404s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2_array__builder.hpp
+[5.404s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2_array__struct.hpp
+[5.404s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2
+[5.404s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv
+[5.404s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv/detail
+[5.404s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv/detail/dds_fastrtps
+[5.404s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv/detail/compute_route__rosidl_typesupport_fastrtps_cpp.hpp
+[5.405s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg
+[5.405s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.405s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail
+[5.405s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2__rosidl_typesupport_fastrtps_cpp.hpp
+[5.405s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2_array__rosidl_typesupport_fastrtps_cpp.hpp
+[5.405s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/dds_fastrtps
+[5.405s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/libhive_interface2__rosidl_typesupport_fastrtps_cpp.so
+[5.405s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/hive_interface2/lib/libhive_interface2__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.405s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2
+[5.406s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv
+[5.406s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv/detail
+[5.406s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv/detail/compute_route__rosidl_typesupport_introspection_cpp.hpp
+[5.406s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv/detail/compute_route__type_support.cpp
+[5.406s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg
+[5.406s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail
+[5.406s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2__type_support.cpp
+[5.406s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2_array__type_support.cpp
+[5.406s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2_array__rosidl_typesupport_introspection_cpp.hpp
+[5.406s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2__rosidl_typesupport_introspection_cpp.hpp
+[5.406s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/libhive_interface2__rosidl_typesupport_introspection_cpp.so
+[5.407s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/hive_interface2/lib/libhive_interface2__rosidl_typesupport_introspection_cpp.so" to ""
+[5.407s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/libhive_interface2__rosidl_typesupport_cpp.so
+[5.408s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/hive_interface2/lib/libhive_interface2__rosidl_typesupport_cpp.so" to ""
+[5.408s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/environment/pythonpath.sh
+[5.408s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/environment/pythonpath.dsv
+[5.408s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2-0.0.1-py3.12.egg-info
+[5.408s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2-0.0.1-py3.12.egg-info/dependency_links.txt
+[5.408s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2-0.0.1-py3.12.egg-info/SOURCES.txt
+[5.408s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2-0.0.1-py3.12.egg-info/top_level.txt
+[5.408s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2-0.0.1-py3.12.egg-info/PKG-INFO
+[5.408s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2
+[5.409s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/__init__.py
+[5.409s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_c.c
+[5.409s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/hive_interface2_s__rosidl_typesupport_introspection_c.so
+[5.409s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/hive_interface2_s__rosidl_typesupport_fastrtps_c.so
+[5.409s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_introspection_c.c
+[5.409s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/srv
+[5.409s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/srv/__init__.py
+[5.409s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/srv/_compute_route_s.c
+[5.409s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/srv/_compute_route.py
+[5.410s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/hive_interface2_s__rosidl_typesupport_c.so
+[5.410s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.410s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/msg
+[5.410s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/msg/_lanelet_mini2_array.py
+[5.410s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/msg/_lanelet_mini2_s.c
+[5.410s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/msg/__init__.py
+[5.410s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/msg/_lanelet_mini2.py
+[5.411s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/msg/_lanelet_mini2_array_s.c
+[5.458s] Listing '/home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2'...
+[5.458s] Compiling '/home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/__init__.py'...
+[5.458s] Listing '/home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/msg'...
+[5.458s] Compiling '/home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/msg/__init__.py'...
+[5.458s] Compiling '/home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/msg/_lanelet_mini2.py'...
+[5.459s] Compiling '/home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/msg/_lanelet_mini2_array.py'...
+[5.459s] Listing '/home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/srv'...
+[5.459s] Compiling '/home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/srv/__init__.py'...
+[5.459s] Compiling '/home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/srv/_compute_route.py'...
+[5.465s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/hive_interface2_s__rosidl_typesupport_fastrtps_c.so
+[5.466s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/hive_interface2_s__rosidl_typesupport_fastrtps_c.so" to ""
+[5.466s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/hive_interface2_s__rosidl_typesupport_introspection_c.so
+[5.467s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/hive_interface2_s__rosidl_typesupport_introspection_c.so" to ""
+[5.467s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/hive_interface2_s__rosidl_typesupport_c.so
+[5.467s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages/hive_interface2/hive_interface2_s__rosidl_typesupport_c.so" to ""
+[5.468s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/lib/libhive_interface2__rosidl_generator_py.so
+[5.468s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hive_ws2/install/hive_interface2/lib/libhive_interface2__rosidl_generator_py.so" to ""
+[5.468s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/msg/LaneletMini2.idl
+[5.469s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/msg/LaneletMini2Array.idl
+[5.469s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/srv/ComputeRoute.idl
+[5.469s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/msg/LaneletMini2.msg
+[5.469s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/msg/LaneletMini2Array.msg
+[5.469s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/srv/ComputeRoute.srv
+[5.469s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/ament_index/resource_index/package_run_dependencies/hive_interface2
+[5.469s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/share/ament_index/resource_index/parent_prefix_path/hive_interface2
+[5.469s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/environment/ament_prefix_path.sh
+[5.469s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/environment/ament_prefix_path.dsv
+[5.469s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/environment/path.sh
+[5.469s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/environment/path.dsv
+[5.470s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/local_setup.bash
+[5.470s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/local_setup.sh
+[5.470s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/local_setup.zsh
+[5.470s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/local_setup.dsv
+[5.470s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/package.dsv
+[5.470s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/ament_index/resource_index/packages/hive_interface2
+[5.470s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/export_hive_interface2__rosidl_generator_cExport.cmake
+[5.470s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/export_hive_interface2__rosidl_generator_cExport-noconfig.cmake
+[5.470s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/export_hive_interface2__rosidl_typesupport_fastrtps_cExport.cmake
+[5.470s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/export_hive_interface2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.470s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/hive_interface2__rosidl_typesupport_introspection_cExport.cmake
+[5.470s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/hive_interface2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.470s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/hive_interface2__rosidl_typesupport_cExport.cmake
+[5.471s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/hive_interface2__rosidl_typesupport_cExport-noconfig.cmake
+[5.471s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/export_hive_interface2__rosidl_generator_cppExport.cmake
+[5.471s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/export_hive_interface2__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.471s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/export_hive_interface2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.471s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/hive_interface2__rosidl_typesupport_introspection_cppExport.cmake
+[5.471s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/hive_interface2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.471s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/hive_interface2__rosidl_typesupport_cppExport.cmake
+[5.471s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/hive_interface2__rosidl_typesupport_cppExport-noconfig.cmake
+[5.471s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/export_hive_interface2__rosidl_generator_pyExport.cmake
+[5.471s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/export_hive_interface2__rosidl_generator_pyExport-noconfig.cmake
+[5.471s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/rosidl_cmake-extras.cmake
+[5.472s] -- Installing: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.472s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.472s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/ament_cmake_export_libraries-extras.cmake
+[5.472s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/ament_cmake_export_targets-extras.cmake
+[5.472s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.472s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.472s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/hive_interface2Config.cmake
+[5.473s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/hive_interface2Config-version.cmake
+[5.473s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/package.xml
+[5.474s] Invoked command in '/home/thomas24/hive_ws2/build/hive_interface2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas24/hive_ws2/install/vanilla_brain_nav2:/home/thomas24/hive_ws2/install/nav2_loopback_sim:/home/thomas24/hive_ws2/install/nav2_simple_commander:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas24/hive_ws2/build/hive_interface2

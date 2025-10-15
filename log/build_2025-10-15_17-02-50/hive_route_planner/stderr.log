@@ -1,0 +1,12 @@
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_INSTALL_INTO_PREFIX_ROOT
+
+[0m
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/astar_planner.cpp:82:15:[m[K [01;31m[Kerror: [m[K‘[01m[KProjection[m[K’ in ‘[01m[Kclass hive_route_planner::AStarPlanner[m[K’ does not name a type
+   82 | AStarPlanner::[01;31m[KProjection[m[K
+      |               [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/astar_planner.dir/build.make:76: CMakeFiles/astar_planner.dir/src/astar_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/astar_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

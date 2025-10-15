@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "nav2_msgs/srv/detail/toggle__struct.h"
 #include "nav2_msgs/srv/detail/toggle__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "nav2_msgs/srv/detail/toggle__functions.h"
+#include "nav2_msgs/srv/detail/toggle__struct.h"
 
 #ifdef __cplusplus
 extern "C"

@@ -1,1 +1,1 @@
-backward_ros;builtin_interfaces;dwb_msgs;geometry_msgs;nav2_core;nav2_costmap_2d;nav2_util;nav_2d_msgs;nav_2d_utils;nav_msgs;pluginlib;rclcpp;rclcpp_lifecycle;sensor_msgs;tf2_ros;tf2_geometry_msgs;visualization_msgs;nav2_ros_common;ament_cmake_gtest;ament_lint_common;ament_lint_auto
+/home/thomas24/hive_ws2/build/dwb_core/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dwb_core

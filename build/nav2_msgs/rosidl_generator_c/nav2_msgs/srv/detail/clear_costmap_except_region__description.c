@@ -69,8 +69,8 @@ nav2_msgs__srv__ClearCostmapExceptRegion_Event__get_type_hash(
 
 // Include directives for referenced types
 #include "service_msgs/msg/detail/service_event_info__functions.h"
-#include "builtin_interfaces/msg/detail/time__functions.h"
 #include "std_msgs/msg/detail/empty__functions.h"
+#include "builtin_interfaces/msg/detail/time__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG

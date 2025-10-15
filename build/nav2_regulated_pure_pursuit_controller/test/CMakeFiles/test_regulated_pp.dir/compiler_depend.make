@@ -889,20 +889,6 @@ test/CMakeFiles/test_regulated_pp.dir/path_utils/path_utils.cpp.o: /home/thomas2
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
 
 test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hive_ws2/src/navigation2/nav2_regulated_pure_pursuit_controller/test/test_regulated_pp.cpp \
-  /home/thomas24/hive_ws2/install/nav2_core/include/nav2_core/nav2_core/controller.hpp \
-  /home/thomas24/hive_ws2/install/nav2_core/include/nav2_core/nav2_core/controller_exceptions.hpp \
-  /home/thomas24/hive_ws2/install/nav2_core/include/nav2_core/nav2_core/goal_checker.hpp \
-  /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/clear_costmap_service.hpp \
-  /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/cost_values.hpp \
-  /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp \
-  /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_publisher.hpp \
-  /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp \
-  /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/filter_values.hpp \
-  /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_layer.hpp \
-  /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint.hpp \
-  /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint_collision_checker.hpp \
-  /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp \
-  /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layered_costmap.hpp \
   /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap.hpp \
   /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap_update.hpp \
   /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__builder.hpp \
@@ -951,26 +937,40 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
   /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costs__type_support.hpp \
   /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/get_costmap.hpp \
   /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/get_costs.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/action_client.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/interface_factories.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/lifecycle_node.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_thread.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_utils.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/publisher.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/qos_profiles.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_client.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_server.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/simple_action_server.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/subscription.hpp \
-  /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/geometry_utils.hpp \
-  /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/odometry_utils.hpp \
-  /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/robot_utils.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_core/include/nav2_core/controller.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_core/include/nav2_core/controller_exceptions.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_core/include/nav2_core/goal_checker.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/clear_costmap_service.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/cost_values.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d_publisher.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d_ros.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/filter_values.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_layer.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/footprint.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/footprint_collision_checker.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/layer.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/layered_costmap.hpp \
   /home/thomas24/hive_ws2/src/navigation2/nav2_regulated_pure_pursuit_controller/include/nav2_regulated_pure_pursuit_controller/collision_checker.hpp \
   /home/thomas24/hive_ws2/src/navigation2/nav2_regulated_pure_pursuit_controller/include/nav2_regulated_pure_pursuit_controller/parameter_handler.hpp \
   /home/thomas24/hive_ws2/src/navigation2/nav2_regulated_pure_pursuit_controller/include/nav2_regulated_pure_pursuit_controller/path_handler.hpp \
   /home/thomas24/hive_ws2/src/navigation2/nav2_regulated_pure_pursuit_controller/include/nav2_regulated_pure_pursuit_controller/regulated_pure_pursuit_controller.hpp \
   /home/thomas24/hive_ws2/src/navigation2/nav2_regulated_pure_pursuit_controller/include/nav2_regulated_pure_pursuit_controller/regulation_functions.hpp \
   /home/thomas24/hive_ws2/src/navigation2/nav2_regulated_pure_pursuit_controller/test/path_utils/path_utils.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/action_client.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/interface_factories.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/lifecycle_node.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_thread.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_utils.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/publisher.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/qos_profiles.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_client.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_server.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/simple_action_server.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/subscription.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/geometry_utils.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/odometry_utils.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/robot_utils.hpp \
   /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp \
   /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h \
   /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h \
@@ -2135,8 +2135,6 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/idtype_t.h:
-
 /usr/include/x86_64-linux-gnu/bits/statx.h:
 
 /usr/include/x86_64-linux-gnu/bits/statx-generic.h:
@@ -2233,11 +2231,15 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 
 /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__type_support.hpp:
 
+/opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__traits.hpp:
+
 /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__struct.hpp:
 
 /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/tf_message.hpp:
 
 /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__type_support.hpp:
+
+/opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__traits.hpp:
 
 /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__builder.hpp:
 
@@ -2365,8 +2367,6 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 
 /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/serialization_support.h:
 
-/opt/ros/jazzy/include/rmw/rmw/types.h:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_traits.hpp:
 
 /opt/ros/jazzy/include/rmw/rmw/topic_endpoint_info_array.h:
@@ -2374,8 +2374,6 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 /usr/include/c++/13/cstdio:
 
 /usr/include/math.h:
-
-/opt/ros/jazzy/include/rmw/rmw/rmw.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp:
 
@@ -2575,6 +2573,8 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
 
+/home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/robot_utils.hpp:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/publisher_base.hpp:
 
 /usr/include/signal.h:
@@ -2588,6 +2588,8 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
 
 /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/waypoint_status__builder.hpp:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d_ros.hpp:
 
 /opt/ros/jazzy/include/rcpputils/rcpputils/pointer_traits.hpp:
 
@@ -2616,6 +2618,8 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 /opt/ros/jazzy/include/rcutils/rcutils/sha256.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp:
+
+/opt/ros/jazzy/include/tf2/tf2/LinearMath/Vector3.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_clock_interface_traits.hpp:
 
@@ -2747,6 +2751,10 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 
 /opt/ros/jazzy/include/rcl/rcl/event.h:
 
+/opt/ros/jazzy/include/rcutils/rcutils/allocator.h:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/publisher.hpp:
+
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.hpp:
 
 /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:
@@ -2756,10 +2764,6 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:
 
 /opt/ros/jazzy/include/rcl/rcl/network_flow_endpoints.h:
-
-/opt/ros/jazzy/include/rcutils/rcutils/allocator.h:
-
-/home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp:
 
 /usr/include/c++/13/bits/stl_uninitialized.h:
 
@@ -2854,6 +2858,10 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/time.hpp:
+
+/opt/ros/jazzy/include/map_msgs/map_msgs/msg/detail/occupancy_grid_update__type_support.hpp:
 
 /opt/ros/jazzy/include/rcl/rcl/context.h:
 
@@ -2959,13 +2967,9 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 
 /usr/include/c++/13/cstddef:
 
-/home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layered_costmap.hpp:
-
 /opt/ros/jazzy/include/rmw/rmw/domain_id.h:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp:
 
@@ -3003,10 +3007,6 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__struct.hpp:
 
-/opt/ros/jazzy/include/std_msgs/std_msgs/msg/bool.hpp:
-
-/opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_imp.hpp:
-
 /opt/ros/jazzy/include/rcl/rcl/wait.h:
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.h:
@@ -3029,11 +3029,11 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/cxxabi_tweaks.h:
 
-/home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_layer.hpp:
-
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point.hpp:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d_publisher.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp:
 
@@ -3153,8 +3153,6 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__struct.hpp:
 
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/lifecycle_node.hpp:
-
 /opt/ros/jazzy/include/rcl/rcl/arguments.h:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp:
@@ -3265,6 +3263,8 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 
 /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__type_support.hpp:
 
+/home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/layer.hpp:
+
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__traits.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp:
@@ -3272,8 +3272,6 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 /usr/include/c++/13/bits/unique_ptr.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_content_filter_options.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp:
 
 /opt/ros/jazzy/include/tf2_ros/tf2_ros/create_timer_interface.hpp:
 
@@ -3369,8 +3367,6 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 
 /usr/include/c++/13/bits/uniform_int_dist.h:
 
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_client.hpp:
-
 /usr/include/c++/13/deque:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
@@ -3383,7 +3379,9 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp:
 
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/qos_profiles.hpp:
+/opt/ros/jazzy/include/rmw/rmw/rmw.h:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/footprint.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/wait_result.hpp:
 
@@ -3469,6 +3467,8 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp:
 
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
+
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
@@ -3517,10 +3517,6 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 
 /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
 
-/opt/ros/jazzy/include/tf2/tf2/LinearMath/Vector3.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/robot_utils.hpp:
-
 /opt/ros/jazzy/include/rmw/rmw/events_statuses/requested_deadline_missed.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/create_client.hpp:
@@ -3542,6 +3538,10 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_notify_waitable.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp:
+
+/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_update__struct.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp:
 
@@ -3649,9 +3649,15 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 
 /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/exceptions.hpp:
 
+/opt/ros/jazzy/include/rmw/rmw/types.h:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/lifecycle_node.hpp:
+
 /usr/include/c++/13/bits/memoryfwd.h:
 
 /usr/include/c++/13/bits/new_allocator.h:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/odometry_utils.hpp:
 
 /usr/include/c++/13/bits/ostream.tcc:
 
@@ -3853,7 +3859,7 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 
 /usr/include/c++/13/cwctype:
 
-/home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/cost_values.hpp:
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_utils.hpp:
 
 /usr/include/c++/13/cxxabi.h:
 
@@ -3977,6 +3983,8 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 
 /usr/include/c++/13/tr1/poly_hermite.tcc:
 
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
 /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/types.hpp:
 
 /usr/include/c++/13/tr1/poly_laguerre.tcc:
@@ -4047,10 +4055,6 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
-/opt/ros/jazzy/include/tf2/tf2/buffer_core.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
@@ -4058,6 +4062,8 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 /usr/include/c++/13/bits/stl_queue.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
@@ -4067,9 +4073,9 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+/home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/geometry_utils.hpp:
 
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_server.hpp:
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp:
 
@@ -4089,10 +4095,6 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 
 /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/action_client.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
@@ -4100,6 +4102,8 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 /opt/ros/jazzy/include/rclcpp/rclcpp/serialization.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/layered_costmap.hpp:
 
 /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__type_support.h:
 
@@ -4124,6 +4128,8 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 /usr/include/x86_64-linux-gnu/bits/sigstack.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigstksz.h:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_layer.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_logging_interface.hpp:
 
@@ -4152,6 +4158,8 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/interface_factories.hpp:
 
 /usr/include/c++/13/bits/stl_iterator_base_funcs.h:
 
@@ -4209,6 +4217,12 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 
 /usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
 
+/opt/ros/jazzy/include/tf2/tf2/buffer_core.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/simple_action_server.hpp:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp:
@@ -4263,42 +4277,6 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_update__struct.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_core/include/nav2_core/nav2_core/controller.hpp:
-
-/opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__traits.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_core/include/nav2_core/nav2_core/controller_exceptions.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_core/include/nav2_core/nav2_core/goal_checker.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_costmap_except_region.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/clear_costmap_service.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_publisher.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/time.hpp:
-
-/opt/ros/jazzy/include/map_msgs/map_msgs/msg/detail/occupancy_grid_update__type_support.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:
-
-/opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__traits.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/filter_values.hpp:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_info.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
-
-/home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint_collision_checker.hpp:
-
 /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap_update.hpp:
 
 /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__struct.hpp:
@@ -4313,9 +4291,9 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 
 /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp:
 
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/subscription.hpp:
-
 /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/waypoint_status__struct.hpp:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/qos_profiles.hpp:
 
 /usr/include/c++/13/vector:
 
@@ -4325,9 +4303,15 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 
 /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_costmap_around_robot.hpp:
 
+/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_costmap_except_region.hpp:
+
 /usr/include/asm-generic/errno-base.h:
 
 /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_entire_costmap.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/idtype_t.h:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_thread.hpp:
 
 /opt/ros/jazzy/include/bond/bond/msg/detail/constants__type_support.hpp:
 
@@ -4371,23 +4355,43 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 
 /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/get_costmap.hpp:
 
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.h:
+/home/thomas24/hive_ws2/src/navigation2/nav2_core/include/nav2_core/controller.hpp:
 
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/interface_factories.hpp:
+/opt/ros/jazzy/include/std_msgs/std_msgs/msg/bool.hpp:
 
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_thread.hpp:
+/opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_imp.hpp:
 
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_utils.hpp:
+/home/thomas24/hive_ws2/src/navigation2/nav2_core/include/nav2_core/controller_exceptions.hpp:
 
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/publisher.hpp:
+/home/thomas24/hive_ws2/src/navigation2/nav2_core/include/nav2_core/goal_checker.hpp:
 
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/simple_action_server.hpp:
+/home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/clear_costmap_service.hpp:
 
-/home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/geometry_utils.hpp:
+/home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/cost_values.hpp:
 
-/home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/odometry_utils.hpp:
+/home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/filter_values.hpp:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/footprint_collision_checker.hpp:
 
 /home/thomas24/hive_ws2/src/navigation2/nav2_regulated_pure_pursuit_controller/include/nav2_regulated_pure_pursuit_controller/regulation_functions.hpp:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/action_client.hpp:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_client.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/timer.hpp:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/srv/cancel_goal.h:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_server.hpp:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/subscription.hpp:
+
+/opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h:
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h:
 
@@ -4417,6 +4421,8 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_info.h:
 
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_info.hpp:
+
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_status.hpp:
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_status_array.h:
@@ -4424,14 +4430,6 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 /usr/include/c++/13/bits/regex_executor.h:
 
 /opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp:
-
-/opt/ros/jazzy/include/map_msgs/map_msgs/msg/occupancy_grid_update.hpp:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/rosidl_generator_c__visibility_control.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/timer.hpp:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/srv/cancel_goal.h:
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.h:
 
@@ -4511,8 +4509,6 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 
 /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__builder.hpp:
 
-/opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h:
-
 /usr/include/x86_64-linux-gnu/bits/unistd-decl.h:
 
 /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp:
@@ -4522,6 +4518,10 @@ test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o: /home/thomas24/hi
 /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/state.hpp:
 
 /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/rosidl_generator_c__visibility_control.h:
+
+/opt/ros/jazzy/include/map_msgs/map_msgs/msg/occupancy_grid_update.hpp:
 
 /opt/ros/jazzy/include/map_msgs/map_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 

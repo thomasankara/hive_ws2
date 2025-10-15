@@ -3,6 +3,17 @@
 
 CMakeFiles/dwb_core.dir/src/dwb_local_planner.cpp.o
  /home/thomas24/hive_ws2/src/navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp
+ /home/thomas24/hive_ws2/build/nav_2d_msgs/rosidl_generator_cpp/nav_2d_msgs/msg/detail/twist2_d__builder.hpp
+ /home/thomas24/hive_ws2/build/nav_2d_msgs/rosidl_generator_cpp/nav_2d_msgs/msg/detail/twist2_d__struct.hpp
+ /home/thomas24/hive_ws2/build/nav_2d_msgs/rosidl_generator_cpp/nav_2d_msgs/msg/detail/twist2_d__traits.hpp
+ /home/thomas24/hive_ws2/build/nav_2d_msgs/rosidl_generator_cpp/nav_2d_msgs/msg/detail/twist2_d__type_support.hpp
+ /home/thomas24/hive_ws2/build/nav_2d_msgs/rosidl_generator_cpp/nav_2d_msgs/msg/detail/twist2_d_stamped__builder.hpp
+ /home/thomas24/hive_ws2/build/nav_2d_msgs/rosidl_generator_cpp/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.hpp
+ /home/thomas24/hive_ws2/build/nav_2d_msgs/rosidl_generator_cpp/nav_2d_msgs/msg/detail/twist2_d_stamped__traits.hpp
+ /home/thomas24/hive_ws2/build/nav_2d_msgs/rosidl_generator_cpp/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.hpp
+ /home/thomas24/hive_ws2/build/nav_2d_msgs/rosidl_generator_cpp/nav_2d_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+ /home/thomas24/hive_ws2/build/nav_2d_msgs/rosidl_generator_cpp/nav_2d_msgs/msg/twist2_d.hpp
+ /home/thomas24/hive_ws2/build/nav_2d_msgs/rosidl_generator_cpp/nav_2d_msgs/msg/twist2_d_stamped.hpp
  /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/critic_score.hpp
  /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__builder.hpp
  /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__struct.hpp
@@ -21,19 +32,6 @@ CMakeFiles/dwb_core.dir/src/dwb_local_planner.cpp.o
  /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/local_plan_evaluation.hpp
  /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
  /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory2_d.hpp
- /home/thomas24/hive_ws2/install/nav2_core/include/nav2_core/nav2_core/controller.hpp
- /home/thomas24/hive_ws2/install/nav2_core/include/nav2_core/nav2_core/controller_exceptions.hpp
- /home/thomas24/hive_ws2/install/nav2_core/include/nav2_core/nav2_core/goal_checker.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/clear_costmap_service.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/cost_values.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_publisher.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_layer.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint_collision_checker.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layered_costmap.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap_update.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__builder.hpp
@@ -82,37 +80,39 @@ CMakeFiles/dwb_core.dir/src/dwb_local_planner.cpp.o
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costs__type_support.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/get_costmap.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/get_costs.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/action_client.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/interface_factories.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/lifecycle_node.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_thread.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_utils.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/publisher.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/qos_profiles.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_client.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_server.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/simple_action_server.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/subscription.hpp
- /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/geometry_utils.hpp
- /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/robot_utils.hpp
- /home/thomas24/hive_ws2/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__builder.hpp
- /home/thomas24/hive_ws2/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.hpp
- /home/thomas24/hive_ws2/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__traits.hpp
- /home/thomas24/hive_ws2/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.hpp
- /home/thomas24/hive_ws2/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__builder.hpp
- /home/thomas24/hive_ws2/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.hpp
- /home/thomas24/hive_ws2/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__traits.hpp
- /home/thomas24/hive_ws2/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.hpp
- /home/thomas24/hive_ws2/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
- /home/thomas24/hive_ws2/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d.hpp
- /home/thomas24/hive_ws2/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d_stamped.hpp
  /home/thomas24/hive_ws2/install/nav_2d_utils/include/nav_2d_utils/nav_2d_utils/conversions.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_core/include/nav2_core/controller.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_core/include/nav2_core/controller_exceptions.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_core/include/nav2_core/goal_checker.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/clear_costmap_service.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/cost_values.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d_publisher.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d_ros.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_layer.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/footprint.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/footprint_collision_checker.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/layer.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/layered_costmap.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_dwb_controller/dwb_core/include/dwb_core/dwb_local_planner.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_dwb_controller/dwb_core/include/dwb_core/exceptions.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_dwb_controller/dwb_core/include/dwb_core/illegal_trajectory_tracker.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_dwb_controller/dwb_core/include/dwb_core/publisher.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_dwb_controller/dwb_core/include/dwb_core/trajectory_critic.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_dwb_controller/dwb_core/include/dwb_core/trajectory_generator.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/action_client.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/interface_factories.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/lifecycle_node.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_thread.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/publisher.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/qos_profiles.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_client.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_server.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/simple_action_server.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/subscription.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/geometry_utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/robot_utils.hpp
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h
@@ -1238,7 +1238,7 @@ CMakeFiles/dwb_core.dir/src/dwb_local_planner.cpp.o
 
 CMakeFiles/dwb_core.dir/src/illegal_trajectory_tracker.cpp.o
  /home/thomas24/hive_ws2/src/navigation2/nav2_dwb_controller/dwb_core/src/illegal_trajectory_tracker.cpp
- /home/thomas24/hive_ws2/install/nav2_core/include/nav2_core/nav2_core/controller_exceptions.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_core/include/nav2_core/controller_exceptions.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_dwb_controller/dwb_core/include/dwb_core/exceptions.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_dwb_controller/dwb_core/include/dwb_core/illegal_trajectory_tracker.hpp
  /usr/include/alloca.h
@@ -1468,6 +1468,12 @@ CMakeFiles/dwb_core.dir/src/illegal_trajectory_tracker.cpp.o
 
 CMakeFiles/dwb_core.dir/src/publisher.cpp.o
  /home/thomas24/hive_ws2/src/navigation2/nav2_dwb_controller/dwb_core/src/publisher.cpp
+ /home/thomas24/hive_ws2/build/nav_2d_msgs/rosidl_generator_cpp/nav_2d_msgs/msg/detail/twist2_d__builder.hpp
+ /home/thomas24/hive_ws2/build/nav_2d_msgs/rosidl_generator_cpp/nav_2d_msgs/msg/detail/twist2_d__struct.hpp
+ /home/thomas24/hive_ws2/build/nav_2d_msgs/rosidl_generator_cpp/nav_2d_msgs/msg/detail/twist2_d__traits.hpp
+ /home/thomas24/hive_ws2/build/nav_2d_msgs/rosidl_generator_cpp/nav_2d_msgs/msg/detail/twist2_d__type_support.hpp
+ /home/thomas24/hive_ws2/build/nav_2d_msgs/rosidl_generator_cpp/nav_2d_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+ /home/thomas24/hive_ws2/build/nav_2d_msgs/rosidl_generator_cpp/nav_2d_msgs/msg/twist2_d.hpp
  /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__struct.hpp
  /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__traits.hpp
  /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__builder.hpp
@@ -1483,16 +1489,6 @@ CMakeFiles/dwb_core.dir/src/publisher.cpp.o
  /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/local_plan_evaluation.hpp
  /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
  /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory2_d.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/clear_costmap_service.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/cost_values.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_publisher.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_layer.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint_collision_checker.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layered_costmap.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap_update.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__builder.hpp
@@ -1536,27 +1532,31 @@ CMakeFiles/dwb_core.dir/src/publisher.cpp.o
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costs__type_support.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/get_costmap.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/get_costs.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/action_client.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/interface_factories.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/lifecycle_node.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_thread.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_utils.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/publisher.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/qos_profiles.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_client.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_server.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/simple_action_server.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/subscription.hpp
- /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/robot_utils.hpp
- /home/thomas24/hive_ws2/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__builder.hpp
- /home/thomas24/hive_ws2/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.hpp
- /home/thomas24/hive_ws2/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__traits.hpp
- /home/thomas24/hive_ws2/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.hpp
- /home/thomas24/hive_ws2/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
- /home/thomas24/hive_ws2/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d.hpp
  /home/thomas24/hive_ws2/install/nav_2d_utils/include/nav_2d_utils/nav_2d_utils/conversions.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/clear_costmap_service.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/cost_values.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d_publisher.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d_ros.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_layer.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/footprint.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/footprint_collision_checker.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/layer.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/layered_costmap.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_dwb_controller/dwb_core/include/dwb_core/publisher.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_dwb_controller/dwb_core/include/dwb_core/trajectory_critic.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/action_client.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/interface_factories.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/lifecycle_node.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_thread.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/publisher.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/qos_profiles.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_client.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_server.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/simple_action_server.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/subscription.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/robot_utils.hpp
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h
@@ -2687,15 +2687,15 @@ CMakeFiles/dwb_core.dir/src/publisher.cpp.o
 
 CMakeFiles/dwb_core.dir/src/trajectory_utils.cpp.o
  /home/thomas24/hive_ws2/src/navigation2/nav2_dwb_controller/dwb_core/src/trajectory_utils.cpp
+ /home/thomas24/hive_ws2/build/nav_2d_msgs/rosidl_generator_cpp/nav_2d_msgs/msg/detail/twist2_d__struct.hpp
+ /home/thomas24/hive_ws2/build/nav_2d_msgs/rosidl_generator_cpp/nav_2d_msgs/msg/detail/twist2_d__traits.hpp
  /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__builder.hpp
  /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__struct.hpp
  /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__traits.hpp
  /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.hpp
  /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
  /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory2_d.hpp
- /home/thomas24/hive_ws2/install/nav2_core/include/nav2_core/nav2_core/controller_exceptions.hpp
- /home/thomas24/hive_ws2/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.hpp
- /home/thomas24/hive_ws2/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__traits.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_core/include/nav2_core/controller_exceptions.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_dwb_controller/dwb_core/include/dwb_core/exceptions.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_dwb_controller/dwb_core/include/dwb_core/trajectory_utils.hpp
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp

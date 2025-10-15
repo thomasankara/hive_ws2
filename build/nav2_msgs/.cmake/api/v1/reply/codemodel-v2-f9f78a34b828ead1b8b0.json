@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-ab63e69b5f736316d31c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "nav2_msgs__py",
+					"jsonFile" : "directory-nav2_msgs__py-Release-875275d1d404b800b264.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/thomas24/hive_ws2/build/nav2_msgs/nav2_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "nav2_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_nav2_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_nav2_msgs_egg-Release-38bb7a720cd39a8ad577.json",
+					"name" : "ament_cmake_python_build_nav2_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_nav2_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_nav2_msgs-Release-6517cde0b31599cc2126.json",
+					"name" : "ament_cmake_python_symlink_nav2_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs-Release-bda35785f2c5a5582eac.json",
+					"name" : "nav2_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs__cpp-Release-f5674f0632305bb1c196.json",
+					"name" : "nav2_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "nav2_msgs__py::@928736400d01866809ad",
+					"jsonFile" : "target-nav2_msgs__py-Release-b4a1b835d2f53dc47d9d.json",
+					"name" : "nav2_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs__rosidl_generator_c-Release-d3c81d5163a1c3bc1fde.json",
+					"name" : "nav2_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs__rosidl_generator_py-Release-23d547d00772bb1ccd33.json",
+					"name" : "nav2_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs__rosidl_generator_type_description-Release-8db5c85eacf971f08e20.json",
+					"name" : "nav2_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs__rosidl_typesupport_c-Release-80fadd6b7984a5556035.json",
+					"name" : "nav2_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs__rosidl_typesupport_cpp-Release-90daad6617a50e7eed43.json",
+					"name" : "nav2_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs__rosidl_typesupport_fastrtps_c-Release-9f1a9306d6e629e3ffa9.json",
+					"name" : "nav2_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs__rosidl_typesupport_fastrtps_cpp-Release-4cebb1b376a6730ef7f8.json",
+					"name" : "nav2_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs__rosidl_typesupport_introspection_c-Release-42a3b16cdc7373ca6f1b.json",
+					"name" : "nav2_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs__rosidl_typesupport_introspection_cpp-Release-f75f9f10fc9820017f11.json",
+					"name" : "nav2_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs_s__rosidl_typesupport_c-Release-abfedc745b0f32d50775.json",
+					"name" : "nav2_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs_s__rosidl_typesupport_fastrtps_c-Release-8d0f482cb89f5e2433b5.json",
+					"name" : "nav2_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs_s__rosidl_typesupport_introspection_c-Release-d770dc7bb90117bca093.json",
+					"name" : "nav2_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs_uninstall-Release-ac9a30890bde53dfa37c.json",
+					"name" : "nav2_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-6cde38c4cb295a8abc0f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/thomas24/hive_ws2/build/nav2_msgs",
+		"source" : "/home/thomas24/hive_ws2/src/navigation2/nav2_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

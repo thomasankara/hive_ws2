@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/thomas24/hive_ws2/build/hive_costmap/libgridmap_fusion_plugin.so" "TARGETS" "gridmap_fusion_plugin" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

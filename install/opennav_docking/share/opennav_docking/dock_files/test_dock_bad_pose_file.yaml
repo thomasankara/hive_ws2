@@ -1,5 +1,1 @@
-docks:
-  dock1:
-    type: "dockv3"
-    frame: "mapA"
-    pose: [0.3, 0.3]
+/home/thomas24/hive_ws2/src/navigation2/nav2_docking/opennav_docking/test/dock_files/test_dock_bad_pose_file.yaml

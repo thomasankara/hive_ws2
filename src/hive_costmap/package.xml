@@ -1,0 +1,23 @@
+<package format="3">
+  <name>hive_costmap</name>
+  <version>0.0.1</version>
+  <description>Hive Robotics custom costmap plugin</description>
+
+  <maintainer email="thomas@hiverobotics.com">Thomas Reynal</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>pluginlib</depend>
+  <depend>nav2_costmap_2d</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+    <pluginlib plugin="${prefix}/share/hive_costmap/hive_costmap_plugins.xml"/>
+  </export>
+</package>

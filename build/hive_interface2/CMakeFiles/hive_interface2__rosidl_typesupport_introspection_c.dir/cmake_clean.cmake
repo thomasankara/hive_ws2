@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hive_interface2/msg/detail/lanelet_mini2__type_support.c.o"
+  "CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hive_interface2/msg/detail/lanelet_mini2__type_support.c.o.d"
+  "CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hive_interface2/msg/detail/lanelet_mini2_array__type_support.c.o"
+  "CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hive_interface2/msg/detail/lanelet_mini2_array__type_support.c.o.d"
+  "CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hive_interface2/srv/detail/compute_route__type_support.c.o"
+  "CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hive_interface2/srv/detail/compute_route__type_support.c.o.d"
+  "libhive_interface2__rosidl_typesupport_introspection_c.pdb"
+  "libhive_interface2__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/hive_interface2/msg/detail/lanelet_mini2__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/hive_interface2/msg/detail/lanelet_mini2__type_support.c"
+  "rosidl_typesupport_introspection_c/hive_interface2/msg/detail/lanelet_mini2_array__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/hive_interface2/msg/detail/lanelet_mini2_array__type_support.c"
+  "rosidl_typesupport_introspection_c/hive_interface2/srv/detail/compute_route__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/hive_interface2/srv/detail/compute_route__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

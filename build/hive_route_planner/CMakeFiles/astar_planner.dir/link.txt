@@ -1,0 +1,2 @@
+/usr/bin/ar qc libastar_planner.a CMakeFiles/astar_planner.dir/src/astar_planner.cpp.o
+/usr/bin/ranlib libastar_planner.a

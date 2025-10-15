@@ -1,5 +1,1 @@
-# Critics statistics message
-builtin_interfaces/Time stamp
-string[] critics
-bool[] changed
-float32[] costs_sum
+/home/thomas24/hive_ws2/src/navigation2/nav2_msgs/msg/CriticsStats.msg

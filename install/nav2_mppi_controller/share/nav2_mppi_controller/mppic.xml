@@ -1,7 +1,1 @@
-<class_libraries>
-  <library path="mppi_controller">
-    <class type="nav2_mppi_controller::MPPIController" base_class_type="nav2_core::Controller">
-      <description>MPPI Controller for Nav2</description>
-    </class>
-  </library>
-</class_libraries>
+/home/thomas24/hive_ws2/src/navigation2/nav2_mppi_controller/mppic.xml

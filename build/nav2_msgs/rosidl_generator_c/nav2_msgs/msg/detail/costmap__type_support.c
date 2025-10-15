@@ -4,8 +4,8 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
 #include "nav2_msgs/msg/detail/costmap__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "nav2_msgs/msg/detail/costmap__functions.h"
 #include "nav2_msgs/msg/detail/costmap__type_support.h"
 

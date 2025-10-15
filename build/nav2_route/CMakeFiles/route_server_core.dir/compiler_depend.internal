@@ -3,8 +3,6 @@
 
 CMakeFiles/route_server_core.dir/src/edge_scorer.cpp.o
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/src/edge_scorer.cpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_subscriber.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap_update.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__builder.hpp
@@ -32,23 +30,25 @@ CMakeFiles/route_server_core.dir/src/edge_scorer.cpp.o
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/route.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/waypoint_status.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/action_client.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/interface_factories.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/lifecycle_node.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_thread.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_utils.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/publisher.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/qos_profiles.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_client.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_server.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/simple_action_server.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/subscription.hpp
- /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/geometry_utils.hpp
- /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/line_iterator.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_subscriber.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/action_client.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/interface_factories.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/lifecycle_node.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_thread.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/publisher.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/qos_profiles.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_client.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_server.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/simple_action_server.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/subscription.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/edge_scorer.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/interfaces/edge_cost_function.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/types.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/geometry_utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/line_iterator.hpp
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h
@@ -1139,10 +1139,6 @@ CMakeFiles/route_server_core.dir/src/edge_scorer.cpp.o
 
 CMakeFiles/route_server_core.dir/src/goal_intent_extractor.cpp.o
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/src/goal_intent_extractor.cpp
- /home/thomas24/hive_ws2/install/nav2_core/include/nav2_core/nav2_core/route_exceptions.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/cost_values.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_subscriber.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/compute_and_track_route.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/compute_route.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_and_track_route__builder.hpp
@@ -1180,25 +1176,29 @@ CMakeFiles/route_server_core.dir/src/goal_intent_extractor.cpp.o
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/route.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/waypoint_status.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/action_client.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/interface_factories.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/lifecycle_node.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_thread.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_utils.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/publisher.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/qos_profiles.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_client.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_server.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/simple_action_server.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/subscription.hpp
- /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/geometry_utils.hpp
- /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/line_iterator.hpp
- /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/robot_utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_core/include/nav2_core/route_exceptions.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/cost_values.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_subscriber.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/action_client.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/interface_factories.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/lifecycle_node.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_thread.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/publisher.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/qos_profiles.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_client.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_server.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/simple_action_server.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/subscription.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/goal_intent_extractor.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/goal_intent_search.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/node_spatial_tree.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/types.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/geometry_utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/line_iterator.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/robot_utils.hpp
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h
@@ -2268,21 +2268,21 @@ CMakeFiles/route_server_core.dir/src/goal_intent_extractor.cpp.o
 
 CMakeFiles/route_server_core.dir/src/graph_loader.cpp.o
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/src/graph_loader.cpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/action_client.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/interface_factories.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/lifecycle_node.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_thread.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_utils.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/publisher.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/qos_profiles.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_client.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_server.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/simple_action_server.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/subscription.hpp
- /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/robot_utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/action_client.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/interface_factories.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/lifecycle_node.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_thread.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/publisher.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/qos_profiles.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_client.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_server.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/simple_action_server.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/subscription.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/graph_loader.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/interfaces/graph_file_loader.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/types.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/robot_utils.hpp
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h
@@ -3407,21 +3407,21 @@ CMakeFiles/route_server_core.dir/src/graph_loader.cpp.o
 
 CMakeFiles/route_server_core.dir/src/graph_saver.cpp.o
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/src/graph_saver.cpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/action_client.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/interface_factories.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/lifecycle_node.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_thread.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_utils.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/publisher.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/qos_profiles.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_client.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_server.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/simple_action_server.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/subscription.hpp
- /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/robot_utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/action_client.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/interface_factories.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/lifecycle_node.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_thread.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/publisher.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/qos_profiles.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_client.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_server.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/simple_action_server.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/subscription.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/graph_saver.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/interfaces/graph_file_saver.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/types.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/robot_utils.hpp
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h
@@ -4546,7 +4546,6 @@ CMakeFiles/route_server_core.dir/src/graph_saver.cpp.o
 
 CMakeFiles/route_server_core.dir/src/node_spatial_tree.cpp.o
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/src/node_spatial_tree.cpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/route__builder.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/route__struct.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/route__traits.hpp
@@ -4562,22 +4561,23 @@ CMakeFiles/route_server_core.dir/src/node_spatial_tree.cpp.o
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/route.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/waypoint_status.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/action_client.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/interface_factories.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/lifecycle_node.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_thread.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_utils.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/publisher.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/qos_profiles.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_client.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_server.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/simple_action_server.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/subscription.hpp
- /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/geometry_utils.hpp
- /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/line_iterator.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/action_client.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/interface_factories.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/lifecycle_node.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_thread.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/publisher.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/qos_profiles.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_client.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_server.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/simple_action_server.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/subscription.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/node_spatial_tree.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/types.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/geometry_utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/line_iterator.hpp
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h
@@ -5611,9 +5611,6 @@ CMakeFiles/route_server_core.dir/src/node_spatial_tree.cpp.o
 
 CMakeFiles/route_server_core.dir/src/operations_manager.cpp.o
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/src/operations_manager.cpp
- /home/thomas24/hive_ws2/install/nav2_core/include/nav2_core/nav2_core/route_exceptions.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_subscriber.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap_update.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__builder.hpp
@@ -5641,23 +5638,26 @@ CMakeFiles/route_server_core.dir/src/operations_manager.cpp.o
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/route.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/waypoint_status.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/action_client.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/interface_factories.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/lifecycle_node.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_thread.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_utils.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/publisher.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/qos_profiles.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_client.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_server.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/simple_action_server.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/subscription.hpp
- /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/geometry_utils.hpp
- /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/line_iterator.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_core/include/nav2_core/route_exceptions.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_subscriber.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/action_client.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/interface_factories.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/lifecycle_node.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_thread.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/publisher.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/qos_profiles.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_client.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_server.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/simple_action_server.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/subscription.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/interfaces/route_operation.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/operations_manager.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/types.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/geometry_utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/line_iterator.hpp
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h
@@ -6732,7 +6732,6 @@ CMakeFiles/route_server_core.dir/src/operations_manager.cpp.o
 
 CMakeFiles/route_server_core.dir/src/path_converter.cpp.o
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/src/path_converter.cpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/route__builder.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/route__struct.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/route__traits.hpp
@@ -6748,23 +6747,24 @@ CMakeFiles/route_server_core.dir/src/path_converter.cpp.o
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/route.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/waypoint_status.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/action_client.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/interface_factories.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/lifecycle_node.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_thread.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_utils.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/publisher.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/qos_profiles.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_client.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_server.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/simple_action_server.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/subscription.hpp
- /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/geometry_utils.hpp
- /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/line_iterator.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/action_client.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/interface_factories.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/lifecycle_node.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_thread.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/publisher.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/qos_profiles.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_client.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_server.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/simple_action_server.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/subscription.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/corner_smoothing.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/path_converter.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/types.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/geometry_utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/line_iterator.hpp
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h
@@ -7797,9 +7797,6 @@ CMakeFiles/route_server_core.dir/src/path_converter.cpp.o
 
 CMakeFiles/route_server_core.dir/src/route_planner.cpp.o
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/src/route_planner.cpp
- /home/thomas24/hive_ws2/install/nav2_core/include/nav2_core/nav2_core/route_exceptions.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_subscriber.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap_update.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__builder.hpp
@@ -7827,24 +7824,27 @@ CMakeFiles/route_server_core.dir/src/route_planner.cpp.o
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/route.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/waypoint_status.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/action_client.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/interface_factories.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/lifecycle_node.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_thread.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_utils.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/publisher.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/qos_profiles.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_client.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_server.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/simple_action_server.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/subscription.hpp
- /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/geometry_utils.hpp
- /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/line_iterator.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_core/include/nav2_core/route_exceptions.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_subscriber.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/action_client.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/interface_factories.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/lifecycle_node.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_thread.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/publisher.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/qos_profiles.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_client.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_server.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/simple_action_server.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/subscription.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/edge_scorer.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/interfaces/edge_cost_function.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/route_planner.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/types.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/geometry_utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/line_iterator.hpp
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h
@@ -8942,10 +8942,6 @@ CMakeFiles/route_server_core.dir/src/route_planner.cpp.o
 
 CMakeFiles/route_server_core.dir/src/route_server.cpp.o
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/src/route_server.cpp
- /home/thomas24/hive_ws2/install/nav2_core/include/nav2_core/nav2_core/route_exceptions.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/cost_values.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_subscriber.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/compute_and_track_route.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/compute_route.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_and_track_route__builder.hpp
@@ -8991,20 +8987,21 @@ CMakeFiles/route_server_core.dir/src/route_server.cpp.o
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/set_route_graph__traits.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/set_route_graph__type_support.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/set_route_graph.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/action_client.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/interface_factories.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/lifecycle_node.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_thread.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_utils.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/publisher.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/qos_profiles.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_client.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_server.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/simple_action_server.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/subscription.hpp
- /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/geometry_utils.hpp
- /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/line_iterator.hpp
- /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/robot_utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_core/include/nav2_core/route_exceptions.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/cost_values.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_subscriber.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/action_client.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/interface_factories.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/lifecycle_node.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_thread.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/publisher.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/qos_profiles.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_client.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_server.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/simple_action_server.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/subscription.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/corner_smoothing.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/edge_scorer.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/goal_intent_extractor.hpp
@@ -9021,6 +9018,9 @@ CMakeFiles/route_server_core.dir/src/route_server.cpp.o
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/route_tracker.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/types.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/geometry_utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/line_iterator.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/robot_utils.hpp
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h
@@ -10196,9 +10196,6 @@ CMakeFiles/route_server_core.dir/src/route_server.cpp.o
 
 CMakeFiles/route_server_core.dir/src/route_tracker.cpp.o
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/src/route_tracker.cpp
- /home/thomas24/hive_ws2/install/nav2_core/include/nav2_core/nav2_core/route_exceptions.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp
- /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_subscriber.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/compute_and_track_route.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_and_track_route__builder.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_and_track_route__struct.hpp
@@ -10231,25 +10228,28 @@ CMakeFiles/route_server_core.dir/src/route_tracker.cpp.o
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/route.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/waypoint_status.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/action_client.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/interface_factories.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/lifecycle_node.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_thread.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_utils.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/publisher.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/qos_profiles.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_client.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_server.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/simple_action_server.hpp
- /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/subscription.hpp
- /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/geometry_utils.hpp
- /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/line_iterator.hpp
- /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/robot_utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_core/include/nav2_core/route_exceptions.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_subscriber.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/action_client.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/interface_factories.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/lifecycle_node.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_thread.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/publisher.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/qos_profiles.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_client.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_server.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/simple_action_server.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/subscription.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/interfaces/route_operation.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/operations_manager.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/route_tracker.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/types.hpp
  /home/thomas24/hive_ws2/src/navigation2/nav2_route/include/nav2_route/utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/geometry_utils.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/line_iterator.hpp
+ /home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/robot_utils.hpp
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h

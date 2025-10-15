@@ -1,1 +1,1 @@
-These scripts are used to help automate parts of route graph generation process.
+/home/thomas24/hive_ws2/src/navigation2/nav2_route/graphs/scripts/README.md

@@ -23,8 +23,8 @@ nav2_msgs__msg__BehaviorTreeLog__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "builtin_interfaces/msg/detail/time__functions.h"
 #include "nav2_msgs/msg/detail/behavior_tree_status_change__functions.h"
+#include "builtin_interfaces/msg/detail/time__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG

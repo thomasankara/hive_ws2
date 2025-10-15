@@ -1,0 +1,8 @@
+source;share/dev_route_provider/hook/cmake_prefix_path.ps1
+source;share/dev_route_provider/hook/cmake_prefix_path.dsv
+source;share/dev_route_provider/hook/cmake_prefix_path.sh
+source;share/dev_route_provider/local_setup.bash
+source;share/dev_route_provider/local_setup.dsv
+source;share/dev_route_provider/local_setup.ps1
+source;share/dev_route_provider/local_setup.sh
+source;share/dev_route_provider/local_setup.zsh

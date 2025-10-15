@@ -1,0 +1,100 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found nav2_common: 1.4.0 (/home/thomas24/hive_ws2/install/nav2_common/share/nav2_common/cmake)
+-- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+-- Found ament_cmake_pytest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+-- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Found angles: 1.16.0 (/opt/ros/jazzy/share/angles/cmake)
+-- Found behaviortree_cpp: 4.7.1 (/opt/ros/jazzy/share/behaviortree_cpp/cmake)
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found nav2_amcl: 1.4.0 (/home/thomas24/hive_ws2/install/nav2_amcl/share/nav2_amcl/cmake)
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found nav2_behavior_tree: 1.4.0 (/home/thomas24/hive_ws2/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake)
+-- Found nav2_lifecycle_manager: 1.4.0 (/home/thomas24/hive_ws2/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake)
+-- Found nav2_map_server: 1.4.0 (/home/thomas24/hive_ws2/install/nav2_map_server/share/nav2_map_server/cmake)
+-- Found nav2_minimal_tb3_sim: 1.0.1 (/opt/ros/jazzy/share/nav2_minimal_tb3_sim/cmake)
+-- Found nav2_navfn_planner: 1.4.0 (/home/thomas24/hive_ws2/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake)
+-- Found nav2_planner: 1.4.0 (/home/thomas24/hive_ws2/install/nav2_planner/share/nav2_planner/cmake)
+-- Found navigation2: 1.4.0 (/home/thomas24/hive_ws2/install/navigation2/share/navigation2/cmake)
+-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/thomas24/hive_ws2/src/navigation2/nav2_system_tests/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/thomas24/hive_ws2/build/nav2_system_tests
+[ 11%] Built target gtest
+[ 11%] Built target gtest_main
+[ 22%] Built target global_planner
+[ 22%] Built target test_updown
+[ 28%] Built target local_controller
+[ 34%] Built target smoother
+[ 82%] Built target test_wait_behavior_node
+[ 82%] Built target test_localization_node
+[ 82%] Built target test_planner_is_path_valid
+[ 82%] Built target test_planner_costmaps_node
+[ 82%] Built target test_behavior_tree_node
+[ 82%] Built target test_planner_random_node
+[ 91%] Built target test_planner_plugins
+[100%] Built target test_assisted_teleop_behavior_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/src/error_codes/controller_plugins.xml
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/lib/liblocal_controller.so
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/controller_plugins.xml
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/src/error_codes/planner_plugins.xml
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/lib/libglobal_planner.so
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/planner_plugins.xml
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/src/error_codes/smoother_plugins.xml
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/lib/libsmoother.so
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/smoother_plugins.xml
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/lib/nav2_system_tests/test_updown
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/test_updown_launch.py
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/maps/empty_room.pgm
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/maps/empty_room.png
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/maps/empty_room.yaml
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/maps/keepout_mask.pgm
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/maps/keepout_mask.yaml
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/maps/map.pgm
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/maps/map.xcf
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/maps/map_circular.pgm
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/maps/map_circular.yaml
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/maps/speed_mask.pgm
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/maps/speed_mask.yaml
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/models/cardboard_box.sdf
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/ament_index/resource_index/package_run_dependencies/nav2_system_tests
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/ament_index/resource_index/parent_prefix_path/nav2_system_tests
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/environment/path.sh
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/environment/path.dsv
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/local_setup.bash
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/local_setup.sh
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/local_setup.zsh
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/local_setup.dsv
+-- Symlinking: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/package.dsv
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/ament_index/resource_index/packages/nav2_system_tests
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_system_tests
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/cmake/nav2_system_testsConfig.cmake
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/cmake/nav2_system_testsConfig-version.cmake
+-- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_system_tests/share/nav2_system_tests/package.xml

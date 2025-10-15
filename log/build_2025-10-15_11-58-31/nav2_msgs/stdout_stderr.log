@@ -1,0 +1,23 @@
+[  0%] Built target nav2_msgs__rosidl_generator_type_description
+[  0%] Built target ament_cmake_python_symlink_nav2_msgs
+[  0%] Built target nav2_msgs__cpp
+[ 29%] Built target nav2_msgs__rosidl_generator_c
+[ 39%] Built target nav2_msgs__rosidl_typesupport_c
+[ 49%] Built target nav2_msgs__rosidl_typesupport_introspection_c
+[ 59%] Built target nav2_msgs__rosidl_typesupport_cpp
+[ 86%] Built target nav2_msgs__rosidl_typesupport_fastrtps_c
+[ 89%] Built target nav2_msgs__rosidl_typesupport_fastrtps_cpp
+[ 89%] Built target nav2_msgs__rosidl_typesupport_introspection_cpp
+[ 89%] Built target nav2_msgs
+[ 89%] Built target nav2_msgs__py
+running egg_info
+[ 99%] Built target nav2_msgs__rosidl_generator_py
+writing nav2_msgs.egg-info/PKG-INFO
+writing dependency_links to nav2_msgs.egg-info/dependency_links.txt
+writing top-level names to nav2_msgs.egg-info/top_level.txt
+[100%] Built target nav2_msgs_s__rosidl_typesupport_fastrtps_c
+[100%] Built target nav2_msgs_s__rosidl_typesupport_c
+[100%] Built target nav2_msgs_s__rosidl_typesupport_introspection_c
+reading manifest file 'nav2_msgs.egg-info/SOURCES.txt'
+writing manifest file 'nav2_msgs.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_nav2_msgs_egg

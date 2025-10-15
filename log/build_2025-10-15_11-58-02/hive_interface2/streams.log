@@ -1,0 +1,20 @@
+[0.006s] Invoking command in '/home/thomas24/hive_ws2/build/hive_interface2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/thomas24/hive_ws2/src/hive_interface2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thomas24/hive_ws2/install/hive_interface2
+[0.017s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.154s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.161s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.163s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.187s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.202s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.203s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.219s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.228s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.448s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):
+[0.448s]   Packages installing interfaces must include
+[0.449s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.449s]   package.xml
+[0.449s] Call Stack (most recent call first):
+[0.449s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[0.449s] 
+[0.449s] [0m
+[0.449s] -- Configuring incomplete, errors occurred!
+[0.454s] Invoked command in '/home/thomas24/hive_ws2/build/hive_interface2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/thomas24/hive_ws2/src/hive_interface2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thomas24/hive_ws2/install/hive_interface2

@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "nav2_msgs/srv/detail/set_initial_pose__struct.h"
+#include "nav2_msgs/srv/detail/set_initial_pose__functions.h"
 #include "nav2_msgs/srv/detail/set_initial_pose__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "nav2_msgs/srv/detail/set_initial_pose__functions.h"
+#include "nav2_msgs/srv/detail/set_initial_pose__struct.h"
 
 #ifdef __cplusplus
 extern "C"

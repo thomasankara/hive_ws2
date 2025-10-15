@@ -1,0 +1,84 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Configuring done (1.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/thomas24/hive_ws2/build/hive_interface2
+[  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  2%] Built target hive_interface2__rosidl_generator_type_description
+[  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  8%] Built target hive_interface2__cpp
+[ 17%] [32mBuilding C object CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/lanelet_mini2__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/lanelet_mini2__description.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/lanelet_mini2__type_support.c.o[0m
+[ 20%] [32m[1mLinking C shared library libhive_interface2__rosidl_generator_c.so[0m
+[ 20%] Built target hive_interface2__rosidl_generator_c
+[ 38%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 38%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 38%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 38%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 38%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/rosidl_typesupport_c/hive_interface2/msg/lanelet_mini2__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hive_interface2/msg/lanelet_mini2__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/lanelet_mini2__type_support.cpp.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hive_interface2/msg/detail/lanelet_mini2__type_support.c.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp.o[0m
+[ 55%] [32m[1mLinking CXX shared library libhive_interface2__rosidl_typesupport_c.so[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/lanelet_mini2__type_support_c.cpp.o[0m
+[ 61%] [32m[1mLinking C shared library libhive_interface2__rosidl_typesupport_introspection_c.so[0m
+[ 61%] Built target hive_interface2__rosidl_typesupport_c
+[ 61%] Built target hive_interface2__rosidl_typesupport_introspection_c
+[ 64%] [32m[1mLinking CXX shared library libhive_interface2__rosidl_typesupport_cpp.so[0m
+[ 67%] [32m[1mLinking CXX shared library libhive_interface2__rosidl_typesupport_introspection_cpp.so[0m
+[ 67%] Built target hive_interface2__rosidl_typesupport_cpp
+[ 67%] Built target hive_interface2__rosidl_typesupport_introspection_cpp
+[ 70%] [32m[1mLinking CXX shared library libhive_interface2__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 73%] [32m[1mLinking CXX shared library libhive_interface2__rosidl_typesupport_fastrtps_c.so[0m
+[ 73%] Built target hive_interface2__rosidl_typesupport_fastrtps_cpp
+[ 73%] Built target hive_interface2__rosidl_typesupport_fastrtps_c
+[ 73%] Built target hive_interface2
+[ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 76%] Built target hive_interface2__py
+[ 79%] [32mBuilding C object CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_s.c.o[0m
+[ 82%] [32m[1mLinking C shared library libhive_interface2__rosidl_generator_py.so[0m
+[ 82%] Built target hive_interface2__rosidl_generator_py
+[ 91%] [32mBuilding C object CMakeFiles/hive_interface2_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/hive_interface2_s__rosidl_typesupport_c.dir/rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_c.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/hive_interface2_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 94%] [32m[1mLinking C shared module rosidl_generator_py/hive_interface2/hive_interface2_s__rosidl_typesupport_c.so[0m
+[ 97%] [32m[1mLinking C shared module rosidl_generator_py/hive_interface2/hive_interface2_s__rosidl_typesupport_introspection_c.so[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/hive_interface2/hive_interface2_s__rosidl_typesupport_fastrtps_c.so[0m
+[100%] Built target hive_interface2_s__rosidl_typesupport_introspection_c
+[100%] Built target hive_interface2_s__rosidl_typesupport_c
+[100%] Built target hive_interface2_s__rosidl_typesupport_fastrtps_c
+-- Install configuration: ""
+-- Installing: /home/thomas24/hive_ws2/install/hive_interface2/share/ament_index/resource_index/package_run_dependencies/hive_interface2
+-- Installing: /home/thomas24/hive_ws2/install/hive_interface2/share/ament_index/resource_index/parent_prefix_path/hive_interface2
+-- Installing: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/environment/ament_prefix_path.sh
+-- Installing: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/environment/ament_prefix_path.dsv
+-- Installing: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/environment/path.sh
+-- Installing: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/environment/path.dsv
+-- Installing: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/local_setup.bash
+-- Installing: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/local_setup.sh
+-- Installing: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/local_setup.zsh
+-- Installing: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/local_setup.dsv
+-- Installing: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/package.dsv
+-- Installing: /home/thomas24/hive_ws2/install/hive_interface2/share/ament_index/resource_index/packages/hive_interface2
+-- Installing: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/hive_interface2Config.cmake
+-- Installing: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake/hive_interface2Config-version.cmake
+-- Installing: /home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/package.xml

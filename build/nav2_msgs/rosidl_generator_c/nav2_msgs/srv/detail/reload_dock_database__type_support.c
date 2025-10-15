@@ -4,8 +4,8 @@
 
 #include <string.h>
 
-#include "nav2_msgs/srv/detail/reload_dock_database__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "nav2_msgs/srv/detail/reload_dock_database__functions.h"
 #include "nav2_msgs/srv/detail/reload_dock_database__struct.h"
 #include "nav2_msgs/srv/detail/reload_dock_database__type_support.h"
 

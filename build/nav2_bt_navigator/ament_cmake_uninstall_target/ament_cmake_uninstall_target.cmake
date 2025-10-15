@@ -55,3 +55,6 @@ endforeach()
 message(STATUS "Execute custom uninstall script")
 
 # begin of custom uninstall code
+
+# uninstall files installed using the symlink install functions
+include("/home/thomas24/hive_ws2/build/nav2_bt_navigator/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake")

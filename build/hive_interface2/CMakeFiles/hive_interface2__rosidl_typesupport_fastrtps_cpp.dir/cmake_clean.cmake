@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp.o"
+  "CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp.o.d"
+  "CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2_array__type_support.cpp.o"
+  "CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2_array__type_support.cpp.o.d"
+  "CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_route__type_support.cpp.o"
+  "CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_route__type_support.cpp.o.d"
+  "libhive_interface2__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libhive_interface2__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2_array__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/lanelet_mini2__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/lanelet_mini2_array__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/compute_route__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_route__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

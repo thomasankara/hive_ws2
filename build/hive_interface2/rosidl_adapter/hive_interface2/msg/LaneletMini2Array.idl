@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hive_interface2/msg/LaneletMini2Array.msg
+// generated code does not contain a copyright notice
+
+#include "hive_interface2/msg/LaneletMini2.idl"
+
+module hive_interface2 {
+  module msg {
+    @verbatim (language="comment", text=
+      "============================================================" "\n"
+      "Hive Robotics - LaneletMini2Array.msg" "\n"
+      "============================================================" "\n"
+      "Représente un ensemble de LaneletMini2, utilisé pour transférer" "\n"
+      "toute la base ou une sélection de lanelets." "\n"
+      "============================================================")
+    struct LaneletMini2Array {
+      sequence<hive_interface2::msg::LaneletMini2> lanelets;
+    };
+  };
+};

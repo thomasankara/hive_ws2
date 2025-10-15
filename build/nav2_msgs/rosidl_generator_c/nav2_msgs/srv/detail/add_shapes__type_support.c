@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "nav2_msgs/srv/detail/add_shapes__functions.h"
-#include "nav2_msgs/srv/detail/add_shapes__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "nav2_msgs/srv/detail/add_shapes__struct.h"
+#include "nav2_msgs/srv/detail/add_shapes__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

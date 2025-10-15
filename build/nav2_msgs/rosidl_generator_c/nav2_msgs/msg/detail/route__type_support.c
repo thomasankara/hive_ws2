@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "nav2_msgs/msg/detail/route__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "nav2_msgs/msg/detail/route__type_support.h"
+#include "nav2_msgs/msg/detail/route__functions.h"
 #include "nav2_msgs/msg/detail/route__struct.h"
 
 #ifdef __cplusplus

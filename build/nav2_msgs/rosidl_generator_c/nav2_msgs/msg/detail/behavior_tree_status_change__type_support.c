@@ -5,8 +5,8 @@
 #include <string.h>
 
 #include "rosidl_typesupport_interface/macros.h"
-#include "nav2_msgs/msg/detail/behavior_tree_status_change__struct.h"
 #include "nav2_msgs/msg/detail/behavior_tree_status_change__functions.h"
+#include "nav2_msgs/msg/detail/behavior_tree_status_change__struct.h"
 #include "nav2_msgs/msg/detail/behavior_tree_status_change__type_support.h"
 
 #ifdef __cplusplus

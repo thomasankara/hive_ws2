@@ -5,8 +5,8 @@
 #include <string.h>
 
 #include "rosidl_typesupport_interface/macros.h"
-#include "nav2_msgs/msg/detail/polygon_object__struct.h"
 #include "nav2_msgs/msg/detail/polygon_object__type_support.h"
+#include "nav2_msgs/msg/detail/polygon_object__struct.h"
 #include "nav2_msgs/msg/detail/polygon_object__functions.h"
 
 #ifdef __cplusplus

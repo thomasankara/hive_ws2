@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "nav2_msgs/action/detail/follow_gps_waypoints__struct.h"
-#include "nav2_msgs/action/detail/follow_gps_waypoints__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "nav2_msgs/action/detail/follow_gps_waypoints__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "nav2_msgs/action/detail/follow_gps_waypoints__functions.h"
+#include "nav2_msgs/action/detail/follow_gps_waypoints__struct.h"
 
 #ifdef __cplusplus
 extern "C"

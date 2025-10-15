@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "nav2_msgs/msg/detail/costmap_meta_data__type_support.h"
 #include "nav2_msgs/msg/detail/costmap_meta_data__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "nav2_msgs/msg/detail/costmap_meta_data__struct.h"
+#include "nav2_msgs/msg/detail/costmap_meta_data__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

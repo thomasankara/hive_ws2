@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "nav2_msgs/msg/detail/trajectory_point__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "nav2_msgs/msg/detail/trajectory_point__type_support.h"
 #include "nav2_msgs/msg/detail/trajectory_point__struct.h"
-#include "nav2_msgs/msg/detail/trajectory_point__functions.h"
 
 #ifdef __cplusplus
 extern "C"

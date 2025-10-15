@@ -1,0 +1,50 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Found hive_interface2: 0.0.1 (/home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake)
+-- Configuring done (1.6s)
+-- Generating done (0.0s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_INSTALL_INTO_PREFIX_ROOT
+
+[0m
+-- Build files have been written to: /home/thomas24/hive_ws2/build/hive_route_planner
+[ 50%] Built target route_utils
+[ 50%] [32mBuilding CXX object CMakeFiles/astar_planner.dir/src/astar_planner.cpp.o[0m
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/astar_planner.cpp:229:15:[m[K [01;31m[Kerror: [m[K‘[01m[KPathResult[m[K’ in ‘[01m[Kclass hive_route_planner::AStarPlanner[m[K’ does not name a type
+  229 | AStarPlanner::[01;31m[KPathResult[m[K
+      |               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/astar_planner.cpp:320:15:[m[K [01;31m[Kerror: [m[K‘[01m[KPathResult[m[K’ in ‘[01m[Kclass hive_route_planner::AStarPlanner[m[K’ does not name a type
+  320 | AStarPlanner::[01;31m[KPathResult[m[K
+      |               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/astar_planner.cpp:363:15:[m[K [01;31m[Kerror: [m[K‘[01m[KPathResult[m[K’ in ‘[01m[Kclass hive_route_planner::AStarPlanner[m[K’ does not name a type
+  363 | AStarPlanner::[01;31m[KPathResult[m[K
+      |               [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/astar_planner.dir/build.make:76: CMakeFiles/astar_planner.dir/src/astar_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/astar_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "nav2_msgs/srv/detail/save_map__type_support.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "nav2_msgs/srv/detail/save_map__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "nav2_msgs/srv/detail/save_map__functions.h"
+#include "nav2_msgs/srv/detail/save_map__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

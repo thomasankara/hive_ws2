@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "nav2_msgs/msg/detail/speed_limit__functions.h"
+#include "nav2_msgs/msg/detail/speed_limit__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "nav2_msgs/msg/detail/speed_limit__struct.h"
-#include "nav2_msgs/msg/detail/speed_limit__type_support.h"
+#include "nav2_msgs/msg/detail/speed_limit__functions.h"
 
 #ifdef __cplusplus
 extern "C"

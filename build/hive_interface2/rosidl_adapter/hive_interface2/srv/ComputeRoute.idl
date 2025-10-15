@@ -1,0 +1,53 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from hive_interface2/srv/ComputeRoute.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "hive_interface2/msg/LaneletMini2.idl"
+
+module hive_interface2 {
+  module srv {
+    @verbatim (language="comment", text=
+      "===============================" "\n"
+      "HiveRoutePlanner - ComputeRoute.srv" "\n"
+      "===============================")
+    struct ComputeRoute_Request {
+      @verbatim (language="comment", text=
+        "--- Requête ---" "\n"
+        "Pose de départ (orientation ignorée ici)")
+      geometry_msgs::msg::Pose start_pose;
+
+      @verbatim (language="comment", text=
+        "Pose d'arrivée (orientation ignorée ici)")
+      geometry_msgs::msg::Pose goal_pose;
+
+      @verbatim (language="comment", text=
+        "Mode de coût :" "\n"
+        "0 = distance minimale" "\n"
+        "1 = temps minimal (utilise max_speed de chaque lanelet)")
+      int32 mode;
+    };
+    struct ComputeRoute_Response {
+      @verbatim (language="comment", text=
+        "--- Réponse ---" "\n"
+        "true si un itinéraire a été trouvé (ou ligne droite < seuil)")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "infos ou erreur")
+      string message;
+
+      @verbatim (language="comment", text=
+        "suite de lanelets (peut être vide si \"ligne droite\")")
+      sequence<hive_interface2::msg::LaneletMini2> path;
+
+      @verbatim (language="comment", text=
+        "distance totale prévue (m)")
+      double total_distance_m;
+
+      @verbatim (language="comment", text=
+        "temps estimé (s)")
+      double estimated_time_s;
+    };
+  };
+};

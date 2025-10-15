@@ -1,7 +1,1 @@
-<class_libraries>
-  <library path="mppi_trajectory_validators">
-    <class name="mppi::DefaultOptimalTrajectoryValidator" type="mppi::OptimalTrajectoryValidator" base_class_type="mppi::OptimalTrajectoryValidator">
-      <description>Default trajectory validator for MPPI controller</description>
-    </class>
-  </library>
-</class_libraries>
+/home/thomas24/hive_ws2/src/navigation2/nav2_mppi_controller/trajectory_validators.xml

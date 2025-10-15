@@ -10,10 +10,8 @@ setup.py
 ../../build/vanilla_brain_nav2/vanilla_brain_nav2.egg-info/zip-safe
 config/nav2_minimal.yaml
 launch/nav2_minimal.launch.py
-launch/vanilla_knifebrain.launch.py
 resource/vanilla_brain_nav2
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 vanilla_brain_nav2/__init__.py
-vanilla_brain_nav2/vanilla_knifebrain_node.py

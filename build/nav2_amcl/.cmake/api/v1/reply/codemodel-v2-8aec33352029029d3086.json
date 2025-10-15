@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-66497575b7669e25ada5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "nav2_amcl",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "amcl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-amcl-Release-f2d97a34e56f66bd1ee6.json",
+					"name" : "amcl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "amcl_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-amcl_core-Release-f95fffd2ce5cad4873a6.json",
+					"name" : "amcl_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_lib-Release-7e57f58584bc4203e069.json",
+					"name" : "map_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motions_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motions_lib-Release-dc7a814c50965be75211.json",
+					"name" : "motions_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_amcl_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_amcl_uninstall-Release-1a943c908605e25479bf.json",
+					"name" : "nav2_amcl_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pf_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pf_lib-Release-b7c3dfcd6b1c278b87b2.json",
+					"name" : "pf_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensors_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensors_lib-Release-8b76a57850429e974460.json",
+					"name" : "sensors_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-c8ae6093c376efd98fa9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/thomas24/hive_ws2/build/nav2_amcl",
+		"source" : "/home/thomas24/hive_ws2/src/navigation2/nav2_amcl"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

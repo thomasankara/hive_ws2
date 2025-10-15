@@ -1,0 +1,95 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hive_interface2/msg/LaneletMini2.msg
+// generated code does not contain a copyright notice
+
+
+module hive_interface2 {
+  module msg {
+    @verbatim (language="comment", text=
+      "============================================================" "\n"
+      "Hive Robotics - LaneletMini2.msg" "\n"
+      "============================================================" "\n"
+      "Représente une portion de voie simplifiée issue de la base SQL lanelet_mini2" "\n"
+      "Utilisée pour la navigation autonome dans Hive Robotics." "\n"
+      "Chaque champ correspond directement à une colonne SQL." "\n"
+      "============================================================")
+    struct LaneletMini2 {
+      @verbatim (language="comment", text=
+        "--- Identifiants hiérarchiques ---" "\n"
+        "Entreprise associée (nom complet)")
+      string enterprise_full_id_str;
+
+      @verbatim (language="comment", text=
+        "Déploiement associé (nom complet)")
+      string deployment_full_id_str;
+
+      @verbatim (language="comment", text=
+        "Session SLAM associée (nom complet)")
+      string slam_session_full_id_str;
+
+      @verbatim (language="comment", text=
+        "--- Identifiant principal du lanelet ---" "\n"
+        "ID unique du lanelet_mini")
+      int32 lanelet_mini_id;
+
+      @verbatim (language="comment", text=
+        "--- Coordonnées du point de départ (référentiel 'map') ---")
+      float start_point_x;
+
+      float start_point_y;
+
+      float start_point_z;
+
+      @verbatim (language="comment", text=
+        "--- Coordonnées du point d'arrivée (référentiel 'map') ---")
+      float end_point_x;
+
+      float end_point_y;
+
+      float end_point_z;
+
+      @verbatim (language="comment", text=
+        "--- Propriétés de navigation ---" "\n"
+        "0=fermé | 1=start->end | 2=end->start | 3=bidirectionnel")
+      int32 navigation_direction;
+
+      @verbatim (language="comment", text=
+        "0=aucun | 1=gauche | 2=droite | 3=deux côtés")
+      int32 border_mode;
+
+      @verbatim (language="comment", text=
+        "true = demi-tour autorisé")
+      boolean u_turn_allowed;
+
+      @verbatim (language="comment", text=
+        "true = pente significative (précaution requise)")
+      boolean slope_alert;
+
+      @verbatim (language="comment", text=
+        "true = forte végétation (ralentir)")
+      boolean vegetation_alert;
+
+      @verbatim (language="comment", text=
+        "true = zone non-bitumée (terre, gravier, etc.)")
+      boolean offroad_alert;
+
+      @verbatim (language="comment", text=
+        "--- Groupes logiques ---" "\n"
+        "Sous-groupe de configuration (ex: avenues)")
+      string configuration_group_id_str;
+
+      @verbatim (language="comment", text=
+        "Groupe routier (ex: grande route)")
+      string road_group_id_str;
+
+      @verbatim (language="comment", text=
+        "--- Propriétés physiques ---" "\n"
+        "Vitesse max (en km/h)")
+      int32 max_speed;
+
+      @verbatim (language="comment", text=
+        "Largeur de la route (en mètres)")
+      float width;
+    };
+  };
+};

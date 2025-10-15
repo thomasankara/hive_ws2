@@ -1,7 +1,1 @@
-# An array of trajectory points that represents a trajectory for a robot to follow.
-
-# Indicates the frame_id of the trajectory.
-std_msgs/Header header
-
-# Array of trajectory points to follow.
-TrajectoryPoint[] points
+/home/thomas24/hive_ws2/src/navigation2/nav2_msgs/msg/Trajectory.msg

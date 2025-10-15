@@ -1,7 +1,1 @@
-std_msgs/Header header
-uint32[] data
-geometry_msgs/Point32 origin
-geometry_msgs/Vector3 resolutions
-uint32 size_x
-uint32 size_y
-uint32 size_z
+/home/thomas24/hive_ws2/src/navigation2/nav2_msgs/msg/VoxelGrid.msg

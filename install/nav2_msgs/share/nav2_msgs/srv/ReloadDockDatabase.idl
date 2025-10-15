@@ -1,17 +1,1 @@
-// generated from rosidl_adapter/resource/srv.idl.em
-// with input from nav2_msgs/srv/ReloadDockDatabase.srv
-// generated code does not contain a copyright notice
-
-
-module nav2_msgs {
-  module srv {
-    @verbatim (language="comment", text=
-      "Reloads the dock's database with a new filepath")
-    struct ReloadDockDatabase_Request {
-      string filepath;
-    };
-    struct ReloadDockDatabase_Response {
-      boolean success;
-    };
-  };
-};
+/home/thomas24/hive_ws2/build/nav2_msgs/rosidl_adapter/nav2_msgs/srv/ReloadDockDatabase.idl

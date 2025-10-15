@@ -4,9 +4,9 @@
 
 #include <string.h>
 
+#include "nav2_msgs/action/detail/dummy_behavior__struct.h"
 #include "nav2_msgs/action/detail/dummy_behavior__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "nav2_msgs/action/detail/dummy_behavior__struct.h"
 #include "nav2_msgs/action/detail/dummy_behavior__type_support.h"
 
 #ifdef __cplusplus

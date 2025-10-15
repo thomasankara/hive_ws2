@@ -1,12 +1,1 @@
-// generated from rosidl_generator_cpp/resource/idl.hpp.em
-// generated code does not contain a copyright notice
-
-#ifndef NAV2_MSGS__SRV__CLEAR_COSTMAP_AROUND_POSE_HPP_
-#define NAV2_MSGS__SRV__CLEAR_COSTMAP_AROUND_POSE_HPP_
-
-#include "nav2_msgs/srv/detail/clear_costmap_around_pose__struct.hpp"
-#include "nav2_msgs/srv/detail/clear_costmap_around_pose__builder.hpp"
-#include "nav2_msgs/srv/detail/clear_costmap_around_pose__traits.hpp"
-#include "nav2_msgs/srv/detail/clear_costmap_around_pose__type_support.hpp"
-
-#endif  // NAV2_MSGS__SRV__CLEAR_COSTMAP_AROUND_POSE_HPP_
+/home/thomas24/hive_ws2/build/nav2_msgs/rosidl_generator_cpp/nav2_msgs/srv/clear_costmap_around_pose.hpp

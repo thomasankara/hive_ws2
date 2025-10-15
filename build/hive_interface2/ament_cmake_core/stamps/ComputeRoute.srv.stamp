@@ -1,0 +1,21 @@
+# ===============================
+# HiveRoutePlanner - ComputeRoute.srv
+# ===============================
+
+# --- Requête ---
+geometry_msgs/Pose start_pose          # Pose de départ (orientation ignorée ici)
+geometry_msgs/Pose goal_pose           # Pose d'arrivée (orientation ignorée ici)
+
+# Mode de coût :
+# 0 = distance minimale
+# 1 = temps minimal (utilise max_speed de chaque lanelet)
+int32 mode
+
+---
+
+# --- Réponse ---
+bool success                           # true si un itinéraire a été trouvé (ou ligne droite < seuil)
+string message                         # infos ou erreur
+hive_interface2/LaneletMini2[] path    # suite de lanelets (peut être vide si "ligne droite")
+float64 total_distance_m               # distance totale prévue (m)
+float64 estimated_time_s               # temps estimé (s)

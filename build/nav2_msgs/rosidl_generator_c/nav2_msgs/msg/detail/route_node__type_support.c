@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "nav2_msgs/msg/detail/route_node__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "nav2_msgs/msg/detail/route_node__functions.h"
 #include "nav2_msgs/msg/detail/route_node__struct.h"
+#include "nav2_msgs/msg/detail/route_node__functions.h"
+#include "nav2_msgs/msg/detail/route_node__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

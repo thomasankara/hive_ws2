@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5149c0e37e0d393cfbc9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "hive_route_planner",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "astar_planner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-astar_planner-a5911b2407a79f4cc623.json",
+					"name" : "astar_planner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hive_route_planner_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hive_route_planner_node-9731631b98377a30e77b.json",
+					"name" : "hive_route_planner_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hive_route_planner_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hive_route_planner_uninstall-82e53291f9a15e2a3245.json",
+					"name" : "hive_route_planner_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "route_utils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-route_utils-65b0e80882b900662a4f.json",
+					"name" : "route_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2173c801e1d8165e06fc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/thomas24/hive_ws2/build/hive_route_planner",
+		"source" : "/home/thomas24/hive_ws2/src/hive_route_planner"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

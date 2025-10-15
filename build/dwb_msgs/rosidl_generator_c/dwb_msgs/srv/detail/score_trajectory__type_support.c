@@ -4,9 +4,9 @@
 
 #include <string.h>
 
+#include "rosidl_typesupport_interface/macros.h"
 #include "dwb_msgs/srv/detail/score_trajectory__functions.h"
 #include "dwb_msgs/srv/detail/score_trajectory__type_support.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "dwb_msgs/srv/detail/score_trajectory__struct.h"
 
 #ifdef __cplusplus

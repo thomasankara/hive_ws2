@@ -1,0 +1,71 @@
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_INSTALL_INTO_PREFIX_ROOT
+
+[0m
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:247:58:[m[K [01;31m[Kerror: [m[K‘[01m[KAStarPlanner[m[K’ in namespace ‘[01m[Khive_route_planner[m[K’ does not name a type
+  247 |   void publishRoutePlanMarkers(const hive_route_planner::[01;31m[KAStarPlanner[m[K& planner,
+      |                                                          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:250:58:[m[K [01;31m[Kerror: [m[K‘[01m[KPathResult[m[K’ in namespace ‘[01m[Khive_route_planner[m[K’ does not name a type
+  250 |                                const hive_route_planner::[01;31m[KPathResult[m[K& best)
+      |                                                          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:[m[K In member function ‘[01m[Kvoid HiveRoutePlannerNode::[01;32m[KhandleComputeRoute[m[K(std::shared_ptr<hive_interface2::srv::ComputeRoute_Request_<std::allocator<void> > >, std::shared_ptr<hive_interface2::srv::ComputeRoute_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:204:25:[m[K [01;31m[Kerror: [m[K‘[01m[Khive_route_planner::AStarPlanner[m[K’ has not been declared
+  204 |     hive_route_planner::[01;31m[KAStarPlanner[m[K::Params P;
+      |                         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:205:5:[m[K [01;31m[Kerror: [m[K‘[01m[KP[m[K’ was not declared in this scope
+  205 |     [01;31m[KP[m[K.epsilon_merge_m = epsilon_merge_m_;
+      |     [01;31m[K^[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:211:25:[m[K [01;31m[Kerror: [m[K‘[01m[KAStarPlanner[m[K’ is not a member of ‘[01m[Khive_route_planner[m[K’
+  211 |     hive_route_planner::[01;31m[KAStarPlanner[m[K planner(store_.data(), P);
+      |                         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:212:62:[m[K [01;31m[Kerror: [m[K‘[01m[Khive_route_planner::CostMode[m[K’ has not been declared
+  212 |     const auto mode = (req->mode == 1) ? hive_route_planner::[01;31m[KCostMode[m[K::TIME
+      |                                                              [01;31m[K^~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:213:62:[m[K [01;31m[Kerror: [m[K‘[01m[Khive_route_planner::CostMode[m[K’ has not been declared
+  213 |                                        : hive_route_planner::[01;31m[KCostMode[m[K::DISTANCE;
+      |                                                              [01;31m[K^~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:215:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanner[m[K’ was not declared in this scope
+  215 |     auto R = [01;31m[Kplanner[m[K.compute({sx,sy}, {gx,gy}, mode, /*return_with_projection_lanelets=*/true);
+      |              [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:1[m[K:
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:242:34:[m[K [01;31m[Kerror: [m[K‘[01m[Khive_route_planner::CostMode[m[K’ has not been declared
+  242 |       (mode==hive_route_planner::[01;31m[KCostMode[m[K::DISTANCE) ? "DIST" : "TIME",
+      |                                  [01;31m[K^~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:[m[K In member function ‘[01m[Kvoid HiveRoutePlannerNode::[01;32m[KpublishRoutePlanMarkers[m[K(const int&, std::pair<double, double>, std::pair<double, double>, const int&)[m[K’:
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:274:30:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kstart_projection[m[K’ in ‘[01m[Kplanner[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+  274 |     const auto& sp = planner.[01;31m[Kstart_projection[m[K();
+      |                              [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:275:30:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kgoal_projection[m[K’ in ‘[01m[Kplanner[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+  275 |     const auto& gp = planner.[01;31m[Kgoal_projection[m[K();
+      |                              [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:281:38:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kcandidate_results[m[K’ in ‘[01m[Kplanner[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+  281 |     const auto& candidates = planner.[01;31m[Kcandidate_results[m[K();
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:325:52:[m[K [01;31m[Kerror: [m[K‘[01m[KPathResult[m[K’ in namespace ‘[01m[Khive_route_planner[m[K’ does not name a type
+  325 |     auto eq_result = [&](const hive_route_planner::[01;31m[KPathResult[m[K& A,
+      |                                                    [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:331:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+  331 |     }[01;31m[K;[m[K
+      |      [01;31m[K^[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:325:25:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  325 |     auto eq_result = [&][01;36m[K([m[Kconst hive_route_planner::PathResult& A,
+      |                         [01;36m[K^[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:[m[K In lambda function:
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:331:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+  331 |     }[01;31m[K;[m[K
+      |      [01;31m[K^[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:[m[K In member function ‘[01m[Kvoid HiveRoutePlannerNode::[01;32m[KpublishRoutePlanMarkers[m[K(const int&, std::pair<double, double>, std::pair<double, double>, const int&)[m[K’:
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:345:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksuccess[m[K’ in ‘[01m[Kbest[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+  345 |     if (candidates.empty() && best.[01;31m[Ksuccess[m[K) {
+      |                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:346:27:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Klanelet_indices[m[K’ in ‘[01m[Kbest[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+  346 |       add_line(id++, best.[01;31m[Klanelet_indices[m[K, /*is_best=*/true,
+      |                           [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/hive_route_planner_node.dir/build.make:76: CMakeFiles/hive_route_planner_node.dir/src/hive_route_planner_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:194: CMakeFiles/hive_route_planner_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

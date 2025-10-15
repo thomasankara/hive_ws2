@@ -1,0 +1,16 @@
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/route_utils.cpp:[m[K In member function ‘[01m[Kvisualization_msgs::msg::MarkerArray hive_route_planner::RouteDataStore::[01;32m[KbuildMarkerArray[m[K(const std::string&, const std::string&, float, float) const[m[K’:
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/route_utils.cpp:33:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+   33 |   [01;31m[Krclcpp[m[K::Time stamp(0); // laisser RViz afficher sans contrainte de TF
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/route_utils.cpp:45:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kstamp[m[K’ was not declared in this scope
+   45 |   lines.header.stamp = [01;31m[Kstamp[m[K;
+      |                        [01;31m[K^~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/route_utils.cpp:52:20:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+   52 |   lines.lifetime = [01;31m[Krclcpp[m[K::Duration(0,0); // infini
+      |                    [01;31m[K^~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/route_utils.cpp:65:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+   65 |   pts.lifetime = [01;31m[Krclcpp[m[K::Duration(0,0);
+      |                  [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/route_utils.dir/build.make:76: CMakeFiles/route_utils.dir/src/route_utils.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/route_utils.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

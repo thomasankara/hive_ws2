@@ -1,4 +1,1 @@
-# Name of configured polygons
-string[] polygons
-# List of detections for each polygon
-bool[] detections
+/home/thomas24/hive_ws2/src/navigation2/nav2_msgs/msg/CollisionDetectorState.msg

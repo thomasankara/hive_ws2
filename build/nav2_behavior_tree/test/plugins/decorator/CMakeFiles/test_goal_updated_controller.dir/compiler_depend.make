@@ -8,23 +8,23 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
   /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/waypoint_status__type_support.hpp \
   /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/waypoint_status.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/action_client.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/interface_factories.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/lifecycle_node.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_thread.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_utils.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/publisher.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/qos_profiles.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_client.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_server.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/simple_action_server.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/subscription.hpp \
   /home/thomas24/hive_ws2/src/navigation2/nav2_behavior_tree/include/nav2_behavior_tree/bt_utils.hpp \
   /home/thomas24/hive_ws2/src/navigation2/nav2_behavior_tree/include/nav2_behavior_tree/json_utils.hpp \
   /home/thomas24/hive_ws2/src/navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/decorator/goal_updated_controller.hpp \
   /home/thomas24/hive_ws2/src/navigation2/nav2_behavior_tree/test/utils/test_behavior_tree_fixture.hpp \
   /home/thomas24/hive_ws2/src/navigation2/nav2_behavior_tree/test/utils/test_dummy_tree_node.hpp \
   /home/thomas24/hive_ws2/src/navigation2/nav2_behavior_tree/test/utils/test_transform_handler.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/action_client.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/interface_factories.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/lifecycle_node.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_thread.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_utils.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/publisher.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/qos_profiles.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_client.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_server.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/simple_action_server.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/subscription.hpp \
   /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp \
   /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h \
   /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h \
@@ -1132,8 +1132,6 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 
 /opt/ros/jazzy/include/rcutils/rcutils/visibility_control_macros.h:
 
-/opt/ros/jazzy/include/rcutils/rcutils/types/uint8_array.h:
-
 /opt/ros/jazzy/include/rcutils/rcutils/types/string_map.h:
 
 /opt/ros/jazzy/include/rcutils/rcutils/types/string_array.h:
@@ -1254,12 +1252,6 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
 
-/opt/ros/jazzy/include/rcpputils/rcpputils/pointer_traits.hpp:
-
-/usr/include/c++/13/bits/shared_ptr.h:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_options.hpp:
 
 /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
@@ -1282,25 +1274,11 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:
 
-/usr/include/c++/13/bits/range_access.h:
-
-/opt/ros/jazzy/include/rmw/rmw/qos_string_conversions.h:
-
 /usr/include/c++/13/bits/basic_ios.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_clock_interface_traits.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_services_interface_traits.hpp:
-
-/opt/ros/jazzy/include/behaviortree_cpp/decorators/keep_running_until_failure_node.h:
-
-/opt/ros/jazzy/include/behaviortree_cpp/decorators/force_failure_node.h:
-
-/opt/ros/jazzy/include/tf2/tf2/convert.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:
 
@@ -1402,6 +1380,8 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp:
 
+/opt/ros/jazzy/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp:
+
 /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__functions.h:
 
 /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp:
@@ -1424,9 +1404,9 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/qos_parameters.hpp:
 
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/qos_profiles.hpp:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/create_subscription.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/create_service.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/resolve_use_intra_process.hpp:
 
@@ -1482,13 +1462,21 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp:
-
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /opt/ros/jazzy/include/rcl/rcl/init.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/future_return_code.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/clock.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp:
+
+/opt/ros/jazzy/include/behaviortree_cpp/bt_factory.h:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp:
 
@@ -1509,6 +1497,10 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp:
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__struct.h:
+
+/opt/ros/jazzy/include/rcutils/rcutils/macros.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp:
 
@@ -1538,12 +1530,6 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp:
-
-/opt/ros/jazzy/include/behaviortree_cpp/bt_factory.h:
-
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp:
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.hpp:
@@ -1568,13 +1554,15 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__builder.hpp:
 
-/opt/ros/jazzy/include/bond/bond/msg/detail/constants__type_support.hpp:
-
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp:
 
 /opt/ros/jazzy/include/bondcpp/bondcpp/bond.hpp:
 
 /opt/ros/jazzy/include/bond/bond/msg/detail/constants__traits.hpp:
+
+/opt/ros/jazzy/include/behaviortree_cpp/decorators/keep_running_until_failure_node.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_services_interface_traits.hpp:
 
 /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h:
 
@@ -1583,16 +1571,6 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp:
 
 /opt/ros/jazzy/include/bond/bond/msg/constants.hpp:
-
-/opt/ros/jazzy/include/rcutils/rcutils/snprintf.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/allocator/allocator_common.hpp:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__struct.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp:
-
-/usr/include/linux/types.h:
 
 /opt/ros/jazzy/include/behaviortree_cpp/scripting/script_parser.hpp:
 
@@ -1610,11 +1588,11 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:
 
+/opt/ros/jazzy/include/behaviortree_cpp/decorators/force_failure_node.h:
+
+/opt/ros/jazzy/include/tf2/tf2/convert.hpp:
+
 /opt/ros/jazzy/include/rcl/rcl/service.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/future_return_code.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/clock.hpp:
 
 /opt/ros/jazzy/include/behaviortree_cpp/decorators/timeout_node.h:
 
@@ -1630,13 +1608,13 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 
 /opt/ros/jazzy/include/behaviortree_cpp/decorators/loop_node.h:
 
-/opt/ros/jazzy/include/rcutils/rcutils/types/hash_map.h:
-
 /opt/ros/jazzy/include/rcl/rcl/subscription.h:
 
 /usr/include/stdint.h:
 
 /opt/ros/jazzy/include/behaviortree_cpp/decorators/delay_node.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
 
 /usr/include/pthread.h:
 
@@ -1649,10 +1627,6 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 /home/thomas24/hive_ws2/src/navigation2/nav2_behavior_tree/test/plugins/decorator/test_goal_updated_controller.cpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:
-
-/opt/ros/jazzy/include/bond/bond/msg/detail/constants__builder.hpp:
-
-/opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__builder.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:
 
@@ -1681,22 +1655,6 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 /usr/include/c++/13/bits/memory_resource.h:
 
 /usr/include/c++/13/pstl/glue_memory_defs.h:
-
-/opt/ros/jazzy/include/behaviortree_cpp/controls/fallback_node.h:
-
-/opt/ros/jazzy/include/bond/bond/msg/detail/constants__struct.hpp:
-
-/opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__traits.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp:
-
-/usr/include/c++/13/bits/streambuf_iterator.h:
-
-/opt/ros/jazzy/include/behaviortree_cpp/behavior_tree.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp:
-
-/opt/ros/jazzy/include/rcl_action/rcl_action/visibility_control.h:
 
 /opt/ros/jazzy/include/behaviortree_cpp/contrib/any.hpp:
 
@@ -1736,6 +1694,22 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 
 /opt/ros/jazzy/include/rcl/rcl/time.h:
 
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp:
+
+/usr/include/c++/13/bits/streambuf_iterator.h:
+
+/opt/ros/jazzy/include/behaviortree_cpp/behavior_tree.h:
+
+/opt/ros/jazzy/include/behaviortree_cpp/controls/fallback_node.h:
+
+/opt/ros/jazzy/include/bond/bond/msg/detail/constants__struct.hpp:
+
+/opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__traits.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp:
+
+/opt/ros/jazzy/include/rcl_action/rcl_action/visibility_control.h:
+
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/is_ros_compatible_type.hpp:
@@ -1766,11 +1740,51 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp:
 
+/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/macros.h:
+
+/opt/ros/jazzy/include/behaviortree_cpp/condition_node.h:
+
+/opt/ros/jazzy/include/bond/bond/msg/detail/constants__type_support.hpp:
+
+/opt/ros/jazzy/include/rcutils/rcutils/types/uint8_array.h:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/subscription.hpp:
+
+/opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp:
 
 /usr/include/c++/13/bits/valarray_array.tcc:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/action_client.hpp:
+
+/opt/ros/jazzy/include/rcutils/rcutils/snprintf.h:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp:
+
+/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/allocator/allocator_common.hpp:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__struct.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp:
+
+/usr/include/linux/types.h:
+
+/opt/ros/jazzy/include/bond/bond/msg/detail/status__builder.hpp:
+
+/usr/include/c++/13/bits/localefwd.h:
+
+/opt/ros/jazzy/include/behaviortree_cpp/actions/unset_blackboard_node.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/subscription_base.hpp:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h:
 
 /opt/ros/jazzy/include/behaviortree_cpp/utils/locked_reference.hpp:
 
@@ -1782,45 +1796,7 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/macros.h:
-
-/opt/ros/jazzy/include/behaviortree_cpp/condition_node.h:
-
-/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp:
-
-/home/thomas24/hive_ws2/src/navigation2/nav2_behavior_tree/test/utils/test_behavior_tree_fixture.hpp:
-
-/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:
-
-/opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_info.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/stdio2-decl.h:
-
-/opt/ros/jazzy/include/behaviortree_cpp/contrib/magic_enum.hpp:
-
-/usr/include/c++/13/pstl/glue_numeric_defs.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/create_service.hpp:
-
-/opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
-
-/opt/ros/jazzy/include/tf2/tf2/LinearMath/Matrix3x3.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
-
-/opt/ros/jazzy/include/rcutils/rcutils/macros.h:
-
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_client.hpp:
-
-/opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/path__builder.hpp:
+/opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/key_value__struct.h:
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__builder.hpp:
 
@@ -1830,35 +1806,61 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:
 
-/opt/ros/jazzy/include/behaviortree_cpp/actions/unset_blackboard_node.h:
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/interface_factories.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/subscription_base.hpp:
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h:
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:
 
-/opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.h:
+/opt/ros/jazzy/include/bondcpp/bondcpp/visibility_control.hpp:
 
-/opt/ros/jazzy/include/behaviortree_cpp/leaf_node.h:
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp:
 
-/opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/key_value__struct.h:
+/usr/include/assert.h:
 
-/opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:
+/opt/ros/jazzy/include/bond/bond/msg/detail/constants__builder.hpp:
 
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.h:
+/opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__builder.hpp:
 
-/home/thomas24/hive_ws2/src/navigation2/nav2_behavior_tree/test/utils/test_transform_handler.hpp:
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.h:
 
-/home/thomas24/hive_ws2/src/navigation2/nav2_behavior_tree/include/nav2_behavior_tree/json_utils.hpp:
+/opt/ros/jazzy/include/behaviortree_cpp/decorators/script_precondition.h:
 
-/usr/include/c++/13/bits/locale_facets_nonio.h:
+/opt/ros/jazzy/include/rcl/rcl/wait.h:
 
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/publisher.hpp:
+/opt/ros/jazzy/include/rmw/rmw/events_statuses/events_statuses.h:
+
+/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set.hpp:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_client.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/opt/ros/jazzy/include/behaviortree_cpp/controls/switch_node.h:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_status.hpp:
+
+/opt/ros/jazzy/include/rcutils/rcutils/types/array_list.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp:
+
+/usr/include/c++/13/bits/locale_conv.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_info.hpp:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_behavior_tree/test/utils/test_behavior_tree_fixture.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp:
 
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/subscription.hpp:
-
 /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/waypoint_status__struct.hpp:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/qos_profiles.hpp:
 
 /opt/ros/jazzy/include/behaviortree_cpp/actions/always_failure_node.h:
 
@@ -1866,9 +1868,59 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/exceptions.hpp:
 
-/opt/ros/jazzy/include/behaviortree_cpp/utils/wakeup_signal.hpp:
+/opt/ros/jazzy/include/rcutils/rcutils/types/hash_map.h:
 
-/opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__functions.h:
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_utils.hpp:
+
+/usr/include/c++/13/cwctype:
+
+/opt/ros/jazzy/include/rcutils/rcutils/testing/fault_injection.h:
+
+/usr/include/c++/13/initializer_list:
+
+/opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:
+
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
+
+/usr/include/c++/13/bits/basic_string.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_message.hpp:
+
+/opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.hpp:
+
+/opt/ros/jazzy/include/rcpputils/rcpputils/pointer_traits.hpp:
+
+/usr/include/c++/13/bits/shared_ptr.h:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.h:
+
+/opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:
+
+/opt/ros/jazzy/include/rmw/rmw/qos_string_conversions.h:
+
+/usr/include/c++/13/bits/range_access.h:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_behavior_tree/test/utils/test_transform_handler.hpp:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_behavior_tree/include/nav2_behavior_tree/json_utils.hpp:
+
+/usr/include/c++/13/bits/locale_facets_nonio.h:
+
+/opt/ros/jazzy/include/behaviortree_cpp/leaf_node.h:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.h:
+
+/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:
+
+/opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:
 
 /usr/include/c++/13/bits/utility.h:
 
@@ -1886,6 +1938,14 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 
 /opt/ros/jazzy/include/rcl/rcl/network_flow_endpoints.h:
 
+/opt/ros/jazzy/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:
+
+/opt/ros/jazzy/include/behaviortree_cpp/decorator_node.h:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
+
 /opt/ros/jazzy/include/behaviortree_cpp/decorators/retry_node.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:
@@ -1894,51 +1954,11 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 
 /opt/ros/jazzy/include/behaviortree_cpp/controls/parallel_node.h:
 
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/simple_action_server.hpp:
-
 /home/thomas24/hive_ws2/src/navigation2/nav2_behavior_tree/test/utils/test_dummy_tree_node.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_event_handler.hpp:
+/opt/ros/jazzy/include/behaviortree_cpp/utils/wakeup_signal.hpp:
 
-/opt/ros/jazzy/include/rcl/rcl/rcl.h:
-
-/usr/include/c++/13/bits/stream_iterator.h:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_utils.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
-
-/opt/ros/jazzy/include/behaviortree_cpp/decorators/subtree_node.h:
-
-/usr/include/c++/13/bits/hashtable_policy.h:
-
-/opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/subscription_options.hpp:
-
-/opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/type_description__struct.h:
-
-/opt/ros/jazzy/include/rmw/rmw/get_topic_names_and_types.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/version.h:
-
-/opt/ros/jazzy/include/behaviortree_cpp/controls/switch_node.h:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_status.hpp:
-
-/opt/ros/jazzy/include/rcutils/rcutils/types/array_list.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp:
-
-/usr/include/c++/13/bits/locale_conv.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_thread.hpp:
+/opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__functions.h:
 
 /opt/ros/jazzy/include/rmw/rmw/discovery_options.h:
 
@@ -1953,6 +1973,34 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.h:
 
 /opt/ros/jazzy/include/rcl/rcl/context.h:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/decorator/goal_updated_controller.hpp:
+
+/opt/ros/jazzy/include/rcl_action/rcl_action/goal_state_machine.h:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/contexts/default_context.hpp:
+
+/opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/path.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/service_introspection.h:
+
+/opt/ros/jazzy/include/behaviortree_cpp/basic_types.h:
+
+/usr/include/c++/13/bits/unique_lock.h:
+
+/opt/ros/jazzy/include/tf2/tf2/exceptions.hpp:
+
+/opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/goals__traits.hpp:
+
+/opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/dynamic_type.h:
+
+/opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer_interface.hpp:
+
+/opt/ros/jazzy/include/tf2_ros/tf2_ros/transform_broadcaster.hpp:
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_status_array.h:
 
@@ -1974,87 +2022,13 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 
 /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/goals.hpp:
 
-/opt/ros/jazzy/include/rcl_action/rcl_action/goal_state_machine.h:
-
-/home/thomas24/hive_ws2/src/navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/decorator/goal_updated_controller.hpp:
-
-/opt/ros/jazzy/include/rmw/rmw/events_statuses/events_statuses.h:
-
-/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
-
-/opt/ros/jazzy/include/rcutils/rcutils/testing/fault_injection.h:
-
-/usr/include/c++/13/initializer_list:
-
-/opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:
-
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
-
-/usr/include/c++/13/bits/basic_string.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_message.hpp:
-
-/opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h:
-
-/opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer.hpp:
-
-/opt/ros/jazzy/include/rmw/rmw/subscription_options.h:
-
-/opt/ros/jazzy/include/behaviortree_cpp/controls/while_do_else_node.h:
-
-/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.hpp:
-
-/opt/ros/jazzy/include/behaviortree_cpp/actions/test_node.h:
+/opt/ros/jazzy/include/behaviortree_cpp/contrib/magic_enum.hpp:
 
 /opt/ros/jazzy/include/behaviortree_cpp/controls/reactive_sequence.h:
 
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp:
+/opt/ros/jazzy/include/behaviortree_cpp/actions/test_node.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/contexts/default_context.hpp:
-
-/opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/path.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/service_introspection.h:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.h:
-
-/opt/ros/jazzy/include/behaviortree_cpp/decorators/script_precondition.h:
-
-/opt/ros/jazzy/include/rcl/rcl/wait.h:
-
-/opt/ros/jazzy/include/behaviortree_cpp/basic_types.h:
-
-/usr/include/c++/13/bits/unique_lock.h:
-
-/opt/ros/jazzy/include/tf2/tf2/exceptions.hpp:
-
-/opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/goals__traits.hpp:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:
-
-/opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/dynamic_type.h:
-
-/opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer_interface.hpp:
-
-/opt/ros/jazzy/include/tf2_ros/tf2_ros/transform_broadcaster.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp:
-
-/opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/path__type_support.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/lifecycle_node.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/arguments.h:
+/usr/include/c++/13/pstl/glue_numeric_defs.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_notify_waitable.hpp:
 
@@ -2065,6 +2039,44 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_info.h:
+
+/opt/ros/jazzy/include/behaviortree_cpp/decorators/subtree_node.h:
+
+/usr/include/c++/13/bits/hashtable_policy.h:
+
+/opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/subscription_options.hpp:
+
+/opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/type_description__struct.h:
+
+/opt/ros/jazzy/include/rmw/rmw/get_topic_names_and_types.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/version.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2-decl.h:
+
+/opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer.hpp:
+
+/opt/ros/jazzy/include/rmw/rmw/subscription_options.h:
+
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
+
+/opt/ros/jazzy/include/behaviortree_cpp/controls/while_do_else_node.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_event_handler.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/rcl.h:
+
+/usr/include/c++/13/bits/stream_iterator.h:
 
 /opt/ros/jazzy/include/rcpputils/rcpputils/shared_library.hpp:
 
@@ -2081,14 +2093,6 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:
 
 /opt/ros/jazzy/include/rcl/rcl/domain_id.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:
-
-/opt/ros/jazzy/include/behaviortree_cpp/decorator_node.h:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
 /usr/include/c++/13/bits/atomic_futex.h:
 
@@ -2117,6 +2121,8 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp:
 
 /opt/ros/jazzy/include/rcl/rcl/types.h:
+
+/opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/path__builder.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp:
 
@@ -2149,8 +2155,6 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 /opt/ros/jazzy/include/rcpputils/rcpputils/visibility_control.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/action_client.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
 
@@ -2196,13 +2200,15 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp:
 
+/opt/ros/jazzy/include/rcl/rcl/event.h:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/type_adapter.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_traits.hpp:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/lifecycle_node.hpp:
 
 /opt/ros/jazzy/include/rmw/rmw/types.h:
 
@@ -2213,6 +2219,8 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_content_filter_options.hpp:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_server.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp:
 
@@ -2229,6 +2237,8 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_thread.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/idtype_t.h:
 
@@ -2260,8 +2270,6 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.hpp:
 
-/opt/ros/jazzy/include/rcl/rcl/event.h:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_entities_collector.hpp:
 
 /opt/ros/jazzy/include/rcl/rcl/event_callback.h:
@@ -2271,16 +2279,6 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:
 
 /opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest-matchers.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:
-
-/opt/ros/jazzy/include/bondcpp/bondcpp/visibility_control.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp:
-
-/usr/include/assert.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
 /usr/include/x86_64-linux-gnu/bits/string_fortified.h:
 
@@ -2316,8 +2314,6 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 
 /usr/include/c++/13/bits/stl_iterator_base_funcs.h:
 
-/opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/message_memory_strategy.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/unistd-decl.h:
@@ -2342,6 +2338,8 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 
 /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/state.hpp:
 
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/publisher.hpp:
+
 /opt/ros/jazzy/include/rcutils/rcutils/allocator.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
@@ -2352,7 +2350,13 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 
 /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/goals__type_support.hpp:
 
+/opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/path__type_support.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp:
+
 /opt/ros/jazzy/include/rcl/rcl/allocator.h:
+
+/opt/ros/jazzy/include/rcl/rcl/arguments.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_services_interface.hpp:
 
@@ -2367,8 +2371,6 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 /usr/include/c++/13/bits/locale_classes.h:
 
 /opt/ros/jazzy/include/rcutils/rcutils/shared_library.h:
-
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/interface_factories.hpp:
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.h:
 
@@ -2512,6 +2514,10 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 
 /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp:
 
+/opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
+
+/opt/ros/jazzy/include/tf2/tf2/LinearMath/Matrix3x3.hpp:
+
 /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp:
 
 /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h:
@@ -2612,9 +2618,9 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 
 /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__traits.hpp:
 
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__type_support.hpp:
-
 /opt/ros/jazzy/include/rcutils/rcutils/types/rcutils_ret.h:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__type_support.hpp:
 
 /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__builder.hpp:
 
@@ -2838,10 +2844,6 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 
 /usr/include/c++/13/bits/locale_facets.tcc:
 
-/opt/ros/jazzy/include/bond/bond/msg/detail/status__builder.hpp:
-
-/usr/include/c++/13/bits/localefwd.h:
-
 /usr/include/c++/13/bits/memoryfwd.h:
 
 /usr/include/c++/13/bits/move.h:
@@ -3016,8 +3018,6 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 
 /usr/include/c++/13/cwchar:
 
-/usr/include/c++/13/cwctype:
-
 /usr/include/c++/13/cxxabi.h:
 
 /usr/include/c++/13/debug/assertions.h:
@@ -3132,6 +3132,8 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 
 /usr/include/c++/13/valarray:
 
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/simple_action_server.hpp:
+
 /opt/ros/jazzy/include/tf2/tf2/buffer_core.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
@@ -3220,8 +3222,6 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_server.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
 /opt/ros/jazzy/include/tf2/tf2/LinearMath/QuadWord.hpp:
@@ -3235,6 +3235,8 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 /usr/include/x86_64-linux-gnu/bits/select2.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigcontext.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/serialization.hpp:
 
@@ -3301,8 +3303,6 @@ test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_upd
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:
 

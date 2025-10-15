@@ -1,2 +1,1 @@
-uint16 nodeid
-geometry_msgs/Point position
+/home/thomas24/hive_ws2/src/navigation2/nav2_msgs/msg/RouteNode.msg

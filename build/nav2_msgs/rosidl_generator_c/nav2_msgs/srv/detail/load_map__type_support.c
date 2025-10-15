@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "rosidl_typesupport_interface/macros.h"
-#include "nav2_msgs/srv/detail/load_map__struct.h"
-#include "nav2_msgs/srv/detail/load_map__type_support.h"
 #include "nav2_msgs/srv/detail/load_map__functions.h"
+#include "nav2_msgs/srv/detail/load_map__type_support.h"
+#include "nav2_msgs/srv/detail/load_map__struct.h"
 
 #ifdef __cplusplus
 extern "C"

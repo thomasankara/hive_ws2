@@ -1,0 +1,24 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/hive_interface2__cpp"
+  "rosidl_generator_cpp/hive_interface2/msg/detail/lanelet_mini2__builder.hpp"
+  "rosidl_generator_cpp/hive_interface2/msg/detail/lanelet_mini2__struct.hpp"
+  "rosidl_generator_cpp/hive_interface2/msg/detail/lanelet_mini2__traits.hpp"
+  "rosidl_generator_cpp/hive_interface2/msg/detail/lanelet_mini2__type_support.hpp"
+  "rosidl_generator_cpp/hive_interface2/msg/detail/lanelet_mini2_array__builder.hpp"
+  "rosidl_generator_cpp/hive_interface2/msg/detail/lanelet_mini2_array__struct.hpp"
+  "rosidl_generator_cpp/hive_interface2/msg/detail/lanelet_mini2_array__traits.hpp"
+  "rosidl_generator_cpp/hive_interface2/msg/detail/lanelet_mini2_array__type_support.hpp"
+  "rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp"
+  "rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2_array.hpp"
+  "rosidl_generator_cpp/hive_interface2/msg/rosidl_generator_cpp__visibility_control.hpp"
+  "rosidl_generator_cpp/hive_interface2/srv/compute_route.hpp"
+  "rosidl_generator_cpp/hive_interface2/srv/detail/compute_route__builder.hpp"
+  "rosidl_generator_cpp/hive_interface2/srv/detail/compute_route__struct.hpp"
+  "rosidl_generator_cpp/hive_interface2/srv/detail/compute_route__traits.hpp"
+  "rosidl_generator_cpp/hive_interface2/srv/detail/compute_route__type_support.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/hive_interface2__cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

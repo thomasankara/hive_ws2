@@ -5,8 +5,8 @@
 #include <string.h>
 
 #include "nav2_msgs/srv/detail/clear_costmap_except_region__functions.h"
-#include "nav2_msgs/srv/detail/clear_costmap_except_region__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "nav2_msgs/srv/detail/clear_costmap_except_region__type_support.h"
 #include "nav2_msgs/srv/detail/clear_costmap_except_region__struct.h"
 
 #ifdef __cplusplus

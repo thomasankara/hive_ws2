@@ -23,14 +23,14 @@ nav2_msgs__msg__TrajectoryPoint__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "geometry_msgs/msg/detail/wrench__functions.h"
+#include "geometry_msgs/msg/detail/point__functions.h"
 #include "geometry_msgs/msg/detail/pose__functions.h"
 #include "geometry_msgs/msg/detail/accel__functions.h"
-#include "builtin_interfaces/msg/detail/duration__functions.h"
-#include "geometry_msgs/msg/detail/quaternion__functions.h"
 #include "geometry_msgs/msg/detail/vector3__functions.h"
-#include "geometry_msgs/msg/detail/point__functions.h"
+#include "geometry_msgs/msg/detail/quaternion__functions.h"
 #include "geometry_msgs/msg/detail/twist__functions.h"
+#include "geometry_msgs/msg/detail/wrench__functions.h"
+#include "builtin_interfaces/msg/detail/duration__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG

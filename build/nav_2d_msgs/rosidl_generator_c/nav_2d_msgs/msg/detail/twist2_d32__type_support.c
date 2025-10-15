@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "nav_2d_msgs/msg/detail/twist2_d32__struct.h"
-#include "nav_2d_msgs/msg/detail/twist2_d32__type_support.h"
 #include "nav_2d_msgs/msg/detail/twist2_d32__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "nav_2d_msgs/msg/detail/twist2_d32__type_support.h"
+#include "nav_2d_msgs/msg/detail/twist2_d32__struct.h"
 
 #ifdef __cplusplus
 extern "C"

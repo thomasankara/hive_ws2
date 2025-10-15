@@ -1,0 +1,164 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-4db293e1c9613d023b78.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-Release-0908a8c91ddba5d6c989.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/jazzy/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "test",
+					"jsonFile" : "directory-test-Release-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						2
+					],
+					"name" : "nav2_velocity_smoother",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Release-8ea7ff19b19c33862923.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-Release-1f5591092bfb8ab279ce.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_velocity_smoother_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_velocity_smoother_uninstall-Release-1f3c5cc2f690956e6c30.json",
+					"name" : "nav2_velocity_smoother_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-b4efe2d99690cba34efd.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "velocity_smoother::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-velocity_smoother-Release-d918fdf446703e390100.json",
+					"name" : "velocity_smoother",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "velocity_smoother_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-velocity_smoother_core-Release-d4eb78475e91e68e9c7d.json",
+					"name" : "velocity_smoother_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "velocity_smoother_tests::@36f028580bb02cc8272a",
+					"jsonFile" : "target-velocity_smoother_tests-Release-625fe87a81c9914772c9.json",
+					"name" : "velocity_smoother_tests",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/thomas24/hive_ws2/build/nav2_velocity_smoother",
+		"source" : "/home/thomas24/hive_ws2/src/navigation2/nav2_velocity_smoother"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

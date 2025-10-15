@@ -1,0 +1,8 @@
+<library path="gridmap_fusion_plugin">
+  <class
+    name="hive_costmap/GridmapFusionLayer"
+    type="hive_costmap::GridmapFusionLayer"
+    base_class_type="nav2_costmap_2d::Layer">
+    <description>Fusionne une OccupancyGrid (GridMap) dans la costmap Nav2.</description>
+  </class>
+</library>

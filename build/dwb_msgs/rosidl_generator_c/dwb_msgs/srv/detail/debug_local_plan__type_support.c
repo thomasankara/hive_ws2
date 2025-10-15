@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "dwb_msgs/srv/detail/debug_local_plan__struct.h"
-#include "dwb_msgs/srv/detail/debug_local_plan__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "dwb_msgs/srv/detail/debug_local_plan__functions.h"
 #include "dwb_msgs/srv/detail/debug_local_plan__type_support.h"
+#include "dwb_msgs/srv/detail/debug_local_plan__struct.h"
 
 #ifdef __cplusplus
 extern "C"

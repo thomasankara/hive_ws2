@@ -1,4 +1,1 @@
-std_msgs/Header header
-float32 route_cost
-RouteNode[] nodes # ordered set of nodes of the route
-RouteEdge[] edges # ordered set of edges that connect nodes
+/home/thomas24/hive_ws2/src/navigation2/nav2_msgs/msg/Route.msg

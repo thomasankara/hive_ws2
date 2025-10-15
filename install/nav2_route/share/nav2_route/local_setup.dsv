@@ -1,3 +1,1 @@
-source;share/nav2_route/environment/ament_prefix_path.sh
-source;share/nav2_route/environment/library_path.sh
-source;share/nav2_route/environment/path.sh
+/home/thomas24/hive_ws2/build/nav2_route/ament_cmake_environment_hooks/local_setup.dsv

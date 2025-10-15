@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "nav2_msgs/action/detail/undock_robot__struct.h"
 #include "nav2_msgs/action/detail/undock_robot__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "nav2_msgs/action/detail/undock_robot__type_support.h"
+#include "nav2_msgs/action/detail/undock_robot__struct.h"
 
 #ifdef __cplusplus
 extern "C"

@@ -8,6 +8,7 @@
 . "/home/thomas24/hive_ws2/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/package.sh"
 . "/home/thomas24/hive_ws2/install/nav2_map_server/share/nav2_map_server/package.sh"
 . "/home/thomas24/hive_ws2/install/nav2_costmap_2d/share/nav2_costmap_2d/package.sh"
+. "/home/thomas24/hive_ws2/install/hive_costmap/share/hive_costmap/package.sh"
 . "/home/thomas24/hive_ws2/install/nav2_core/share/nav2_core/package.sh"
 . "/home/thomas24/hive_ws2/install/nav2_controller/share/nav2_controller/package.sh"
 . "/home/thomas24/hive_ws2/install/nav2_planner/share/nav2_planner/package.sh"

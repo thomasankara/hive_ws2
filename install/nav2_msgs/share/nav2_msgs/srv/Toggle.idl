@@ -1,17 +1,1 @@
-// generated from rosidl_adapter/resource/srv.idl.em
-// with input from nav2_msgs/srv/Toggle.srv
-// generated code does not contain a copyright notice
-
-
-module nav2_msgs {
-  module srv {
-    struct Toggle_Request {
-      boolean enable;
-    };
-    struct Toggle_Response {
-      boolean success;
-
-      string message;
-    };
-  };
-};
+/home/thomas24/hive_ws2/build/nav2_msgs/rosidl_adapter/nav2_msgs/srv/Toggle.idl

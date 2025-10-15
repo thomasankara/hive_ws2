@@ -4,8 +4,8 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
 #include "nav2_msgs/msg/detail/collision_detector_state__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "nav2_msgs/msg/detail/collision_detector_state__struct.h"
 #include "nav2_msgs/msg/detail/collision_detector_state__type_support.h"
 

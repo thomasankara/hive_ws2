@@ -3,19 +3,6 @@
 
 CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/hive_ws2/src/navigation2/nav2_smac_planner/src/smac_planner_hybrid.cpp \
   include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp \
-  /home/thomas24/hive_ws2/install/nav2_core/include/nav2_core/nav2_core/global_planner.hpp \
-  /home/thomas24/hive_ws2/install/nav2_core/include/nav2_core/nav2_core/planner_exceptions.hpp \
-  /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/clear_costmap_service.hpp \
-  /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/cost_values.hpp \
-  /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp \
-  /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_publisher.hpp \
-  /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp \
-  /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_layer.hpp \
-  /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint.hpp \
-  /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint_collision_checker.hpp \
-  /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/inflation_layer.hpp \
-  /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp \
-  /home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layered_costmap.hpp \
   /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap.hpp \
   /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap_update.hpp \
   /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__builder.hpp \
@@ -64,19 +51,30 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
   /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costs__type_support.hpp \
   /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/get_costmap.hpp \
   /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/get_costs.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/action_client.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/interface_factories.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/lifecycle_node.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_thread.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_utils.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/publisher.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/qos_profiles.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_client.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_server.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/simple_action_server.hpp \
-  /home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/subscription.hpp \
-  /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/geometry_utils.hpp \
-  /home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/robot_utils.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_core/include/nav2_core/global_planner.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_core/include/nav2_core/planner_exceptions.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/clear_costmap_service.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/cost_values.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d_publisher.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d_ros.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_layer.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/footprint.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/footprint_collision_checker.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/inflation_layer.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/layer.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/layered_costmap.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/action_client.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/interface_factories.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/lifecycle_node.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_thread.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_utils.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/publisher.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/qos_profiles.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_client.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_server.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/simple_action_server.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/subscription.hpp \
   /home/thomas24/hive_ws2/src/navigation2/nav2_smac_planner/include/nav2_smac_planner/a_star.hpp \
   /home/thomas24/hive_ws2/src/navigation2/nav2_smac_planner/include/nav2_smac_planner/analytic_expansion.hpp \
   /home/thomas24/hive_ws2/src/navigation2/nav2_smac_planner/include/nav2_smac_planner/collision_checker.hpp \
@@ -92,6 +90,8 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
   /home/thomas24/hive_ws2/src/navigation2/nav2_smac_planner/include/nav2_smac_planner/thirdparty/robin_hood.h \
   /home/thomas24/hive_ws2/src/navigation2/nav2_smac_planner/include/nav2_smac_planner/types.hpp \
   /home/thomas24/hive_ws2/src/navigation2/nav2_smac_planner/include/nav2_smac_planner/utils.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/geometry_utils.hpp \
+  /home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/robot_utils.hpp \
   /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp \
   /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h \
   /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h \
@@ -1890,6 +1890,8 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
@@ -2171,8 +2173,6 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 /usr/include/eigen3/Eigen/src/Core/Select.h:
 
 /usr/include/eigen3/Eigen/src/Core/Reverse.h:
-
-/usr/include/eigen3/Eigen/src/Core/ReturnByValue.h:
 
 /usr/include/eigen3/Eigen/src/Core/Ref.h:
 
@@ -2620,8 +2620,6 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 
 /usr/include/boost/type_traits/is_floating_point.hpp:
 
-/usr/include/boost/type_traits/is_float.hpp:
-
 /usr/include/boost/type_traits/is_complete.hpp:
 
 /usr/include/boost/type_traits/is_class.hpp:
@@ -2772,6 +2770,8 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_logging_interface.hpp:
 
+/home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_layer.hpp:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp:
 
 /usr/include/string.h:
@@ -2808,6 +2808,8 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/events_queue.hpp:
 
+/usr/include/boost/mpl/aux_/type_wrapper.hpp:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp:
 
 /usr/include/nlohmann/detail/output/serializer.hpp:
@@ -2832,6 +2834,8 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.hpp:
 
+/opt/ros/jazzy/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp:
+
 /usr/include/boost/config/compiler/gcc.hpp:
 
 /usr/include/boost/iterator/interoperable.hpp:
@@ -2840,9 +2844,9 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/create_timer.hpp:
 
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/qos_profiles.hpp:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/create_subscription.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/create_service.hpp:
 
 /usr/include/c++/13/bits/nested_exception.h:
 
@@ -2872,10 +2876,6 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__builder.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_message_type.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp:
-
 /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h:
 
 /opt/ros/jazzy/include/ompl-1.7/ompl/util/ClassForward.h:
@@ -2904,15 +2904,35 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp:
 
+/home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/layer.hpp:
+
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp:
 
 /usr/include/boost/config/detail/select_platform_config.hpp:
 
 /usr/include/boost/lexical_cast/detail/widest_char.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp:
-
 /opt/ros/jazzy/include/rcl/rcl/init.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/future_return_code.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/clock.hpp:
+
+/usr/include/c++/13/string:
+
+/opt/ros/jazzy/include/rcutils/rcutils/types.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp:
+
+/usr/include/boost/range/detail/has_member_size.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp:
 
@@ -2946,20 +2966,6 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/future_return_code.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/clock.hpp:
-
-/usr/include/c++/13/string:
-
-/opt/ros/jazzy/include/rcutils/rcutils/types.h:
-
 /usr/include/c++/13/sstream:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp:
@@ -2967,6 +2973,8 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 /usr/include/boost/range/size_type.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_core/include/nav2_core/planner_exceptions.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:
 
@@ -3007,14 +3015,6 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
 
 /usr/include/boost/mpl/quote.hpp:
-
-/usr/include/boost/preprocessor/identity.hpp:
-
-/usr/include/boost/range/detail/has_member_size.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp:
 
@@ -3072,15 +3072,11 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 
 /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__struct.hpp:
 
-/opt/ros/jazzy/include/rcl/rcl/service.h:
-
-/opt/ros/jazzy/include/rcl/rcl/publisher.h:
-
 /opt/ros/jazzy/include/rcl/rcl/macros.h:
 
-/opt/ros/jazzy/include/map_msgs/map_msgs/msg/detail/occupancy_grid_update__traits.hpp:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:
+
+/opt/ros/jazzy/include/map_msgs/map_msgs/msg/detail/occupancy_grid_update__traits.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:
 
@@ -3109,6 +3105,8 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/path__type_support.hpp:
 
 /usr/include/boost/mpl/tag.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/arguments.h:
 
 /usr/include/boost/preprocessor/control/while.hpp:
 
@@ -3188,8 +3186,6 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 
 /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/path__builder.hpp:
 
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_client.hpp:
-
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp:
 
 /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__traits.hpp:
@@ -3198,11 +3194,17 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 
 /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp:
 
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp:
+
 /usr/include/boost/type_traits/add_pointer.hpp:
 
 /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__struct.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp:
+
+/opt/ros/jazzy/include/ompl-1.7/ompl/base/StateSpaceTypes.h:
+
+/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp:
 
 /usr/include/boost/preprocessor/seq/cat.hpp:
 
@@ -3225,6 +3227,10 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_message_type.hpp:
 
 /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h:
 
@@ -3282,9 +3288,15 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 
 /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h:
 
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/subscription.hpp:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp:
+
+/opt/ros/jazzy/include/map_msgs/map_msgs/msg/detail/occupancy_grid_update__type_support.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/time.hpp:
 
 /usr/include/boost/range/rend.hpp:
 
@@ -3348,10 +3360,6 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 
 /usr/include/boost/preprocessor/comparison/less_equal.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/opt/ros/jazzy/include/tf2/tf2/buffer_core.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform.hpp:
@@ -3380,9 +3388,11 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 
 /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__builder.hpp:
 
-/opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp:
 
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp:
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.hpp:
+
+/opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_prefix.hpp:
 
 /usr/include/nlohmann/detail/macro_scope.hpp:
 
@@ -3406,23 +3416,13 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 
 /usr/include/boost/concept/detail/has_constraints.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/create_service.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/util/BlasUtil.h:
-
-/opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
-
-/opt/ros/jazzy/include/tf2/tf2/LinearMath/Matrix3x3.hpp:
-
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__type_support.hpp:
 
 /usr/include/boost/preprocessor/list/reverse.hpp:
 
-/opt/ros/jazzy/include/rcl/rcl/node.h:
-
-/opt/ros/jazzy/include/ompl-1.7/ompl/base/ScopedState.h:
-
 /usr/include/boost/mpl/aux_/yes_no.hpp:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/layered_costmap.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/Reshaped.h:
 
@@ -3436,17 +3436,19 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 
 /opt/ros/jazzy/include/tf2/tf2/convert.hpp:
 
+/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp:
+
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp:
+
+/usr/include/boost/preprocessor/punctuation/comma.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
 
 /usr/include/boost/mpl/aux_/na_spec.hpp:
 
-/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp:
-
-/opt/ros/jazzy/include/ompl-1.7/ompl/base/StateSpaceTypes.h:
-
 /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__struct.hpp:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.hpp:
 
 /opt/ros/jazzy/include/ompl-1.7/ompl/base/spaces/SO2StateSpace.h:
 
@@ -3470,25 +3472,25 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 
 /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costs__struct.hpp:
 
-/opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h:
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__builder.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp:
+/usr/include/boost/integer_fwd.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/ReturnByValue.h:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_client.hpp:
 
 /usr/include/boost/mpl/aux_/config/preprocessor.hpp:
 
 /opt/ros/jazzy/include/class_loader/class_loader/meta_object.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp:
+/usr/include/boost/type_traits/is_rvalue_reference.hpp:
 
-/usr/include/boost/mpl/aux_/has_type.hpp:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp:
 
-/home/thomas24/hive_ws2/src/navigation2/nav2_smac_planner/include/nav2_smac_planner/smoother.hpp:
+/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_update__struct.hpp:
 
-/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_update__type_support.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/client.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_notify_waitable.hpp:
 
 /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_imp.hpp:
 
@@ -3510,6 +3512,10 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__builder.hpp:
 
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp:
+
+/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costs__builder.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
 /opt/ros/jazzy/include/bond/bond/msg/detail/status__struct.hpp:
@@ -3521,20 +3527,6 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 /usr/include/console_bridge_export.h:
 
 /usr/include/boost/preprocessor/arithmetic/inc.hpp:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__builder.hpp:
-
-/usr/include/boost/integer_fwd.hpp:
-
-/home/thomas24/hive_ws2/src/navigation2/nav2_smac_planner/include/nav2_smac_planner/node_basic.hpp:
-
-/usr/include/boost/range/distance.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__builder.hpp:
 
 /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/state.hpp:
 
@@ -3548,10 +3540,6 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 
 /home/thomas24/hive_ws2/src/navigation2/nav2_smac_planner/include/nav2_smac_planner/constants.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:
-
-/usr/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp:
-
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
@@ -3564,41 +3552,107 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp:
 
-/opt/ros/jazzy/include/rcl/rcl/arguments.h:
-
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/lifecycle_node.hpp:
-
 /home/thomas24/hive_ws2/src/navigation2/nav2_smac_planner/include/nav2_smac_planner/a_star.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/timers_manager.hpp:
 
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.hpp:
 
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/simple_action_server.hpp:
+/home/thomas24/hive_ws2/src/navigation2/nav2_smac_planner/include/nav2_smac_planner/node_basic.hpp:
 
-/opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_prefix.hpp:
+/usr/include/boost/range/distance.hpp:
 
-/usr/include/boost/mpl/aux_/type_wrapper.hpp:
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__builder.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/generic_subscription.hpp:
+/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h:
 
-/usr/include/boost/mpl/aux_/template_arity_fwd.hpp:
+/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/waypoint_status__struct.hpp:
 
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__builder.hpp:
+/opt/ros/jazzy/include/rcl/rcl/node.h:
 
-/usr/include/boost/preprocessor/seq/limits/enum_256.hpp:
+/opt/ros/jazzy/include/ompl-1.7/ompl/base/ScopedState.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/subscription_base.hpp:
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.h:
 
-/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/get_costs.hpp:
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_utils.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface_traits.hpp:
+/opt/ros/jazzy/include/rcl/rcl/publisher.h:
 
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
+/opt/ros/jazzy/include/rcutils/rcutils/sha256.h:
 
-/usr/include/boost/preprocessor/arithmetic/detail/is_minimum_number.hpp:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp:
+/opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h:
+
+/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__traits.hpp:
+
+/usr/include/boost/range/iterator.hpp:
+
+/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/empty__traits.hpp:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp:
+
+/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__builder.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
+
+/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp:
+
+/opt/ros/jazzy/include/rcl_action/rcl_action/goal_handle.h:
+
+/opt/ros/jazzy/include/rcl/rcl/client.h:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_smac_planner/include/nav2_smac_planner/smoother.hpp:
+
+/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_update__type_support.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__builder.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp:
+
+/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_pose__struct.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp:
+
+/opt/ros/jazzy/include/bondcpp/bondcpp/bond.hpp:
+
+/usr/include/boost/preprocessor/seq/transform.hpp:
+
+/usr/include/boost/lexical_cast/detail/lcast_char_constants.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__builder.hpp:
+
+/usr/include/boost/config/detail/select_stdlib_config.hpp:
+
+/usr/include/boost/mpl/equal_to.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp:
+
+/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_costmap_around_pose.hpp:
+
+/usr/include/boost/numeric/conversion/udt_builtin_mixture_enum.hpp:
+
+/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__type_support.hpp:
+
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h:
+
+/opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/dynamic_data.h:
+
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
@@ -3626,91 +3680,11 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_service.hpp:
 
-/usr/include/boost/preprocessor/punctuation/comma.hpp:
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/action_client.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
+/usr/include/boost/preprocessor/facilities/expand.hpp:
 
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/action_client.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/any_subscription_callback.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_serialization_support.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp:
-
-/usr/include/boost/type_traits/integral_constant.hpp:
-
-/opt/ros/jazzy/include/rmw/rmw/rmw.h:
-
-/usr/include/c++/13/bits/sstream.tcc:
-
-/usr/include/boost/mpl/limits/arity.hpp:
-
-/opt/ros/jazzy/include/ompl-1.7/ompl/base/spaces/SE2StateSpace.h:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/srv/cancel_goal.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/timer.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/Block.h:
-
-/usr/include/c++/13/tr1/gamma.tcc:
-
-/usr/include/c++/13/streambuf:
-
-/usr/include/boost/type_traits/has_left_shift.hpp:
-
-/usr/include/boost/core/swap.hpp:
-
-/opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.hpp:
-
-/usr/include/c++/13/bits/postypes.h:
-
-/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/color_rgba__traits.hpp:
-
-/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__builder.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:
-
-/opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:
-
-/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp:
-
-/usr/include/boost/mpl/aux_/config/arrays.hpp:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__functions.h:
-
-/usr/include/boost/preprocessor/arithmetic/dec.hpp:
-
-/usr/include/nlohmann/detail/value_t.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap_update.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/geometry_utils.hpp:
-
-/usr/include/c++/13/condition_variable:
-
-/opt/ros/jazzy/include/rcl/rcl/guard_condition.h:
-
-/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__struct.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__builder.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
-
-/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp:
+/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_pose__type_support.hpp:
 
 /usr/include/boost/range/mutable_iterator.hpp:
 
@@ -3730,21 +3704,65 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 
 /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_pose__builder.hpp:
 
-/usr/include/boost/preprocessor/facilities/expand.hpp:
+/home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp:
 
-/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_pose__type_support.hpp:
+include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
+
+/opt/ros/jazzy/include/rmw/rmw/discovery_options.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+
+/usr/include/boost/concept/assert.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/service.h:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_core/include/nav2_core/global_planner.hpp:
+
+/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__builder.hpp:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__functions.h:
+
+/usr/include/boost/preprocessor/arithmetic/dec.hpp:
+
+/usr/include/nlohmann/detail/value_t.hpp:
+
+/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap_update.hpp:
+
+/usr/include/c++/13/condition_variable:
+
+/opt/ros/jazzy/include/rcl/rcl/guard_condition.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp:
+
+/usr/include/boost/mpl/aux_/has_type.hpp:
+
+/opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/cost_values.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp:
+
+/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__struct.hpp:
+
+/usr/include/boost/range/detail/implementation_help.hpp:
+
+/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__type_support.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__builder.hpp:
+
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp:
+
+/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_costmap_around_robot.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.hpp:
+
+/usr/include/boost/lexical_cast/detail/inf_nan.hpp:
+
+/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__struct.hpp:
 
 /home/thomas24/hive_ws2/src/navigation2/nav2_smac_planner/src/smac_planner_hybrid.cpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_layer.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/generic_publisher.hpp:
-
-/opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp:
-
-/usr/include/boost/mpl/bool_fwd.hpp:
 
 /home/thomas24/hive_ws2/src/navigation2/nav2_smac_planner/include/nav2_smac_planner/costmap_downsampler.hpp:
 
@@ -3758,181 +3776,21 @@ CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o: /home/thomas24/h
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.h:
+/home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d_ros.hpp:
 
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/interface_factories.hpp:
+/usr/include/c++/13/bits/stl_algo.h:
 
-/home/thomas24/hive_ws2/install/nav2_core/include/nav2_core/nav2_core/global_planner.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__struct.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/cost_values.hpp:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_status_array.h:
-
-/usr/include/c++/13/bits/regex_executor.h:
-
-/opt/ros/jazzy/include/ompl-1.7/ompl/base/ProjectionEvaluator.h:
-
-/opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_core/include/nav2_core/nav2_core/planner_exceptions.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/products/Parallelizer.h:
-
-/usr/include/boost/preprocessor/logical/and.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__traits.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_clock_interface.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/detail/qos_parameters.hpp:
-
-/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/empty__struct.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_thread.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costs__builder.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/inflation_layer.hpp:
-
-/opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__type_support.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_publisher.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h:
-
-/opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp:
-
-include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
-
-/opt/ros/jazzy/include/rmw/rmw/discovery_options.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
-
-/usr/include/boost/concept/assert.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__traits.hpp:
-
-/usr/include/boost/range/iterator.hpp:
-
-/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/empty__traits.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/node_utils.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/simple_events_queue.hpp:
-
-/usr/include/boost/range/detail/implementation_help.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__type_support.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__builder.hpp:
-
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp:
-
-/opt/ros/jazzy/include/rcl_action/rcl_action/goal_handle.h:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__builder.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/service_server.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_pose__struct.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp:
-
-/opt/ros/jazzy/include/bondcpp/bondcpp/bond.hpp:
-
-/usr/include/boost/preprocessor/seq/transform.hpp:
-
-/usr/include/boost/lexical_cast/detail/lcast_char_constants.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__builder.hpp:
-
-/usr/include/boost/config/detail/select_stdlib_config.hpp:
-
-/usr/include/boost/mpl/equal_to.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__builder.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h:
-
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/subscription.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/waypoint_status__struct.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__type_support.hpp:
-
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h:
-
-/opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/dynamic_data.h:
-
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h:
-
-/opt/ros/jazzy/include/map_msgs/map_msgs/msg/detail/occupancy_grid_update__type_support.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/time.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_costmap_around_pose.hpp:
-
-/usr/include/boost/numeric/conversion/udt_builtin_mixture_enum.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.hpp:
-
-/usr/include/boost/lexical_cast/detail/inf_nan.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_costmap_around_robot.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__traits.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layered_costmap.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__builder.hpp:
-
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp:
-
-/opt/ros/jazzy/include/rcutils/rcutils/time.h:
-
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_map.hpp:
 
 /opt/ros/jazzy/include/map_msgs/map_msgs/msg/detail/occupancy_grid_update__struct.hpp:
+
+/usr/include/boost/numeric/conversion/detail/meta.hpp:
+
+/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__struct.hpp:
 
 /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp:
 
 /opt/ros/jazzy/include/bondcpp/bondcpp/BondSM_sm.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
-
-/home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint.hpp:
-
-/usr/include/boost/mpl/aux_/config/gpu.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/quaternion.hpp:
 
@@ -3951,6 +3809,16 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__traits.hpp:
 
 /usr/include/boost/preprocessor/logical/bitor.hpp:
+
+/usr/include/boost/type_traits/is_float.hpp:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/geometry_utils.hpp:
+
+/usr/include/boost/preprocessor/identity.hpp:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d_publisher.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point.hpp:
 
 /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__traits.hpp:
 
@@ -3988,27 +3856,13 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/wait_result_kind.hpp:
 
-/usr/include/boost/type_traits/is_rvalue_reference.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_clock_interface.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/detail/qos_parameters.hpp:
 
-/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_update__struct.hpp:
+/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/empty__struct.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_notify_waitable.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/clear_costmap_service.hpp:
-
-/usr/include/boost/mpl/aux_/largest_int.hpp:
-
-/usr/include/boost/preprocessor/control/iif.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
-
-/usr/include/c++/13/memory:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.hpp:
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.hpp:
 
 /usr/include/c++/13/bits/stream_iterator.h:
 
@@ -4016,11 +3870,37 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 
 /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__traits.hpp:
 
+/opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__type_support.hpp:
+
+/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/get_costs.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface_traits.hpp:
+
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/usr/include/boost/preprocessor/arithmetic/detail/is_minimum_number.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp:
+
 /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/managed_entity.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp:
 
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__builder.hpp:
+
+/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/client_goal_handle.hpp:
+
 /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_status_array.h:
+
+/usr/include/c++/13/bits/regex_executor.h:
+
+/opt/ros/jazzy/include/ompl-1.7/ompl/base/ProjectionEvaluator.h:
+
+/opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/simple_events_queue.hpp:
 
 /usr/include/boost/preprocessor/tuple/rem.hpp:
 
@@ -4028,13 +3908,19 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp:
 
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp:
-
 /usr/include/boost/preprocessor/list/adt.hpp:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/contexts/default_context.hpp:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/clear_costmap_service.hpp:
+
+/usr/include/c++/13/tr1/riemann_zeta.tcc:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__builder.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:
 
@@ -4052,33 +3938,31 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp:
 
-/opt/ros/jazzy/include/rcl/rcl/network_flow_endpoints.h:
+/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__traits.hpp:
 
-/opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_base.hpp:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp:
 
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp:
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp:
 
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__type_support.hpp:
+/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__struct.h:
+/usr/include/nlohmann/detail/input/lexer.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/allocator/allocator_common.hpp:
+/usr/include/c++/13/ext/aligned_buffer.h:
 
-/usr/include/c++/13/debug/assertions.h:
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
 
-/usr/include/boost/mpl/placeholders.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_topics_interface_traits.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point.hpp:
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp:
 
 /opt/ros/jazzy/include/bond/bond/msg/constants.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/network_flow_endpoints.h:
 
 /opt/ros/jazzy/include/bond/bond/msg/detail/constants__struct.hpp:
 
@@ -4104,23 +3988,23 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 
 /usr/include/boost/lexical_cast/try_lexical_convert.hpp:
 
+/home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/footprint_collision_checker.hpp:
+
 /usr/include/c++/13/vector:
 
 /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/waypoint_status__traits.hpp:
 
+/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__builder.hpp:
+
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp:
+
+/opt/ros/jazzy/include/rcutils/rcutils/time.h:
+
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp:
+
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__traits.hpp:
 
 /usr/include/boost/preprocessor/config/config.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:
-
-/usr/include/nlohmann/detail/input/lexer.hpp:
-
-/usr/include/c++/13/ext/aligned_buffer.h:
-
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_array.hpp:
 
@@ -4131,6 +4015,20 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp:
 
 /opt/ros/jazzy/include/rcl/rcl/types.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__builder.hpp:
+
+/opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:
+
+/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp:
+
+/usr/include/boost/mpl/aux_/config/arrays.hpp:
 
 /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
 
@@ -4158,9 +4056,9 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 
 /home/thomas24/hive_ws2/src/navigation2/nav2_smac_planner/include/nav2_smac_planner/node_lattice.hpp:
 
-/opt/ros/jazzy/include/rcl/rcl/time.h:
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
 
-/home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp:
+/opt/ros/jazzy/include/rcl/rcl/time.h:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp:
 
@@ -4220,16 +4118,6 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 
 /opt/ros/jazzy/include/class_loader/class_loader/visibility_control.hpp:
 
-/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/client_goal_handle.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__builder.hpp:
-
-/opt/ros/jazzy/include/rcutils/rcutils/sha256.h:
-
-/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__struct.hpp:
-
-/usr/include/boost/numeric/conversion/detail/meta.hpp:
-
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp:
@@ -4249,6 +4137,16 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 /usr/include/c++/13/set:
 
 /usr/include/boost/numeric/conversion/sign_mixture_enum.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/generic_subscription.hpp:
+
+/usr/include/boost/mpl/aux_/template_arity_fwd.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__builder.hpp:
+
+/usr/include/boost/preprocessor/seq/limits/enum_256.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/subscription_base.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/cxxabi_tweaks.h:
 
@@ -4286,9 +4184,27 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/c++/13/memory:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:
 
 /usr/include/boost/config/helper_macros.hpp:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__struct.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/allocator/allocator_common.hpp:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__type_support.hpp:
+
+/usr/include/c++/13/debug/assertions.h:
+
+/usr/include/boost/mpl/placeholders.hpp:
 
 /usr/include/c++/13/tr1/bessel_function.tcc:
 
@@ -4296,9 +4212,9 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__type_support.hpp:
 
-/usr/include/c++/13/tr1/riemann_zeta.tcc:
+/opt/ros/jazzy/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp:
 
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__builder.hpp:
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__traits.hpp:
 
 /usr/include/eigen3/Eigen/src/plugins/ReshapedMethods.h:
 
@@ -4316,15 +4232,59 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 
 /opt/ros/jazzy/include/ompl-1.7/ompl/util/ProlateHyperspheroid.h:
 
+/opt/ros/jazzy/include/rclcpp/rclcpp/any_subscription_callback.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_serialization_support.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp:
+
+/usr/include/boost/type_traits/integral_constant.hpp:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/footprint.hpp:
+
+/opt/ros/jazzy/include/rmw/rmw/rmw.h:
+
+/usr/include/c++/13/bits/sstream.tcc:
+
+/usr/include/boost/mpl/limits/arity.hpp:
+
+/opt/ros/jazzy/include/ompl-1.7/ompl/base/spaces/SE2StateSpace.h:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/srv/cancel_goal.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/timer.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/Block.h:
+
+/usr/include/c++/13/tr1/gamma.tcc:
+
+/usr/include/c++/13/streambuf:
+
+/usr/include/boost/type_traits/has_left_shift.hpp:
+
+/usr/include/boost/core/swap.hpp:
+
+/opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.hpp:
+
+/usr/include/c++/13/bits/postypes.h:
+
+/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/color_rgba__traits.hpp:
+
+/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp:
+
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp:
 
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/service_server.hpp:
+
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp:
 
 /usr/include/boost/mpl/bool.hpp:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_util/include/nav2_util/robot_utils.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp:
 
@@ -4366,6 +4326,14 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 
 /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/visibility_control.h:
 
+/opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_base.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/opt/ros/jazzy/include/tf2/tf2/buffer_core.hpp:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/simple_action_server.hpp:
+
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp:
 
 /opt/ros/jazzy/include/rcl/rcl/rcl.h:
@@ -4373,6 +4341,8 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_event_handler.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.hpp:
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_info.h:
 
@@ -4397,8 +4367,6 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 /opt/ros/jazzy/include/rmw/rmw/publisher_options.h:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:
-
-/home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint_collision_checker.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
@@ -4448,8 +4416,6 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp:
 
-/home/thomas24/hive_ws2/install/nav2_util/include/nav2_util/nav2_util/robot_utils.hpp:
-
 /opt/ros/jazzy/include/tf2/tf2/LinearMath/Vector3.hpp:
 
 /opt/ros/jazzy/include/bond/bond/msg/detail/constants__traits.hpp:
@@ -4462,23 +4428,23 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 
 /usr/include/boost/preprocessor/comparison/not_equal.hpp:
 
+/opt/ros/jazzy/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_topics_interface_traits.hpp:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_options.hpp:
 
 /usr/include/boost/utility/identity_type.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:
-
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:
 
 /usr/include/boost/preprocessor/control/limits/while_256.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/parameter.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_client.hpp:
-
-/usr/include/c++/13/bits/stl_algo.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_map.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:
 
@@ -4533,6 +4499,8 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 /usr/include/boost/range/begin.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_traits.hpp:
+
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/lifecycle_node.hpp:
 
 /opt/ros/jazzy/include/rmw/rmw/types.h:
 
@@ -4628,6 +4596,10 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 
 /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp:
 
+/usr/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h:
+
+/opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp:
+
 /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h:
 
 /usr/include/c++/13/bits/range_access.h:
@@ -4640,7 +4612,7 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 
 /opt/ros/jazzy/include/rcpputils/rcpputils/visibility_control.hpp:
 
-/home/thomas24/hive_ws2/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp:
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/publisher.hpp:
 
 /opt/ros/jazzy/include/rcutils/rcutils/allocator.h:
 
@@ -4772,6 +4744,8 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 
 /usr/include/boost/type_traits/remove_const.hpp:
 
+/home/thomas24/hive_ws2/src/navigation2/nav2_costmap_2d/include/nav2_costmap_2d/inflation_layer.hpp:
+
 /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/field__struct.h:
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h:
@@ -4787,6 +4761,12 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 /usr/include/c++/13/bits/chrono.h:
 
 /usr/include/boost/mpl/aux_/is_msvc_eti_arg.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/generic_publisher.hpp:
+
+/opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp:
+
+/usr/include/boost/mpl/bool_fwd.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
@@ -4815,6 +4795,12 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 /usr/include/boost/mpl/aux_/numeric_op.hpp:
 
 /usr/include/boost/preprocessor/control/detail/limits/while_256.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/util/BlasUtil.h:
+
+/opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
+
+/opt/ros/jazzy/include/tf2/tf2/LinearMath/Matrix3x3.hpp:
 
 /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp:
 
@@ -4878,9 +4864,9 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 
 /usr/include/boost/preprocessor/arithmetic/limits/inc_256.hpp:
 
-/opt/ros/jazzy/include/rcutils/rcutils/visibility_control.h:
-
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__builder.hpp:
+
+/opt/ros/jazzy/include/rcutils/rcutils/visibility_control.h:
 
 /opt/ros/jazzy/include/tf2/tf2/LinearMath/Quaternion.hpp:
 
@@ -5094,6 +5080,8 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 
 /usr/include/boost/core/cmath.hpp:
 
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/qos_profiles.hpp:
+
 /usr/include/boost/core/noncopyable.hpp:
 
 /usr/include/boost/current_function.hpp:
@@ -5105,6 +5093,12 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 /usr/include/boost/detail/basic_pointerbuf.hpp:
 
 /usr/include/boost/mpl/next.hpp:
+
+/usr/include/boost/mpl/aux_/include_preprocessed.hpp:
+
+/opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/key_value__struct.h:
+
+/usr/include/boost/detail/indirect_traits.hpp:
 
 /usr/include/c++/13/bits/indirect_array.h:
 
@@ -5196,6 +5190,8 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 
 /usr/include/boost/mpl/apply_wrap.hpp:
 
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/interface_factories.hpp:
+
 /usr/include/boost/mpl/arg_fwd.hpp:
 
 /usr/include/boost/mpl/assert.hpp:
@@ -5246,6 +5242,8 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 
 /usr/include/boost/mpl/aux_/config/forwarding.hpp:
 
+/usr/include/boost/mpl/aux_/config/gpu.hpp:
+
 /usr/include/assert.h:
 
 /usr/include/boost/mpl/aux_/config/has_xxx.hpp:
@@ -5262,9 +5260,9 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h:
 
-/opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resource.hpp:
-
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__traits.hpp:
+
+/opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resource.hpp:
 
 /usr/include/boost/mpl/aux_/config/msvc.hpp:
 
@@ -5294,17 +5292,15 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 
 /usr/include/boost/mpl/aux_/full_lambda.hpp:
 
-/opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/key_value__struct.h:
-
-/usr/include/boost/detail/indirect_traits.hpp:
-
-/usr/include/boost/mpl/aux_/include_preprocessed.hpp:
-
 /usr/include/boost/mpl/aux_/integral_wrapper.hpp:
 
 /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_costmap_except_region.hpp:
 
 /usr/include/boost/mpl/aux_/lambda_arity_param.hpp:
+
+/usr/include/boost/mpl/aux_/largest_int.hpp:
+
+/usr/include/boost/preprocessor/control/iif.hpp:
 
 /opt/ros/jazzy/include/rcutils/rcutils/types/hash_map.h:
 
@@ -5386,6 +5382,8 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 
 /usr/include/boost/mpl/has_xxx.hpp:
 
+/home/thomas24/hive_ws2/src/navigation2/nav2_ros_common/include/nav2_ros_common/node_thread.hpp:
+
 /usr/include/boost/mpl/lambda.hpp:
 
 /usr/include/boost/mpl/multiplies.hpp:
@@ -5462,8 +5460,6 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 
 /usr/include/boost/preprocessor/config/limits.hpp:
 
-/home/thomas24/hive_ws2/install/nav2_ros_common/include/nav2_ros_common/nav2_ros_common/publisher.hpp:
-
 /usr/include/boost/preprocessor/control/detail/while.hpp:
 
 /usr/include/boost/preprocessor/control/expr_iif.hpp:
@@ -5511,6 +5507,10 @@ include/nav2_smac_planner/nav2_smac_planner_common_visibility_control.hpp:
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp:
 
 /usr/include/boost/preprocessor/list/detail/limits/fold_left_256.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/products/Parallelizer.h:
+
+/usr/include/boost/preprocessor/logical/and.hpp:
 
 /usr/include/boost/preprocessor/logical/bitand.hpp:
 

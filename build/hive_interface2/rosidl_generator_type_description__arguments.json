@@ -1,0 +1,16 @@
+{
+  "package_name": "hive_interface2",
+  "output_dir": "/home/thomas24/hive_ws2/build/hive_interface2/rosidl_generator_type_description/hive_interface2",
+  "idl_tuples": [
+    "/home/thomas24/hive_ws2/build/hive_interface2/rosidl_adapter/hive_interface2:msg/LaneletMini2.idl",
+    "/home/thomas24/hive_ws2/build/hive_interface2/rosidl_adapter/hive_interface2:msg/LaneletMini2Array.idl",
+    "/home/thomas24/hive_ws2/build/hive_interface2/rosidl_adapter/hive_interface2:srv/ComputeRoute.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "nav_msgs:/opt/ros/jazzy/share/nav_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

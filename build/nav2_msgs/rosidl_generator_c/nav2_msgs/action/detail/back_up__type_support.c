@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "nav2_msgs/action/detail/back_up__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "nav2_msgs/action/detail/back_up__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "nav2_msgs/action/detail/back_up__struct.h"
 #include "nav2_msgs/action/detail/back_up__functions.h"
 
 #ifdef __cplusplus

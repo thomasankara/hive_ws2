@@ -1,0 +1,20 @@
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_INSTALL_INTO_PREFIX_ROOT
+
+[0m
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/astar_planner.cpp:82:1:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KprojectOnLanelets[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   82 | [01;31m[KAStarPlanner[m[K::projectOnLanelets(const std::vector<hive_interface2::msg::LaneletMini2>& L,
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/astar_planner.cpp:82:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint hive_route_planner::AStarPlanner::[01;32m[KprojectOnLanelets[m[K(const std::vector<hive_interface2::msg::LaneletMini2_<std::allocator<void> > >&, double, double, double)[m[K’
+In file included from [01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/astar_planner.cpp:1[m[K:
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/include/hive_route_planner/astar_planner.hpp:107:21:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kstatic hive_route_planner::Projection hive_route_planner::AStarPlanner::[01;32m[KprojectOnLanelets[m[K(const std::vector<hive_interface2::msg::LaneletMini2_<std::allocator<void> > >&, double, double, double)[m[K’
+  107 |   static Projection [01;36m[KprojectOnLanelets[m[K(const std::vector<hive_interface2::msg::LaneletMini2>& L,
+      |                     [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/include/hive_route_planner/astar_planner.hpp:61:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass hive_route_planner::AStarPlanner[m[K’ defined here
+   61 | class [01;36m[KAStarPlanner[m[K {
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/astar_planner.dir/build.make:76: CMakeFiles/astar_planner.dir/src/astar_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/astar_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

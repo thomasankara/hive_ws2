@@ -1,3 +1,1 @@
-uint16 edgeid
-geometry_msgs/Point start
-geometry_msgs/Point end
+/home/thomas24/hive_ws2/src/navigation2/nav2_msgs/msg/RouteEdge.msg

@@ -4,8 +4,8 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
 #include "nav2_msgs/msg/detail/particle_cloud__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "nav2_msgs/msg/detail/particle_cloud__type_support.h"
 #include "nav2_msgs/msg/detail/particle_cloud__struct.h"
 

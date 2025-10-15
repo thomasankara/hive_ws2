@@ -23,9 +23,9 @@ nav2_msgs__msg__PolygonObject__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "builtin_interfaces/msg/detail/time__functions.h"
 #include "unique_identifier_msgs/msg/detail/uuid__functions.h"
 #include "geometry_msgs/msg/detail/point32__functions.h"
+#include "builtin_interfaces/msg/detail/time__functions.h"
 #include "std_msgs/msg/detail/header__functions.h"
 
 // Hashes for external referenced types

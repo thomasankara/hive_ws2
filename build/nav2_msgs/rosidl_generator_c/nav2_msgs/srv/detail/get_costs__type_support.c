@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "nav2_msgs/srv/detail/get_costs__struct.h"
-#include "nav2_msgs/srv/detail/get_costs__functions.h"
 #include "nav2_msgs/srv/detail/get_costs__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "nav2_msgs/srv/detail/get_costs__functions.h"
+#include "nav2_msgs/srv/detail/get_costs__struct.h"
 
 #ifdef __cplusplus
 extern "C"

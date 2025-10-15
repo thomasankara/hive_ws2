@@ -1,1 +1,1 @@
-prepend-non-duplicate;LD_LIBRARY_PATH;lib
+/home/thomas24/hive_ws2/build/nav_2d_utils/ament_cmake_environment_hooks/library_path.dsv

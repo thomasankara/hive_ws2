@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "nav2_msgs/action/detail/compute_and_track_route__struct.h"
-#include "nav2_msgs/action/detail/compute_and_track_route__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "nav2_msgs/action/detail/compute_and_track_route__type_support.h"
+#include "nav2_msgs/action/detail/compute_and_track_route__functions.h"
 
 #ifdef __cplusplus
 extern "C"

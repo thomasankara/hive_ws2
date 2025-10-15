@@ -1,0 +1,23 @@
+[  1%] Built target dwb_msgs__rosidl_generator_type_description
+[  1%] Built target ament_cmake_python_symlink_dwb_msgs
+[  1%] Built target dwb_msgs__cpp
+[ 27%] Built target dwb_msgs__rosidl_generator_c
+[ 57%] Built target dwb_msgs__rosidl_typesupport_introspection_c
+[ 57%] Built target dwb_msgs__rosidl_typesupport_cpp
+[ 57%] Built target dwb_msgs__rosidl_typesupport_c
+[ 71%] Built target dwb_msgs__rosidl_typesupport_introspection_cpp
+[ 76%] Built target dwb_msgs__rosidl_typesupport_fastrtps_cpp
+[ 85%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c
+[ 85%] Built target dwb_msgs
+[ 86%] Built target dwb_msgs__py
+[ 94%] Built target dwb_msgs__rosidl_generator_py
+[ 96%] Built target dwb_msgs_s__rosidl_typesupport_fastrtps_c
+[100%] Built target dwb_msgs_s__rosidl_typesupport_c
+[100%] Built target dwb_msgs_s__rosidl_typesupport_introspection_c
+running egg_info
+writing dwb_msgs.egg-info/PKG-INFO
+writing dependency_links to dwb_msgs.egg-info/dependency_links.txt
+writing top-level names to dwb_msgs.egg-info/top_level.txt
+reading manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+writing manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_dwb_msgs_egg

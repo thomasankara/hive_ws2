@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "nav2_msgs/action/detail/wait__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "nav2_msgs/action/detail/wait__type_support.h"
 #include "nav2_msgs/action/detail/wait__struct.h"
+#include "nav2_msgs/action/detail/wait__functions.h"
+#include "nav2_msgs/action/detail/wait__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

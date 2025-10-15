@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "nav2_msgs/srv/detail/dynamic_edges__functions.h"
+#include "nav2_msgs/srv/detail/dynamic_edges__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "nav2_msgs/srv/detail/dynamic_edges__struct.h"
-#include "nav2_msgs/srv/detail/dynamic_edges__type_support.h"
-#include "nav2_msgs/srv/detail/dynamic_edges__functions.h"
 
 #ifdef __cplusplus
 extern "C"
