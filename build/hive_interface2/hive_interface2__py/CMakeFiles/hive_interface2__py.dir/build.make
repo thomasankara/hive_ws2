@@ -71,11 +71,21 @@ include /home/thomas24/hive_ws2/build/hive_interface2/hive_interface2__py/CMakeF
 /home/thomas24/hive_ws2/build/hive_interface2/hive_interface2__py/CMakeFiles/hive_interface2__py: rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_c.c
 /home/thomas24/hive_ws2/build/hive_interface2/hive_interface2__py/CMakeFiles/hive_interface2__py: rosidl_generator_py/hive_interface2/msg/_lanelet_mini2.py
 /home/thomas24/hive_ws2/build/hive_interface2/hive_interface2__py/CMakeFiles/hive_interface2__py: rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_array.py
+/home/thomas24/hive_ws2/build/hive_interface2/hive_interface2__py/CMakeFiles/hive_interface2__py: rosidl_generator_py/hive_interface2/msg/_free_zone.py
+/home/thomas24/hive_ws2/build/hive_interface2/hive_interface2__py/CMakeFiles/hive_interface2__py: rosidl_generator_py/hive_interface2/msg/_free_zone_array.py
+/home/thomas24/hive_ws2/build/hive_interface2/hive_interface2__py/CMakeFiles/hive_interface2__py: rosidl_generator_py/hive_interface2/msg/_poi.py
+/home/thomas24/hive_ws2/build/hive_interface2/hive_interface2__py/CMakeFiles/hive_interface2__py: rosidl_generator_py/hive_interface2/msg/_poi_array.py
+/home/thomas24/hive_ws2/build/hive_interface2/hive_interface2__py/CMakeFiles/hive_interface2__py: rosidl_generator_py/hive_interface2/msg/_nav_brain_command.py
 /home/thomas24/hive_ws2/build/hive_interface2/hive_interface2__py/CMakeFiles/hive_interface2__py: rosidl_generator_py/hive_interface2/srv/_compute_route.py
 /home/thomas24/hive_ws2/build/hive_interface2/hive_interface2__py/CMakeFiles/hive_interface2__py: rosidl_generator_py/hive_interface2/msg/__init__.py
 /home/thomas24/hive_ws2/build/hive_interface2/hive_interface2__py/CMakeFiles/hive_interface2__py: rosidl_generator_py/hive_interface2/srv/__init__.py
 /home/thomas24/hive_ws2/build/hive_interface2/hive_interface2__py/CMakeFiles/hive_interface2__py: rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_s.c
 /home/thomas24/hive_ws2/build/hive_interface2/hive_interface2__py/CMakeFiles/hive_interface2__py: rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_array_s.c
+/home/thomas24/hive_ws2/build/hive_interface2/hive_interface2__py/CMakeFiles/hive_interface2__py: rosidl_generator_py/hive_interface2/msg/_free_zone_s.c
+/home/thomas24/hive_ws2/build/hive_interface2/hive_interface2__py/CMakeFiles/hive_interface2__py: rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c
+/home/thomas24/hive_ws2/build/hive_interface2/hive_interface2__py/CMakeFiles/hive_interface2__py: rosidl_generator_py/hive_interface2/msg/_poi_s.c
+/home/thomas24/hive_ws2/build/hive_interface2/hive_interface2__py/CMakeFiles/hive_interface2__py: rosidl_generator_py/hive_interface2/msg/_poi_array_s.c
+/home/thomas24/hive_ws2/build/hive_interface2/hive_interface2__py/CMakeFiles/hive_interface2__py: rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c
 /home/thomas24/hive_ws2/build/hive_interface2/hive_interface2__py/CMakeFiles/hive_interface2__py: rosidl_generator_py/hive_interface2/srv/_compute_route_s.c
 
 rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/rosidl_generator_py/rosidl_generator_py
@@ -93,6 +103,11 @@ rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fas
 rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/hive_interface2/msg/LaneletMini2.idl
 rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/hive_interface2/msg/LaneletMini2Array.idl
+rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/hive_interface2/msg/FreeZone.idl
+rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/hive_interface2/msg/FreeZoneArray.idl
+rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/hive_interface2/msg/Poi.idl
+rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/hive_interface2/msg/PoiArray.idl
+rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/hive_interface2/msg/NavBrainCommand.idl
 rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/hive_interface2/srv/ComputeRoute.idl
 rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
 rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/std_msgs/msg/Byte.idl
@@ -184,6 +199,21 @@ rosidl_generator_py/hive_interface2/msg/_lanelet_mini2.py: rosidl_generator_py/h
 rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_array.py: rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_array.py
 
+rosidl_generator_py/hive_interface2/msg/_free_zone.py: rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hive_interface2/msg/_free_zone.py
+
+rosidl_generator_py/hive_interface2/msg/_free_zone_array.py: rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hive_interface2/msg/_free_zone_array.py
+
+rosidl_generator_py/hive_interface2/msg/_poi.py: rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hive_interface2/msg/_poi.py
+
+rosidl_generator_py/hive_interface2/msg/_poi_array.py: rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hive_interface2/msg/_poi_array.py
+
+rosidl_generator_py/hive_interface2/msg/_nav_brain_command.py: rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hive_interface2/msg/_nav_brain_command.py
+
 rosidl_generator_py/hive_interface2/srv/_compute_route.py: rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hive_interface2/srv/_compute_route.py
 
@@ -199,6 +229,21 @@ rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_s.c: rosidl_generator_py/
 rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_array_s.c: rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_array_s.c
 
+rosidl_generator_py/hive_interface2/msg/_free_zone_s.c: rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hive_interface2/msg/_free_zone_s.c
+
+rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c: rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c
+
+rosidl_generator_py/hive_interface2/msg/_poi_s.c: rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hive_interface2/msg/_poi_s.c
+
+rosidl_generator_py/hive_interface2/msg/_poi_array_s.c: rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hive_interface2/msg/_poi_array_s.c
+
+rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c: rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c
+
 rosidl_generator_py/hive_interface2/srv/_compute_route_s.c: rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hive_interface2/srv/_compute_route_s.c
 
@@ -207,10 +252,20 @@ hive_interface2__py: rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.r
 hive_interface2__py: rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_fastrtps_c.c
 hive_interface2__py: rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_introspection_c.c
 hive_interface2__py: rosidl_generator_py/hive_interface2/msg/__init__.py
+hive_interface2__py: rosidl_generator_py/hive_interface2/msg/_free_zone.py
+hive_interface2__py: rosidl_generator_py/hive_interface2/msg/_free_zone_array.py
+hive_interface2__py: rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c
+hive_interface2__py: rosidl_generator_py/hive_interface2/msg/_free_zone_s.c
 hive_interface2__py: rosidl_generator_py/hive_interface2/msg/_lanelet_mini2.py
 hive_interface2__py: rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_array.py
 hive_interface2__py: rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_array_s.c
 hive_interface2__py: rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_s.c
+hive_interface2__py: rosidl_generator_py/hive_interface2/msg/_nav_brain_command.py
+hive_interface2__py: rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c
+hive_interface2__py: rosidl_generator_py/hive_interface2/msg/_poi.py
+hive_interface2__py: rosidl_generator_py/hive_interface2/msg/_poi_array.py
+hive_interface2__py: rosidl_generator_py/hive_interface2/msg/_poi_array_s.c
+hive_interface2__py: rosidl_generator_py/hive_interface2/msg/_poi_s.c
 hive_interface2__py: rosidl_generator_py/hive_interface2/srv/__init__.py
 hive_interface2__py: rosidl_generator_py/hive_interface2/srv/_compute_route.py
 hive_interface2__py: rosidl_generator_py/hive_interface2/srv/_compute_route_s.c

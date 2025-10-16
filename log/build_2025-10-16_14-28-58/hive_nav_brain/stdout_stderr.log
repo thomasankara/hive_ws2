@@ -1,0 +1,20 @@
+[100%] Built target hive_nav_brain_node
+-- Install configuration: ""
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_nav_brain/lib/hive_nav_brain/hive_nav_brain_node
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_nav_brain/share/hive_nav_brain/launch
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_nav_brain/share/hive_nav_brain/launch/hive_nav_brain.launch.py
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_nav_brain/share/ament_index/resource_index/package_run_dependencies/hive_nav_brain
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_nav_brain/share/ament_index/resource_index/parent_prefix_path/hive_nav_brain
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_nav_brain/share/hive_nav_brain/environment/ament_prefix_path.sh
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_nav_brain/share/hive_nav_brain/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_nav_brain/share/hive_nav_brain/environment/path.sh
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_nav_brain/share/hive_nav_brain/environment/path.dsv
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_nav_brain/share/hive_nav_brain/local_setup.bash
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_nav_brain/share/hive_nav_brain/local_setup.sh
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_nav_brain/share/hive_nav_brain/local_setup.zsh
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_nav_brain/share/hive_nav_brain/local_setup.dsv
+-- Installing: /home/thomas24/hive_ws2/install/hive_nav_brain/share/hive_nav_brain/package.dsv
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_nav_brain/share/ament_index/resource_index/packages/hive_nav_brain
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_nav_brain/share/hive_nav_brain/cmake/hive_nav_brainConfig.cmake
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_nav_brain/share/hive_nav_brain/cmake/hive_nav_brainConfig-version.cmake
+-- Up-to-date: /home/thomas24/hive_ws2/install/hive_nav_brain/share/hive_nav_brain/package.xml

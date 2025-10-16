@@ -1,6 +1,16 @@
+msg/FreeZone.idl
+msg/FreeZone.msg
+msg/FreeZoneArray.idl
+msg/FreeZoneArray.msg
 msg/LaneletMini2.idl
 msg/LaneletMini2.msg
 msg/LaneletMini2Array.idl
 msg/LaneletMini2Array.msg
+msg/NavBrainCommand.idl
+msg/NavBrainCommand.msg
+msg/Poi.idl
+msg/Poi.msg
+msg/PoiArray.idl
+msg/PoiArray.msg
 srv/ComputeRoute.idl
 srv/ComputeRoute.srv

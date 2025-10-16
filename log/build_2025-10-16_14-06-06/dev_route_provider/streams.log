@@ -1,0 +1,33 @@
+[0.010s] Invoking command in '/home/thomas24/hive_ws2/build/dev_route_provider': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/hive_interface2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/hive_interface2:/home/thomas24/hiveverse_ws/install/hive_simulation:/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/hive_interface2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas24/hive_ws2/build/dev_route_provider -- -j16 -l16
+[0.036s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.219s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.242s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.250s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.260s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.270s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.315s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.316s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.373s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.423s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[0.435s] -- Found hive_interface2: 0.0.1 (/home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake)
+[0.503s] -- mysqlclient via pkg-config found
+[0.592s] -- Configuring done (0.6s)
+[0.601s] -- Generating done (0.0s)
+[0.605s] -- Build files have been written to: /home/thomas24/hive_ws2/build/dev_route_provider
+[0.657s] [ 66%] [32mBuilding CXX object CMakeFiles/dev_route_provider_node.dir/src/dev_route_provider_node.cpp.o[0m
+[0.657s] [ 66%] [32mBuilding CXX object CMakeFiles/dev_route_provider_node.dir/src/db_mysql.cpp.o[0m
+[0.751s] In file included from [01m[K/home/thomas24/hive_ws2/src/dev_route_provider/src/db_mysql.cpp:1[m[K:
+[0.751s] [01m[K/home/thomas24/hive_ws2/src/dev_route_provider/include/dev_route_provider/db_mysql.hpp:8:10:[m[K [01;31m[Kfatal error: [m[Khive_interface2/msg/poi.hpp: No such file or directory
+[0.751s]     8 | #include [01;31m[K"hive_interface2/msg/poi.hpp"[m[K
+[0.751s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.751s] compilation terminated.
+[0.753s] gmake[2]: *** [CMakeFiles/dev_route_provider_node.dir/build.make:90: CMakeFiles/dev_route_provider_node.dir/src/db_mysql.cpp.o] Error 1
+[0.754s] gmake[2]: *** Waiting for unfinished jobs....
+[0.862s] [01m[K/home/thomas24/hive_ws2/src/dev_route_provider/src/dev_route_provider_node.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Khive_interface2/msg/poi.hpp: No such file or directory
+[0.862s]    13 | #include [01;31m[K"hive_interface2/msg/poi.hpp"[m[K
+[0.862s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.862s] compilation terminated.
+[0.866s] gmake[2]: *** [CMakeFiles/dev_route_provider_node.dir/build.make:76: CMakeFiles/dev_route_provider_node.dir/src/dev_route_provider_node.cpp.o] Error 1
+[0.866s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dev_route_provider_node.dir/all] Error 2
+[0.866s] gmake: *** [Makefile:146: all] Error 2
+[0.869s] Invoked command in '/home/thomas24/hive_ws2/build/dev_route_provider' returned '2': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/hive_interface2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/hive_interface2:/home/thomas24/hiveverse_ws/install/hive_simulation:/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/hive_interface2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas24/hive_ws2/build/dev_route_provider -- -j16 -l16

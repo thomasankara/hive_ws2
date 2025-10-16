@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hive_interface2/msg/PoiArray.msg
+// generated code does not contain a copyright notice
+
+#include "hive_interface2/msg/Poi.idl"
+
+module hive_interface2 {
+  module msg {
+    struct PoiArray {
+      sequence<hive_interface2::msg::Poi> items;
+    };
+  };
+};

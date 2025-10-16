@@ -76,6 +76,31 @@ CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail
 CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/lanelet_mini2_array__struct.hpp
 CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/lanelet_mini2_array__traits.hpp
 CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/lanelet_mini2_array__type_support.hpp
+CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/free_zone.hpp
+CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/free_zone__builder.hpp
+CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/free_zone__struct.hpp
+CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/free_zone__traits.hpp
+CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/free_zone__type_support.hpp
+CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/free_zone_array.hpp
+CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/free_zone_array__builder.hpp
+CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/free_zone_array__struct.hpp
+CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/free_zone_array__traits.hpp
+CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/free_zone_array__type_support.hpp
+CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/poi.hpp
+CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/poi__builder.hpp
+CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/poi__struct.hpp
+CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/poi__traits.hpp
+CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/poi__type_support.hpp
+CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/poi_array.hpp
+CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/poi_array__builder.hpp
+CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/poi_array__struct.hpp
+CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/poi_array__traits.hpp
+CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/poi_array__type_support.hpp
+CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/nav_brain_command.hpp
+CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/nav_brain_command__builder.hpp
+CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/nav_brain_command__struct.hpp
+CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/nav_brain_command__traits.hpp
+CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/nav_brain_command__type_support.hpp
 CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/srv/compute_route.hpp
 CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/srv/detail/compute_route__builder.hpp
 CMakeFiles/hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/srv/detail/compute_route__struct.hpp
@@ -104,6 +129,11 @@ rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp: /opt/ros/jazzy/share
 rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
 rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp: rosidl_adapter/hive_interface2/msg/LaneletMini2.idl
 rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp: rosidl_adapter/hive_interface2/msg/LaneletMini2Array.idl
+rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp: rosidl_adapter/hive_interface2/msg/FreeZone.idl
+rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp: rosidl_adapter/hive_interface2/msg/FreeZoneArray.idl
+rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp: rosidl_adapter/hive_interface2/msg/Poi.idl
+rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp: rosidl_adapter/hive_interface2/msg/PoiArray.idl
+rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp: rosidl_adapter/hive_interface2/msg/NavBrainCommand.idl
 rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp: rosidl_adapter/hive_interface2/srv/ComputeRoute.idl
 rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
 rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp: /opt/ros/jazzy/share/std_msgs/msg/Byte.idl
@@ -210,6 +240,81 @@ rosidl_generator_cpp/hive_interface2/msg/detail/lanelet_mini2_array__traits.hpp:
 rosidl_generator_cpp/hive_interface2/msg/detail/lanelet_mini2_array__type_support.hpp: rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hive_interface2/msg/detail/lanelet_mini2_array__type_support.hpp
 
+rosidl_generator_cpp/hive_interface2/msg/free_zone.hpp: rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hive_interface2/msg/free_zone.hpp
+
+rosidl_generator_cpp/hive_interface2/msg/detail/free_zone__builder.hpp: rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hive_interface2/msg/detail/free_zone__builder.hpp
+
+rosidl_generator_cpp/hive_interface2/msg/detail/free_zone__struct.hpp: rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hive_interface2/msg/detail/free_zone__struct.hpp
+
+rosidl_generator_cpp/hive_interface2/msg/detail/free_zone__traits.hpp: rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hive_interface2/msg/detail/free_zone__traits.hpp
+
+rosidl_generator_cpp/hive_interface2/msg/detail/free_zone__type_support.hpp: rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hive_interface2/msg/detail/free_zone__type_support.hpp
+
+rosidl_generator_cpp/hive_interface2/msg/free_zone_array.hpp: rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hive_interface2/msg/free_zone_array.hpp
+
+rosidl_generator_cpp/hive_interface2/msg/detail/free_zone_array__builder.hpp: rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hive_interface2/msg/detail/free_zone_array__builder.hpp
+
+rosidl_generator_cpp/hive_interface2/msg/detail/free_zone_array__struct.hpp: rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hive_interface2/msg/detail/free_zone_array__struct.hpp
+
+rosidl_generator_cpp/hive_interface2/msg/detail/free_zone_array__traits.hpp: rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hive_interface2/msg/detail/free_zone_array__traits.hpp
+
+rosidl_generator_cpp/hive_interface2/msg/detail/free_zone_array__type_support.hpp: rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hive_interface2/msg/detail/free_zone_array__type_support.hpp
+
+rosidl_generator_cpp/hive_interface2/msg/poi.hpp: rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hive_interface2/msg/poi.hpp
+
+rosidl_generator_cpp/hive_interface2/msg/detail/poi__builder.hpp: rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hive_interface2/msg/detail/poi__builder.hpp
+
+rosidl_generator_cpp/hive_interface2/msg/detail/poi__struct.hpp: rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hive_interface2/msg/detail/poi__struct.hpp
+
+rosidl_generator_cpp/hive_interface2/msg/detail/poi__traits.hpp: rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hive_interface2/msg/detail/poi__traits.hpp
+
+rosidl_generator_cpp/hive_interface2/msg/detail/poi__type_support.hpp: rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hive_interface2/msg/detail/poi__type_support.hpp
+
+rosidl_generator_cpp/hive_interface2/msg/poi_array.hpp: rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hive_interface2/msg/poi_array.hpp
+
+rosidl_generator_cpp/hive_interface2/msg/detail/poi_array__builder.hpp: rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hive_interface2/msg/detail/poi_array__builder.hpp
+
+rosidl_generator_cpp/hive_interface2/msg/detail/poi_array__struct.hpp: rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hive_interface2/msg/detail/poi_array__struct.hpp
+
+rosidl_generator_cpp/hive_interface2/msg/detail/poi_array__traits.hpp: rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hive_interface2/msg/detail/poi_array__traits.hpp
+
+rosidl_generator_cpp/hive_interface2/msg/detail/poi_array__type_support.hpp: rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hive_interface2/msg/detail/poi_array__type_support.hpp
+
+rosidl_generator_cpp/hive_interface2/msg/nav_brain_command.hpp: rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hive_interface2/msg/nav_brain_command.hpp
+
+rosidl_generator_cpp/hive_interface2/msg/detail/nav_brain_command__builder.hpp: rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hive_interface2/msg/detail/nav_brain_command__builder.hpp
+
+rosidl_generator_cpp/hive_interface2/msg/detail/nav_brain_command__struct.hpp: rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hive_interface2/msg/detail/nav_brain_command__struct.hpp
+
+rosidl_generator_cpp/hive_interface2/msg/detail/nav_brain_command__traits.hpp: rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hive_interface2/msg/detail/nav_brain_command__traits.hpp
+
+rosidl_generator_cpp/hive_interface2/msg/detail/nav_brain_command__type_support.hpp: rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hive_interface2/msg/detail/nav_brain_command__type_support.hpp
+
 rosidl_generator_cpp/hive_interface2/srv/compute_route.hpp: rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hive_interface2/srv/compute_route.hpp
 
@@ -229,6 +334,14 @@ rosidl_generator_cpp/hive_interface2/msg/rosidl_generator_cpp__visibility_contro
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hive_interface2/msg/rosidl_generator_cpp__visibility_control.hpp
 
 hive_interface2__cpp: CMakeFiles/hive_interface2__cpp
+hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/free_zone__builder.hpp
+hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/free_zone__struct.hpp
+hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/free_zone__traits.hpp
+hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/free_zone__type_support.hpp
+hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/free_zone_array__builder.hpp
+hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/free_zone_array__struct.hpp
+hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/free_zone_array__traits.hpp
+hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/free_zone_array__type_support.hpp
 hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/lanelet_mini2__builder.hpp
 hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/lanelet_mini2__struct.hpp
 hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/lanelet_mini2__traits.hpp
@@ -237,8 +350,25 @@ hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/lanelet_mi
 hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/lanelet_mini2_array__struct.hpp
 hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/lanelet_mini2_array__traits.hpp
 hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/lanelet_mini2_array__type_support.hpp
+hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/nav_brain_command__builder.hpp
+hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/nav_brain_command__struct.hpp
+hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/nav_brain_command__traits.hpp
+hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/nav_brain_command__type_support.hpp
+hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/poi__builder.hpp
+hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/poi__struct.hpp
+hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/poi__traits.hpp
+hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/poi__type_support.hpp
+hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/poi_array__builder.hpp
+hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/poi_array__struct.hpp
+hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/poi_array__traits.hpp
+hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/detail/poi_array__type_support.hpp
+hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/free_zone.hpp
+hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/free_zone_array.hpp
 hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2.hpp
 hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/lanelet_mini2_array.hpp
+hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/nav_brain_command.hpp
+hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/poi.hpp
+hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/poi_array.hpp
 hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/msg/rosidl_generator_cpp__visibility_control.hpp
 hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/srv/compute_route.hpp
 hive_interface2__cpp: rosidl_generator_cpp/hive_interface2/srv/detail/compute_route__builder.hpp

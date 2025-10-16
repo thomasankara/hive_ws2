@@ -68,6 +68,11 @@ include CMakeFiles/hive_interface2.dir/progress.make
 
 CMakeFiles/hive_interface2: /home/thomas24/hive_ws2/src/hive_interface2/msg/LaneletMini2.msg
 CMakeFiles/hive_interface2: /home/thomas24/hive_ws2/src/hive_interface2/msg/LaneletMini2Array.msg
+CMakeFiles/hive_interface2: /home/thomas24/hive_ws2/src/hive_interface2/msg/FreeZone.msg
+CMakeFiles/hive_interface2: /home/thomas24/hive_ws2/src/hive_interface2/msg/FreeZoneArray.msg
+CMakeFiles/hive_interface2: /home/thomas24/hive_ws2/src/hive_interface2/msg/Poi.msg
+CMakeFiles/hive_interface2: /home/thomas24/hive_ws2/src/hive_interface2/msg/PoiArray.msg
+CMakeFiles/hive_interface2: /home/thomas24/hive_ws2/src/hive_interface2/msg/NavBrainCommand.msg
 CMakeFiles/hive_interface2: /home/thomas24/hive_ws2/src/hive_interface2/srv/ComputeRoute.srv
 CMakeFiles/hive_interface2: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
 CMakeFiles/hive_interface2: /opt/ros/jazzy/share/std_msgs/msg/Byte.idl

@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hive_interface2/msg/FreeZone.msg
+// generated code does not contain a copyright notice
+
+
+module hive_interface2 {
+  module msg {
+    @verbatim (language="comment", text=
+      "Zone libre issue de la table SQL `zone_libre`")
+    struct FreeZone {
+      string enterprise_full_id_str;
+
+      string deployment_full_id_str;
+
+      string slam_session_full_id_str;
+
+      string free_zone_full_id_str;
+
+      string free_zone_id;
+
+      int32 is_parking_available;
+
+      int32 is_offpoi_parking_allowed;
+
+      int32 is_long_wait_zone;
+
+      @verbatim (language="comment", text=
+        "JSON brut de la DB")
+      string zone_polygon_points_json;
+
+      int32 max_speed;
+    };
+  };
+};

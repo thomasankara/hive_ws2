@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "hive_interface2/srv/detail/compute_route__type_support.h"
-#include "rosidl_typesupport_interface/macros.h"
-#include "hive_interface2/srv/detail/compute_route__struct.h"
 #include "hive_interface2/srv/detail/compute_route__functions.h"
+#include "hive_interface2/srv/detail/compute_route__type_support.h"
+#include "hive_interface2/srv/detail/compute_route__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

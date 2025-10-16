@@ -97,10 +97,80 @@ CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_int
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_array_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thomas24/hive_ws2/build/hive_interface2/rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_array_s.c -o CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_array_s.c.s
 
+CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_s.c.o: CMakeFiles/hive_interface2__rosidl_generator_py.dir/flags.make
+CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_s.c.o: rosidl_generator_py/hive_interface2/msg/_free_zone_s.c
+CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_s.c.o: CMakeFiles/hive_interface2__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thomas24/hive_ws2/build/hive_interface2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_s.c.o -MF CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_s.c.o.d -o CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_s.c.o -c /home/thomas24/hive_ws2/build/hive_interface2/rosidl_generator_py/hive_interface2/msg/_free_zone_s.c
+
+CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thomas24/hive_ws2/build/hive_interface2/rosidl_generator_py/hive_interface2/msg/_free_zone_s.c > CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_s.c.i
+
+CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thomas24/hive_ws2/build/hive_interface2/rosidl_generator_py/hive_interface2/msg/_free_zone_s.c -o CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_s.c.s
+
+CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c.o: CMakeFiles/hive_interface2__rosidl_generator_py.dir/flags.make
+CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c.o: rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c
+CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c.o: CMakeFiles/hive_interface2__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thomas24/hive_ws2/build/hive_interface2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c.o -MF CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c.o.d -o CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c.o -c /home/thomas24/hive_ws2/build/hive_interface2/rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c
+
+CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thomas24/hive_ws2/build/hive_interface2/rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c > CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c.i
+
+CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thomas24/hive_ws2/build/hive_interface2/rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c -o CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c.s
+
+CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_s.c.o: CMakeFiles/hive_interface2__rosidl_generator_py.dir/flags.make
+CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_s.c.o: rosidl_generator_py/hive_interface2/msg/_poi_s.c
+CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_s.c.o: CMakeFiles/hive_interface2__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thomas24/hive_ws2/build/hive_interface2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_s.c.o -MF CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_s.c.o.d -o CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_s.c.o -c /home/thomas24/hive_ws2/build/hive_interface2/rosidl_generator_py/hive_interface2/msg/_poi_s.c
+
+CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thomas24/hive_ws2/build/hive_interface2/rosidl_generator_py/hive_interface2/msg/_poi_s.c > CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_s.c.i
+
+CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thomas24/hive_ws2/build/hive_interface2/rosidl_generator_py/hive_interface2/msg/_poi_s.c -o CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_s.c.s
+
+CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_array_s.c.o: CMakeFiles/hive_interface2__rosidl_generator_py.dir/flags.make
+CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_array_s.c.o: rosidl_generator_py/hive_interface2/msg/_poi_array_s.c
+CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_array_s.c.o: CMakeFiles/hive_interface2__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thomas24/hive_ws2/build/hive_interface2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_array_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_array_s.c.o -MF CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_array_s.c.o.d -o CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_array_s.c.o -c /home/thomas24/hive_ws2/build/hive_interface2/rosidl_generator_py/hive_interface2/msg/_poi_array_s.c
+
+CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_array_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_array_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thomas24/hive_ws2/build/hive_interface2/rosidl_generator_py/hive_interface2/msg/_poi_array_s.c > CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_array_s.c.i
+
+CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_array_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_array_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thomas24/hive_ws2/build/hive_interface2/rosidl_generator_py/hive_interface2/msg/_poi_array_s.c -o CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_array_s.c.s
+
+CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c.o: CMakeFiles/hive_interface2__rosidl_generator_py.dir/flags.make
+CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c.o: rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c
+CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c.o: CMakeFiles/hive_interface2__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thomas24/hive_ws2/build/hive_interface2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c.o -MF CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c.o.d -o CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c.o -c /home/thomas24/hive_ws2/build/hive_interface2/rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c
+
+CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thomas24/hive_ws2/build/hive_interface2/rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c > CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c.i
+
+CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thomas24/hive_ws2/build/hive_interface2/rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c -o CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c.s
+
 CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/srv/_compute_route_s.c.o: CMakeFiles/hive_interface2__rosidl_generator_py.dir/flags.make
 CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/srv/_compute_route_s.c.o: rosidl_generator_py/hive_interface2/srv/_compute_route_s.c
 CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/srv/_compute_route_s.c.o: CMakeFiles/hive_interface2__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thomas24/hive_ws2/build/hive_interface2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/srv/_compute_route_s.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thomas24/hive_ws2/build/hive_interface2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/srv/_compute_route_s.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/srv/_compute_route_s.c.o -MF CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/srv/_compute_route_s.c.o.d -o CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/srv/_compute_route_s.c.o -c /home/thomas24/hive_ws2/build/hive_interface2/rosidl_generator_py/hive_interface2/srv/_compute_route_s.c
 
 CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/srv/_compute_route_s.c.i: cmake_force
@@ -115,6 +185,11 @@ CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_int
 hive_interface2__rosidl_generator_py_OBJECTS = \
 "CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_s.c.o" \
 "CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_array_s.c.o" \
+"CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_s.c.o" \
+"CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c.o" \
+"CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_s.c.o" \
+"CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_array_s.c.o" \
+"CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c.o" \
 "CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/srv/_compute_route_s.c.o"
 
 # External object files for target hive_interface2__rosidl_generator_py
@@ -122,6 +197,11 @@ hive_interface2__rosidl_generator_py_EXTERNAL_OBJECTS =
 
 libhive_interface2__rosidl_generator_py.so: CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_s.c.o
 libhive_interface2__rosidl_generator_py.so: CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_array_s.c.o
+libhive_interface2__rosidl_generator_py.so: CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_s.c.o
+libhive_interface2__rosidl_generator_py.so: CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c.o
+libhive_interface2__rosidl_generator_py.so: CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_s.c.o
+libhive_interface2__rosidl_generator_py.so: CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_array_s.c.o
+libhive_interface2__rosidl_generator_py.so: CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c.o
 libhive_interface2__rosidl_generator_py.so: CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/srv/_compute_route_s.c.o
 libhive_interface2__rosidl_generator_py.so: CMakeFiles/hive_interface2__rosidl_generator_py.dir/build.make
 libhive_interface2__rosidl_generator_py.so: libhive_interface2__rosidl_typesupport_c.so
@@ -177,7 +257,7 @@ libhive_interface2__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interf
 libhive_interface2__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libhive_interface2__rosidl_generator_py.so: /opt/ros/jazzy/lib/librcutils.so
 libhive_interface2__rosidl_generator_py.so: CMakeFiles/hive_interface2__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/thomas24/hive_ws2/build/hive_interface2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libhive_interface2__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/thomas24/hive_ws2/build/hive_interface2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C shared library libhive_interface2__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hive_interface2__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

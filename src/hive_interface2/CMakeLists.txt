@@ -16,6 +16,11 @@ find_package(nav_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/LaneletMini2.msg"
   "msg/LaneletMini2Array.msg"
+  "msg/FreeZone.msg"
+  "msg/FreeZoneArray.msg"
+  "msg/Poi.msg"
+  "msg/PoiArray.msg"
+  "msg/NavBrainCommand.msg"
   "srv/ComputeRoute.srv"
   DEPENDENCIES std_msgs geometry_msgs nav_msgs
 )

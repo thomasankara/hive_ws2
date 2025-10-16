@@ -79,6 +79,11 @@ rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_
 rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp: /opt/ros/jazzy/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em
 rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp: rosidl_adapter/hive_interface2/msg/LaneletMini2.idl
 rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp: rosidl_adapter/hive_interface2/msg/LaneletMini2Array.idl
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp: rosidl_adapter/hive_interface2/msg/FreeZone.idl
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp: rosidl_adapter/hive_interface2/msg/FreeZoneArray.idl
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp: rosidl_adapter/hive_interface2/msg/Poi.idl
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp: rosidl_adapter/hive_interface2/msg/PoiArray.idl
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp: rosidl_adapter/hive_interface2/msg/NavBrainCommand.idl
 rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp: rosidl_adapter/hive_interface2/srv/ComputeRoute.idl
 rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
 rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp: /opt/ros/jazzy/share/std_msgs/msg/Byte.idl
@@ -167,6 +172,36 @@ rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_
 rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/lanelet_mini2_array__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/lanelet_mini2_array__rosidl_typesupport_fastrtps_cpp.hpp
 
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp
+
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/free_zone__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/free_zone__rosidl_typesupport_fastrtps_cpp.hpp
+
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp
+
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/free_zone_array__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/free_zone_array__rosidl_typesupport_fastrtps_cpp.hpp
+
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp
+
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/poi__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/poi__rosidl_typesupport_fastrtps_cpp.hpp
+
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp
+
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/poi_array__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/poi_array__rosidl_typesupport_fastrtps_cpp.hpp
+
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp
+
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/nav_brain_command__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/nav_brain_command__rosidl_typesupport_fastrtps_cpp.hpp
+
 rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_route__type_support.cpp: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_route__type_support.cpp
 
@@ -201,10 +236,80 @@ CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesuppo
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2_array__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas24/hive_ws2/build/hive_interface2/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2_array__type_support.cpp -o CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2_array__type_support.cpp.s
 
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp.o: CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/flags.make
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp.o: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp.o: CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thomas24/hive_ws2/build/hive_interface2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp.o -MF CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp.o.d -o CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp.o -c /home/thomas24/hive_ws2/build/hive_interface2/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp
+
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas24/hive_ws2/build/hive_interface2/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp > CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp.i
+
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas24/hive_ws2/build/hive_interface2/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp -o CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp.s
+
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp.o: CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/flags.make
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp.o: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp.o: CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thomas24/hive_ws2/build/hive_interface2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp.o -MF CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp.o.d -o CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp.o -c /home/thomas24/hive_ws2/build/hive_interface2/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp
+
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas24/hive_ws2/build/hive_interface2/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp > CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp.i
+
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas24/hive_ws2/build/hive_interface2/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp -o CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp.s
+
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp.o: CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/flags.make
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp.o: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp.o: CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thomas24/hive_ws2/build/hive_interface2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp.o -MF CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp.o.d -o CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp.o -c /home/thomas24/hive_ws2/build/hive_interface2/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp
+
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas24/hive_ws2/build/hive_interface2/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp > CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp.i
+
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas24/hive_ws2/build/hive_interface2/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp -o CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp.s
+
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp.o: CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/flags.make
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp.o: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp.o: CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thomas24/hive_ws2/build/hive_interface2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp.o -MF CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp.o.d -o CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp.o -c /home/thomas24/hive_ws2/build/hive_interface2/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp
+
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas24/hive_ws2/build/hive_interface2/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp > CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp.i
+
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas24/hive_ws2/build/hive_interface2/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp -o CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp.s
+
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp.o: CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/flags.make
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp.o: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp.o: CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thomas24/hive_ws2/build/hive_interface2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp.o -MF CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp.o.d -o CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp.o -c /home/thomas24/hive_ws2/build/hive_interface2/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp
+
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas24/hive_ws2/build/hive_interface2/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp > CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp.i
+
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas24/hive_ws2/build/hive_interface2/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp -o CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp.s
+
 CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_route__type_support.cpp.o: CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/flags.make
 CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_route__type_support.cpp.o: rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_route__type_support.cpp
 CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_route__type_support.cpp.o: CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thomas24/hive_ws2/build/hive_interface2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_route__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thomas24/hive_ws2/build/hive_interface2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_route__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_route__type_support.cpp.o -MF CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_route__type_support.cpp.o.d -o CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_route__type_support.cpp.o -c /home/thomas24/hive_ws2/build/hive_interface2/rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_route__type_support.cpp
 
 CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_route__type_support.cpp.i: cmake_force
@@ -219,6 +324,11 @@ CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesuppo
 hive_interface2__rosidl_typesupport_fastrtps_cpp_OBJECTS = \
 "CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp.o" \
 "CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2_array__type_support.cpp.o" \
+"CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp.o" \
+"CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp.o" \
+"CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp.o" \
+"CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp.o" \
+"CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp.o" \
 "CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_route__type_support.cpp.o"
 
 # External object files for target hive_interface2__rosidl_typesupport_fastrtps_cpp
@@ -226,6 +336,11 @@ hive_interface2__rosidl_typesupport_fastrtps_cpp_EXTERNAL_OBJECTS =
 
 libhive_interface2__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp.o
 libhive_interface2__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2_array__type_support.cpp.o
+libhive_interface2__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp.o
+libhive_interface2__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp.o
+libhive_interface2__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp.o
+libhive_interface2__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp.o
+libhive_interface2__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp.o
 libhive_interface2__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_route__type_support.cpp.o
 libhive_interface2__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/build.make
 libhive_interface2__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/jazzy/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -246,7 +361,7 @@ libhive_interface2__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/jazzy/lib/libbu
 libhive_interface2__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libhive_interface2__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/jazzy/lib/librcutils.so
 libhive_interface2__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/thomas24/hive_ws2/build/hive_interface2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libhive_interface2__rosidl_typesupport_fastrtps_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/thomas24/hive_ws2/build/hive_interface2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX shared library libhive_interface2__rosidl_typesupport_fastrtps_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -257,10 +372,20 @@ CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/clean
 
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp
 CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp
 CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2_array__type_support.cpp
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/free_zone__rosidl_typesupport_fastrtps_cpp.hpp
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/free_zone_array__rosidl_typesupport_fastrtps_cpp.hpp
 CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/lanelet_mini2__rosidl_typesupport_fastrtps_cpp.hpp
 CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/lanelet_mini2_array__rosidl_typesupport_fastrtps_cpp.hpp
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/nav_brain_command__rosidl_typesupport_fastrtps_cpp.hpp
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/poi__rosidl_typesupport_fastrtps_cpp.hpp
+CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/poi_array__rosidl_typesupport_fastrtps_cpp.hpp
 CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/compute_route__rosidl_typesupport_fastrtps_cpp.hpp
 CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_route__type_support.cpp
 	cd /home/thomas24/hive_ws2/build/hive_interface2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thomas24/hive_ws2/src/hive_interface2 /home/thomas24/hive_ws2/src/hive_interface2 /home/thomas24/hive_ws2/build/hive_interface2 /home/thomas24/hive_ws2/build/hive_interface2 /home/thomas24/hive_ws2/build/hive_interface2/CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/DependInfo.cmake "--color=$(COLOR)"

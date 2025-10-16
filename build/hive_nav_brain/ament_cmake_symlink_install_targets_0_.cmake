@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/thomas24/hive_ws2/build/hive_nav_brain/libhive_nav_brain_lib.a" "/home/thomas24/hive_ws2/build/hive_nav_brain/hive_nav_brain_node" "TARGETS" "hive_nav_brain_lib" "hive_nav_brain_node" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/hive_nav_brain")

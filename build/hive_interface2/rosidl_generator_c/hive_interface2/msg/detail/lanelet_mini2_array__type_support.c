@@ -6,8 +6,8 @@
 
 #include "hive_interface2/msg/detail/lanelet_mini2_array__struct.h"
 #include "hive_interface2/msg/detail/lanelet_mini2_array__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "hive_interface2/msg/detail/lanelet_mini2_array__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

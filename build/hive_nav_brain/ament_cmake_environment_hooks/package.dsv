@@ -1,0 +1,4 @@
+source;share/hive_nav_brain/local_setup.bash
+source;share/hive_nav_brain/local_setup.dsv
+source;share/hive_nav_brain/local_setup.sh
+source;share/hive_nav_brain/local_setup.zsh

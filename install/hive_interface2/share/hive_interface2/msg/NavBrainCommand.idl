@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hive_interface2/msg/NavBrainCommand.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module hive_interface2 {
+  module msg {
+    @verbatim (language="comment", text=
+      "Commande haut-niveau pour hive_nav_brain" "\n"
+      "NOTE: free_zone_id ici est un entier logique interne Hive (différent du free_zone_id VARCHAR en DB).")
+    struct NavBrainCommand {
+      int32 free_zone_id;
+
+      int32 poi_id;
+
+      geometry_msgs::msg::PoseStamped destination;
+
+      int32 object_tracking_id;
+
+      int32 mission_id;
+    };
+  };
+};

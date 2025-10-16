@@ -1,0 +1,14 @@
+In file included from [01m[K/home/thomas24/hive_ws2/src/dev_route_provider/src/db_mysql.cpp:1[m[K:
+[01m[K/home/thomas24/hive_ws2/src/dev_route_provider/include/dev_route_provider/db_mysql.hpp:8:10:[m[K [01;31m[Kfatal error: [m[Khive_interface2/msg/poi.hpp: No such file or directory
+    8 | #include [01;31m[K"hive_interface2/msg/poi.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/dev_route_provider_node.dir/build.make:90: CMakeFiles/dev_route_provider_node.dir/src/db_mysql.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/thomas24/hive_ws2/src/dev_route_provider/src/dev_route_provider_node.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Khive_interface2/msg/poi.hpp: No such file or directory
+   13 | #include [01;31m[K"hive_interface2/msg/poi.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/dev_route_provider_node.dir/build.make:76: CMakeFiles/dev_route_provider_node.dir/src/dev_route_provider_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dev_route_provider_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

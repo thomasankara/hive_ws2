@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-82e0ac911e6a7be369ab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "hive_interface2__py",
+					"jsonFile" : "directory-hive_interface2__py-9a3ca38600b21059536a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/thomas24/hive_ws2/build/hive_interface2/hive_interface2__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "hive_interface2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_hive_interface2_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_hive_interface2_egg-e802ae4f13f1c96947fd.json",
+					"name" : "ament_cmake_python_build_hive_interface2_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_hive_interface2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_hive_interface2-54f510e1be717ec55e45.json",
+					"name" : "ament_cmake_python_copy_hive_interface2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hive_interface2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hive_interface2-51c9ae85123f45641ac8.json",
+					"name" : "hive_interface2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hive_interface2__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hive_interface2__cpp-9608fb30b3e7f06fa219.json",
+					"name" : "hive_interface2__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "hive_interface2__py::@d83817c3a257a6d21335",
+					"jsonFile" : "target-hive_interface2__py-31a3dde9cc923243915d.json",
+					"name" : "hive_interface2__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hive_interface2__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hive_interface2__rosidl_generator_c-358864ab0dbfec37839c.json",
+					"name" : "hive_interface2__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hive_interface2__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hive_interface2__rosidl_generator_py-0fc45a1b5313839109a8.json",
+					"name" : "hive_interface2__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hive_interface2__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hive_interface2__rosidl_generator_type_description-f2786d4b0d5df0179d74.json",
+					"name" : "hive_interface2__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hive_interface2__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hive_interface2__rosidl_typesupport_c-2b08f1401be2389638f8.json",
+					"name" : "hive_interface2__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hive_interface2__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hive_interface2__rosidl_typesupport_cpp-39df6719f38ce43e1de1.json",
+					"name" : "hive_interface2__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hive_interface2__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hive_interface2__rosidl_typesupport_fastrtps_c-983fdf2ca72611e287fb.json",
+					"name" : "hive_interface2__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hive_interface2__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hive_interface2__rosidl_typesupport_fastrtps_cpp-bc569edefd5e79e31896.json",
+					"name" : "hive_interface2__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hive_interface2__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hive_interface2__rosidl_typesupport_introspection_c-cf01b3888570800e987b.json",
+					"name" : "hive_interface2__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hive_interface2__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hive_interface2__rosidl_typesupport_introspection_cpp-7e085652c108db8ac3ad.json",
+					"name" : "hive_interface2__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hive_interface2_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hive_interface2_s__rosidl_typesupport_c-93add292e52b21aff9ad.json",
+					"name" : "hive_interface2_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hive_interface2_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hive_interface2_s__rosidl_typesupport_fastrtps_c-f95232b7bea6489070bd.json",
+					"name" : "hive_interface2_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hive_interface2_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hive_interface2_s__rosidl_typesupport_introspection_c-4eead98b8c3cc8c52b77.json",
+					"name" : "hive_interface2_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hive_interface2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hive_interface2_uninstall-5e42ef98efea971cb60a.json",
+					"name" : "hive_interface2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-647fea4f57312cf8fc11.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/thomas24/hive_ws2/build/hive_interface2",
+		"source" : "/home/thomas24/hive_ws2/src/hive_interface2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

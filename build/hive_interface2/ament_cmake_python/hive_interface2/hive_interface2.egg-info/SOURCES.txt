@@ -5,7 +5,12 @@ hive_interface2.egg-info/SOURCES.txt
 hive_interface2.egg-info/dependency_links.txt
 hive_interface2.egg-info/top_level.txt
 hive_interface2/msg/__init__.py
+hive_interface2/msg/_free_zone.py
+hive_interface2/msg/_free_zone_array.py
 hive_interface2/msg/_lanelet_mini2.py
 hive_interface2/msg/_lanelet_mini2_array.py
+hive_interface2/msg/_nav_brain_command.py
+hive_interface2/msg/_poi.py
+hive_interface2/msg/_poi_array.py
 hive_interface2/srv/__init__.py
 hive_interface2/srv/_compute_route.py

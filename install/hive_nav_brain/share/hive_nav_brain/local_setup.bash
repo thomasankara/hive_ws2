@@ -1,0 +1,1 @@
+/home/thomas24/hive_ws2/build/hive_nav_brain/ament_cmake_environment_hooks/local_setup.bash

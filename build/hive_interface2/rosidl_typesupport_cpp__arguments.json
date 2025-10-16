@@ -5,6 +5,11 @@
   "idl_tuples": [
     "/home/thomas24/hive_ws2/build/hive_interface2/rosidl_adapter/hive_interface2:msg/LaneletMini2.idl",
     "/home/thomas24/hive_ws2/build/hive_interface2/rosidl_adapter/hive_interface2:msg/LaneletMini2Array.idl",
+    "/home/thomas24/hive_ws2/build/hive_interface2/rosidl_adapter/hive_interface2:msg/FreeZone.idl",
+    "/home/thomas24/hive_ws2/build/hive_interface2/rosidl_adapter/hive_interface2:msg/FreeZoneArray.idl",
+    "/home/thomas24/hive_ws2/build/hive_interface2/rosidl_adapter/hive_interface2:msg/Poi.idl",
+    "/home/thomas24/hive_ws2/build/hive_interface2/rosidl_adapter/hive_interface2:msg/PoiArray.idl",
+    "/home/thomas24/hive_ws2/build/hive_interface2/rosidl_adapter/hive_interface2:msg/NavBrainCommand.idl",
     "/home/thomas24/hive_ws2/build/hive_interface2/rosidl_adapter/hive_interface2:srv/ComputeRoute.idl"
   ],
   "ros_interface_dependencies": [
@@ -93,6 +98,11 @@
     "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
     "/home/thomas24/hive_ws2/build/hive_interface2/rosidl_adapter/hive_interface2/msg/LaneletMini2.idl",
     "/home/thomas24/hive_ws2/build/hive_interface2/rosidl_adapter/hive_interface2/msg/LaneletMini2Array.idl",
+    "/home/thomas24/hive_ws2/build/hive_interface2/rosidl_adapter/hive_interface2/msg/FreeZone.idl",
+    "/home/thomas24/hive_ws2/build/hive_interface2/rosidl_adapter/hive_interface2/msg/FreeZoneArray.idl",
+    "/home/thomas24/hive_ws2/build/hive_interface2/rosidl_adapter/hive_interface2/msg/Poi.idl",
+    "/home/thomas24/hive_ws2/build/hive_interface2/rosidl_adapter/hive_interface2/msg/PoiArray.idl",
+    "/home/thomas24/hive_ws2/build/hive_interface2/rosidl_adapter/hive_interface2/msg/NavBrainCommand.idl",
     "/home/thomas24/hive_ws2/build/hive_interface2/rosidl_adapter/hive_interface2/srv/ComputeRoute.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Byte.idl",

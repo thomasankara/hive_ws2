@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hive_interface2/msg/FreeZoneArray.msg
+// generated code does not contain a copyright notice
+
+#include "hive_interface2/msg/FreeZone.idl"
+
+module hive_interface2 {
+  module msg {
+    struct FreeZoneArray {
+      sequence<hive_interface2::msg::FreeZone> items;
+    };
+  };
+};

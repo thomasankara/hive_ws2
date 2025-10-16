@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "hive_interface2/msg/detail/lanelet_mini2__type_support.h"
+#include "hive_interface2/msg/detail/lanelet_mini2__struct.h"
 #include "hive_interface2/msg/detail/lanelet_mini2__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "hive_interface2/msg/detail/lanelet_mini2__struct.h"
-#include "hive_interface2/msg/detail/lanelet_mini2__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

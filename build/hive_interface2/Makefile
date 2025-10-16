@@ -418,6 +418,150 @@ hive_interface2__py/fast:
 	$(MAKE) $(MAKESILENT) -f /home/thomas24/hive_ws2/build/hive_interface2/hive_interface2__py/CMakeFiles/hive_interface2__py.dir/build.make /home/thomas24/hive_ws2/build/hive_interface2/hive_interface2__py/CMakeFiles/hive_interface2__py.dir/build
 .PHONY : hive_interface2__py/fast
 
+rosidl_generator_c/hive_interface2/msg/detail/free_zone__description.o: rosidl_generator_c/hive_interface2/msg/detail/free_zone__description.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone__description.o
+
+# target to build an object file
+rosidl_generator_c/hive_interface2/msg/detail/free_zone__description.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/free_zone__description.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone__description.c.o
+
+rosidl_generator_c/hive_interface2/msg/detail/free_zone__description.i: rosidl_generator_c/hive_interface2/msg/detail/free_zone__description.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone__description.i
+
+# target to preprocess a source file
+rosidl_generator_c/hive_interface2/msg/detail/free_zone__description.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/free_zone__description.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone__description.c.i
+
+rosidl_generator_c/hive_interface2/msg/detail/free_zone__description.s: rosidl_generator_c/hive_interface2/msg/detail/free_zone__description.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone__description.s
+
+# target to generate assembly for a file
+rosidl_generator_c/hive_interface2/msg/detail/free_zone__description.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/free_zone__description.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone__description.c.s
+
+rosidl_generator_c/hive_interface2/msg/detail/free_zone__functions.o: rosidl_generator_c/hive_interface2/msg/detail/free_zone__functions.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone__functions.o
+
+# target to build an object file
+rosidl_generator_c/hive_interface2/msg/detail/free_zone__functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/free_zone__functions.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone__functions.c.o
+
+rosidl_generator_c/hive_interface2/msg/detail/free_zone__functions.i: rosidl_generator_c/hive_interface2/msg/detail/free_zone__functions.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/hive_interface2/msg/detail/free_zone__functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/free_zone__functions.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone__functions.c.i
+
+rosidl_generator_c/hive_interface2/msg/detail/free_zone__functions.s: rosidl_generator_c/hive_interface2/msg/detail/free_zone__functions.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/hive_interface2/msg/detail/free_zone__functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/free_zone__functions.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone__functions.c.s
+
+rosidl_generator_c/hive_interface2/msg/detail/free_zone__type_support.o: rosidl_generator_c/hive_interface2/msg/detail/free_zone__type_support.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone__type_support.o
+
+# target to build an object file
+rosidl_generator_c/hive_interface2/msg/detail/free_zone__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/free_zone__type_support.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone__type_support.c.o
+
+rosidl_generator_c/hive_interface2/msg/detail/free_zone__type_support.i: rosidl_generator_c/hive_interface2/msg/detail/free_zone__type_support.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone__type_support.i
+
+# target to preprocess a source file
+rosidl_generator_c/hive_interface2/msg/detail/free_zone__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/free_zone__type_support.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone__type_support.c.i
+
+rosidl_generator_c/hive_interface2/msg/detail/free_zone__type_support.s: rosidl_generator_c/hive_interface2/msg/detail/free_zone__type_support.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone__type_support.s
+
+# target to generate assembly for a file
+rosidl_generator_c/hive_interface2/msg/detail/free_zone__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/free_zone__type_support.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone__type_support.c.s
+
+rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__description.o: rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__description.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__description.o
+
+# target to build an object file
+rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__description.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__description.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__description.c.o
+
+rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__description.i: rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__description.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__description.i
+
+# target to preprocess a source file
+rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__description.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__description.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__description.c.i
+
+rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__description.s: rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__description.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__description.s
+
+# target to generate assembly for a file
+rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__description.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__description.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__description.c.s
+
+rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__functions.o: rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__functions.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__functions.o
+
+# target to build an object file
+rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__functions.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__functions.c.o
+
+rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__functions.i: rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__functions.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__functions.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__functions.c.i
+
+rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__functions.s: rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__functions.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__functions.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__functions.c.s
+
+rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__type_support.o: rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__type_support.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__type_support.o
+
+# target to build an object file
+rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__type_support.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__type_support.c.o
+
+rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__type_support.i: rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__type_support.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__type_support.i
+
+# target to preprocess a source file
+rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__type_support.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__type_support.c.i
+
+rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__type_support.s: rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__type_support.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__type_support.s
+
+# target to generate assembly for a file
+rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__type_support.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__type_support.c.s
+
 rosidl_generator_c/hive_interface2/msg/detail/lanelet_mini2__description.o: rosidl_generator_c/hive_interface2/msg/detail/lanelet_mini2__description.c.o
 .PHONY : rosidl_generator_c/hive_interface2/msg/detail/lanelet_mini2__description.o
 
@@ -561,6 +705,222 @@ rosidl_generator_c/hive_interface2/msg/detail/lanelet_mini2_array__type_support.
 rosidl_generator_c/hive_interface2/msg/detail/lanelet_mini2_array__type_support.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/lanelet_mini2_array__type_support.c.s
 .PHONY : rosidl_generator_c/hive_interface2/msg/detail/lanelet_mini2_array__type_support.c.s
+
+rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__description.o: rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__description.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__description.o
+
+# target to build an object file
+rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__description.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__description.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__description.c.o
+
+rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__description.i: rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__description.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__description.i
+
+# target to preprocess a source file
+rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__description.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__description.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__description.c.i
+
+rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__description.s: rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__description.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__description.s
+
+# target to generate assembly for a file
+rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__description.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__description.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__description.c.s
+
+rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__functions.o: rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__functions.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__functions.o
+
+# target to build an object file
+rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__functions.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__functions.c.o
+
+rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__functions.i: rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__functions.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__functions.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__functions.c.i
+
+rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__functions.s: rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__functions.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__functions.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__functions.c.s
+
+rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__type_support.o: rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__type_support.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__type_support.o
+
+# target to build an object file
+rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__type_support.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__type_support.c.o
+
+rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__type_support.i: rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__type_support.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__type_support.i
+
+# target to preprocess a source file
+rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__type_support.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__type_support.c.i
+
+rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__type_support.s: rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__type_support.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__type_support.s
+
+# target to generate assembly for a file
+rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__type_support.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__type_support.c.s
+
+rosidl_generator_c/hive_interface2/msg/detail/poi__description.o: rosidl_generator_c/hive_interface2/msg/detail/poi__description.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi__description.o
+
+# target to build an object file
+rosidl_generator_c/hive_interface2/msg/detail/poi__description.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/poi__description.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi__description.c.o
+
+rosidl_generator_c/hive_interface2/msg/detail/poi__description.i: rosidl_generator_c/hive_interface2/msg/detail/poi__description.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi__description.i
+
+# target to preprocess a source file
+rosidl_generator_c/hive_interface2/msg/detail/poi__description.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/poi__description.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi__description.c.i
+
+rosidl_generator_c/hive_interface2/msg/detail/poi__description.s: rosidl_generator_c/hive_interface2/msg/detail/poi__description.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi__description.s
+
+# target to generate assembly for a file
+rosidl_generator_c/hive_interface2/msg/detail/poi__description.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/poi__description.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi__description.c.s
+
+rosidl_generator_c/hive_interface2/msg/detail/poi__functions.o: rosidl_generator_c/hive_interface2/msg/detail/poi__functions.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi__functions.o
+
+# target to build an object file
+rosidl_generator_c/hive_interface2/msg/detail/poi__functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/poi__functions.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi__functions.c.o
+
+rosidl_generator_c/hive_interface2/msg/detail/poi__functions.i: rosidl_generator_c/hive_interface2/msg/detail/poi__functions.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/hive_interface2/msg/detail/poi__functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/poi__functions.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi__functions.c.i
+
+rosidl_generator_c/hive_interface2/msg/detail/poi__functions.s: rosidl_generator_c/hive_interface2/msg/detail/poi__functions.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/hive_interface2/msg/detail/poi__functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/poi__functions.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi__functions.c.s
+
+rosidl_generator_c/hive_interface2/msg/detail/poi__type_support.o: rosidl_generator_c/hive_interface2/msg/detail/poi__type_support.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi__type_support.o
+
+# target to build an object file
+rosidl_generator_c/hive_interface2/msg/detail/poi__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/poi__type_support.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi__type_support.c.o
+
+rosidl_generator_c/hive_interface2/msg/detail/poi__type_support.i: rosidl_generator_c/hive_interface2/msg/detail/poi__type_support.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi__type_support.i
+
+# target to preprocess a source file
+rosidl_generator_c/hive_interface2/msg/detail/poi__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/poi__type_support.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi__type_support.c.i
+
+rosidl_generator_c/hive_interface2/msg/detail/poi__type_support.s: rosidl_generator_c/hive_interface2/msg/detail/poi__type_support.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi__type_support.s
+
+# target to generate assembly for a file
+rosidl_generator_c/hive_interface2/msg/detail/poi__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/poi__type_support.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi__type_support.c.s
+
+rosidl_generator_c/hive_interface2/msg/detail/poi_array__description.o: rosidl_generator_c/hive_interface2/msg/detail/poi_array__description.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi_array__description.o
+
+# target to build an object file
+rosidl_generator_c/hive_interface2/msg/detail/poi_array__description.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/poi_array__description.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi_array__description.c.o
+
+rosidl_generator_c/hive_interface2/msg/detail/poi_array__description.i: rosidl_generator_c/hive_interface2/msg/detail/poi_array__description.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi_array__description.i
+
+# target to preprocess a source file
+rosidl_generator_c/hive_interface2/msg/detail/poi_array__description.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/poi_array__description.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi_array__description.c.i
+
+rosidl_generator_c/hive_interface2/msg/detail/poi_array__description.s: rosidl_generator_c/hive_interface2/msg/detail/poi_array__description.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi_array__description.s
+
+# target to generate assembly for a file
+rosidl_generator_c/hive_interface2/msg/detail/poi_array__description.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/poi_array__description.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi_array__description.c.s
+
+rosidl_generator_c/hive_interface2/msg/detail/poi_array__functions.o: rosidl_generator_c/hive_interface2/msg/detail/poi_array__functions.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi_array__functions.o
+
+# target to build an object file
+rosidl_generator_c/hive_interface2/msg/detail/poi_array__functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/poi_array__functions.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi_array__functions.c.o
+
+rosidl_generator_c/hive_interface2/msg/detail/poi_array__functions.i: rosidl_generator_c/hive_interface2/msg/detail/poi_array__functions.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi_array__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/hive_interface2/msg/detail/poi_array__functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/poi_array__functions.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi_array__functions.c.i
+
+rosidl_generator_c/hive_interface2/msg/detail/poi_array__functions.s: rosidl_generator_c/hive_interface2/msg/detail/poi_array__functions.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi_array__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/hive_interface2/msg/detail/poi_array__functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/poi_array__functions.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi_array__functions.c.s
+
+rosidl_generator_c/hive_interface2/msg/detail/poi_array__type_support.o: rosidl_generator_c/hive_interface2/msg/detail/poi_array__type_support.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi_array__type_support.o
+
+# target to build an object file
+rosidl_generator_c/hive_interface2/msg/detail/poi_array__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/poi_array__type_support.c.o
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi_array__type_support.c.o
+
+rosidl_generator_c/hive_interface2/msg/detail/poi_array__type_support.i: rosidl_generator_c/hive_interface2/msg/detail/poi_array__type_support.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi_array__type_support.i
+
+# target to preprocess a source file
+rosidl_generator_c/hive_interface2/msg/detail/poi_array__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/poi_array__type_support.c.i
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi_array__type_support.c.i
+
+rosidl_generator_c/hive_interface2/msg/detail/poi_array__type_support.s: rosidl_generator_c/hive_interface2/msg/detail/poi_array__type_support.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi_array__type_support.s
+
+# target to generate assembly for a file
+rosidl_generator_c/hive_interface2/msg/detail/poi_array__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_c.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_c.dir/rosidl_generator_c/hive_interface2/msg/detail/poi_array__type_support.c.s
+.PHONY : rosidl_generator_c/hive_interface2/msg/detail/poi_array__type_support.c.s
 
 rosidl_generator_c/hive_interface2/srv/detail/compute_route__description.o: rosidl_generator_c/hive_interface2/srv/detail/compute_route__description.c.o
 .PHONY : rosidl_generator_c/hive_interface2/srv/detail/compute_route__description.o
@@ -706,6 +1066,54 @@ rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_int
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2_s__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/hive_interface2_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_introspection_c.c.s
 .PHONY : rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_introspection_c.c.s
 
+rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.o: rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c.o
+.PHONY : rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.o
+
+# target to build an object file
+rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_py.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c.o
+.PHONY : rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c.o
+
+rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.i: rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c.i
+.PHONY : rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_py.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c.i
+.PHONY : rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c.i
+
+rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.s: rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c.s
+.PHONY : rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_py.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c.s
+.PHONY : rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.c.s
+
+rosidl_generator_py/hive_interface2/msg/_free_zone_s.o: rosidl_generator_py/hive_interface2/msg/_free_zone_s.c.o
+.PHONY : rosidl_generator_py/hive_interface2/msg/_free_zone_s.o
+
+# target to build an object file
+rosidl_generator_py/hive_interface2/msg/_free_zone_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_py.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_s.c.o
+.PHONY : rosidl_generator_py/hive_interface2/msg/_free_zone_s.c.o
+
+rosidl_generator_py/hive_interface2/msg/_free_zone_s.i: rosidl_generator_py/hive_interface2/msg/_free_zone_s.c.i
+.PHONY : rosidl_generator_py/hive_interface2/msg/_free_zone_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/hive_interface2/msg/_free_zone_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_py.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_s.c.i
+.PHONY : rosidl_generator_py/hive_interface2/msg/_free_zone_s.c.i
+
+rosidl_generator_py/hive_interface2/msg/_free_zone_s.s: rosidl_generator_py/hive_interface2/msg/_free_zone_s.c.s
+.PHONY : rosidl_generator_py/hive_interface2/msg/_free_zone_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/hive_interface2/msg/_free_zone_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_py.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_free_zone_s.c.s
+.PHONY : rosidl_generator_py/hive_interface2/msg/_free_zone_s.c.s
+
 rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_array_s.o: rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_array_s.c.o
 .PHONY : rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_array_s.o
 
@@ -754,6 +1162,78 @@ rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_s.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_py.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_s.c.s
 .PHONY : rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_s.c.s
 
+rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.o: rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c.o
+.PHONY : rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.o
+
+# target to build an object file
+rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_py.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c.o
+.PHONY : rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c.o
+
+rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.i: rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c.i
+.PHONY : rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_py.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c.i
+.PHONY : rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c.i
+
+rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.s: rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c.s
+.PHONY : rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_py.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c.s
+.PHONY : rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.c.s
+
+rosidl_generator_py/hive_interface2/msg/_poi_array_s.o: rosidl_generator_py/hive_interface2/msg/_poi_array_s.c.o
+.PHONY : rosidl_generator_py/hive_interface2/msg/_poi_array_s.o
+
+# target to build an object file
+rosidl_generator_py/hive_interface2/msg/_poi_array_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_py.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_array_s.c.o
+.PHONY : rosidl_generator_py/hive_interface2/msg/_poi_array_s.c.o
+
+rosidl_generator_py/hive_interface2/msg/_poi_array_s.i: rosidl_generator_py/hive_interface2/msg/_poi_array_s.c.i
+.PHONY : rosidl_generator_py/hive_interface2/msg/_poi_array_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/hive_interface2/msg/_poi_array_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_py.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_array_s.c.i
+.PHONY : rosidl_generator_py/hive_interface2/msg/_poi_array_s.c.i
+
+rosidl_generator_py/hive_interface2/msg/_poi_array_s.s: rosidl_generator_py/hive_interface2/msg/_poi_array_s.c.s
+.PHONY : rosidl_generator_py/hive_interface2/msg/_poi_array_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/hive_interface2/msg/_poi_array_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_py.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_array_s.c.s
+.PHONY : rosidl_generator_py/hive_interface2/msg/_poi_array_s.c.s
+
+rosidl_generator_py/hive_interface2/msg/_poi_s.o: rosidl_generator_py/hive_interface2/msg/_poi_s.c.o
+.PHONY : rosidl_generator_py/hive_interface2/msg/_poi_s.o
+
+# target to build an object file
+rosidl_generator_py/hive_interface2/msg/_poi_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_py.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_s.c.o
+.PHONY : rosidl_generator_py/hive_interface2/msg/_poi_s.c.o
+
+rosidl_generator_py/hive_interface2/msg/_poi_s.i: rosidl_generator_py/hive_interface2/msg/_poi_s.c.i
+.PHONY : rosidl_generator_py/hive_interface2/msg/_poi_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/hive_interface2/msg/_poi_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_py.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_s.c.i
+.PHONY : rosidl_generator_py/hive_interface2/msg/_poi_s.c.i
+
+rosidl_generator_py/hive_interface2/msg/_poi_s.s: rosidl_generator_py/hive_interface2/msg/_poi_s.c.s
+.PHONY : rosidl_generator_py/hive_interface2/msg/_poi_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/hive_interface2/msg/_poi_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_py.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/msg/_poi_s.c.s
+.PHONY : rosidl_generator_py/hive_interface2/msg/_poi_s.c.s
+
 rosidl_generator_py/hive_interface2/srv/_compute_route_s.o: rosidl_generator_py/hive_interface2/srv/_compute_route_s.c.o
 .PHONY : rosidl_generator_py/hive_interface2/srv/_compute_route_s.o
 
@@ -777,6 +1257,54 @@ rosidl_generator_py/hive_interface2/srv/_compute_route_s.s: rosidl_generator_py/
 rosidl_generator_py/hive_interface2/srv/_compute_route_s.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_generator_py.dir/build.make CMakeFiles/hive_interface2__rosidl_generator_py.dir/rosidl_generator_py/hive_interface2/srv/_compute_route_s.c.s
 .PHONY : rosidl_generator_py/hive_interface2/srv/_compute_route_s.c.s
+
+rosidl_typesupport_c/hive_interface2/msg/free_zone__type_support.o: rosidl_typesupport_c/hive_interface2/msg/free_zone__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/free_zone__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/hive_interface2/msg/free_zone__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/rosidl_typesupport_c/hive_interface2/msg/free_zone__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/free_zone__type_support.cpp.o
+
+rosidl_typesupport_c/hive_interface2/msg/free_zone__type_support.i: rosidl_typesupport_c/hive_interface2/msg/free_zone__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/free_zone__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/hive_interface2/msg/free_zone__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/rosidl_typesupport_c/hive_interface2/msg/free_zone__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/free_zone__type_support.cpp.i
+
+rosidl_typesupport_c/hive_interface2/msg/free_zone__type_support.s: rosidl_typesupport_c/hive_interface2/msg/free_zone__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/free_zone__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/hive_interface2/msg/free_zone__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/rosidl_typesupport_c/hive_interface2/msg/free_zone__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/free_zone__type_support.cpp.s
+
+rosidl_typesupport_c/hive_interface2/msg/free_zone_array__type_support.o: rosidl_typesupport_c/hive_interface2/msg/free_zone_array__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/free_zone_array__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/hive_interface2/msg/free_zone_array__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/rosidl_typesupport_c/hive_interface2/msg/free_zone_array__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/free_zone_array__type_support.cpp.o
+
+rosidl_typesupport_c/hive_interface2/msg/free_zone_array__type_support.i: rosidl_typesupport_c/hive_interface2/msg/free_zone_array__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/free_zone_array__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/hive_interface2/msg/free_zone_array__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/rosidl_typesupport_c/hive_interface2/msg/free_zone_array__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/free_zone_array__type_support.cpp.i
+
+rosidl_typesupport_c/hive_interface2/msg/free_zone_array__type_support.s: rosidl_typesupport_c/hive_interface2/msg/free_zone_array__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/free_zone_array__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/hive_interface2/msg/free_zone_array__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/rosidl_typesupport_c/hive_interface2/msg/free_zone_array__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/free_zone_array__type_support.cpp.s
 
 rosidl_typesupport_c/hive_interface2/msg/lanelet_mini2__type_support.o: rosidl_typesupport_c/hive_interface2/msg/lanelet_mini2__type_support.cpp.o
 .PHONY : rosidl_typesupport_c/hive_interface2/msg/lanelet_mini2__type_support.o
@@ -826,6 +1354,78 @@ rosidl_typesupport_c/hive_interface2/msg/lanelet_mini2_array__type_support.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/rosidl_typesupport_c/hive_interface2/msg/lanelet_mini2_array__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/hive_interface2/msg/lanelet_mini2_array__type_support.cpp.s
 
+rosidl_typesupport_c/hive_interface2/msg/nav_brain_command__type_support.o: rosidl_typesupport_c/hive_interface2/msg/nav_brain_command__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/nav_brain_command__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/hive_interface2/msg/nav_brain_command__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/rosidl_typesupport_c/hive_interface2/msg/nav_brain_command__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/nav_brain_command__type_support.cpp.o
+
+rosidl_typesupport_c/hive_interface2/msg/nav_brain_command__type_support.i: rosidl_typesupport_c/hive_interface2/msg/nav_brain_command__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/nav_brain_command__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/hive_interface2/msg/nav_brain_command__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/rosidl_typesupport_c/hive_interface2/msg/nav_brain_command__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/nav_brain_command__type_support.cpp.i
+
+rosidl_typesupport_c/hive_interface2/msg/nav_brain_command__type_support.s: rosidl_typesupport_c/hive_interface2/msg/nav_brain_command__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/nav_brain_command__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/hive_interface2/msg/nav_brain_command__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/rosidl_typesupport_c/hive_interface2/msg/nav_brain_command__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/nav_brain_command__type_support.cpp.s
+
+rosidl_typesupport_c/hive_interface2/msg/poi__type_support.o: rosidl_typesupport_c/hive_interface2/msg/poi__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/poi__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/hive_interface2/msg/poi__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/rosidl_typesupport_c/hive_interface2/msg/poi__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/poi__type_support.cpp.o
+
+rosidl_typesupport_c/hive_interface2/msg/poi__type_support.i: rosidl_typesupport_c/hive_interface2/msg/poi__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/poi__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/hive_interface2/msg/poi__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/rosidl_typesupport_c/hive_interface2/msg/poi__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/poi__type_support.cpp.i
+
+rosidl_typesupport_c/hive_interface2/msg/poi__type_support.s: rosidl_typesupport_c/hive_interface2/msg/poi__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/poi__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/hive_interface2/msg/poi__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/rosidl_typesupport_c/hive_interface2/msg/poi__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/poi__type_support.cpp.s
+
+rosidl_typesupport_c/hive_interface2/msg/poi_array__type_support.o: rosidl_typesupport_c/hive_interface2/msg/poi_array__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/poi_array__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/hive_interface2/msg/poi_array__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/rosidl_typesupport_c/hive_interface2/msg/poi_array__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/poi_array__type_support.cpp.o
+
+rosidl_typesupport_c/hive_interface2/msg/poi_array__type_support.i: rosidl_typesupport_c/hive_interface2/msg/poi_array__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/poi_array__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/hive_interface2/msg/poi_array__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/rosidl_typesupport_c/hive_interface2/msg/poi_array__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/poi_array__type_support.cpp.i
+
+rosidl_typesupport_c/hive_interface2/msg/poi_array__type_support.s: rosidl_typesupport_c/hive_interface2/msg/poi_array__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/poi_array__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/hive_interface2/msg/poi_array__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/rosidl_typesupport_c/hive_interface2/msg/poi_array__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/hive_interface2/msg/poi_array__type_support.cpp.s
+
 rosidl_typesupport_c/hive_interface2/srv/compute_route__type_support.o: rosidl_typesupport_c/hive_interface2/srv/compute_route__type_support.cpp.o
 .PHONY : rosidl_typesupport_c/hive_interface2/srv/compute_route__type_support.o
 
@@ -849,6 +1449,54 @@ rosidl_typesupport_c/hive_interface2/srv/compute_route__type_support.s: rosidl_t
 rosidl_typesupport_c/hive_interface2/srv/compute_route__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_c.dir/rosidl_typesupport_c/hive_interface2/srv/compute_route__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/hive_interface2/srv/compute_route__type_support.cpp.s
+
+rosidl_typesupport_cpp/hive_interface2/msg/free_zone__type_support.o: rosidl_typesupport_cpp/hive_interface2/msg/free_zone__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/free_zone__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/hive_interface2/msg/free_zone__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hive_interface2/msg/free_zone__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/free_zone__type_support.cpp.o
+
+rosidl_typesupport_cpp/hive_interface2/msg/free_zone__type_support.i: rosidl_typesupport_cpp/hive_interface2/msg/free_zone__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/free_zone__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/hive_interface2/msg/free_zone__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hive_interface2/msg/free_zone__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/free_zone__type_support.cpp.i
+
+rosidl_typesupport_cpp/hive_interface2/msg/free_zone__type_support.s: rosidl_typesupport_cpp/hive_interface2/msg/free_zone__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/free_zone__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/hive_interface2/msg/free_zone__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hive_interface2/msg/free_zone__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/free_zone__type_support.cpp.s
+
+rosidl_typesupport_cpp/hive_interface2/msg/free_zone_array__type_support.o: rosidl_typesupport_cpp/hive_interface2/msg/free_zone_array__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/free_zone_array__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/hive_interface2/msg/free_zone_array__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hive_interface2/msg/free_zone_array__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/free_zone_array__type_support.cpp.o
+
+rosidl_typesupport_cpp/hive_interface2/msg/free_zone_array__type_support.i: rosidl_typesupport_cpp/hive_interface2/msg/free_zone_array__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/free_zone_array__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/hive_interface2/msg/free_zone_array__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hive_interface2/msg/free_zone_array__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/free_zone_array__type_support.cpp.i
+
+rosidl_typesupport_cpp/hive_interface2/msg/free_zone_array__type_support.s: rosidl_typesupport_cpp/hive_interface2/msg/free_zone_array__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/free_zone_array__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/hive_interface2/msg/free_zone_array__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hive_interface2/msg/free_zone_array__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/free_zone_array__type_support.cpp.s
 
 rosidl_typesupport_cpp/hive_interface2/msg/lanelet_mini2__type_support.o: rosidl_typesupport_cpp/hive_interface2/msg/lanelet_mini2__type_support.cpp.o
 .PHONY : rosidl_typesupport_cpp/hive_interface2/msg/lanelet_mini2__type_support.o
@@ -898,6 +1546,78 @@ rosidl_typesupport_cpp/hive_interface2/msg/lanelet_mini2_array__type_support.cpp
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hive_interface2/msg/lanelet_mini2_array__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/hive_interface2/msg/lanelet_mini2_array__type_support.cpp.s
 
+rosidl_typesupport_cpp/hive_interface2/msg/nav_brain_command__type_support.o: rosidl_typesupport_cpp/hive_interface2/msg/nav_brain_command__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/nav_brain_command__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/hive_interface2/msg/nav_brain_command__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hive_interface2/msg/nav_brain_command__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/nav_brain_command__type_support.cpp.o
+
+rosidl_typesupport_cpp/hive_interface2/msg/nav_brain_command__type_support.i: rosidl_typesupport_cpp/hive_interface2/msg/nav_brain_command__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/nav_brain_command__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/hive_interface2/msg/nav_brain_command__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hive_interface2/msg/nav_brain_command__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/nav_brain_command__type_support.cpp.i
+
+rosidl_typesupport_cpp/hive_interface2/msg/nav_brain_command__type_support.s: rosidl_typesupport_cpp/hive_interface2/msg/nav_brain_command__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/nav_brain_command__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/hive_interface2/msg/nav_brain_command__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hive_interface2/msg/nav_brain_command__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/nav_brain_command__type_support.cpp.s
+
+rosidl_typesupport_cpp/hive_interface2/msg/poi__type_support.o: rosidl_typesupport_cpp/hive_interface2/msg/poi__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/poi__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/hive_interface2/msg/poi__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hive_interface2/msg/poi__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/poi__type_support.cpp.o
+
+rosidl_typesupport_cpp/hive_interface2/msg/poi__type_support.i: rosidl_typesupport_cpp/hive_interface2/msg/poi__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/poi__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/hive_interface2/msg/poi__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hive_interface2/msg/poi__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/poi__type_support.cpp.i
+
+rosidl_typesupport_cpp/hive_interface2/msg/poi__type_support.s: rosidl_typesupport_cpp/hive_interface2/msg/poi__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/poi__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/hive_interface2/msg/poi__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hive_interface2/msg/poi__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/poi__type_support.cpp.s
+
+rosidl_typesupport_cpp/hive_interface2/msg/poi_array__type_support.o: rosidl_typesupport_cpp/hive_interface2/msg/poi_array__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/poi_array__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/hive_interface2/msg/poi_array__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hive_interface2/msg/poi_array__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/poi_array__type_support.cpp.o
+
+rosidl_typesupport_cpp/hive_interface2/msg/poi_array__type_support.i: rosidl_typesupport_cpp/hive_interface2/msg/poi_array__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/poi_array__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/hive_interface2/msg/poi_array__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hive_interface2/msg/poi_array__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/poi_array__type_support.cpp.i
+
+rosidl_typesupport_cpp/hive_interface2/msg/poi_array__type_support.s: rosidl_typesupport_cpp/hive_interface2/msg/poi_array__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/poi_array__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/hive_interface2/msg/poi_array__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hive_interface2/msg/poi_array__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/hive_interface2/msg/poi_array__type_support.cpp.s
+
 rosidl_typesupport_cpp/hive_interface2/srv/compute_route__type_support.o: rosidl_typesupport_cpp/hive_interface2/srv/compute_route__type_support.cpp.o
 .PHONY : rosidl_typesupport_cpp/hive_interface2/srv/compute_route__type_support.o
 
@@ -921,6 +1641,54 @@ rosidl_typesupport_cpp/hive_interface2/srv/compute_route__type_support.s: rosidl
 rosidl_typesupport_cpp/hive_interface2/srv/compute_route__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hive_interface2/srv/compute_route__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/hive_interface2/srv/compute_route__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone__type_support_c.o: rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone__type_support_c.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone__type_support_c.i: rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone__type_support_c.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone__type_support_c.s: rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone__type_support_c.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone_array__type_support_c.o: rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone_array__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone_array__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone_array__type_support_c.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone_array__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone_array__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone_array__type_support_c.i: rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone_array__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone_array__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone_array__type_support_c.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone_array__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone_array__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone_array__type_support_c.s: rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone_array__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone_array__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone_array__type_support_c.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone_array__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone_array__type_support_c.cpp.s
 
 rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/lanelet_mini2__type_support_c.o: rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/lanelet_mini2__type_support_c.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/lanelet_mini2__type_support_c.o
@@ -970,6 +1738,78 @@ rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/lanelet_mini2_array__ty
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/lanelet_mini2_array__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/lanelet_mini2_array__type_support_c.cpp.s
 
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/nav_brain_command__type_support_c.o: rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/nav_brain_command__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/nav_brain_command__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/nav_brain_command__type_support_c.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/nav_brain_command__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/nav_brain_command__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/nav_brain_command__type_support_c.i: rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/nav_brain_command__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/nav_brain_command__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/nav_brain_command__type_support_c.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/nav_brain_command__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/nav_brain_command__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/nav_brain_command__type_support_c.s: rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/nav_brain_command__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/nav_brain_command__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/nav_brain_command__type_support_c.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/nav_brain_command__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/nav_brain_command__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi__type_support_c.o: rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi__type_support_c.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi__type_support_c.i: rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi__type_support_c.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi__type_support_c.s: rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi__type_support_c.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi_array__type_support_c.o: rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi_array__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi_array__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi_array__type_support_c.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi_array__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi_array__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi_array__type_support_c.i: rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi_array__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi_array__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi_array__type_support_c.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi_array__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi_array__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi_array__type_support_c.s: rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi_array__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi_array__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi_array__type_support_c.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi_array__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi_array__type_support_c.cpp.s
+
 rosidl_typesupport_fastrtps_c/hive_interface2/srv/detail/compute_route__type_support_c.o: rosidl_typesupport_fastrtps_c/hive_interface2/srv/detail/compute_route__type_support_c.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/srv/detail/compute_route__type_support_c.o
 
@@ -993,6 +1833,54 @@ rosidl_typesupport_fastrtps_c/hive_interface2/srv/detail/compute_route__type_sup
 rosidl_typesupport_fastrtps_c/hive_interface2/srv/detail/compute_route__type_support_c.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hive_interface2/srv/detail/compute_route__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/hive_interface2/srv/detail/compute_route__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.o: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.i: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.s: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.o: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.i: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.s: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.cpp.s
 
 rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.o: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.o
@@ -1042,6 +1930,78 @@ rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2_array__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2_array__type_support.cpp.s
 
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.o: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.i: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.s: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.o: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.i: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.s: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.o: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.i: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.s: rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.cpp.s
+
 rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_route__type_support.o: rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_route__type_support.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_route__type_support.o
 
@@ -1065,6 +2025,54 @@ rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_
 rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_route__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_route__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_route__type_support.cpp.s
+
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone__type_support.o: rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone__type_support.c.o
+
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone__type_support.i: rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone__type_support.c.i
+
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone__type_support.s: rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone__type_support.c.s
+
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone_array__type_support.o: rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone_array__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone_array__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone_array__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone_array__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone_array__type_support.c.o
+
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone_array__type_support.i: rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone_array__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone_array__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone_array__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone_array__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone_array__type_support.c.i
+
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone_array__type_support.s: rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone_array__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone_array__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone_array__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone_array__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone_array__type_support.c.s
 
 rosidl_typesupport_introspection_c/hive_interface2/msg/detail/lanelet_mini2__type_support.o: rosidl_typesupport_introspection_c/hive_interface2/msg/detail/lanelet_mini2__type_support.c.o
 .PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/lanelet_mini2__type_support.o
@@ -1114,6 +2122,78 @@ rosidl_typesupport_introspection_c/hive_interface2/msg/detail/lanelet_mini2_arra
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hive_interface2/msg/detail/lanelet_mini2_array__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/lanelet_mini2_array__type_support.c.s
 
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/nav_brain_command__type_support.o: rosidl_typesupport_introspection_c/hive_interface2/msg/detail/nav_brain_command__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/nav_brain_command__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/nav_brain_command__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hive_interface2/msg/detail/nav_brain_command__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/nav_brain_command__type_support.c.o
+
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/nav_brain_command__type_support.i: rosidl_typesupport_introspection_c/hive_interface2/msg/detail/nav_brain_command__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/nav_brain_command__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/nav_brain_command__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hive_interface2/msg/detail/nav_brain_command__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/nav_brain_command__type_support.c.i
+
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/nav_brain_command__type_support.s: rosidl_typesupport_introspection_c/hive_interface2/msg/detail/nav_brain_command__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/nav_brain_command__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/nav_brain_command__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hive_interface2/msg/detail/nav_brain_command__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/nav_brain_command__type_support.c.s
+
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi__type_support.o: rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi__type_support.c.o
+
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi__type_support.i: rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi__type_support.c.i
+
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi__type_support.s: rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi__type_support.c.s
+
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi_array__type_support.o: rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi_array__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi_array__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi_array__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi_array__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi_array__type_support.c.o
+
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi_array__type_support.i: rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi_array__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi_array__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi_array__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi_array__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi_array__type_support.c.i
+
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi_array__type_support.s: rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi_array__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi_array__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi_array__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi_array__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi_array__type_support.c.s
+
 rosidl_typesupport_introspection_c/hive_interface2/srv/detail/compute_route__type_support.o: rosidl_typesupport_introspection_c/hive_interface2/srv/detail/compute_route__type_support.c.o
 .PHONY : rosidl_typesupport_introspection_c/hive_interface2/srv/detail/compute_route__type_support.o
 
@@ -1137,6 +2217,54 @@ rosidl_typesupport_introspection_c/hive_interface2/srv/detail/compute_route__typ
 rosidl_typesupport_introspection_c/hive_interface2/srv/detail/compute_route__type_support.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hive_interface2/srv/detail/compute_route__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/hive_interface2/srv/detail/compute_route__type_support.c.s
+
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone__type_support.o: rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone__type_support.i: rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone__type_support.s: rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone_array__type_support.o: rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone_array__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone_array__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone_array__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone_array__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone_array__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone_array__type_support.i: rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone_array__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone_array__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone_array__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone_array__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone_array__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone_array__type_support.s: rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone_array__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone_array__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone_array__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone_array__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone_array__type_support.cpp.s
 
 rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/lanelet_mini2__type_support.o: rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/lanelet_mini2__type_support.cpp.o
 .PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/lanelet_mini2__type_support.o
@@ -1185,6 +2313,78 @@ rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/lanelet_mini2_ar
 rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/lanelet_mini2_array__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/lanelet_mini2_array__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/lanelet_mini2_array__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/nav_brain_command__type_support.o: rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/nav_brain_command__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/nav_brain_command__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/nav_brain_command__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/nav_brain_command__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/nav_brain_command__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/nav_brain_command__type_support.i: rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/nav_brain_command__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/nav_brain_command__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/nav_brain_command__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/nav_brain_command__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/nav_brain_command__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/nav_brain_command__type_support.s: rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/nav_brain_command__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/nav_brain_command__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/nav_brain_command__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/nav_brain_command__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/nav_brain_command__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi__type_support.o: rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi__type_support.i: rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi__type_support.s: rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi_array__type_support.o: rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi_array__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi_array__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi_array__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi_array__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi_array__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi_array__type_support.i: rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi_array__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi_array__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi_array__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi_array__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi_array__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi_array__type_support.s: rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi_array__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi_array__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi_array__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/hive_interface2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi_array__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi_array__type_support.cpp.s
 
 rosidl_typesupport_introspection_cpp/hive_interface2/srv/detail/compute_route__type_support.o: rosidl_typesupport_introspection_cpp/hive_interface2/srv/detail/compute_route__type_support.cpp.o
 .PHONY : rosidl_typesupport_introspection_cpp/hive_interface2/srv/detail/compute_route__type_support.o
@@ -1242,6 +2442,24 @@ help:
 	@echo "... hive_interface2_s__rosidl_typesupport_c"
 	@echo "... hive_interface2_s__rosidl_typesupport_fastrtps_c"
 	@echo "... hive_interface2_s__rosidl_typesupport_introspection_c"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/free_zone__description.o"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/free_zone__description.i"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/free_zone__description.s"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/free_zone__functions.o"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/free_zone__functions.i"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/free_zone__functions.s"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/free_zone__type_support.o"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/free_zone__type_support.i"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/free_zone__type_support.s"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__description.o"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__description.i"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__description.s"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__functions.o"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__functions.i"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__functions.s"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__type_support.o"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__type_support.i"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/free_zone_array__type_support.s"
 	@echo "... rosidl_generator_c/hive_interface2/msg/detail/lanelet_mini2__description.o"
 	@echo "... rosidl_generator_c/hive_interface2/msg/detail/lanelet_mini2__description.i"
 	@echo "... rosidl_generator_c/hive_interface2/msg/detail/lanelet_mini2__description.s"
@@ -1260,6 +2478,33 @@ help:
 	@echo "... rosidl_generator_c/hive_interface2/msg/detail/lanelet_mini2_array__type_support.o"
 	@echo "... rosidl_generator_c/hive_interface2/msg/detail/lanelet_mini2_array__type_support.i"
 	@echo "... rosidl_generator_c/hive_interface2/msg/detail/lanelet_mini2_array__type_support.s"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__description.o"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__description.i"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__description.s"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__functions.o"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__functions.i"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__functions.s"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__type_support.o"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__type_support.i"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/nav_brain_command__type_support.s"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/poi__description.o"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/poi__description.i"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/poi__description.s"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/poi__functions.o"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/poi__functions.i"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/poi__functions.s"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/poi__type_support.o"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/poi__type_support.i"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/poi__type_support.s"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/poi_array__description.o"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/poi_array__description.i"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/poi_array__description.s"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/poi_array__functions.o"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/poi_array__functions.i"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/poi_array__functions.s"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/poi_array__type_support.o"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/poi_array__type_support.i"
+	@echo "... rosidl_generator_c/hive_interface2/msg/detail/poi_array__type_support.s"
 	@echo "... rosidl_generator_c/hive_interface2/srv/detail/compute_route__description.o"
 	@echo "... rosidl_generator_c/hive_interface2/srv/detail/compute_route__description.i"
 	@echo "... rosidl_generator_c/hive_interface2/srv/detail/compute_route__description.s"
@@ -1278,66 +2523,171 @@ help:
 	@echo "... rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_introspection_c.o"
 	@echo "... rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_introspection_c.i"
 	@echo "... rosidl_generator_py/hive_interface2/_hive_interface2_s.ep.rosidl_typesupport_introspection_c.s"
+	@echo "... rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.o"
+	@echo "... rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.i"
+	@echo "... rosidl_generator_py/hive_interface2/msg/_free_zone_array_s.s"
+	@echo "... rosidl_generator_py/hive_interface2/msg/_free_zone_s.o"
+	@echo "... rosidl_generator_py/hive_interface2/msg/_free_zone_s.i"
+	@echo "... rosidl_generator_py/hive_interface2/msg/_free_zone_s.s"
 	@echo "... rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_array_s.o"
 	@echo "... rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_array_s.i"
 	@echo "... rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_array_s.s"
 	@echo "... rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_s.o"
 	@echo "... rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_s.i"
 	@echo "... rosidl_generator_py/hive_interface2/msg/_lanelet_mini2_s.s"
+	@echo "... rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.o"
+	@echo "... rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.i"
+	@echo "... rosidl_generator_py/hive_interface2/msg/_nav_brain_command_s.s"
+	@echo "... rosidl_generator_py/hive_interface2/msg/_poi_array_s.o"
+	@echo "... rosidl_generator_py/hive_interface2/msg/_poi_array_s.i"
+	@echo "... rosidl_generator_py/hive_interface2/msg/_poi_array_s.s"
+	@echo "... rosidl_generator_py/hive_interface2/msg/_poi_s.o"
+	@echo "... rosidl_generator_py/hive_interface2/msg/_poi_s.i"
+	@echo "... rosidl_generator_py/hive_interface2/msg/_poi_s.s"
 	@echo "... rosidl_generator_py/hive_interface2/srv/_compute_route_s.o"
 	@echo "... rosidl_generator_py/hive_interface2/srv/_compute_route_s.i"
 	@echo "... rosidl_generator_py/hive_interface2/srv/_compute_route_s.s"
+	@echo "... rosidl_typesupport_c/hive_interface2/msg/free_zone__type_support.o"
+	@echo "... rosidl_typesupport_c/hive_interface2/msg/free_zone__type_support.i"
+	@echo "... rosidl_typesupport_c/hive_interface2/msg/free_zone__type_support.s"
+	@echo "... rosidl_typesupport_c/hive_interface2/msg/free_zone_array__type_support.o"
+	@echo "... rosidl_typesupport_c/hive_interface2/msg/free_zone_array__type_support.i"
+	@echo "... rosidl_typesupport_c/hive_interface2/msg/free_zone_array__type_support.s"
 	@echo "... rosidl_typesupport_c/hive_interface2/msg/lanelet_mini2__type_support.o"
 	@echo "... rosidl_typesupport_c/hive_interface2/msg/lanelet_mini2__type_support.i"
 	@echo "... rosidl_typesupport_c/hive_interface2/msg/lanelet_mini2__type_support.s"
 	@echo "... rosidl_typesupport_c/hive_interface2/msg/lanelet_mini2_array__type_support.o"
 	@echo "... rosidl_typesupport_c/hive_interface2/msg/lanelet_mini2_array__type_support.i"
 	@echo "... rosidl_typesupport_c/hive_interface2/msg/lanelet_mini2_array__type_support.s"
+	@echo "... rosidl_typesupport_c/hive_interface2/msg/nav_brain_command__type_support.o"
+	@echo "... rosidl_typesupport_c/hive_interface2/msg/nav_brain_command__type_support.i"
+	@echo "... rosidl_typesupport_c/hive_interface2/msg/nav_brain_command__type_support.s"
+	@echo "... rosidl_typesupport_c/hive_interface2/msg/poi__type_support.o"
+	@echo "... rosidl_typesupport_c/hive_interface2/msg/poi__type_support.i"
+	@echo "... rosidl_typesupport_c/hive_interface2/msg/poi__type_support.s"
+	@echo "... rosidl_typesupport_c/hive_interface2/msg/poi_array__type_support.o"
+	@echo "... rosidl_typesupport_c/hive_interface2/msg/poi_array__type_support.i"
+	@echo "... rosidl_typesupport_c/hive_interface2/msg/poi_array__type_support.s"
 	@echo "... rosidl_typesupport_c/hive_interface2/srv/compute_route__type_support.o"
 	@echo "... rosidl_typesupport_c/hive_interface2/srv/compute_route__type_support.i"
 	@echo "... rosidl_typesupport_c/hive_interface2/srv/compute_route__type_support.s"
+	@echo "... rosidl_typesupport_cpp/hive_interface2/msg/free_zone__type_support.o"
+	@echo "... rosidl_typesupport_cpp/hive_interface2/msg/free_zone__type_support.i"
+	@echo "... rosidl_typesupport_cpp/hive_interface2/msg/free_zone__type_support.s"
+	@echo "... rosidl_typesupport_cpp/hive_interface2/msg/free_zone_array__type_support.o"
+	@echo "... rosidl_typesupport_cpp/hive_interface2/msg/free_zone_array__type_support.i"
+	@echo "... rosidl_typesupport_cpp/hive_interface2/msg/free_zone_array__type_support.s"
 	@echo "... rosidl_typesupport_cpp/hive_interface2/msg/lanelet_mini2__type_support.o"
 	@echo "... rosidl_typesupport_cpp/hive_interface2/msg/lanelet_mini2__type_support.i"
 	@echo "... rosidl_typesupport_cpp/hive_interface2/msg/lanelet_mini2__type_support.s"
 	@echo "... rosidl_typesupport_cpp/hive_interface2/msg/lanelet_mini2_array__type_support.o"
 	@echo "... rosidl_typesupport_cpp/hive_interface2/msg/lanelet_mini2_array__type_support.i"
 	@echo "... rosidl_typesupport_cpp/hive_interface2/msg/lanelet_mini2_array__type_support.s"
+	@echo "... rosidl_typesupport_cpp/hive_interface2/msg/nav_brain_command__type_support.o"
+	@echo "... rosidl_typesupport_cpp/hive_interface2/msg/nav_brain_command__type_support.i"
+	@echo "... rosidl_typesupport_cpp/hive_interface2/msg/nav_brain_command__type_support.s"
+	@echo "... rosidl_typesupport_cpp/hive_interface2/msg/poi__type_support.o"
+	@echo "... rosidl_typesupport_cpp/hive_interface2/msg/poi__type_support.i"
+	@echo "... rosidl_typesupport_cpp/hive_interface2/msg/poi__type_support.s"
+	@echo "... rosidl_typesupport_cpp/hive_interface2/msg/poi_array__type_support.o"
+	@echo "... rosidl_typesupport_cpp/hive_interface2/msg/poi_array__type_support.i"
+	@echo "... rosidl_typesupport_cpp/hive_interface2/msg/poi_array__type_support.s"
 	@echo "... rosidl_typesupport_cpp/hive_interface2/srv/compute_route__type_support.o"
 	@echo "... rosidl_typesupport_cpp/hive_interface2/srv/compute_route__type_support.i"
 	@echo "... rosidl_typesupport_cpp/hive_interface2/srv/compute_route__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone_array__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone_array__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/free_zone_array__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/lanelet_mini2__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/lanelet_mini2__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/lanelet_mini2__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/lanelet_mini2_array__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/lanelet_mini2_array__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/lanelet_mini2_array__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/nav_brain_command__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/nav_brain_command__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/nav_brain_command__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi_array__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi_array__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/hive_interface2/msg/detail/poi_array__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_c/hive_interface2/srv/detail/compute_route__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/hive_interface2/srv/detail/compute_route__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/hive_interface2/srv/detail/compute_route__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/free_zone_array__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2_array__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2_array__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/lanelet_mini2_array__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/nav_brain_command__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/hive_interface2/msg/detail/dds_fastrtps/poi_array__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_route__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_route__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/hive_interface2/srv/detail/dds_fastrtps/compute_route__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone_array__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone_array__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/hive_interface2/msg/detail/free_zone_array__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/hive_interface2/msg/detail/lanelet_mini2__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/hive_interface2/msg/detail/lanelet_mini2__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/hive_interface2/msg/detail/lanelet_mini2__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/hive_interface2/msg/detail/lanelet_mini2_array__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/hive_interface2/msg/detail/lanelet_mini2_array__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/hive_interface2/msg/detail/lanelet_mini2_array__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/hive_interface2/msg/detail/nav_brain_command__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/hive_interface2/msg/detail/nav_brain_command__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/hive_interface2/msg/detail/nav_brain_command__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi_array__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi_array__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/hive_interface2/msg/detail/poi_array__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/hive_interface2/srv/detail/compute_route__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/hive_interface2/srv/detail/compute_route__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/hive_interface2/srv/detail/compute_route__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone_array__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone_array__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/free_zone_array__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/lanelet_mini2__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/lanelet_mini2__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/lanelet_mini2__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/lanelet_mini2_array__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/lanelet_mini2_array__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/lanelet_mini2_array__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/nav_brain_command__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/nav_brain_command__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/nav_brain_command__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi_array__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi_array__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/hive_interface2/msg/detail/poi_array__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/hive_interface2/srv/detail/compute_route__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/hive_interface2/srv/detail/compute_route__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/hive_interface2/srv/detail/compute_route__type_support.s"
