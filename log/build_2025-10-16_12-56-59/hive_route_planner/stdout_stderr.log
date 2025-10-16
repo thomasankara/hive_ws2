@@ -1,0 +1,282 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Found hive_interface2: 0.0.1 (/home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake)
+-- Configuring done (1.6s)
+-- Generating done (0.0s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_INSTALL_INTO_PREFIX_ROOT
+
+[0m
+-- Build files have been written to: /home/thomas24/hive_ws2/build/hive_route_planner
+[ 66%] Built target astar_planner
+[ 66%] Built target route_utils
+[ 83%] [32mBuilding CXX object CMakeFiles/hive_route_planner_node.dir/src/hive_route_planner_node.cpp.o[0m
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:686:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  686 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:38:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   38 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:[m[K In constructor ‘[01m[KHiveRoutePlannerNode::[01;32m[KHiveRoutePlannerNode[m[K()[m[K’:
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:44:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_namespace_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksub_namespace_[m[K’?
+   44 |     [01;31m[Krobot_namespace_[m[K = this->declare_parameter<std::string>("robot_namespace", "robot1");
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |     [32m[Ksub_namespace_[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:47:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kenable_graph_viz_[m[K’ was not declared in this scope
+   47 |     [01;31m[Kenable_graph_viz_[m[K = this->declare_parameter<bool>("enable_graph_viz", true);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:48:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kviz_frame_id_[m[K’ was not declared in this scope
+   48 |     [01;31m[Kviz_frame_id_[m[K     = this->declare_parameter<std::string>("viz_frame_id", "map");
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:49:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kviz_ns_[m[K’ was not declared in this scope
+   49 |     [01;31m[Kviz_ns_[m[K           = this->declare_parameter<std::string>("viz_ns", "route_graph");
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:50:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kviz_topic_[m[K’ was not declared in this scope
+   50 |     [01;31m[Kviz_topic_[m[K        = this->declare_parameter<std::string>("viz_topic", "route_graph_markers");
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:51:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kviz_line_width_[m[K’ was not declared in this scope
+   51 |     [01;31m[Kviz_line_width_[m[K   = this->declare_parameter<double>("viz_line_width", 0.10);
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:52:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kviz_point_scale_[m[K’ was not declared in this scope
+   52 |     [01;31m[Kviz_point_scale_[m[K  = this->declare_parameter<double>("viz_point_scale", 0.15);
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:55:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kenable_route_plan_viz_[m[K’ was not declared in this scope
+   55 |     [01;31m[Kenable_route_plan_viz_[m[K = this->declare_parameter<bool>("enable_route_plan_viz", true);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:58:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kepsilon_merge_m_[m[K’ was not declared in this scope
+   58 |     [01;31m[Kepsilon_merge_m_[m[K               = this->declare_parameter<double>("epsilon_merge_m", 0.001);
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:59:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kepsilon_endpoint_frac_[m[K’ was not declared in this scope
+   59 |     [01;31m[Kepsilon_endpoint_frac_[m[K         = this->declare_parameter<double>("epsilon_endpoint_frac", 1e-3);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:60:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kfallback_speed_mps_[m[K’ was not declared in this scope
+   60 |     [01;31m[Kfallback_speed_mps_[m[K            = this->declare_parameter<double>("fallback_speed_mps", 1.0);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:61:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdirect_link_threshold_m_[m[K’ was not declared in this scope
+   61 |     [01;31m[Kdirect_link_threshold_m_[m[K       = this->declare_parameter<double>("direct_link_threshold_m", 10.0);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:62:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdirect_link_nominal_speed_mps_[m[K’ was not declared in this scope
+   62 |     [01;31m[Kdirect_link_nominal_speed_mps_[m[K = this->declare_parameter<double>("direct_link_nominal_speed_mps", 1.5);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:64:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_name_[m[K’ was not declared in this scope
+   64 |     [01;31m[Ktopic_name_[m[K     = "/" + robot_namespace_ + "/route_data";
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:65:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_name_[m[K’ was not declared in this scope
+   65 |     [01;31m[Kservice_name_[m[K   = "/" + robot_namespace_ + "/get_route_data";
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:66:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kviz_full_topic_[m[K’ was not declared in this scope
+   66 |     [01;31m[Kviz_full_topic_[m[K = "/" + robot_namespace_ + "/" + viz_topic_;
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:69:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_[m[K’ was not declared in this scope
+   69 |     [01;31m[Ksub_[m[K = this->create_subscription<hive_interface2::msg::LaneletMini2Array>(
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:73:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+   73 |     [01;31m[Kclient_[m[K = this->create_client<std_srvs::srv::Trigger>(service_name_);
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:77:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kviz_pub_[m[K’ was not declared in this scope
+   77 |       [01;31m[Kviz_pub_[m[K = this->create_publisher<visualization_msgs::msg::MarkerArray>(
+      |       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:86:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kroute_plan_pub_[m[K’ was not declared in this scope
+   86 |         [01;31m[Kroute_plan_pub_[m[K[i] = this->create_publisher<visualization_msgs::msg::MarkerArray>(
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:94:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcompute_route_srv_[m[K’ was not declared in this scope
+   94 |     [01;31m[Kcompute_route_srv_[m[K = this->create_service<hive_interface2::srv::ComputeRoute>(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:100:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstartup_timer_[m[K’ was not declared in this scope
+  100 |     [01;31m[Kstartup_timer_[m[K = this->create_wall_timer(2s, [this]() {
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:[m[K In lambda function:
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:101:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kstartup_timer_[m[K’ is not captured
+  101 |       if ([01;31m[Kstartup_timer_[m[K) startup_timer_->cancel();
+      |           [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:100:55:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  100 |     startup_timer_ = this->create_wall_timer(2s, [this[01;36m[K][m[K() {
+      |                                                       [01;36m[K^[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:100:5:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>startup_timer_[m[K’ declared here
+  100 |     [01;36m[Kstartup_timer_[m[K = this->create_wall_timer(2s, [this]() {
+      |     [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:101:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kstartup_timer_[m[K’ is not captured
+  101 |       if (startup_timer_) [01;31m[Kstartup_timer_[m[K->cancel();
+      |                           [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:100:55:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  100 |     startup_timer_ = this->create_wall_timer(2s, [this[01;36m[K][m[K() {
+      |                                                       [01;36m[K^[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:100:5:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>startup_timer_[m[K’ declared here
+  100 |     [01;36m[Kstartup_timer_[m[K = this->create_wall_timer(2s, [this]() {
+      |     [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:103:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kperiodic_timer_[m[K’ was not declared in this scope
+  103 |       [01;31m[Kperiodic_timer_[m[K = this->create_wall_timer(
+      |       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:[m[K In member function ‘[01m[Kvoid HiveRoutePlannerNode::[01;32m[KconfigStateTick[m[K()[m[K’:
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:115:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_received_[m[K’ was not declared in this scope
+  115 |     if ([01;31m[Kdata_received_[m[K) return;
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:116:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+  116 |     const bool available = [01;31m[Kclient_[m[K->wait_for_service(std::chrono::seconds(0));
+      |                            [01;31m[K^~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:118:22:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_service_available_[m[K’ was not declared in this scope
+  118 |     if (available != [01;31m[Klast_service_available_[m[K) {
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:1[m[K:
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:121:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_name_[m[K’ was not declared in this scope
+  121 |         GREEN, available ? "dispo" : "NON dispo", [01;31m[Kservice_name_[m[K.c_str(), RESET);
+      |                                                   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:124:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_name_[m[K’ was not declared in this scope
+  124 |         GREEN, available ? "dispo" : "NON dispo", [01;31m[Kservice_name_[m[K.c_str(), RESET);
+      |                                                   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:127:23:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrigger_sent_[m[K’ was not declared in this scope
+  127 |     if (available && ![01;31m[Ktrigger_sent_[m[K && !trigger_inflight_) {
+      |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:127:41:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrigger_inflight_[m[K’ was not declared in this scope
+  127 |     if (available && !trigger_sent_ && ![01;31m[Ktrigger_inflight_[m[K) {
+      |                                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:132:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_name_[m[K’ was not declared in this scope
+  132 |         GREEN, [01;31m[Kservice_name_[m[K.c_str(), RESET);
+      |                [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:[m[K In lambda function:
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:138:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrigger_inflight_[m[K’ is not captured
+  138 |           [01;31m[Ktrigger_inflight_[m[K = false;
+      |           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:136:14:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  136 |         [this[01;36m[K][m[K(rclcpp::Client<std_srvs::srv::Trigger>::SharedFuture fut)
+      |              [01;36m[K^[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:127:41:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>trigger_inflight_[m[K’ declared here
+  127 |     if (available && !trigger_sent_ && ![01;36m[Ktrigger_inflight_[m[K) {
+      |                                         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:144:15:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrigger_sent_[m[K’ is not captured
+  144 |               [01;31m[Ktrigger_sent_[m[K = true;
+      |               [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:136:14:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  136 |         [this[01;36m[K][m[K(rclcpp::Client<std_srvs::srv::Trigger>::SharedFuture fut)
+      |              [01;36m[K^[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:127:23:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>trigger_sent_[m[K’ declared here
+  127 |     if (available && ![01;36m[Ktrigger_sent_[m[K && !trigger_inflight_) {
+      |                       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:[m[K In member function ‘[01m[Kvoid HiveRoutePlannerNode::[01;32m[KrouteDataCallback[m[K(hive_interface2::msg::LaneletMini2Array_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:158:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstore_[m[K’ was not declared in this scope
+  158 |     [01;31m[Kstore_[m[K.setFromMsg(*msg);
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:161:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_received_[m[K’ was not declared in this scope
+  161 |     [01;31m[Kdata_received_[m[K = true;
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:180:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kenable_graph_viz_[m[K’ was not declared in this scope
+  180 |     if ([01;31m[Kenable_graph_viz_[m[K && viz_pub_) {
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:180:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kviz_pub_[m[K’ was not declared in this scope
+  180 |     if (enable_graph_viz_ && [01;31m[Kviz_pub_[m[K) {
+      |                              [01;31m[K^~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:184:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kviz_frame_id_[m[K’ was not declared in this scope
+  184 |       m.header.frame_id = [01;31m[Kviz_frame_id_[m[K;
+      |                           [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:191:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kviz_ns_[m[K’ was not declared in this scope
+  191 |           viz_frame_id_, [01;31m[Kviz_ns_[m[K,
+      |                          [01;31m[K^~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:192:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kviz_line_width_[m[K’ was not declared in this scope
+  192 |           static_cast<float>([01;31m[Kviz_line_width_[m[K), static_cast<float>(viz_point_scale_));
+      |                              [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:192:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kviz_point_scale_[m[K’ was not declared in this scope
+  192 |           static_cast<float>(viz_line_width_), static_cast<float>([01;31m[Kviz_point_scale_[m[K));
+      |                                                                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:196:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kviz_full_topic_[m[K’ was not declared in this scope
+  196 |           GREEN, [01;31m[Kviz_full_topic_[m[K.c_str(), RESET);
+      |                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:[m[K In member function ‘[01m[Kvoid HiveRoutePlannerNode::[01;32m[KhandleComputeRoute[m[K(std::shared_ptr<hive_interface2::srv::ComputeRoute_Request_<std::allocator<void> > >, std::shared_ptr<hive_interface2::srv::ComputeRoute_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:205:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstore_[m[K’ was not declared in this scope
+  205 |     if ([01;31m[Kstore_[m[K.data().empty()) {
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:212:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kenable_route_plan_viz_[m[K’ was not declared in this scope
+  212 |     if ([01;31m[Kenable_route_plan_viz_[m[K) {
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:218:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kroute_plan_pub_[m[K’ was not declared in this scope
+  218 |         if ([01;31m[Kroute_plan_pub_[m[K[i]) route_plan_pub_[i]->publish(clear);
+      |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:228:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kepsilon_merge_m_[m[K’ was not declared in this scope
+  228 |     P.epsilon_merge_m = [01;31m[Kepsilon_merge_m_[m[K;
+      |                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:229:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kepsilon_endpoint_frac_[m[K’ was not declared in this scope
+  229 |     P.epsilon_endpoint_frac = [01;31m[Kepsilon_endpoint_frac_[m[K;
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:230:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kfallback_speed_mps_[m[K’ was not declared in this scope
+  230 |     P.fallback_speed_mps = [01;31m[Kfallback_speed_mps_[m[K;
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:231:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kdirect_link_threshold_m_[m[K’ was not declared in this scope
+  231 |     P.direct_link_threshold_m = [01;31m[Kdirect_link_threshold_m_[m[K;
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:232:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kdirect_link_nominal_speed_mps_[m[K’ was not declared in this scope
+  232 |     P.direct_link_nominal_speed_mps = [01;31m[Kdirect_link_nominal_speed_mps_[m[K;
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:234:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstore_[m[K’ was not declared in this scope
+  234 |     AStarPlanner planner([01;31m[Kstore_[m[K.data(), P);
+      |                          [01;31m[K^~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:262:19:[m[K [01;31m[Kerror: [m[K‘[01m[KmakeDirectLinkLanelet[m[K’ was not declared in this scope
+  262 |         auto ll = [01;31m[KmakeDirectLinkLanelet[m[K(req->start_pose, req->goal_pose, inherit);
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:269:21:[m[K [01;31m[Kerror: [m[K‘[01m[KmakeStartPartialLanelet[m[K’ was not declared in this scope
+  269 |           auto ll = [01;31m[KmakeStartPartialLanelet[m[K(base, R.start_partial.px, R.start_partial.py, R.start_partial.side);
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:281:21:[m[K [01;31m[Kerror: [m[K‘[01m[KmakeGoalPartialLanelet[m[K’ was not declared in this scope
+  281 |           auto ll = [01;31m[KmakeGoalPartialLanelet[m[K(base, R.goal_partial.px, R.goal_partial.py, R.goal_partial.side);
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:289:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kenable_route_plan_viz_[m[K’ was not declared in this scope
+  289 |     if ([01;31m[Kenable_route_plan_viz_[m[K) {
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:290:7:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishRoutePlanMarkersMulti[m[K’ was not declared in this scope
+  290 |       [01;31m[KpublishRoutePlanMarkersMulti[m[K(planner, {sx,sy}, {gx,gy}, R);
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:310:3:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  310 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:367:3:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  367 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:501:3:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  501 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:549:3:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  549 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:574:3:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  574 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:594:3:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  594 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:637:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kprivate[m[K’
+  637 | [01;31m[Kprivate[m[K:
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:[m[K At global scope:
+[01m[K/home/thomas24/hive_ws2/src/hive_route_planner/src/hive_route_planner_node.cpp:686:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  686 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/hive_route_planner_node.dir/build.make:76: CMakeFiles/hive_route_planner_node.dir/src/hive_route_planner_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:194: CMakeFiles/hive_route_planner_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

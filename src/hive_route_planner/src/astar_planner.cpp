@@ -141,35 +141,33 @@ AStarPlanner::makeStartCandidates(const Projection& prj,
   if (prj.lanelet_idx < 0) return out;
 
   const auto& ll = L[prj.lanelet_idx];
+  const auto [nodeA, nodeB] = G.lanelet_nodes[prj.lanelet_idx];
+
   const double ax = ll.start_point_x, ay = ll.start_point_y;
   const double bx = ll.end_point_x,   by = ll.end_point_y;
   const double segL = std::hypot(bx-ax, by-ay);
   const double v = std::max(P.fallback_speed_mps, kmh_to_mps(ll.max_speed));
 
-  auto nodeOf = [&](double x, double y){
-    for (const auto& n : G.nodes) if (std::hypot(n.x-x, n.y-y) <= P.epsilon_merge_m) return n.id;
-    return -1;
-  };
-  const int nodeA = nodeOf(ax,ay);
-  const int nodeB = nodeOf(bx,by);
-
-  auto addCand = [&](int node_to_reach, double dist_m){
+  auto addCand = [&](int node_to_reach, double dist_m, EndSide side){
     CandidateEnd c;
     c.node = node_to_reach;
     c.extra_dist_m = dist_m;
-    c.extra_time_s = dist_m / v;   // <-- toujours calculé
+    c.extra_time_s = dist_m / v;   // t toujours calculé
     c.lanelet_idx = prj.lanelet_idx;
+    c.side = side;
     c.valid = (node_to_reach >= 0);
     if (c.valid) out.push_back(c);
   };
 
+  // Si A->B autorisé : proj -> B
   if (ll.navigation_direction == 1 || ll.navigation_direction == 3) {
-    const double d = (prj.at_end ? 0.0 : (1.0 - prj.t) * segL); // proj -> B
-    addCand(nodeB, d);
+    const double d = (prj.at_end ? 0.0 : (1.0 - prj.t) * segL);
+    addCand(nodeB, d, EndSide::B);
   }
+  // Si B->A autorisé : proj -> A
   if (ll.navigation_direction == 2 || ll.navigation_direction == 3) {
-    const double d = (prj.at_start ? 0.0 : prj.t * segL); // proj -> A
-    addCand(nodeA, d);
+    const double d = (prj.at_start ? 0.0 : prj.t * segL);
+    addCand(nodeA, d, EndSide::A);
   }
   return out;
 }
@@ -187,35 +185,33 @@ AStarPlanner::makeGoalCandidates(const Projection& prj,
   if (prj.lanelet_idx < 0) return out;
 
   const auto& ll = L[prj.lanelet_idx];
+  const auto [nodeA, nodeB] = G.lanelet_nodes[prj.lanelet_idx];
+
   const double ax = ll.start_point_x, ay = ll.start_point_y;
   const double bx = ll.end_point_x,   by = ll.end_point_y;
   const double segL = std::hypot(bx-ax, by-ay);
   const double v = std::max(P.fallback_speed_mps, kmh_to_mps(ll.max_speed));
 
-  auto nodeOf = [&](double x, double y){
-    for (const auto& n : G.nodes) if (std::hypot(n.x-x, n.y-y) <= P.epsilon_merge_m) return n.id;
-    return -1;
-  };
-  const int nodeA = nodeOf(ax,ay);
-  const int nodeB = nodeOf(bx,by);
-
-  auto addCand = [&](int node_from_which, double dist_m){
+  auto addCand = [&](int node_from, double dist_m, EndSide side){
     CandidateEnd c;
-    c.node = node_from_which;
+    c.node = node_from;
     c.extra_dist_m = dist_m;
-    c.extra_time_s = dist_m / v;   // <-- toujours calculé
+    c.extra_time_s = dist_m / v;   // t toujours calculé
     c.lanelet_idx = prj.lanelet_idx;
-    c.valid = (node_from_which >= 0);
+    c.side = side;
+    c.valid = (node_from >= 0);
     if (c.valid) out.push_back(c);
   };
 
+  // Si A->B autorisé : A -> proj
   if (ll.navigation_direction == 1 || ll.navigation_direction == 3) {
-    const double d = (prj.at_start ? 0.0 : prj.t * segL); // A -> proj
-    addCand(nodeA, d);
+    const double d = (prj.at_start ? 0.0 : prj.t * segL);
+    addCand(nodeA, d, EndSide::A);
   }
+  // Si B->A autorisé : B -> proj
   if (ll.navigation_direction == 2 || ll.navigation_direction == 3) {
-    const double d = (prj.at_end ? 0.0 : (1.0 - prj.t) * segL); // B -> proj
-    addCand(nodeB, d);
+    const double d = (prj.at_end ? 0.0 : (1.0 - prj.t) * segL);
+    addCand(nodeB, d, EndSide::B);
   }
   return out;
 }
@@ -314,9 +310,30 @@ AStarPlanner::runAStarCombo(const CandidateEnd& start_c,
     segments.push_back(Segment{ e.lanelet_idx, e.forward_start_to_end });
   }
 
+    // Renseigner les demi-segments (projection <-> extrémité)
+  R.start_partial.valid = (start_c.extra_dist_m > 1e-6);
+  if (R.start_partial.valid) {
+    R.start_partial.lanelet_idx = start_c.lanelet_idx;
+    R.start_partial.side = start_c.side;
+    R.start_partial.px = start_proj_.px;
+    R.start_partial.py = start_proj_.py;
+  } else {
+    R.start_partial = PartialInfo{};
+  }
+
+  R.goal_partial.valid = (goal_c.extra_dist_m > 1e-6);
+  if (R.goal_partial.valid) {
+    R.goal_partial.lanelet_idx = goal_c.lanelet_idx;
+    R.goal_partial.side = goal_c.side;
+    R.goal_partial.px = goal_proj_.px;
+    R.goal_partial.py = goal_proj_.py;
+  } else {
+    R.goal_partial = PartialInfo{};
+  }
+
   R.success = true;
   R.total_dist_m = dist_sum;
-  R.total_time_s = time_sum;  // <-- toujours non nul
+  R.total_time_s = time_sum;  // toujours
   R.lanelet_indices = std::move(lanelets_order);
   R.segments = std::move(segments);
   R.message = "OK";

@@ -43,17 +43,28 @@ struct Projection {
   bool at_end{false};
 };
 
+enum class EndSide : int { A = 0, B = 1 };
+
 struct CandidateEnd {
   int node{-1};
   double extra_dist_m{0.0};
   double extra_time_s{0.0};
   int lanelet_idx{-1};
+  EndSide side{EndSide::A};   // <-- côté choisi (A ou B)
   bool valid{false};
 };
 
 struct Segment {
   int lanelet_idx{-1};
   bool forward{true}; // true = start->end, false = end->start
+};
+
+// infos pour les "demi-segments" (projection <-> extrémité)
+struct PartialInfo {
+  bool valid{false};
+  int lanelet_idx{-1};
+  EndSide side{EndSide::A}; // côté extrémité jointe
+  double px{0.0}, py{0.0};  // point projeté
 };
 
 struct PathResult {
@@ -63,6 +74,10 @@ struct PathResult {
   double total_dist_m{0.0};
   double total_time_s{0.0};
   std::string message;
+
+  // NOUVEAU: demi-segments à ajouter manuellement au début/à la fin
+  PartialInfo start_partial;
+  PartialInfo goal_partial;
 };
 
 class AStarPlanner {

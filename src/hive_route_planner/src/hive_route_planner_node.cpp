@@ -9,6 +9,7 @@
 #include <array>
 #include <cmath>
 #include <algorithm>
+#include <optional>
 
 #include "hive_interface2/msg/lanelet_mini2.hpp"
 #include "hive_interface2/msg/lanelet_mini2_array.hpp"
@@ -234,22 +235,55 @@ private:
     const auto mode = (req->mode == 1) ? CostMode::TIME : CostMode::DISTANCE;
 
     // IMPORTANT: ne pas ajouter les lanelets de projection en début/fin
+    auto t_planner_start = std::chrono::steady_clock::now();
     auto R = planner.compute({sx,sy}, {gx,gy}, mode, /*return_with_projection_lanelets=*/false);
+    auto t_planner_end = std::chrono::steady_clock::now();
+    double plan_ms = std::chrono::duration<double, std::milli>(t_planner_end - t_planner_start).count();
 
     // Réponse service
+    // --- Réponse service ---
     res->success = R.success;
     res->message = R.message;
     res->total_distance_m = R.total_dist_m;
     res->estimated_time_s = R.total_time_s;
     res->path.clear();
-    if (R.success && !R.lanelet_indices.empty()) {
-      res->path.reserve(R.lanelet_indices.size());
-      for (int idx : R.lanelet_indices) {
-        if (idx >= 0 && idx < (int)store_.data().size()) {
-          res->path.push_back(store_.data()[idx]);
+
+    if (R.success) {
+      // Cas direct_link : lanelet synthétique existant (inchangé)
+      if (R.lanelet_indices.empty() && R.message == "direct_link") {
+        std::optional<hive_interface2::msg::LaneletMini2> inherit = std::nullopt;
+        const auto& sp = planner.start_projection();
+        const auto& gp = planner.goal_projection();
+        if (sp.lanelet_idx >= 0 && sp.lanelet_idx < (int)store_.data().size())
+          inherit = store_.data()[sp.lanelet_idx];
+        else if (gp.lanelet_idx >= 0 && gp.lanelet_idx < (int)store_.data().size())
+          inherit = store_.data()[gp.lanelet_idx];
+
+        auto ll = makeDirectLinkLanelet(req->start_pose, req->goal_pose, inherit);
+        res->path.push_back(ll);
+      }
+      else {
+        // 1) Partiel départ (si présent)
+        if (R.start_partial.valid) {
+          const auto& base = store_.data()[R.start_partial.lanelet_idx];
+          auto ll = makeStartPartialLanelet(base, R.start_partial.px, R.start_partial.py, R.start_partial.side);
+          res->path.push_back(ll);
+        }
+        // 2) Chemin principal (lanelets entiers)
+        for (int idx : R.lanelet_indices) {
+          if (idx >= 0 && idx < (int)store_.data().size()) {
+            res->path.push_back(store_.data()[idx]);
+          }
+        }
+        // 3) Partiel arrivée (si présent)
+        if (R.goal_partial.valid) {
+          const auto& base = store_.data()[R.goal_partial.lanelet_idx];
+          auto ll = makeGoalPartialLanelet(base, R.goal_partial.px, R.goal_partial.py, R.goal_partial.side);
+          res->path.push_back(ll);
         }
       }
     }
+
 
     // Viz multi-topics
     if (enable_route_plan_viz_) {
@@ -262,12 +296,13 @@ private:
       "viz=BEST(0.10,0.90,0.10) ALT1(0.20,0.60,1.00) ALT2(0.80,0.30,0.90) ALT3(1.00,0.60,0.20)";
 
     RCLCPP_INFO(this->get_logger(),
-      "%s[compute_route] success=%s mode=%s dist=%.2f m time=%.2f s %s msg=\"%s\"%s",
-      GREEN, res->success ? "true":"false",
+      "%s[compute_route] success=%s mode=%s dist=%.2f m time=%.2f s colors=BEST:green ALT1:blue ALT2:magenta ALT3:orange plan_time=%.2f ms msg=\"%s\"%s",
+      GREEN, res->success ? "true" : "false",
       (mode==CostMode::DISTANCE) ? "DIST" : "TIME",
       res->total_distance_m, res->estimated_time_s,
-      viz_map,
+      plan_ms,
       res->message.c_str(), RESET);
+
 
       }
 
@@ -332,9 +367,9 @@ private:
 
   // ---------- Publication multi-topics ----------
   void publishRoutePlanMarkersMulti(const AStarPlanner& planner,
-                                    std::pair<double,double> sxy,
-                                    std::pair<double,double> gxy,
-                                    const PathResult& best)
+                                  std::pair<double,double> sxy,
+                                  std::pair<double,double> gxy,
+                                  const PathResult& best)
   {
     using visualization_msgs::msg::Marker;
     using visualization_msgs::msg::MarkerArray;
@@ -360,7 +395,43 @@ private:
       if (alternates.size() >= 3) break;
     }
 
-    // Topic 1 : 4 points + BEST
+    // --- Helper: overlay rouge pour les demi-segments (projection <-> extrémité) ---
+    auto make_partial_overlay = [&](const PathResult& R) -> Marker {
+      Marker m;
+      m.header.frame_id = viz_frame_id_;
+      m.ns = "route_plan_partials";
+      m.id = 1; // un seul marker overlay par topic
+      m.type = Marker::LINE_LIST;
+      m.action = Marker::ADD;
+      m.scale.x = 0.10;           // même épaisseur que le "highlight"
+      m.color.a = 1.0;
+      m.color.r = 1.0f; m.color.g = 0.0f; m.color.b = 0.0f; // ROUGE
+
+      auto add_from_partial = [&](const hive_route_planner::PartialInfo& P) {
+        if (!P.valid) return;
+        const int idx = P.lanelet_idx;
+        if (idx < 0 || idx >= static_cast<int>(store_.data().size())) return;
+        const auto& ll = store_.data()[idx];
+
+        geometry_msgs::msg::Point p_proj, p_ext;
+        p_proj.x = P.px; p_proj.y = P.py; p_proj.z = 0.06;
+
+        if (P.side == hive_route_planner::EndSide::A) {
+          p_ext.x = ll.start_point_x; p_ext.y = ll.start_point_y; p_ext.z = 0.06;
+        } else {
+          p_ext.x = ll.end_point_x;   p_ext.y = ll.end_point_y;   p_ext.z = 0.06;
+        }
+
+        m.points.push_back(p_proj);
+        m.points.push_back(p_ext);
+      };
+
+      add_from_partial(R.start_partial);
+      add_from_partial(R.goal_partial);
+      return m;
+    };
+
+    // Topic 1 : 4 points + BEST (+ overlay rouge)
     if (route_plan_pub_[0]) {
       MarkerArray arr;
 
@@ -386,13 +457,17 @@ private:
       add_sphere(103, gp.px, gp.py,         1.0f, 1.0f, 0.0f); // GOAL proj (jaune)
 
       if (best.success) {
-        auto m = buildLineFromResult(best, sxy, gxy, /*highlight=*/true, 0,0,0);
-        arr.markers.push_back(m);
+        // chemin principal (VERT, highlight)
+        auto main_m = buildLineFromResult(best, sxy, gxy, /*highlight=*/true, 0,0,0);
+        arr.markers.push_back(main_m);
+        // overlay DEMI-SEGMENTS (ROUGE)
+        auto overlay = make_partial_overlay(best);
+        arr.markers.push_back(overlay);
       }
       route_plan_pub_[0]->publish(arr);
     }
 
-    // Topics 2..4 : alternatives
+    // Topics 2..4 : alternatives (+ overlay rouge)
     const std::array<std::tuple<float,float,float>,3> alt_colors = {{
       {0.20f, 0.60f, 1.00f},  // bleu clair
       {0.80f, 0.30f, 0.90f},  // magenta
@@ -405,8 +480,12 @@ private:
       if (i < alternates.size()) {
         const auto& alt = alternates[i];
         auto [r,g,b] = alt_colors[i];
+        // chemin alternatif (couleur dédiée)
         auto m = buildLineFromResult(alt, sxy, gxy, /*highlight=*/false, r,g,b);
         arr.markers.push_back(m);
+        // overlay DEMI-SEGMENTS (ROUGE)
+        auto overlay = make_partial_overlay(alt);
+        arr.markers.push_back(overlay);
       }
       route_plan_pub_[i+1]->publish(arr);
     }
@@ -420,6 +499,146 @@ private:
         cand.lanelet_indices.size(), cand.segments.size(), RESET);
     }
   }
+
+  hive_interface2::msg::LaneletMini2 makeDirectLinkLanelet(
+  const geometry_msgs::msg::Pose& start_pose,
+  const geometry_msgs::msg::Pose& goal_pose,
+  const std::optional<hive_interface2::msg::LaneletMini2>& inherit_from) const
+  {
+    hive_interface2::msg::LaneletMini2 ll;
+
+    // Identifiants hiérarchiques (hérités si possible)
+    if (inherit_from.has_value()) {
+      ll.enterprise_full_id_str = inherit_from->enterprise_full_id_str;
+      ll.deployment_full_id_str = inherit_from->deployment_full_id_str;
+      ll.slam_session_full_id_str = inherit_from->slam_session_full_id_str;
+      ll.configuration_group_id_str = inherit_from->configuration_group_id_str;
+      ll.road_group_id_str = inherit_from->road_group_id_str;
+    } else {
+      ll.enterprise_full_id_str = "";
+      ll.deployment_full_id_str = "";
+      ll.slam_session_full_id_str = "";
+      ll.configuration_group_id_str = "";
+      ll.road_group_id_str = "";
+    }
+
+    // ID synthétique
+    ll.lanelet_mini_id = -1;
+
+    // Géométrie (on prend les Z des poses pour rester neutre ; sinon 0)
+    ll.start_point_x = static_cast<float>(start_pose.position.x);
+    ll.start_point_y = static_cast<float>(start_pose.position.y);
+    ll.start_point_z = static_cast<float>(start_pose.position.z);
+    ll.end_point_x   = static_cast<float>(goal_pose.position.x);
+    ll.end_point_y   = static_cast<float>(goal_pose.position.y);
+    ll.end_point_z   = static_cast<float>(goal_pose.position.z);
+
+    // Règles demandées
+    ll.navigation_direction = 3;   // bidirectionnel
+    ll.border_mode = 0;            // aucun
+    ll.u_turn_allowed = true;
+    ll.max_speed = 4;              // km/h
+    ll.width = 1.5f;               // m
+
+    // Flags
+    ll.slope_alert = false;
+    ll.vegetation_alert = false;
+    ll.offroad_alert = false;
+
+    return ll;
+  }
+
+  hive_interface2::msg::LaneletMini2 makeStartPartialLanelet(
+  const hive_interface2::msg::LaneletMini2& base,
+  double proj_x, double proj_y,
+  hive_route_planner::EndSide side) const
+  {
+    using hive_interface2::msg::LaneletMini2;
+    LaneletMini2 ll = base; // copies ALL attributes (id, speed, flags, groups...)
+
+    // Orientation: projection -> extrémité choisie
+    if (side == hive_route_planner::EndSide::B) {
+      // proj -> B
+      ll.start_point_x = static_cast<float>(proj_x);
+      ll.start_point_y = static_cast<float>(proj_y);
+      // end = B (inchangé)
+    } else {
+      // proj -> A
+      ll.end_point_x   = static_cast<float>(proj_x);
+      ll.end_point_y   = static_cast<float>(proj_y);
+      // start = A (inchangé)
+    }
+    // z: on peut garder les z existants des extrémités conservées; la projection est à z=0
+    // (sinon adapter si tu veux hériter d'un z spécifique)
+    return ll;
+  }
+
+  hive_interface2::msg::LaneletMini2 makeGoalPartialLanelet(
+    const hive_interface2::msg::LaneletMini2& base,
+    double proj_x, double proj_y,
+    hive_route_planner::EndSide side) const
+  {
+    using hive_interface2::msg::LaneletMini2;
+    LaneletMini2 ll = base; // copies ALL attributes
+
+    // Orientation: extrémité choisie -> projection
+    if (side == hive_route_planner::EndSide::A) {
+      // A -> proj
+      ll.end_point_x   = static_cast<float>(proj_x);
+      ll.end_point_y   = static_cast<float>(proj_y);
+      // start = A (inchangé)
+    } else {
+      // B -> proj
+      ll.start_point_x = static_cast<float>(proj_x);
+      ll.start_point_y = static_cast<float>(proj_y);
+      // end = B (inchangé)
+    }
+    return ll;
+  }
+
+  visualization_msgs::msg::Marker buildPartialOverlayMarker(const PathResult& R)
+  {
+    using visualization_msgs::msg::Marker;
+    Marker m;
+    m.header.frame_id = viz_frame_id_;
+    m.ns = "route_plan_partials";
+    m.id = 1;
+    m.type = Marker::LINE_LIST;
+    m.action = Marker::ADD;
+    m.scale.x = 0.10;        // même épaisseur que "highlight"
+    m.color.a = 1.0;
+    m.color.r = 1.0f; m.color.g = 0.0f; m.color.b = 0.0f; // ROUGE
+
+    auto add_segment = [&](int lanelet_idx, hive_route_planner::EndSide side, double px, double py) {
+      if (lanelet_idx < 0 || lanelet_idx >= static_cast<int>(store_.data().size())) return;
+      const auto& ll = store_.data()[lanelet_idx];
+
+      geometry_msgs::msg::Point p_proj, p_ext;
+      p_proj.x = px; p_proj.y = py; p_proj.z = 0.06;
+
+      if (side == hive_route_planner::EndSide::A) {
+        p_ext.x = ll.start_point_x; p_ext.y = ll.start_point_y; p_ext.z = 0.06;
+      } else {
+        p_ext.x = ll.end_point_x;   p_ext.y = ll.end_point_y;   p_ext.z = 0.06;
+      }
+
+      // Ajoute un segment (ligne) entre p_proj et p_ext
+      m.points.push_back(p_proj);
+      m.points.push_back(p_ext);
+    };
+
+    if (R.start_partial.valid) {
+      add_segment(R.start_partial.lanelet_idx, R.start_partial.side,
+                  R.start_partial.px, R.start_partial.py);
+    }
+    if (R.goal_partial.valid) {
+      add_segment(R.goal_partial.lanelet_idx, R.goal_partial.side,
+                  R.goal_partial.px, R.goal_partial.py);
+    }
+
+    return m;
+  }
+
 
 private:
   // ---------- Params / noms ----------
