@@ -1,0 +1,83 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found hive_interface2: 0.0.1 (/home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake)
+-- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/thomas24/hive_ws2/build/hive_nav_brain
+[ 42%] [32mBuilding CXX object CMakeFiles/hive_nav_brain_lib.dir/src/hive_planner.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/hive_nav_brain_lib.dir/src/hive_nav_brain_node.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/hive_nav_brain_lib.dir/src/path_utils.cpp.o[0m
+[01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/src/hive_planner.cpp:[m[K In function ‘[01m[Knav_msgs::msg::Path hive_planner::[01;32m[Kbuild_nav2_path[m[K(const std::vector<hive_interface2::msg::LaneletMini2_<std::allocator<void> > >&, const std::string&, double, int, PathBuildStats&)[m[K’:
+[01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/src/hive_planner.cpp:28:23:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+   28 |   path.header.stamp = [01;31m[Krclcpp[m[K::Time(0);
+      |                       [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/hive_nav_brain_lib.dir/build.make:118: CMakeFiles/hive_nav_brain_lib.dir/src/hive_planner.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/path_utils.hpp:7[m[K,
+                 from [01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/src/path_utils.cpp:1[m[K:
+[01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:130:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid hive_nav::GlobalState::[01;32m[Kset_movement_mode[m[K(hive_nav::MovementMode)[m[K’ cannot be overloaded with ‘[01m[Kvoid hive_nav::GlobalState::[01;32m[Kset_movement_mode[m[K(hive_nav::MovementMode)[m[K’
+  130 |   void [01;31m[Kset_movement_mode[m[K(MovementMode m) { std::scoped_lock lk(m_); movement_mode_ = m; }
+      |        [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:105:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid hive_nav::GlobalState::[01;32m[Kset_movement_mode[m[K(hive_nav::MovementMode)[m[K’
+  105 |   void [01;36m[Kset_movement_mode[m[K(MovementMode m) {
+      |        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:131:16:[m[K [01;31m[Kerror: [m[K‘[01m[Khive_nav::MovementMode hive_nav::GlobalState::[01;32m[Kmovement_mode[m[K() const[m[K’ cannot be overloaded with ‘[01m[Khive_nav::MovementMode hive_nav::GlobalState::[01;32m[Kmovement_mode[m[K() const[m[K’
+  131 |   MovementMode [01;31m[Kmovement_mode[m[K() const { std::scoped_lock lk(m_); return movement_mode_; }
+      |                [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:110:16:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Khive_nav::MovementMode hive_nav::GlobalState::[01;32m[Kmovement_mode[m[K() const[m[K’
+  110 |   MovementMode [01;36m[Kmovement_mode[m[K() const {
+      |                [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:[m[K In member function ‘[01m[Kvoid hive_nav::GlobalState::[01;32m[Kset_movement_mode[m[K(hive_nav::MovementMode)[m[K’:
+[01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:130:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_mode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmovement_mode[m[K’?
+  130 |   void set_movement_mode(MovementMode m) { std::scoped_lock lk(m_); [01;31m[Kmovement_mode_[m[K = m; }
+      |                                                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                                                     [32m[Kmovement_mode[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:[m[K In member function ‘[01m[Khive_nav::MovementMode hive_nav::GlobalState::[01;32m[Kmovement_mode[m[K() const[m[K’:
+[01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:131:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_mode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmovement_mode[m[K’?
+  131 |   MovementMode movement_mode() const { std::scoped_lock lk(m_); return [01;31m[Kmovement_mode_[m[K; }
+      |                                                                        [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                                                        [32m[Kmovement_mode[m[K
+In file included from [01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/hive_nav_brain_node.hpp:28[m[K,
+                 from [01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/src/hive_nav_brain_node.cpp:1[m[K:
+[01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:130:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid hive_nav::GlobalState::[01;32m[Kset_movement_mode[m[K(hive_nav::MovementMode)[m[K’ cannot be overloaded with ‘[01m[Kvoid hive_nav::GlobalState::[01;32m[Kset_movement_mode[m[K(hive_nav::MovementMode)[m[K’
+  130 |   void [01;31m[Kset_movement_mode[m[K(MovementMode m) { std::scoped_lock lk(m_); movement_mode_ = m; }
+      |        [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:105:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid hive_nav::GlobalState::[01;32m[Kset_movement_mode[m[K(hive_nav::MovementMode)[m[K’
+  105 |   void [01;36m[Kset_movement_mode[m[K(MovementMode m) {
+      |        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:131:16:[m[K [01;31m[Kerror: [m[K‘[01m[Khive_nav::MovementMode hive_nav::GlobalState::[01;32m[Kmovement_mode[m[K() const[m[K’ cannot be overloaded with ‘[01m[Khive_nav::MovementMode hive_nav::GlobalState::[01;32m[Kmovement_mode[m[K() const[m[K’
+  131 |   MovementMode [01;31m[Kmovement_mode[m[K() const { std::scoped_lock lk(m_); return movement_mode_; }
+      |                [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:110:16:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Khive_nav::MovementMode hive_nav::GlobalState::[01;32m[Kmovement_mode[m[K() const[m[K’
+  110 |   MovementMode [01;36m[Kmovement_mode[m[K() const {
+      |                [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:[m[K In member function ‘[01m[Kvoid hive_nav::GlobalState::[01;32m[Kset_movement_mode[m[K(hive_nav::MovementMode)[m[K’:
+[01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:130:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_mode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmovement_mode[m[K’?
+  130 |   void set_movement_mode(MovementMode m) { std::scoped_lock lk(m_); [01;31m[Kmovement_mode_[m[K = m; }
+      |                                                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                                                     [32m[Kmovement_mode[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:[m[K In member function ‘[01m[Khive_nav::MovementMode hive_nav::GlobalState::[01;32m[Kmovement_mode[m[K() const[m[K’:
+[01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:131:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_mode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmovement_mode[m[K’?
+  131 |   MovementMode movement_mode() const { std::scoped_lock lk(m_); return [01;31m[Kmovement_mode_[m[K; }
+      |                                                                        [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                                                        [32m[Kmovement_mode[m[K
+gmake[2]: *** [CMakeFiles/hive_nav_brain_lib.dir/build.make:90: CMakeFiles/hive_nav_brain_lib.dir/src/path_utils.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/hive_nav_brain_lib.dir/build.make:76: CMakeFiles/hive_nav_brain_lib.dir/src/hive_nav_brain_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/hive_nav_brain_lib.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

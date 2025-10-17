@@ -4,6 +4,7 @@
 #include <mutex>
 
 #include <rclcpp/rclcpp.hpp>
+#include <rclcpp_action/rclcpp_action.hpp>
 #include <std_srvs/srv/trigger.hpp>
 
 // TF2
@@ -11,15 +12,20 @@
 #include <tf2_ros/buffer.h>
 #include <tf2/transform_datatypes.h>
 
-// Messages
+// Messages & services
 #include "hive_interface2/msg/lanelet_mini2_array.hpp"
 #include "hive_interface2/msg/poi_array.hpp"
 #include "hive_interface2/msg/free_zone_array.hpp"
 #include "hive_interface2/msg/nav_brain_command.hpp"
 #include "hive_interface2/srv/compute_route.hpp"
+
 #include <geometry_msgs/msg/point_stamped.hpp>
 #include <visualization_msgs/msg/marker.hpp>
+#include <nav_msgs/msg/path.hpp>
+#include <nav_msgs/msg/goals.hpp>  // Jazzy+: wrapper des poses
+#include <nav2_msgs/action/compute_path_through_poses.hpp>
 
+#include "hive_nav_brain/hive_planner.hpp"
 #include "hive_nav_brain/params.hpp"
 #include "hive_nav_brain/data_store.hpp"
 #include "hive_nav_brain/global_state.hpp"
@@ -42,25 +48,17 @@ private:
   // Boucle 10 Hz
   void onLoop();
 
-  // TF update (10 Hz)
-  void try_update_robot_pose_from_tf();
-
-  // Demande de global path
+  // Demande de global path (lanelets)
   void try_request_global_path();
 
-  // ====== Target locale ======
-  struct PathProjection {
-    bool ok{false};
-    size_t seg_idx{0};  // index du lanelet/segment dans current_path_
-    double t{0.0};      // paramètre 0..1 le long du segment
-    double px{0.0}, py{0.0};
-  };
-  PathProjection project_on_current_path(double x, double y) const;
-  bool compute_local_target(double robot_x, double robot_y,
-                            double &tx, double &ty, std::string &note);
+  // --- Distance au path lanelets ---
+  double compute_distance_to_current_path_xy(double x, double y, std::string &note) const;
+
+  // --- Yaw local aligné avec le lanelet sous-jacent (start->end) au point (x,y) ---
+  bool heading_on_path_at(double x, double y, double &yaw) const;
 
 private:
-  // Params / store
+  // Params / store / état global
   HiveNavParams P_;
   DataStore     store_;
   hive_nav::GlobalState gs_;
@@ -82,20 +80,28 @@ private:
   std::string map_frame_ = "map";
   std::string base_footprint_frame_; // <ns>/base_footprint
 
-  // Service route planner
+  // Service route planner (lanelets)
   rclcpp::Client<hive_interface2::srv::ComputeRoute>::SharedPtr route_client_;
-  // --- Stockage du dernier global path reçu ---
+
+  // Stockage du dernier global path (lanelets)
   std::vector<hive_interface2::msg::LaneletMini2> current_path_;
   mutable std::mutex path_mtx_;
 
-  // --- Helper distance au path ---
-  double compute_distance_to_current_path_xy(double x, double y, std::string &note) const;
-
-  // Publisher de la target locale
+  // Publishers target locale
   rclcpp::Publisher<geometry_msgs::msg::PointStamped>::SharedPtr target_pub_;
   rclcpp::Publisher<visualization_msgs::msg::Marker>::SharedPtr  target_marker_pub_;
 
-  // Constante lookahead (m) en mode hive_planner
-  static constexpr double kLookaheadM = 6.0;
+  // Chemins nav2 (visualisation unique, on y publie aussi bien hive/astar)
+  rclcpp::Publisher<nav_msgs::msg::Path>::SharedPtr hive_path_pub_;
 
+  // Hive planner (éviter builds concurrents)
+  bool building_hive_path_{false};
+
+  // Action Nav2: ComputePathThroughPoses (pour ASTAR_PLANNER)
+  using CPTP = nav2_msgs::action::ComputePathThroughPoses;
+  rclcpp_action::Client<CPTP>::SharedPtr path_action_client_;
+  bool waiting_astar_{false};
+
+  // Constante lookahead (m) pour hive_planner
+  static constexpr double kLookaheadM = 6.0;
 };

@@ -4,7 +4,11 @@
 /home/thomas24/hive_ws2/install/hive_nav_brain/include/hive_nav_brain/data_store.hpp
 /home/thomas24/hive_ws2/install/hive_nav_brain/include/hive_nav_brain/global_state.hpp
 /home/thomas24/hive_ws2/install/hive_nav_brain/include/hive_nav_brain/hive_nav_brain_node.hpp
+/home/thomas24/hive_ws2/install/hive_nav_brain/include/hive_nav_brain/hive_planner.hpp
+/home/thomas24/hive_ws2/install/hive_nav_brain/include/hive_nav_brain/logging.hpp
 /home/thomas24/hive_ws2/install/hive_nav_brain/include/hive_nav_brain/params.hpp
+/home/thomas24/hive_ws2/install/hive_nav_brain/include/hive_nav_brain/path_utils.hpp
+/home/thomas24/hive_ws2/install/hive_nav_brain/include/hive_nav_brain/tf_helpers.hpp
 /home/thomas24/hive_ws2/install/hive_nav_brain/share/hive_nav_brain/launch/hive_nav_brain.launch.py
 /home/thomas24/hive_ws2/install/hive_nav_brain/share/ament_index/resource_index/package_run_dependencies/hive_nav_brain
 /home/thomas24/hive_ws2/install/hive_nav_brain/share/ament_index/resource_index/parent_prefix_path/hive_nav_brain

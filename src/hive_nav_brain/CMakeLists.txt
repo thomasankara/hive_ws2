@@ -15,15 +15,20 @@ find_package(tf2_ros REQUIRED)
 find_package(tf2 REQUIRED)
 find_package(tf2_geometry_msgs REQUIRED)
 find_package(visualization_msgs REQUIRED)
-
+find_package(rclcpp_action REQUIRED)
+find_package(nav2_msgs REQUIRED)
 
 include_directories(include)
 
 add_library(hive_nav_brain_lib
   src/hive_nav_brain_node.cpp
+  src/path_utils.cpp
+  src/tf_helpers.cpp
+  src/hive_planner.cpp
 )
+
 ament_target_dependencies(hive_nav_brain_lib
-  rclcpp std_srvs geometry_msgs nav_msgs hive_interface2 tf2_ros tf2 tf2_geometry_msgs visualization_msgs)
+  rclcpp std_srvs geometry_msgs nav_msgs hive_interface2 tf2_ros tf2 tf2_geometry_msgs visualization_msgs rclcpp_action nav2_msgs)
 
 add_executable(hive_nav_brain_node src/main.cpp)
 target_link_libraries(hive_nav_brain_node hive_nav_brain_lib)

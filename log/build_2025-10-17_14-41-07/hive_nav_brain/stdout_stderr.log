@@ -1,0 +1,11 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/hive_nav_brain_lib.dir/src/hive_nav_brain_node.cpp.o[0m
+[ 50%] [32m[1mLinking CXX static library libhive_nav_brain_lib.a[0m
+[ 50%] Built target hive_nav_brain_lib
+[ 75%] [32m[1mLinking CXX executable hive_nav_brain_node[0m
+/usr/bin/ld: libhive_nav_brain_lib.a(hive_nav_brain_node.cpp.o): in function `HiveNavBrainNode::onLoop()':
+hive_nav_brain_node.cpp:(.text+0x6451): undefined reference to `hive_nav_utils::distance_to_path_xy(std::vector<hive_interface2::msg::LaneletMini2_<std::allocator<void> >, std::allocator<hive_interface2::msg::LaneletMini2_<std::allocator<void> > > > const&, double, double, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+/usr/bin/ld: hive_nav_brain_node.cpp:(.text+0x66a9): undefined reference to `hive_nav_utils::compute_local_target(std::vector<hive_interface2::msg::LaneletMini2_<std::allocator<void> >, std::allocator<hive_interface2::msg::LaneletMini2_<std::allocator<void> > > > const&, double, double, double, double, hive_nav::MovementMode, double, double&, double&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/hive_nav_brain_node.dir/build.make:249: hive_nav_brain_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/hive_nav_brain_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

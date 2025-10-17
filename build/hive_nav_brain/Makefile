@@ -247,6 +247,30 @@ src/hive_nav_brain_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_nav_brain_lib.dir/build.make CMakeFiles/hive_nav_brain_lib.dir/src/hive_nav_brain_node.cpp.s
 .PHONY : src/hive_nav_brain_node.cpp.s
 
+src/hive_planner.o: src/hive_planner.cpp.o
+.PHONY : src/hive_planner.o
+
+# target to build an object file
+src/hive_planner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_nav_brain_lib.dir/build.make CMakeFiles/hive_nav_brain_lib.dir/src/hive_planner.cpp.o
+.PHONY : src/hive_planner.cpp.o
+
+src/hive_planner.i: src/hive_planner.cpp.i
+.PHONY : src/hive_planner.i
+
+# target to preprocess a source file
+src/hive_planner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_nav_brain_lib.dir/build.make CMakeFiles/hive_nav_brain_lib.dir/src/hive_planner.cpp.i
+.PHONY : src/hive_planner.cpp.i
+
+src/hive_planner.s: src/hive_planner.cpp.s
+.PHONY : src/hive_planner.s
+
+# target to generate assembly for a file
+src/hive_planner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_nav_brain_lib.dir/build.make CMakeFiles/hive_nav_brain_lib.dir/src/hive_planner.cpp.s
+.PHONY : src/hive_planner.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -271,6 +295,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_nav_brain_node.dir/build.make CMakeFiles/hive_nav_brain_node.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/path_utils.o: src/path_utils.cpp.o
+.PHONY : src/path_utils.o
+
+# target to build an object file
+src/path_utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_nav_brain_lib.dir/build.make CMakeFiles/hive_nav_brain_lib.dir/src/path_utils.cpp.o
+.PHONY : src/path_utils.cpp.o
+
+src/path_utils.i: src/path_utils.cpp.i
+.PHONY : src/path_utils.i
+
+# target to preprocess a source file
+src/path_utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_nav_brain_lib.dir/build.make CMakeFiles/hive_nav_brain_lib.dir/src/path_utils.cpp.i
+.PHONY : src/path_utils.cpp.i
+
+src/path_utils.s: src/path_utils.cpp.s
+.PHONY : src/path_utils.s
+
+# target to generate assembly for a file
+src/path_utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_nav_brain_lib.dir/build.make CMakeFiles/hive_nav_brain_lib.dir/src/path_utils.cpp.s
+.PHONY : src/path_utils.cpp.s
+
+src/tf_helpers.o: src/tf_helpers.cpp.o
+.PHONY : src/tf_helpers.o
+
+# target to build an object file
+src/tf_helpers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_nav_brain_lib.dir/build.make CMakeFiles/hive_nav_brain_lib.dir/src/tf_helpers.cpp.o
+.PHONY : src/tf_helpers.cpp.o
+
+src/tf_helpers.i: src/tf_helpers.cpp.i
+.PHONY : src/tf_helpers.i
+
+# target to preprocess a source file
+src/tf_helpers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_nav_brain_lib.dir/build.make CMakeFiles/hive_nav_brain_lib.dir/src/tf_helpers.cpp.i
+.PHONY : src/tf_helpers.cpp.i
+
+src/tf_helpers.s: src/tf_helpers.cpp.s
+.PHONY : src/tf_helpers.s
+
+# target to generate assembly for a file
+src/tf_helpers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_nav_brain_lib.dir/build.make CMakeFiles/hive_nav_brain_lib.dir/src/tf_helpers.cpp.s
+.PHONY : src/tf_helpers.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -291,9 +363,18 @@ help:
 	@echo "... src/hive_nav_brain_node.o"
 	@echo "... src/hive_nav_brain_node.i"
 	@echo "... src/hive_nav_brain_node.s"
+	@echo "... src/hive_planner.o"
+	@echo "... src/hive_planner.i"
+	@echo "... src/hive_planner.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/path_utils.o"
+	@echo "... src/path_utils.i"
+	@echo "... src/path_utils.s"
+	@echo "... src/tf_helpers.o"
+	@echo "... src/tf_helpers.i"
+	@echo "... src/tf_helpers.s"
 .PHONY : help
 
 

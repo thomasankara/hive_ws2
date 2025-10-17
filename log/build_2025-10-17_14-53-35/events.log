@@ -1,0 +1,236 @@
+[0.000000] (-) TimerEvent: {}
+[0.000265] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000416] (-) JobUnselected: {'identifier': 'dev_route_provider'}
+[0.000876] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.000904] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.000923] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.000940] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.000962] (-) JobUnselected: {'identifier': 'hive_costmap'}
+[0.000981] (-) JobUnselected: {'identifier': 'hive_interface2'}
+[0.000996] (-) JobUnselected: {'identifier': 'hive_route_planner'}
+[0.001016] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.001033] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.001053] (-) JobUnselected: {'identifier': 'nav2_behaviors'}
+[0.001072] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.001089] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.001108] (-) JobUnselected: {'identifier': 'nav2_collision_monitor'}
+[0.001122] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.001140] (-) JobUnselected: {'identifier': 'nav2_constrained_smoother'}
+[0.001156] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.001175] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.001200] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.001221] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.001251] (-) JobUnselected: {'identifier': 'nav2_graceful_controller'}
+[0.001270] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.001289] (-) JobUnselected: {'identifier': 'nav2_loopback_sim'}
+[0.001306] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.001321] (-) JobUnselected: {'identifier': 'nav2_mppi_controller'}
+[0.001340] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.001357] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.001376] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.001393] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.001409] (-) JobUnselected: {'identifier': 'nav2_ros_common'}
+[0.001428] (-) JobUnselected: {'identifier': 'nav2_rotation_shim_controller'}
+[0.001444] (-) JobUnselected: {'identifier': 'nav2_route'}
+[0.001463] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.001481] (-) JobUnselected: {'identifier': 'nav2_simple_commander'}
+[0.001500] (-) JobUnselected: {'identifier': 'nav2_smac_planner'}
+[0.001700] (-) JobUnselected: {'identifier': 'nav2_smoother'}
+[0.001758] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.001777] (-) JobUnselected: {'identifier': 'nav2_theta_star_planner'}
+[0.001794] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.001811] (-) JobUnselected: {'identifier': 'nav2_velocity_smoother'}
+[0.001827] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.001844] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.001862] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.001883] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.001900] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.001921] (-) JobUnselected: {'identifier': 'opennav_docking'}
+[0.001938] (-) JobUnselected: {'identifier': 'opennav_docking_bt'}
+[0.001957] (-) JobUnselected: {'identifier': 'opennav_docking_core'}
+[0.001972] (-) JobUnselected: {'identifier': 'vanilla_brain_nav2'}
+[0.001995] (hive_nav_brain) JobQueued: {'identifier': 'hive_nav_brain', 'dependencies': OrderedDict({'hive_interface2': '/home/thomas24/hive_ws2/install/hive_interface2', 'nav2_common': '/home/thomas24/hive_ws2/install/nav2_common', 'nav2_msgs': '/home/thomas24/hive_ws2/install/nav2_msgs', 'nav2_voxel_grid': '/home/thomas24/hive_ws2/install/nav2_voxel_grid', 'nav2_ros_common': '/home/thomas24/hive_ws2/install/nav2_ros_common', 'nav2_util': '/home/thomas24/hive_ws2/install/nav2_util', 'nav2_behavior_tree': '/home/thomas24/hive_ws2/install/nav2_behavior_tree', 'nav2_lifecycle_manager': '/home/thomas24/hive_ws2/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/thomas24/hive_ws2/install/nav2_map_server', 'nav2_costmap_2d': '/home/thomas24/hive_ws2/install/nav2_costmap_2d', 'nav2_core': '/home/thomas24/hive_ws2/install/nav2_core', 'nav2_controller': '/home/thomas24/hive_ws2/install/nav2_controller', 'nav2_planner': '/home/thomas24/hive_ws2/install/nav2_planner'})}
+[0.002052] (hive_nav_brain) JobStarted: {'identifier': 'hive_nav_brain'}
+[0.051352] (hive_nav_brain) JobProgress: {'identifier': 'hive_nav_brain', 'progress': 'cmake'}
+[0.052452] (hive_nav_brain) JobProgress: {'identifier': 'hive_nav_brain', 'progress': 'build'}
+[0.052550] (hive_nav_brain) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thomas24/hive_ws2/build/hive_nav_brain', '--', '-j16', '-l16'], 'cwd': '/home/thomas24/hive_ws2/build/hive_nav_brain', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share/hive_simulation/worlds:/opt/ros/jazzy/share/hive_simulation/models', 'USER': 'thomas24', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/thomas24/hive_ws2/install/hive_nav_brain/share:/home/thomas24/hive_ws2/install/hive_route_planner/share', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/thomas24/hive_ws2/install/nav2_planner/lib:/home/thomas24/hive_ws2/install/nav2_controller/lib:/home/thomas24/hive_ws2/install/nav2_costmap_2d/lib:/home/thomas24/hive_ws2/install/nav2_map_server/lib:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager/lib:/home/thomas24/hive_ws2/install/nav2_behavior_tree/lib:/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_voxel_grid/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:/home/thomas24/hive_ws2/install/hive_interface2/lib:/home/thomas24/hive_ws2/install/hive_nav_brain/lib:/home/thomas24/hive_ws2/install/opennav_docking/lib:/home/thomas24/hive_ws2/install/opennav_docking_bt/lib:/home/thomas24/hive_ws2/install/dwb_plugins/lib:/home/thomas24/hive_ws2/install/dwb_critics/lib:/home/thomas24/hive_ws2/install/dwb_core/lib:/home/thomas24/hive_ws2/install/nav_2d_utils/lib:/home/thomas24/hive_ws2/install/dwb_msgs/lib:/home/thomas24/hive_ws2/install/nav_2d_msgs/lib:/home/thomas24/hive_ws2/install/nav2_waypoint_follower/lib:/home/thomas24/hive_ws2/install/nav2_theta_star_planner/lib:/home/thomas24/hive_ws2/install/nav2_smoother/lib:/home/thomas24/hive_ws2/install/nav2_smac_planner/lib:/home/thomas24/hive_ws2/install/nav2_rviz_plugins/lib:/home/thomas24/hive_ws2/install/nav2_route/lib:/home/thomas24/hive_ws2/install/nav2_rotation_shim_controller/lib:/home/thomas24/hive_ws2/install/nav2_regulated_pure_pursuit_controller/lib:/home/thomas24/hive_ws2/install/nav2_navfn_planner/lib:/home/thomas24/hive_ws2/install/nav2_mppi_controller/lib:/home/thomas24/hive_ws2/install/nav2_graceful_controller/lib:/home/thomas24/hive_ws2/install/nav2_constrained_smoother/lib:/home/thomas24/hive_ws2/install/nav2_bt_navigator/lib:/home/thomas24/hive_ws2/install/nav2_behaviors/lib:/home/thomas24/hive_ws2/install/nav2_collision_monitor/lib:/home/thomas24/hive_ws2/install/hive_costmap/lib:/home/thomas24/hive_ws2/install/costmap_queue/lib:/home/thomas24/hive_ws2/install/nav2_velocity_smoother/lib:/home/thomas24/hive_ws2/install/nav2_amcl/lib:/home/thomas24/hive_ws2/install/nav2_system_tests/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/thomas24', 'OLDPWD': '/home/thomas24/hive_ws2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3136', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/thomas24/hive_ws2/install:/home/thomas24/hiveverse_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'thomas24', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/thomas24/hive_ws2/install/hive_nav_brain/lib/x86_64-linux-gnu/pkgconfig:/home/thomas24/hive_ws2/install/hive_nav_brain/lib/pkgconfig:/home/thomas24/hive_ws2/install/hive_route_planner/lib/x86_64-linux-gnu/pkgconfig:/home/thomas24/hive_ws2/install/hive_route_planner/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'thomas24', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/thomas24/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/thomas24/.local/bin:/home/thomas24/.local/bin', 'SESSION_MANAGER': 'local/thomas24-Legion-Pro-5-16ARX8:@/tmp/.ICE-unix/3092,unix/thomas24-Legion-Pro-5-16ARX8:/tmp/.ICE-unix/3092', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/48c84c92_fa3c_441a_a1e9_ee1d11b2d6dd', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.126', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/thomas24/hive_ws2/install/hive_nav_brain:/home/thomas24/hive_ws2/install/vanilla_brain_nav2:/home/thomas24/hive_ws2/install/nav2_bringup:/home/thomas24/hive_ws2/install/navigation2:/home/thomas24/hive_ws2/install/opennav_docking:/home/thomas24/hive_ws2/install/opennav_docking_core:/home/thomas24/hive_ws2/install/opennav_docking_bt:/home/thomas24/hive_ws2/install/nav2_dwb_controller:/home/thomas24/hive_ws2/install/dwb_plugins:/home/thomas24/hive_ws2/install/dwb_critics:/home/thomas24/hive_ws2/install/dwb_core:/home/thomas24/hive_ws2/install/nav_2d_utils:/home/thomas24/hive_ws2/install/dwb_msgs:/home/thomas24/hive_ws2/install/nav_2d_msgs:/home/thomas24/hive_ws2/install/nav2_waypoint_follower:/home/thomas24/hive_ws2/install/nav2_theta_star_planner:/home/thomas24/hive_ws2/install/nav2_smoother:/home/thomas24/hive_ws2/install/nav2_smac_planner:/home/thomas24/hive_ws2/install/nav2_rviz_plugins:/home/thomas24/hive_ws2/install/nav2_route:/home/thomas24/hive_ws2/install/nav2_rotation_shim_controller:/home/thomas24/hive_ws2/install/nav2_regulated_pure_pursuit_controller:/home/thomas24/hive_ws2/install/nav2_planner:/home/thomas24/hive_ws2/install/nav2_navfn_planner:/home/thomas24/hive_ws2/install/nav2_mppi_controller:/home/thomas24/hive_ws2/install/nav2_graceful_controller:/home/thomas24/hive_ws2/install/nav2_controller:/home/thomas24/hive_ws2/install/nav2_constrained_smoother:/home/thomas24/hive_ws2/install/nav2_bt_navigator:/home/thomas24/hive_ws2/install/nav2_behaviors:/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_collision_monitor:/home/thomas24/hive_ws2/install/hive_costmap:/home/thomas24/hive_ws2/install/costmap_queue:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_velocity_smoother:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_amcl:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_system_tests:/home/thomas24/hive_ws2/install/nav2_loopback_sim:/home/thomas24/hive_ws2/install/nav2_simple_commander:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/home/thomas24/hive_ws2/install/dev_route_provider:/home/thomas24/hive_ws2/install/hive_interface2:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/home/thomas24/hiveverse_ws/install/hive_simulation:/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/thomas24/hive_ws2/build/hive_nav_brain', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/vanilla_brain_nav2/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav_2d_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_loopback_sim/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages:/home/thomas24/hiveverse_ws/install/hive_tools/lib/python3.12/site-packages:/home/thomas24/hiveverse_ws/install/hive_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/thomas24/hive_ws2/install/nav2_planner:/home/thomas24/hive_ws2/install/nav2_controller:/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/home/thomas24/hive_ws2/install/hive_interface2:/home/thomas24/hive_ws2/install/nav2_bringup:/home/thomas24/hive_ws2/install/navigation2:/home/thomas24/hive_ws2/install/opennav_docking:/home/thomas24/hive_ws2/install/opennav_docking_core:/home/thomas24/hive_ws2/install/opennav_docking_bt:/home/thomas24/hive_ws2/install/nav2_dwb_controller:/home/thomas24/hive_ws2/install/dwb_plugins:/home/thomas24/hive_ws2/install/dwb_critics:/home/thomas24/hive_ws2/install/dwb_core:/home/thomas24/hive_ws2/install/nav_2d_utils:/home/thomas24/hive_ws2/install/dwb_msgs:/home/thomas24/hive_ws2/install/nav_2d_msgs:/home/thomas24/hive_ws2/install/nav2_waypoint_follower:/home/thomas24/hive_ws2/install/nav2_theta_star_planner:/home/thomas24/hive_ws2/install/nav2_smoother:/home/thomas24/hive_ws2/install/nav2_smac_planner:/home/thomas24/hive_ws2/install/nav2_rviz_plugins:/home/thomas24/hive_ws2/install/nav2_route:/home/thomas24/hive_ws2/install/nav2_rotation_shim_controller:/home/thomas24/hive_ws2/install/nav2_regulated_pure_pursuit_controller:/home/thomas24/hive_ws2/install/hive_nav_brain:/home/thomas24/hive_ws2/install/nav2_navfn_planner:/home/thomas24/hive_ws2/install/nav2_mppi_controller:/home/thomas24/hive_ws2/install/nav2_graceful_controller:/home/thomas24/hive_ws2/install/nav2_constrained_smoother:/home/thomas24/hive_ws2/install/nav2_bt_navigator:/home/thomas24/hive_ws2/install/nav2_behaviors:/home/thomas24/hive_ws2/install/nav2_collision_monitor:/home/thomas24/hive_ws2/install/hive_costmap:/home/thomas24/hive_ws2/install/costmap_queue:/home/thomas24/hive_ws2/install/nav2_velocity_smoother:/home/thomas24/hive_ws2/install/nav2_amcl:/home/thomas24/hive_ws2/install/nav2_system_tests:/home/thomas24/hive_ws2/install/vanilla_brain_nav2:/home/thomas24/hive_ws2/install/nav2_loopback_sim:/home/thomas24/hive_ws2/install/nav2_simple_commander:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/opt/ros/jazzy:/home/thomas24/hive_ws2/install/hive_route_planner:/home/thomas24/hive_ws2/install/dev_route_provider:/home/thomas24/hiveverse_ws/install/hive_simulation:/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.087198] (hive_nav_brain) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099628] (-) TimerEvent: {}
+[0.199890] (-) TimerEvent: {}
+[0.278688] (hive_nav_brain) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.284221] (hive_nav_brain) StdoutLine: {'line': b'-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.300023] (-) TimerEvent: {}
+[0.305589] (hive_nav_brain) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.311153] (hive_nav_brain) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.320684] (hive_nav_brain) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.331032] (hive_nav_brain) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.378002] (hive_nav_brain) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.380461] (hive_nav_brain) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400137] (-) TimerEvent: {}
+[0.445950] (hive_nav_brain) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.495570] (hive_nav_brain) StdoutLine: {'line': b'-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[0.500220] (-) TimerEvent: {}
+[0.507147] (hive_nav_brain) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.530602] (hive_nav_brain) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[0.551210] (hive_nav_brain) StdoutLine: {'line': b'-- Found hive_interface2: 0.0.1 (/home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake)\n'}
+[0.573555] (hive_nav_brain) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[0.600314] (-) TimerEvent: {}
+[0.658535] (hive_nav_brain) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[0.661246] (hive_nav_brain) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[0.662372] (hive_nav_brain) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.663764] (hive_nav_brain) StdoutLine: {'line': b'-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)\n'}
+[0.700430] (-) TimerEvent: {}
+[0.790060] (hive_nav_brain) StdoutLine: {'line': b'-- Configuring done (0.7s)\n'}
+[0.800594] (-) TimerEvent: {}
+[0.809157] (hive_nav_brain) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.813472] (hive_nav_brain) StdoutLine: {'line': b'-- Build files have been written to: /home/thomas24/hive_ws2/build/hive_nav_brain\n'}
+[0.877475] (hive_nav_brain) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/hive_nav_brain_lib.dir/src/hive_planner.cpp.o\x1b[0m\n'}
+[0.877762] (hive_nav_brain) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/hive_nav_brain_lib.dir/src/hive_nav_brain_node.cpp.o\x1b[0m\n'}
+[0.877848] (hive_nav_brain) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/hive_nav_brain_lib.dir/src/path_utils.cpp.o\x1b[0m\n'}
+[0.900706] (-) TimerEvent: {}
+[1.001025] (-) TimerEvent: {}
+[1.101320] (-) TimerEvent: {}
+[1.201624] (-) TimerEvent: {}
+[1.283382] (hive_nav_brain) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hive_ws2/src/hive_nav_brain/src/hive_planner.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::Path hive_planner::\x1b[01;32m\x1b[Kbuild_nav2_path\x1b[m\x1b[K(const std::vector<hive_interface2::msg::LaneletMini2_<std::allocator<void> > >&, const std::string&, double, int, PathBuildStats&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.283585] (hive_nav_brain) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hive_ws2/src/hive_nav_brain/src/hive_planner.cpp:28:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.283673] (hive_nav_brain) StderrLine: {'line': b'   28 |   path.header.stamp = \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::Time(0);\n'}
+[1.283740] (hive_nav_brain) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.301749] (-) TimerEvent: {}
+[1.367878] (hive_nav_brain) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/hive_nav_brain_lib.dir/build.make:118: CMakeFiles/hive_nav_brain_lib.dir/src/hive_planner.cpp.o] Error 1\n'}
+[1.368084] (hive_nav_brain) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[1.401815] (-) TimerEvent: {}
+[1.502157] (-) TimerEvent: {}
+[1.602596] (-) TimerEvent: {}
+[1.702892] (-) TimerEvent: {}
+[1.803157] (-) TimerEvent: {}
+[1.903417] (-) TimerEvent: {}
+[2.003729] (-) TimerEvent: {}
+[2.104072] (-) TimerEvent: {}
+[2.204514] (-) TimerEvent: {}
+[2.304952] (-) TimerEvent: {}
+[2.405268] (-) TimerEvent: {}
+[2.505642] (-) TimerEvent: {}
+[2.605985] (-) TimerEvent: {}
+[2.706401] (-) TimerEvent: {}
+[2.806769] (-) TimerEvent: {}
+[2.907139] (-) TimerEvent: {}
+[2.909109] (hive_nav_brain) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/path_utils.hpp:7\x1b[m\x1b[K,\n'}
+[2.909487] (hive_nav_brain) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/thomas24/hive_ws2/src/hive_nav_brain/src/path_utils.cpp:1\x1b[m\x1b[K:\n'}
+[2.909572] (hive_nav_brain) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:130:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid hive_nav::GlobalState::\x1b[01;32m\x1b[Kset_movement_mode\x1b[m\x1b[K(hive_nav::MovementMode)\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kvoid hive_nav::GlobalState::\x1b[01;32m\x1b[Kset_movement_mode\x1b[m\x1b[K(hive_nav::MovementMode)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.909656] (hive_nav_brain) StderrLine: {'line': b'  130 |   void \x1b[01;31m\x1b[Kset_movement_mode\x1b[m\x1b[K(MovementMode m) { std::scoped_lock lk(m_); movement_mode_ = m; }\n'}
+[2.909713] (hive_nav_brain) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.909786] (hive_nav_brain) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:105:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kvoid hive_nav::GlobalState::\x1b[01;32m\x1b[Kset_movement_mode\x1b[m\x1b[K(hive_nav::MovementMode)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.909868] (hive_nav_brain) StderrLine: {'line': b'  105 |   void \x1b[01;36m\x1b[Kset_movement_mode\x1b[m\x1b[K(MovementMode m) {\n'}
+[2.909932] (hive_nav_brain) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.909990] (hive_nav_brain) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:131:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khive_nav::MovementMode hive_nav::GlobalState::\x1b[01;32m\x1b[Kmovement_mode\x1b[m\x1b[K() const\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Khive_nav::MovementMode hive_nav::GlobalState::\x1b[01;32m\x1b[Kmovement_mode\x1b[m\x1b[K() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.910052] (hive_nav_brain) StderrLine: {'line': b'  131 |   MovementMode \x1b[01;31m\x1b[Kmovement_mode\x1b[m\x1b[K() const { std::scoped_lock lk(m_); return movement_mode_; }\n'}
+[2.910102] (hive_nav_brain) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.910155] (hive_nav_brain) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:110:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Khive_nav::MovementMode hive_nav::GlobalState::\x1b[01;32m\x1b[Kmovement_mode\x1b[m\x1b[K() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.910244] (hive_nav_brain) StderrLine: {'line': b'  110 |   MovementMode \x1b[01;36m\x1b[Kmovement_mode\x1b[m\x1b[K() const {\n'}
+[2.910363] (hive_nav_brain) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.918640] (hive_nav_brain) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid hive_nav::GlobalState::\x1b[01;32m\x1b[Kset_movement_mode\x1b[m\x1b[K(hive_nav::MovementMode)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.918908] (hive_nav_brain) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:130:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmovement_mode_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmovement_mode\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.918999] (hive_nav_brain) StderrLine: {'line': b'  130 |   void set_movement_mode(MovementMode m) { std::scoped_lock lk(m_); \x1b[01;31m\x1b[Kmovement_mode_\x1b[m\x1b[K = m; }\n'}
+[2.919055] (hive_nav_brain) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.919111] (hive_nav_brain) StderrLine: {'line': b'      |                                                                     \x1b[32m\x1b[Kmovement_mode\x1b[m\x1b[K\n'}
+[2.925824] (hive_nav_brain) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Khive_nav::MovementMode hive_nav::GlobalState::\x1b[01;32m\x1b[Kmovement_mode\x1b[m\x1b[K() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.926067] (hive_nav_brain) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:131:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmovement_mode_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmovement_mode\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.926147] (hive_nav_brain) StderrLine: {'line': b'  131 |   MovementMode movement_mode() const { std::scoped_lock lk(m_); return \x1b[01;31m\x1b[Kmovement_mode_\x1b[m\x1b[K; }\n'}
+[2.926217] (hive_nav_brain) StderrLine: {'line': b'      |                                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.926289] (hive_nav_brain) StderrLine: {'line': b'      |                                                                        \x1b[32m\x1b[Kmovement_mode\x1b[m\x1b[K\n'}
+[3.007268] (-) TimerEvent: {}
+[3.107578] (-) TimerEvent: {}
+[3.207877] (-) TimerEvent: {}
+[3.212389] (hive_nav_brain) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/hive_nav_brain_node.hpp:28\x1b[m\x1b[K,\n'}
+[3.212582] (hive_nav_brain) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/thomas24/hive_ws2/src/hive_nav_brain/src/hive_nav_brain_node.cpp:1\x1b[m\x1b[K:\n'}
+[3.212654] (hive_nav_brain) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:130:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid hive_nav::GlobalState::\x1b[01;32m\x1b[Kset_movement_mode\x1b[m\x1b[K(hive_nav::MovementMode)\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kvoid hive_nav::GlobalState::\x1b[01;32m\x1b[Kset_movement_mode\x1b[m\x1b[K(hive_nav::MovementMode)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.212716] (hive_nav_brain) StderrLine: {'line': b'  130 |   void \x1b[01;31m\x1b[Kset_movement_mode\x1b[m\x1b[K(MovementMode m) { std::scoped_lock lk(m_); movement_mode_ = m; }\n'}
+[3.212770] (hive_nav_brain) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.212829] (hive_nav_brain) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:105:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kvoid hive_nav::GlobalState::\x1b[01;32m\x1b[Kset_movement_mode\x1b[m\x1b[K(hive_nav::MovementMode)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.212894] (hive_nav_brain) StderrLine: {'line': b'  105 |   void \x1b[01;36m\x1b[Kset_movement_mode\x1b[m\x1b[K(MovementMode m) {\n'}
+[3.212970] (hive_nav_brain) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.213027] (hive_nav_brain) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:131:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khive_nav::MovementMode hive_nav::GlobalState::\x1b[01;32m\x1b[Kmovement_mode\x1b[m\x1b[K() const\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Khive_nav::MovementMode hive_nav::GlobalState::\x1b[01;32m\x1b[Kmovement_mode\x1b[m\x1b[K() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.213082] (hive_nav_brain) StderrLine: {'line': b'  131 |   MovementMode \x1b[01;31m\x1b[Kmovement_mode\x1b[m\x1b[K() const { std::scoped_lock lk(m_); return movement_mode_; }\n'}
+[3.213129] (hive_nav_brain) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.213186] (hive_nav_brain) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:110:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Khive_nav::MovementMode hive_nav::GlobalState::\x1b[01;32m\x1b[Kmovement_mode\x1b[m\x1b[K() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.213280] (hive_nav_brain) StderrLine: {'line': b'  110 |   MovementMode \x1b[01;36m\x1b[Kmovement_mode\x1b[m\x1b[K() const {\n'}
+[3.213331] (hive_nav_brain) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.221029] (hive_nav_brain) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid hive_nav::GlobalState::\x1b[01;32m\x1b[Kset_movement_mode\x1b[m\x1b[K(hive_nav::MovementMode)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.221276] (hive_nav_brain) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:130:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmovement_mode_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmovement_mode\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.221349] (hive_nav_brain) StderrLine: {'line': b'  130 |   void set_movement_mode(MovementMode m) { std::scoped_lock lk(m_); \x1b[01;31m\x1b[Kmovement_mode_\x1b[m\x1b[K = m; }\n'}
+[3.221413] (hive_nav_brain) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.221471] (hive_nav_brain) StderrLine: {'line': b'      |                                                                     \x1b[32m\x1b[Kmovement_mode\x1b[m\x1b[K\n'}
+[3.228471] (hive_nav_brain) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Khive_nav::MovementMode hive_nav::GlobalState::\x1b[01;32m\x1b[Kmovement_mode\x1b[m\x1b[K() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.228798] (hive_nav_brain) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp:131:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmovement_mode_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmovement_mode\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.228889] (hive_nav_brain) StderrLine: {'line': b'  131 |   MovementMode movement_mode() const { std::scoped_lock lk(m_); return \x1b[01;31m\x1b[Kmovement_mode_\x1b[m\x1b[K; }\n'}
+[3.228960] (hive_nav_brain) StderrLine: {'line': b'      |                                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.229016] (hive_nav_brain) StderrLine: {'line': b'      |                                                                        \x1b[32m\x1b[Kmovement_mode\x1b[m\x1b[K\n'}
+[3.309919] (-) TimerEvent: {}
+[3.410289] (-) TimerEvent: {}
+[3.510646] (-) TimerEvent: {}
+[3.588252] (hive_nav_brain) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/hive_nav_brain_lib.dir/build.make:90: CMakeFiles/hive_nav_brain_lib.dir/src/path_utils.cpp.o] Error 1\n'}
+[3.610779] (-) TimerEvent: {}
+[3.711106] (-) TimerEvent: {}
+[3.811507] (-) TimerEvent: {}
+[3.911827] (-) TimerEvent: {}
+[4.012106] (-) TimerEvent: {}
+[4.112404] (-) TimerEvent: {}
+[4.212683] (-) TimerEvent: {}
+[4.312974] (-) TimerEvent: {}
+[4.413318] (-) TimerEvent: {}
+[4.513612] (-) TimerEvent: {}
+[4.613889] (-) TimerEvent: {}
+[4.714168] (-) TimerEvent: {}
+[4.814522] (-) TimerEvent: {}
+[4.914935] (-) TimerEvent: {}
+[5.015257] (-) TimerEvent: {}
+[5.115574] (-) TimerEvent: {}
+[5.215841] (-) TimerEvent: {}
+[5.316192] (-) TimerEvent: {}
+[5.416498] (-) TimerEvent: {}
+[5.516819] (-) TimerEvent: {}
+[5.617145] (-) TimerEvent: {}
+[5.717423] (-) TimerEvent: {}
+[5.817735] (-) TimerEvent: {}
+[5.918032] (-) TimerEvent: {}
+[6.018318] (-) TimerEvent: {}
+[6.118604] (-) TimerEvent: {}
+[6.218913] (-) TimerEvent: {}
+[6.319168] (-) TimerEvent: {}
+[6.419440] (-) TimerEvent: {}
+[6.519798] (-) TimerEvent: {}
+[6.620079] (-) TimerEvent: {}
+[6.720389] (-) TimerEvent: {}
+[6.820758] (-) TimerEvent: {}
+[6.921079] (-) TimerEvent: {}
+[7.021315] (-) TimerEvent: {}
+[7.121612] (-) TimerEvent: {}
+[7.221949] (-) TimerEvent: {}
+[7.322304] (-) TimerEvent: {}
+[7.422752] (-) TimerEvent: {}
+[7.523122] (-) TimerEvent: {}
+[7.623429] (-) TimerEvent: {}
+[7.723694] (-) TimerEvent: {}
+[7.823982] (-) TimerEvent: {}
+[7.924271] (-) TimerEvent: {}
+[8.024771] (-) TimerEvent: {}
+[8.125071] (-) TimerEvent: {}
+[8.225309] (-) TimerEvent: {}
+[8.325563] (-) TimerEvent: {}
+[8.425835] (-) TimerEvent: {}
+[8.526120] (-) TimerEvent: {}
+[8.626375] (-) TimerEvent: {}
+[8.726654] (-) TimerEvent: {}
+[8.826938] (-) TimerEvent: {}
+[8.927300] (-) TimerEvent: {}
+[9.027561] (-) TimerEvent: {}
+[9.127819] (-) TimerEvent: {}
+[9.228115] (-) TimerEvent: {}
+[9.328496] (-) TimerEvent: {}
+[9.428749] (-) TimerEvent: {}
+[9.493068] (hive_nav_brain) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/hive_nav_brain_lib.dir/build.make:76: CMakeFiles/hive_nav_brain_lib.dir/src/hive_nav_brain_node.cpp.o] Error 1\n'}
+[9.493370] (hive_nav_brain) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/hive_nav_brain_lib.dir/all] Error 2\n'}
+[9.493610] (hive_nav_brain) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.496726] (hive_nav_brain) CommandEnded: {'returncode': 2}
+[9.504034] (hive_nav_brain) JobEnded: {'identifier': 'hive_nav_brain', 'rc': 2}
+[9.514486] (-) EventReactorShutdown: {}

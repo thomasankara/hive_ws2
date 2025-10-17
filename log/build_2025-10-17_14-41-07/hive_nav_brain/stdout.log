@@ -1,0 +1,4 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/hive_nav_brain_lib.dir/src/hive_nav_brain_node.cpp.o[0m
+[ 50%] [32m[1mLinking CXX static library libhive_nav_brain_lib.a[0m
+[ 50%] Built target hive_nav_brain_lib
+[ 75%] [32m[1mLinking CXX executable hive_nav_brain_node[0m

@@ -3,29 +3,40 @@
 #include <string>
 #include <rclcpp/rclcpp.hpp>
 #include <geometry_msgs/msg/pose_stamped.hpp>
+#include <nav_msgs/msg/path.hpp>
 #include "hive_interface2/msg/nav_brain_command.hpp"
 
 namespace hive_nav {
 
-// Statuts (strictement ceux demandés)
+// ------------------------
+//  Enums de mission
+// ------------------------
 enum class MissionStatus {
   IDLE = 0,
   READY_TO_GET_GLOBAL_PATH,
   WAITING_TO_GET_GLOBAL_PATH,
-  READY_FOR_PATH
+  READY_FOR_PATH,
+  WAITING_FOR_HIVE_PLANNER,
+  WAITING_FOR_ASTAR_PLANNER,   // ajouté
+  READY_TO_RUN
 };
 
 inline const char* to_string(MissionStatus s) {
   switch (s) {
-    case MissionStatus::IDLE:                      return "idle";
-    case MissionStatus::READY_TO_GET_GLOBAL_PATH:  return "ready_to_get_global_path";
+    case MissionStatus::IDLE:                     return "idle";
+    case MissionStatus::READY_TO_GET_GLOBAL_PATH: return "ready_to_get_global_path";
     case MissionStatus::WAITING_TO_GET_GLOBAL_PATH:return "waiting_to_get_global_path";
-    case MissionStatus::READY_FOR_PATH:            return "ready_for_path";
+    case MissionStatus::READY_FOR_PATH:           return "ready_for_path";
+    case MissionStatus::WAITING_FOR_HIVE_PLANNER: return "waiting_for_hive_planner";
+    case MissionStatus::WAITING_FOR_ASTAR_PLANNER:return "waiting_for_astar_planner";
+    case MissionStatus::READY_TO_RUN:             return "ready_to_run";
     default: return "unknown";
   }
 }
 
-// Mode de déplacement
+// ------------------------
+//  Modes de mouvement
+// ------------------------
 enum class MovementMode {
   HIVE_PLANNER = 0,
   ASTAR_PLANNER = 1
@@ -39,9 +50,12 @@ inline const char* to_string(MovementMode m) {
   }
 }
 
+// ------------------------
+//  Structures
+// ------------------------
 struct RobotInfo {
   std::string namespace_name;
-  geometry_msgs::msg::PoseStamped pose_map; // pose dans le frame "map"
+  geometry_msgs::msg::PoseStamped pose_map;
   bool has_pose = false;
 };
 
@@ -50,11 +64,16 @@ struct MissionInfo {
   int32_t poi_id = 0;
   int32_t free_zone_id = 0;
   int32_t object_tracking_id = 0;
-  geometry_msgs::msg::PoseStamped destination; // attendu en "map"
+  geometry_msgs::msg::PoseStamped destination;
   MissionStatus status = MissionStatus::IDLE;
-  MovementMode movement_mode = MovementMode::ASTAR_PLANNER; // <<< ajouté ici
+  MovementMode movement_mode = MovementMode::ASTAR_PLANNER;
+  nav_msgs::msg::Path general_path;
+  bool has_general_path = false;
 };
 
+// ------------------------
+//  Classe GlobalState
+// ------------------------
 class GlobalState {
 public:
   void set_robot_namespace(const std::string& ns) {
@@ -69,8 +88,7 @@ public:
   }
 
   void update_from_command(const hive_interface2::msg::NavBrainCommand& cmd,
-                           const std::string& dest_frame = "map")
-  {
+                           const std::string& dest_frame = "map") {
     std::scoped_lock lk(m_);
     mission_.mission_id = cmd.mission_id;
     mission_.poi_id = cmd.poi_id;
@@ -79,9 +97,7 @@ public:
 
     mission_.destination.header.frame_id = dest_frame;
     mission_.destination.pose = cmd.destination.pose;
-
     mission_.status = MissionStatus::READY_TO_GET_GLOBAL_PATH;
-    // mission_.movement_mode garde sa valeur courante (ou ASTAR_PLANNER par défaut)
   }
 
   void set_status(MissionStatus s) {
@@ -94,7 +110,6 @@ public:
     return mission_.status;
   }
 
-  // --- accès au MovementMode stocké dans MissionInfo ---
   void set_movement_mode(MovementMode m) {
     std::scoped_lock lk(m_);
     mission_.movement_mode = m;
@@ -113,6 +128,17 @@ public:
   RobotInfo robot() const {
     std::scoped_lock lk(m_);
     return robot_;
+  }
+
+  void set_mission_path(const nav_msgs::msg::Path& path) {
+    std::scoped_lock lk(m_);
+    mission_.general_path = path;
+    mission_.has_general_path = true;
+  }
+
+  bool has_mission_path() const {
+    std::scoped_lock lk(m_);
+    return mission_.has_general_path;
   }
 
 private:

@@ -83,17 +83,65 @@ CMakeFiles/hive_nav_brain_lib.dir/src/hive_nav_brain_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hive_nav_brain_lib.dir/src/hive_nav_brain_node.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas24/hive_ws2/src/hive_nav_brain/src/hive_nav_brain_node.cpp -o CMakeFiles/hive_nav_brain_lib.dir/src/hive_nav_brain_node.cpp.s
 
+CMakeFiles/hive_nav_brain_lib.dir/src/path_utils.cpp.o: CMakeFiles/hive_nav_brain_lib.dir/flags.make
+CMakeFiles/hive_nav_brain_lib.dir/src/path_utils.cpp.o: /home/thomas24/hive_ws2/src/hive_nav_brain/src/path_utils.cpp
+CMakeFiles/hive_nav_brain_lib.dir/src/path_utils.cpp.o: CMakeFiles/hive_nav_brain_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thomas24/hive_ws2/build/hive_nav_brain/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hive_nav_brain_lib.dir/src/path_utils.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hive_nav_brain_lib.dir/src/path_utils.cpp.o -MF CMakeFiles/hive_nav_brain_lib.dir/src/path_utils.cpp.o.d -o CMakeFiles/hive_nav_brain_lib.dir/src/path_utils.cpp.o -c /home/thomas24/hive_ws2/src/hive_nav_brain/src/path_utils.cpp
+
+CMakeFiles/hive_nav_brain_lib.dir/src/path_utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hive_nav_brain_lib.dir/src/path_utils.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas24/hive_ws2/src/hive_nav_brain/src/path_utils.cpp > CMakeFiles/hive_nav_brain_lib.dir/src/path_utils.cpp.i
+
+CMakeFiles/hive_nav_brain_lib.dir/src/path_utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hive_nav_brain_lib.dir/src/path_utils.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas24/hive_ws2/src/hive_nav_brain/src/path_utils.cpp -o CMakeFiles/hive_nav_brain_lib.dir/src/path_utils.cpp.s
+
+CMakeFiles/hive_nav_brain_lib.dir/src/tf_helpers.cpp.o: CMakeFiles/hive_nav_brain_lib.dir/flags.make
+CMakeFiles/hive_nav_brain_lib.dir/src/tf_helpers.cpp.o: /home/thomas24/hive_ws2/src/hive_nav_brain/src/tf_helpers.cpp
+CMakeFiles/hive_nav_brain_lib.dir/src/tf_helpers.cpp.o: CMakeFiles/hive_nav_brain_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thomas24/hive_ws2/build/hive_nav_brain/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hive_nav_brain_lib.dir/src/tf_helpers.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hive_nav_brain_lib.dir/src/tf_helpers.cpp.o -MF CMakeFiles/hive_nav_brain_lib.dir/src/tf_helpers.cpp.o.d -o CMakeFiles/hive_nav_brain_lib.dir/src/tf_helpers.cpp.o -c /home/thomas24/hive_ws2/src/hive_nav_brain/src/tf_helpers.cpp
+
+CMakeFiles/hive_nav_brain_lib.dir/src/tf_helpers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hive_nav_brain_lib.dir/src/tf_helpers.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas24/hive_ws2/src/hive_nav_brain/src/tf_helpers.cpp > CMakeFiles/hive_nav_brain_lib.dir/src/tf_helpers.cpp.i
+
+CMakeFiles/hive_nav_brain_lib.dir/src/tf_helpers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hive_nav_brain_lib.dir/src/tf_helpers.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas24/hive_ws2/src/hive_nav_brain/src/tf_helpers.cpp -o CMakeFiles/hive_nav_brain_lib.dir/src/tf_helpers.cpp.s
+
+CMakeFiles/hive_nav_brain_lib.dir/src/hive_planner.cpp.o: CMakeFiles/hive_nav_brain_lib.dir/flags.make
+CMakeFiles/hive_nav_brain_lib.dir/src/hive_planner.cpp.o: /home/thomas24/hive_ws2/src/hive_nav_brain/src/hive_planner.cpp
+CMakeFiles/hive_nav_brain_lib.dir/src/hive_planner.cpp.o: CMakeFiles/hive_nav_brain_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thomas24/hive_ws2/build/hive_nav_brain/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hive_nav_brain_lib.dir/src/hive_planner.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hive_nav_brain_lib.dir/src/hive_planner.cpp.o -MF CMakeFiles/hive_nav_brain_lib.dir/src/hive_planner.cpp.o.d -o CMakeFiles/hive_nav_brain_lib.dir/src/hive_planner.cpp.o -c /home/thomas24/hive_ws2/src/hive_nav_brain/src/hive_planner.cpp
+
+CMakeFiles/hive_nav_brain_lib.dir/src/hive_planner.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hive_nav_brain_lib.dir/src/hive_planner.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas24/hive_ws2/src/hive_nav_brain/src/hive_planner.cpp > CMakeFiles/hive_nav_brain_lib.dir/src/hive_planner.cpp.i
+
+CMakeFiles/hive_nav_brain_lib.dir/src/hive_planner.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hive_nav_brain_lib.dir/src/hive_planner.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas24/hive_ws2/src/hive_nav_brain/src/hive_planner.cpp -o CMakeFiles/hive_nav_brain_lib.dir/src/hive_planner.cpp.s
+
 # Object files for target hive_nav_brain_lib
 hive_nav_brain_lib_OBJECTS = \
-"CMakeFiles/hive_nav_brain_lib.dir/src/hive_nav_brain_node.cpp.o"
+"CMakeFiles/hive_nav_brain_lib.dir/src/hive_nav_brain_node.cpp.o" \
+"CMakeFiles/hive_nav_brain_lib.dir/src/path_utils.cpp.o" \
+"CMakeFiles/hive_nav_brain_lib.dir/src/tf_helpers.cpp.o" \
+"CMakeFiles/hive_nav_brain_lib.dir/src/hive_planner.cpp.o"
 
 # External object files for target hive_nav_brain_lib
 hive_nav_brain_lib_EXTERNAL_OBJECTS =
 
 libhive_nav_brain_lib.a: CMakeFiles/hive_nav_brain_lib.dir/src/hive_nav_brain_node.cpp.o
+libhive_nav_brain_lib.a: CMakeFiles/hive_nav_brain_lib.dir/src/path_utils.cpp.o
+libhive_nav_brain_lib.a: CMakeFiles/hive_nav_brain_lib.dir/src/tf_helpers.cpp.o
+libhive_nav_brain_lib.a: CMakeFiles/hive_nav_brain_lib.dir/src/hive_planner.cpp.o
 libhive_nav_brain_lib.a: CMakeFiles/hive_nav_brain_lib.dir/build.make
 libhive_nav_brain_lib.a: CMakeFiles/hive_nav_brain_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/thomas24/hive_ws2/build/hive_nav_brain/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libhive_nav_brain_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/thomas24/hive_ws2/build/hive_nav_brain/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libhive_nav_brain_lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/hive_nav_brain_lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hive_nav_brain_lib.dir/link.txt --verbose=$(VERBOSE)
 

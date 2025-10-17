@@ -1,0 +1,37 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found hive_interface2: 0.0.1 (/home/thomas24/hive_ws2/install/hive_interface2/share/hive_interface2/cmake)
+-- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Found nav2_msgs: 1.4.0 (/home/thomas24/hive_ws2/install/nav2_msgs/share/nav2_msgs/cmake)
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/thomas24/hive_ws2/build/hive_nav_brain
+[ 57%] [32mBuilding CXX object CMakeFiles/hive_nav_brain_lib.dir/src/hive_nav_brain_node.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/hive_nav_brain_lib.dir/src/tf_helpers.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/hive_nav_brain_lib.dir/src/hive_planner.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/hive_nav_brain_lib.dir/src/path_utils.cpp.o[0m
+[01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/src/hive_nav_brain_node.cpp:[m[K In member function ‘[01m[Kvoid HiveNavBrainNode::[01;32m[KonLoop[m[K()[m[K’:
+[01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/src/hive_nav_brain_node.cpp:369:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing nav2_msgs::action::ComputePathThroughPoses_Goal_<std::allocator<void> >::_goals_type = struct nav_msgs::msg::Goals_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Goals_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kclear[m[K’
+  369 |         goal.goals.[01;31m[Kclear[m[K();
+      |                    [01;31m[K^~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/src/hive_nav_brain_node.cpp:378:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing nav2_msgs::action::ComputePathThroughPoses_Goal_<std::allocator<void> >::_goals_type = struct nav_msgs::msg::Goals_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Goals_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpush_back[m[K’
+  378 |         goal.goals.[01;31m[Kpush_back[m[K(g);
+      |                    [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/hive_nav_brain_lib.dir/build.make:76: CMakeFiles/hive_nav_brain_lib.dir/src/hive_nav_brain_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/hive_nav_brain_lib.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
