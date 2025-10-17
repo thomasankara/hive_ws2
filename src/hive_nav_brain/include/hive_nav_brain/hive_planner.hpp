@@ -1,29 +1,40 @@
+// hive_planner.hpp
 #pragma once
 #include <vector>
 #include <string>
+#include <optional>
 #include <nav_msgs/msg/path.hpp>
+#include <geometry_msgs/msg/pose_stamped.hpp>
 #include "hive_interface2/msg/lanelet_mini2.hpp"
 
 namespace hive_planner {
 
-// Stats simples pour le log
 struct PathBuildStats {
-  size_t lanelet_count{0};
-  size_t raw_points{0};
-  size_t smoothed_points{0};
-  double step_m{0.0};
-  int window_half{0};
+  size_t lanelet_count        = 0;
+  size_t raw_points           = 0;
+  size_t smoothed_points      = 0;
+  unsigned skipped_degenerate = 0;
+  unsigned dedup_dropped      = 0;
+  unsigned reversed_segments  = 0;
+  unsigned link_mismatches    = 0;
+  double  step_m              = 0.1;
+  int     window_half         = 10;
 };
 
-/// Construit un nav_msgs/Path depuis une suite de LaneletMini2.
-/// - Échantillonnage `step_m` (0.001 = 0.1 cm)
-/// - Lissage moyenne glissante sur ±window_half (10)
-/// - Orientation = direction (i -> i+window_half) (bord géré)
 nav_msgs::msg::Path build_nav2_path(
   const std::vector<hive_interface2::msg::LaneletMini2>& lanelets,
   const std::string& frame_id,
   double step_m,
   int window_half,
-  PathBuildStats& out_stats);
+  PathBuildStats& stats);
+
+// === Overload avec départ robot (recommandé) ===
+nav_msgs::msg::Path build_nav2_path(
+  const std::vector<hive_interface2::msg::LaneletMini2>& lanelets,
+  const std::string& frame_id,
+  double step_m,
+  int window_half,
+  const std::optional<geometry_msgs::msg::PoseStamped>& robot_start,
+  PathBuildStats& stats);
 
 } // namespace hive_planner

@@ -49,6 +49,11 @@ CMakeFiles/hive_nav_brain_node.dir/src/main.cpp.o
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__struct.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__traits.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__type_support.hpp
+ /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__builder.hpp
+ /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__struct.hpp
+ /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__traits.hpp
+ /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__type_support.hpp
+ /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/follow_path.hpp
  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
  /home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/data_store.hpp
  /home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp
@@ -551,6 +556,8 @@ CMakeFiles/hive_nav_brain_node.dir/src/main.cpp.o
  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/color_rgba__struct.hpp
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/color_rgba__traits.hpp
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/empty__struct.hpp
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/empty__traits.hpp
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp
  /opt/ros/jazzy/include/std_srvs/std_srvs/msg/rosidl_generator_cpp__visibility_control.hpp

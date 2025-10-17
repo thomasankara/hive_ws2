@@ -48,6 +48,11 @@ CMakeFiles/hive_nav_brain_node.dir/src/main.cpp.o: /home/thomas24/hive_ws2/src/h
   /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__struct.hpp \
   /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__traits.hpp \
   /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__type_support.hpp \
+  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__builder.hpp \
+  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__struct.hpp \
+  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__traits.hpp \
+  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__type_support.hpp \
+  /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/follow_path.hpp \
   /home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/data_store.hpp \
   /home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/global_state.hpp \
@@ -550,6 +555,8 @@ CMakeFiles/hive_nav_brain_node.dir/src/main.cpp.o: /home/thomas24/hive_ws2/src/h
   /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/color_rgba__struct.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/color_rgba__traits.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/empty__struct.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/empty__traits.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/jazzy/include/std_srvs/std_srvs/msg/rosidl_generator_cpp__visibility_control.hpp \
@@ -1374,8 +1381,6 @@ CMakeFiles/hive_nav_brain_node.dir/src/main.cpp.o: /home/thomas24/hive_ws2/src/h
 
 /usr/include/c++/13/bits/char_traits.h:
 
-/usr/include/c++/13/bits/basic_string.h:
-
 /usr/include/c++/13/bits/stl_heap.h:
 
 /usr/include/c++/13/bits/atomic_lockfree_defines.h:
@@ -1520,6 +1525,12 @@ CMakeFiles/hive_nav_brain_node.dir/src/main.cpp.o: /home/thomas24/hive_ws2/src/h
 
 /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:
 
+/usr/include/c++/13/bits/basic_string.h:
+
+/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/empty__traits.hpp:
+
+/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/empty__struct.hpp:
+
 /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /usr/include/c++/13/backward/auto_ptr.h:
@@ -1540,19 +1551,15 @@ CMakeFiles/hive_nav_brain_node.dir/src/main.cpp.o: /home/thomas24/hive_ws2/src/h
 
 /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp:
 
-/usr/include/c++/13/ext/string_conversions.h:
+/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp:
+/usr/include/x86_64-linux-gnu/bits/endian.h:
 
-/opt/ros/jazzy/include/rmw/rmw/qos_policy_kind.h:
+/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__traits.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp:
-
-/home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/free_zone_array.hpp:
+/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:
 
 /usr/include/c++/13/iosfwd:
 
@@ -1568,9 +1575,9 @@ CMakeFiles/hive_nav_brain_node.dir/src/main.cpp.o: /home/thomas24/hive_ws2/src/h
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp:
-
 /opt/ros/jazzy/include/rcl/rcl/node_options.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp:
 
 /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/visibility_control.h:
 
@@ -1610,12 +1617,6 @@ CMakeFiles/hive_nav_brain_node.dir/src/main.cpp.o: /home/thomas24/hive_ws2/src/h
 
 /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/exceptions.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
-
-/usr/include/x86_64-linux-gnu/bits/endian.h:
-
-/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__traits.hpp:
-
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp:
@@ -1650,6 +1651,12 @@ CMakeFiles/hive_nav_brain_node.dir/src/main.cpp.o: /home/thomas24/hive_ws2/src/h
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:
 
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp:
+
+/home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/free_zone_array.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp:
+
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__struct.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/create_publisher.hpp:
@@ -1663,6 +1670,8 @@ CMakeFiles/hive_nav_brain_node.dir/src/main.cpp.o: /home/thomas24/hive_ws2/src/h
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp:
+
+/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__traits.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp:
 
@@ -1760,15 +1769,21 @@ CMakeFiles/hive_nav_brain_node.dir/src/main.cpp.o: /home/thomas24/hive_ws2/src/h
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/timer.hpp:
 
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp:
+
 /usr/include/c++/13/cctype:
 
 /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:
 
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp:
+/usr/include/c++/13/unordered_set:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp:
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_info.h:
 
@@ -1791,6 +1806,18 @@ CMakeFiles/hive_nav_brain_node.dir/src/main.cpp.o: /home/thomas24/hive_ws2/src/h
 /usr/include/c++/13/cstring:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp:
+
+/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/follow_path.hpp:
+
+/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__builder.hpp:
+
+/usr/include/c++/13/system_error:
+
+/usr/include/c++/13/bits/ostream_insert.h:
+
+/home/thomas24/hive_ws2/src/hive_nav_brain/src/main.cpp:
+
+/home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2__type_support.hpp:
 
 /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/free_zone_array__struct.hpp:
 
@@ -1815,6 +1842,12 @@ CMakeFiles/hive_nav_brain_node.dir/src/main.cpp.o: /home/thomas24/hive_ws2/src/h
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/contexts/default_context.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_message.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp:
 
 /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/rosidl_generator_cpp__visibility_control.hpp:
 
@@ -1900,6 +1933,12 @@ CMakeFiles/hive_nav_brain_node.dir/src/main.cpp.o: /home/thomas24/hive_ws2/src/h
 
 /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:
 
+/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:
+
+/home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2_array__type_support.hpp:
+
+/opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/types.h:
+
 /usr/include/c++/13/bits/exception.h:
 
 /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv/detail/compute_route__builder.hpp:
@@ -1920,7 +1959,11 @@ CMakeFiles/hive_nav_brain_node.dir/src/main.cpp.o: /home/thomas24/hive_ws2/src/h
 
 /home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/hive_planner.hpp:
 
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp:
+/usr/include/c++/13/typeinfo:
+
+/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h:
+
+/home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2__builder.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp:
 
@@ -2000,14 +2043,6 @@ CMakeFiles/hive_nav_brain_node.dir/src/main.cpp.o: /home/thomas24/hive_ws2/src/h
 
 /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/dynamic_data.h:
 
-/usr/include/c++/13/system_error:
-
-/usr/include/c++/13/bits/ostream_insert.h:
-
-/home/thomas24/hive_ws2/src/hive_nav_brain/src/main.cpp:
-
-/home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2__type_support.hpp:
-
 /usr/include/c++/13/bits/range_access.h:
 
 /home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/hive_nav_brain_node.hpp:
@@ -2084,19 +2119,21 @@ CMakeFiles/hive_nav_brain_node.dir/src/main.cpp.o: /home/thomas24/hive_ws2/src/h
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp:
 
-/usr/include/c++/13/bits/locale_conv.h:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp:
+/opt/ros/jazzy/include/rcl/rcl/error_handling.h:
 
-/opt/ros/jazzy/include/rcutils/rcutils/types/array_list.h:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp:
+
+/opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__struct.hpp:
+
+/opt/ros/jazzy/include/rcl_action/rcl_action/action_client.h:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp:
-
-/opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/types.h:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp:
 
@@ -2107,10 +2144,6 @@ CMakeFiles/hive_nav_brain_node.dir/src/main.cpp.o: /home/thomas24/hive_ws2/src/h
 /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv/compute_route.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/network_flow_endpoints.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:
 
 /usr/include/c++/13/exception:
 
@@ -2131,6 +2164,12 @@ CMakeFiles/hive_nav_brain_node.dir/src/main.cpp.o: /home/thomas24/hive_ws2/src/h
 /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/srv/detail/compute_route__traits.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/simple_events_queue.hpp:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/network_flow_endpoints.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp:
 
@@ -2248,18 +2287,6 @@ CMakeFiles/hive_nav_brain_node.dir/src/main.cpp.o: /home/thomas24/hive_ws2/src/h
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/error_handling.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp:
-
-/opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__struct.hpp:
-
-/opt/ros/jazzy/include/rcl_action/rcl_action/action_client.h:
-
 /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp:
 
 /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h:
@@ -2281,10 +2308,6 @@ CMakeFiles/hive_nav_brain_node.dir/src/main.cpp.o: /home/thomas24/hive_ws2/src/h
 /usr/include/c++/13/bits/exception_ptr.h:
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp:
-
-/opt/ros/jazzy/include/rcpputils/rcpputils/shared_library.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp:
 
@@ -2340,11 +2363,13 @@ CMakeFiles/hive_nav_brain_node.dir/src/main.cpp.o: /home/thomas24/hive_ws2/src/h
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp:
 
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_status.h:
-
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h:
 
+/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__struct.hpp:
+
 /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__builder.hpp:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_status.h:
 
 /home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/poi_array.hpp:
 
@@ -2370,17 +2395,25 @@ CMakeFiles/hive_nav_brain_node.dir/src/main.cpp.o: /home/thomas24/hive_ws2/src/h
 
 /opt/ros/jazzy/include/rmw/rmw/impl/cpp/demangle.hpp:
 
-/usr/include/c++/13/unordered_set:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp:
 
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:
+/opt/ros/jazzy/include/rcpputils/rcpputils/shared_library.hpp:
 
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp:
+/opt/ros/jazzy/include/rmw/rmw/qos_policy_kind.h:
 
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_message.hpp:
+/usr/include/c++/13/bits/locale_conv.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp:
+
+/opt/ros/jazzy/include/rcutils/rcutils/types/array_list.h:
+
+/usr/include/c++/13/ext/string_conversions.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp:
 
@@ -2626,8 +2659,6 @@ CMakeFiles/hive_nav_brain_node.dir/src/main.cpp.o: /home/thomas24/hive_ws2/src/h
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_logging_interface_traits.hpp:
 
-/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
@@ -2824,6 +2855,8 @@ CMakeFiles/hive_nav_brain_node.dir/src/main.cpp.o: /home/thomas24/hive_ws2/src/h
 
 /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/client_goal_handle_impl.hpp:
 
+/home/thomas24/hive_ws2/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__type_support.hpp:
+
 /opt/ros/jazzy/include/rmw/rmw/serialized_message.h:
 
 /opt/ros/jazzy/include/rmw/rmw/events_statuses/message_lost.h:
@@ -2945,15 +2978,3 @@ CMakeFiles/hive_nav_brain_node.dir/src/main.cpp.o: /home/thomas24/hive_ws2/src/h
 /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp:
 
 /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp:
-
-/usr/include/c++/13/typeinfo:
-
-/home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2__builder.hpp:
-
-/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h:
-
-/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp:
-
-/home/thomas24/hive_ws2/install/hive_interface2/include/hive_interface2/hive_interface2/msg/detail/lanelet_mini2_array__type_support.hpp:
-
-/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:

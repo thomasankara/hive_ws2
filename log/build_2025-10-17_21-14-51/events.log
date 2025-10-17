@@ -1,0 +1,343 @@
+[0.000000] (-) TimerEvent: {}
+[0.000483] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000534] (-) JobUnselected: {'identifier': 'dev_route_provider'}
+[0.000554] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.000571] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.000588] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.000604] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.000620] (-) JobUnselected: {'identifier': 'hive_costmap'}
+[0.000635] (-) JobUnselected: {'identifier': 'hive_interface2'}
+[0.000652] (-) JobUnselected: {'identifier': 'hive_route_planner'}
+[0.000666] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.000683] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.000698] (-) JobUnselected: {'identifier': 'nav2_behaviors'}
+[0.000712] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.000728] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.000742] (-) JobUnselected: {'identifier': 'nav2_collision_monitor'}
+[0.000760] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.000778] (-) JobUnselected: {'identifier': 'nav2_constrained_smoother'}
+[0.000792] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.000809] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.000832] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.000849] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.000864] (-) JobUnselected: {'identifier': 'nav2_graceful_controller'}
+[0.000882] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.000900] (-) JobUnselected: {'identifier': 'nav2_loopback_sim'}
+[0.000914] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.000928] (-) JobUnselected: {'identifier': 'nav2_mppi_controller'}
+[0.000944] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.000958] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.000984] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.001000] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.001015] (-) JobUnselected: {'identifier': 'nav2_ros_common'}
+[0.001033] (-) JobUnselected: {'identifier': 'nav2_rotation_shim_controller'}
+[0.001050] (-) JobUnselected: {'identifier': 'nav2_route'}
+[0.001063] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.001079] (-) JobUnselected: {'identifier': 'nav2_simple_commander'}
+[0.001094] (-) JobUnselected: {'identifier': 'nav2_smac_planner'}
+[0.001110] (-) JobUnselected: {'identifier': 'nav2_smoother'}
+[0.001126] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.001141] (-) JobUnselected: {'identifier': 'nav2_theta_star_planner'}
+[0.001158] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.001175] (-) JobUnselected: {'identifier': 'nav2_velocity_smoother'}
+[0.001191] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.001207] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.001225] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.001240] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.001256] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.001273] (-) JobUnselected: {'identifier': 'opennav_docking'}
+[0.001287] (-) JobUnselected: {'identifier': 'opennav_docking_bt'}
+[0.001305] (-) JobUnselected: {'identifier': 'opennav_docking_core'}
+[0.001319] (-) JobUnselected: {'identifier': 'vanilla_brain_nav2'}
+[0.001339] (hive_nav_brain) JobQueued: {'identifier': 'hive_nav_brain', 'dependencies': OrderedDict({'hive_interface2': '/home/thomas24/hive_ws2/install/hive_interface2', 'nav2_common': '/home/thomas24/hive_ws2/install/nav2_common', 'nav2_msgs': '/home/thomas24/hive_ws2/install/nav2_msgs', 'nav2_voxel_grid': '/home/thomas24/hive_ws2/install/nav2_voxel_grid', 'nav2_ros_common': '/home/thomas24/hive_ws2/install/nav2_ros_common', 'nav2_util': '/home/thomas24/hive_ws2/install/nav2_util', 'nav2_behavior_tree': '/home/thomas24/hive_ws2/install/nav2_behavior_tree', 'nav2_lifecycle_manager': '/home/thomas24/hive_ws2/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/thomas24/hive_ws2/install/nav2_map_server', 'nav2_costmap_2d': '/home/thomas24/hive_ws2/install/nav2_costmap_2d', 'nav2_core': '/home/thomas24/hive_ws2/install/nav2_core', 'nav2_controller': '/home/thomas24/hive_ws2/install/nav2_controller', 'nav2_planner': '/home/thomas24/hive_ws2/install/nav2_planner'})}
+[0.001394] (hive_nav_brain) JobStarted: {'identifier': 'hive_nav_brain'}
+[0.043234] (hive_nav_brain) JobProgress: {'identifier': 'hive_nav_brain', 'progress': 'cmake'}
+[0.043757] (hive_nav_brain) JobProgress: {'identifier': 'hive_nav_brain', 'progress': 'build'}
+[0.044246] (hive_nav_brain) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thomas24/hive_ws2/build/hive_nav_brain', '--', '-j16', '-l16'], 'cwd': '/home/thomas24/hive_ws2/build/hive_nav_brain', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share/hive_simulation/worlds:/opt/ros/jazzy/share/hive_simulation/models', 'USER': 'thomas24', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/thomas24/hive_ws2/install/hive_nav_brain/share:/home/thomas24/hive_ws2/install/hive_route_planner/share', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/thomas24/hive_ws2/install/nav2_planner/lib:/home/thomas24/hive_ws2/install/nav2_controller/lib:/home/thomas24/hive_ws2/install/nav2_costmap_2d/lib:/home/thomas24/hive_ws2/install/nav2_map_server/lib:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager/lib:/home/thomas24/hive_ws2/install/nav2_behavior_tree/lib:/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_voxel_grid/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:/home/thomas24/hive_ws2/install/hive_interface2/lib:/home/thomas24/hive_ws2/install/hive_nav_brain/lib:/home/thomas24/hive_ws2/install/opennav_docking/lib:/home/thomas24/hive_ws2/install/opennav_docking_bt/lib:/home/thomas24/hive_ws2/install/dwb_plugins/lib:/home/thomas24/hive_ws2/install/dwb_critics/lib:/home/thomas24/hive_ws2/install/dwb_core/lib:/home/thomas24/hive_ws2/install/nav_2d_utils/lib:/home/thomas24/hive_ws2/install/dwb_msgs/lib:/home/thomas24/hive_ws2/install/nav_2d_msgs/lib:/home/thomas24/hive_ws2/install/nav2_waypoint_follower/lib:/home/thomas24/hive_ws2/install/nav2_theta_star_planner/lib:/home/thomas24/hive_ws2/install/nav2_smoother/lib:/home/thomas24/hive_ws2/install/nav2_smac_planner/lib:/home/thomas24/hive_ws2/install/nav2_rviz_plugins/lib:/home/thomas24/hive_ws2/install/nav2_route/lib:/home/thomas24/hive_ws2/install/nav2_rotation_shim_controller/lib:/home/thomas24/hive_ws2/install/nav2_regulated_pure_pursuit_controller/lib:/home/thomas24/hive_ws2/install/nav2_navfn_planner/lib:/home/thomas24/hive_ws2/install/nav2_mppi_controller/lib:/home/thomas24/hive_ws2/install/nav2_graceful_controller/lib:/home/thomas24/hive_ws2/install/nav2_constrained_smoother/lib:/home/thomas24/hive_ws2/install/nav2_bt_navigator/lib:/home/thomas24/hive_ws2/install/nav2_behaviors/lib:/home/thomas24/hive_ws2/install/nav2_collision_monitor/lib:/home/thomas24/hive_ws2/install/hive_costmap/lib:/home/thomas24/hive_ws2/install/costmap_queue/lib:/home/thomas24/hive_ws2/install/nav2_velocity_smoother/lib:/home/thomas24/hive_ws2/install/nav2_amcl/lib:/home/thomas24/hive_ws2/install/nav2_system_tests/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/thomas24', 'OLDPWD': '/home/thomas24/hive_ws2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3136', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/thomas24/hive_ws2/install:/home/thomas24/hiveverse_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'thomas24', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/thomas24/hive_ws2/install/hive_nav_brain/lib/x86_64-linux-gnu/pkgconfig:/home/thomas24/hive_ws2/install/hive_nav_brain/lib/pkgconfig:/home/thomas24/hive_ws2/install/hive_route_planner/lib/x86_64-linux-gnu/pkgconfig:/home/thomas24/hive_ws2/install/hive_route_planner/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'thomas24', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/thomas24/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/thomas24/.local/bin:/home/thomas24/.local/bin', 'SESSION_MANAGER': 'local/thomas24-Legion-Pro-5-16ARX8:@/tmp/.ICE-unix/3092,unix/thomas24-Legion-Pro-5-16ARX8:/tmp/.ICE-unix/3092', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/48c84c92_fa3c_441a_a1e9_ee1d11b2d6dd', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.126', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/thomas24/hive_ws2/install/hive_nav_brain:/home/thomas24/hive_ws2/install/vanilla_brain_nav2:/home/thomas24/hive_ws2/install/nav2_bringup:/home/thomas24/hive_ws2/install/navigation2:/home/thomas24/hive_ws2/install/opennav_docking:/home/thomas24/hive_ws2/install/opennav_docking_core:/home/thomas24/hive_ws2/install/opennav_docking_bt:/home/thomas24/hive_ws2/install/nav2_dwb_controller:/home/thomas24/hive_ws2/install/dwb_plugins:/home/thomas24/hive_ws2/install/dwb_critics:/home/thomas24/hive_ws2/install/dwb_core:/home/thomas24/hive_ws2/install/nav_2d_utils:/home/thomas24/hive_ws2/install/dwb_msgs:/home/thomas24/hive_ws2/install/nav_2d_msgs:/home/thomas24/hive_ws2/install/nav2_waypoint_follower:/home/thomas24/hive_ws2/install/nav2_theta_star_planner:/home/thomas24/hive_ws2/install/nav2_smoother:/home/thomas24/hive_ws2/install/nav2_smac_planner:/home/thomas24/hive_ws2/install/nav2_rviz_plugins:/home/thomas24/hive_ws2/install/nav2_route:/home/thomas24/hive_ws2/install/nav2_rotation_shim_controller:/home/thomas24/hive_ws2/install/nav2_regulated_pure_pursuit_controller:/home/thomas24/hive_ws2/install/nav2_planner:/home/thomas24/hive_ws2/install/nav2_navfn_planner:/home/thomas24/hive_ws2/install/nav2_mppi_controller:/home/thomas24/hive_ws2/install/nav2_graceful_controller:/home/thomas24/hive_ws2/install/nav2_controller:/home/thomas24/hive_ws2/install/nav2_constrained_smoother:/home/thomas24/hive_ws2/install/nav2_bt_navigator:/home/thomas24/hive_ws2/install/nav2_behaviors:/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_collision_monitor:/home/thomas24/hive_ws2/install/hive_costmap:/home/thomas24/hive_ws2/install/costmap_queue:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_velocity_smoother:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_amcl:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_system_tests:/home/thomas24/hive_ws2/install/nav2_loopback_sim:/home/thomas24/hive_ws2/install/nav2_simple_commander:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/home/thomas24/hive_ws2/install/dev_route_provider:/home/thomas24/hive_ws2/install/hive_interface2:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/home/thomas24/hiveverse_ws/install/hive_simulation:/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/thomas24/hive_ws2/build/hive_nav_brain', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/vanilla_brain_nav2/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav_2d_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_loopback_sim/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages:/home/thomas24/hiveverse_ws/install/hive_tools/lib/python3.12/site-packages:/home/thomas24/hiveverse_ws/install/hive_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/thomas24/hive_ws2/install/nav2_planner:/home/thomas24/hive_ws2/install/nav2_controller:/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/home/thomas24/hive_ws2/install/hive_interface2:/home/thomas24/hive_ws2/install/nav2_bringup:/home/thomas24/hive_ws2/install/navigation2:/home/thomas24/hive_ws2/install/opennav_docking:/home/thomas24/hive_ws2/install/opennav_docking_core:/home/thomas24/hive_ws2/install/opennav_docking_bt:/home/thomas24/hive_ws2/install/nav2_dwb_controller:/home/thomas24/hive_ws2/install/dwb_plugins:/home/thomas24/hive_ws2/install/dwb_critics:/home/thomas24/hive_ws2/install/dwb_core:/home/thomas24/hive_ws2/install/nav_2d_utils:/home/thomas24/hive_ws2/install/dwb_msgs:/home/thomas24/hive_ws2/install/nav_2d_msgs:/home/thomas24/hive_ws2/install/nav2_waypoint_follower:/home/thomas24/hive_ws2/install/nav2_theta_star_planner:/home/thomas24/hive_ws2/install/nav2_smoother:/home/thomas24/hive_ws2/install/nav2_smac_planner:/home/thomas24/hive_ws2/install/nav2_rviz_plugins:/home/thomas24/hive_ws2/install/nav2_route:/home/thomas24/hive_ws2/install/nav2_rotation_shim_controller:/home/thomas24/hive_ws2/install/nav2_regulated_pure_pursuit_controller:/home/thomas24/hive_ws2/install/hive_nav_brain:/home/thomas24/hive_ws2/install/nav2_navfn_planner:/home/thomas24/hive_ws2/install/nav2_mppi_controller:/home/thomas24/hive_ws2/install/nav2_graceful_controller:/home/thomas24/hive_ws2/install/nav2_constrained_smoother:/home/thomas24/hive_ws2/install/nav2_bt_navigator:/home/thomas24/hive_ws2/install/nav2_behaviors:/home/thomas24/hive_ws2/install/nav2_collision_monitor:/home/thomas24/hive_ws2/install/hive_costmap:/home/thomas24/hive_ws2/install/costmap_queue:/home/thomas24/hive_ws2/install/nav2_velocity_smoother:/home/thomas24/hive_ws2/install/nav2_amcl:/home/thomas24/hive_ws2/install/nav2_system_tests:/home/thomas24/hive_ws2/install/vanilla_brain_nav2:/home/thomas24/hive_ws2/install/nav2_loopback_sim:/home/thomas24/hive_ws2/install/nav2_simple_commander:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/opt/ros/jazzy:/home/thomas24/hive_ws2/install/hive_route_planner:/home/thomas24/hive_ws2/install/dev_route_provider:/home/thomas24/hiveverse_ws/install/hive_simulation:/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.099663] (-) TimerEvent: {}
+[0.137327] (hive_nav_brain) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/hive_nav_brain_lib.dir/src/hive_planner.cpp.o\x1b[0m\n'}
+[0.137580] (hive_nav_brain) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/hive_nav_brain_lib.dir/src/path_utils.cpp.o\x1b[0m\n'}
+[0.137664] (hive_nav_brain) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/hive_nav_brain_lib.dir/src/hive_nav_brain_node.cpp.o\x1b[0m\n'}
+[0.199797] (-) TimerEvent: {}
+[0.300183] (-) TimerEvent: {}
+[0.400480] (-) TimerEvent: {}
+[0.500885] (-) TimerEvent: {}
+[0.601348] (-) TimerEvent: {}
+[0.701710] (-) TimerEvent: {}
+[0.802091] (-) TimerEvent: {}
+[0.902455] (-) TimerEvent: {}
+[1.002785] (-) TimerEvent: {}
+[1.103246] (-) TimerEvent: {}
+[1.203633] (-) TimerEvent: {}
+[1.303910] (-) TimerEvent: {}
+[1.404318] (-) TimerEvent: {}
+[1.504649] (-) TimerEvent: {}
+[1.604996] (-) TimerEvent: {}
+[1.705313] (-) TimerEvent: {}
+[1.805710] (-) TimerEvent: {}
+[1.905999] (-) TimerEvent: {}
+[2.006289] (-) TimerEvent: {}
+[2.106629] (-) TimerEvent: {}
+[2.206990] (-) TimerEvent: {}
+[2.307334] (-) TimerEvent: {}
+[2.407627] (-) TimerEvent: {}
+[2.507945] (-) TimerEvent: {}
+[2.608285] (-) TimerEvent: {}
+[2.708551] (-) TimerEvent: {}
+[2.808831] (-) TimerEvent: {}
+[2.909209] (-) TimerEvent: {}
+[3.009522] (-) TimerEvent: {}
+[3.109855] (-) TimerEvent: {}
+[3.210160] (-) TimerEvent: {}
+[3.310410] (-) TimerEvent: {}
+[3.410700] (-) TimerEvent: {}
+[3.511025] (-) TimerEvent: {}
+[3.611341] (-) TimerEvent: {}
+[3.711637] (-) TimerEvent: {}
+[3.812002] (-) TimerEvent: {}
+[3.912299] (-) TimerEvent: {}
+[4.012620] (-) TimerEvent: {}
+[4.112898] (-) TimerEvent: {}
+[4.213210] (-) TimerEvent: {}
+[4.313484] (-) TimerEvent: {}
+[4.413746] (-) TimerEvent: {}
+[4.514030] (-) TimerEvent: {}
+[4.614318] (-) TimerEvent: {}
+[4.714568] (-) TimerEvent: {}
+[4.814810] (-) TimerEvent: {}
+[4.915041] (-) TimerEvent: {}
+[5.015342] (-) TimerEvent: {}
+[5.115641] (-) TimerEvent: {}
+[5.215899] (-) TimerEvent: {}
+[5.316174] (-) TimerEvent: {}
+[5.416462] (-) TimerEvent: {}
+[5.516711] (-) TimerEvent: {}
+[5.616996] (-) TimerEvent: {}
+[5.717283] (-) TimerEvent: {}
+[5.817679] (-) TimerEvent: {}
+[5.917985] (-) TimerEvent: {}
+[6.018290] (-) TimerEvent: {}
+[6.118636] (-) TimerEvent: {}
+[6.218957] (-) TimerEvent: {}
+[6.319271] (-) TimerEvent: {}
+[6.419531] (-) TimerEvent: {}
+[6.519762] (-) TimerEvent: {}
+[6.620020] (-) TimerEvent: {}
+[6.720293] (-) TimerEvent: {}
+[6.820578] (-) TimerEvent: {}
+[6.920823] (-) TimerEvent: {}
+[7.021042] (-) TimerEvent: {}
+[7.121324] (-) TimerEvent: {}
+[7.221676] (-) TimerEvent: {}
+[7.322161] (-) TimerEvent: {}
+[7.422488] (-) TimerEvent: {}
+[7.522832] (-) TimerEvent: {}
+[7.623173] (-) TimerEvent: {}
+[7.723447] (-) TimerEvent: {}
+[7.823793] (-) TimerEvent: {}
+[7.924149] (-) TimerEvent: {}
+[8.024460] (-) TimerEvent: {}
+[8.124730] (-) TimerEvent: {}
+[8.225015] (-) TimerEvent: {}
+[8.325283] (-) TimerEvent: {}
+[8.425587] (-) TimerEvent: {}
+[8.525854] (-) TimerEvent: {}
+[8.626137] (-) TimerEvent: {}
+[8.726423] (-) TimerEvent: {}
+[8.826740] (-) TimerEvent: {}
+[8.927056] (-) TimerEvent: {}
+[9.027336] (-) TimerEvent: {}
+[9.127651] (-) TimerEvent: {}
+[9.227952] (-) TimerEvent: {}
+[9.328228] (-) TimerEvent: {}
+[9.428544] (-) TimerEvent: {}
+[9.528808] (-) TimerEvent: {}
+[9.629099] (-) TimerEvent: {}
+[9.729385] (-) TimerEvent: {}
+[9.829679] (-) TimerEvent: {}
+[9.930031] (-) TimerEvent: {}
+[10.030298] (-) TimerEvent: {}
+[10.130581] (-) TimerEvent: {}
+[10.230881] (-) TimerEvent: {}
+[10.331157] (-) TimerEvent: {}
+[10.431438] (-) TimerEvent: {}
+[10.531721] (-) TimerEvent: {}
+[10.631972] (-) TimerEvent: {}
+[10.732206] (-) TimerEvent: {}
+[10.832478] (-) TimerEvent: {}
+[10.932826] (-) TimerEvent: {}
+[11.033178] (-) TimerEvent: {}
+[11.133449] (-) TimerEvent: {}
+[11.233733] (-) TimerEvent: {}
+[11.334017] (-) TimerEvent: {}
+[11.434465] (-) TimerEvent: {}
+[11.534755] (-) TimerEvent: {}
+[11.635034] (-) TimerEvent: {}
+[11.735315] (-) TimerEvent: {}
+[11.835605] (-) TimerEvent: {}
+[11.935882] (-) TimerEvent: {}
+[12.036175] (-) TimerEvent: {}
+[12.136412] (-) TimerEvent: {}
+[12.236643] (-) TimerEvent: {}
+[12.336895] (-) TimerEvent: {}
+[12.437164] (-) TimerEvent: {}
+[12.537420] (-) TimerEvent: {}
+[12.637664] (-) TimerEvent: {}
+[12.737908] (-) TimerEvent: {}
+[12.838187] (-) TimerEvent: {}
+[12.938449] (-) TimerEvent: {}
+[13.038710] (-) TimerEvent: {}
+[13.138984] (-) TimerEvent: {}
+[13.239278] (-) TimerEvent: {}
+[13.339590] (-) TimerEvent: {}
+[13.439897] (-) TimerEvent: {}
+[13.540200] (-) TimerEvent: {}
+[13.640442] (-) TimerEvent: {}
+[13.740702] (-) TimerEvent: {}
+[13.841038] (-) TimerEvent: {}
+[13.941302] (-) TimerEvent: {}
+[14.041567] (-) TimerEvent: {}
+[14.141833] (-) TimerEvent: {}
+[14.242223] (-) TimerEvent: {}
+[14.342505] (-) TimerEvent: {}
+[14.442783] (-) TimerEvent: {}
+[14.543032] (-) TimerEvent: {}
+[14.643343] (-) TimerEvent: {}
+[14.743593] (-) TimerEvent: {}
+[14.843835] (-) TimerEvent: {}
+[14.944112] (-) TimerEvent: {}
+[15.044395] (-) TimerEvent: {}
+[15.144699] (-) TimerEvent: {}
+[15.244966] (-) TimerEvent: {}
+[15.345270] (-) TimerEvent: {}
+[15.445551] (-) TimerEvent: {}
+[15.545827] (-) TimerEvent: {}
+[15.646120] (-) TimerEvent: {}
+[15.746422] (-) TimerEvent: {}
+[15.846673] (-) TimerEvent: {}
+[15.946993] (-) TimerEvent: {}
+[16.047265] (-) TimerEvent: {}
+[16.147541] (-) TimerEvent: {}
+[16.247885] (-) TimerEvent: {}
+[16.348225] (-) TimerEvent: {}
+[16.448483] (-) TimerEvent: {}
+[16.548739] (-) TimerEvent: {}
+[16.648988] (-) TimerEvent: {}
+[16.749260] (-) TimerEvent: {}
+[16.849504] (-) TimerEvent: {}
+[16.949761] (-) TimerEvent: {}
+[17.050017] (-) TimerEvent: {}
+[17.150335] (-) TimerEvent: {}
+[17.250680] (-) TimerEvent: {}
+[17.350959] (-) TimerEvent: {}
+[17.451225] (-) TimerEvent: {}
+[17.551524] (-) TimerEvent: {}
+[17.651783] (-) TimerEvent: {}
+[17.752098] (-) TimerEvent: {}
+[17.852344] (-) TimerEvent: {}
+[17.952592] (-) TimerEvent: {}
+[18.052854] (-) TimerEvent: {}
+[18.153208] (-) TimerEvent: {}
+[18.253529] (-) TimerEvent: {}
+[18.353890] (-) TimerEvent: {}
+[18.454277] (-) TimerEvent: {}
+[18.554539] (-) TimerEvent: {}
+[18.654825] (-) TimerEvent: {}
+[18.755186] (-) TimerEvent: {}
+[18.855496] (-) TimerEvent: {}
+[18.955742] (-) TimerEvent: {}
+[19.056029] (-) TimerEvent: {}
+[19.156310] (-) TimerEvent: {}
+[19.256567] (-) TimerEvent: {}
+[19.356828] (-) TimerEvent: {}
+[19.372604] (hive_nav_brain) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX static library libhive_nav_brain_lib.a\x1b[0m\n'}
+[19.456994] (-) TimerEvent: {}
+[19.557407] (-) TimerEvent: {}
+[19.657762] (-) TimerEvent: {}
+[19.758095] (-) TimerEvent: {}
+[19.858387] (-) TimerEvent: {}
+[19.892919] (hive_nav_brain) StdoutLine: {'line': b'[ 71%] Built target hive_nav_brain_lib\n'}
+[19.937732] (hive_nav_brain) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/hive_nav_brain_node.dir/src/main.cpp.o\x1b[0m\n'}
+[19.958496] (-) TimerEvent: {}
+[20.058737] (-) TimerEvent: {}
+[20.159049] (-) TimerEvent: {}
+[20.259341] (-) TimerEvent: {}
+[20.359688] (-) TimerEvent: {}
+[20.459966] (-) TimerEvent: {}
+[20.560290] (-) TimerEvent: {}
+[20.660581] (-) TimerEvent: {}
+[20.760847] (-) TimerEvent: {}
+[20.861121] (-) TimerEvent: {}
+[20.961404] (-) TimerEvent: {}
+[21.061724] (-) TimerEvent: {}
+[21.162053] (-) TimerEvent: {}
+[21.262384] (-) TimerEvent: {}
+[21.362736] (-) TimerEvent: {}
+[21.463049] (-) TimerEvent: {}
+[21.563381] (-) TimerEvent: {}
+[21.663728] (-) TimerEvent: {}
+[21.764044] (-) TimerEvent: {}
+[21.864311] (-) TimerEvent: {}
+[21.964581] (-) TimerEvent: {}
+[22.064878] (-) TimerEvent: {}
+[22.165153] (-) TimerEvent: {}
+[22.265414] (-) TimerEvent: {}
+[22.365696] (-) TimerEvent: {}
+[22.466004] (-) TimerEvent: {}
+[22.566342] (-) TimerEvent: {}
+[22.666602] (-) TimerEvent: {}
+[22.766870] (-) TimerEvent: {}
+[22.867126] (-) TimerEvent: {}
+[22.967400] (-) TimerEvent: {}
+[23.067695] (-) TimerEvent: {}
+[23.167955] (-) TimerEvent: {}
+[23.268310] (-) TimerEvent: {}
+[23.356475] (hive_nav_brain) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hive_nav_brain_node\x1b[0m\n'}
+[23.368436] (-) TimerEvent: {}
+[23.468720] (-) TimerEvent: {}
+[23.569025] (-) TimerEvent: {}
+[23.669337] (-) TimerEvent: {}
+[23.769623] (-) TimerEvent: {}
+[23.869914] (-) TimerEvent: {}
+[23.970279] (-) TimerEvent: {}
+[24.070673] (-) TimerEvent: {}
+[24.171005] (-) TimerEvent: {}
+[24.271334] (-) TimerEvent: {}
+[24.371631] (-) TimerEvent: {}
+[24.471076] (hive_nav_brain) StdoutLine: {'line': b'[100%] Built target hive_nav_brain_node\n'}
+[24.471709] (-) TimerEvent: {}
+[24.488168] (hive_nav_brain) CommandEnded: {'returncode': 0}
+[24.488745] (hive_nav_brain) JobProgress: {'identifier': 'hive_nav_brain', 'progress': 'install'}
+[24.501286] (hive_nav_brain) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/thomas24/hive_ws2/build/hive_nav_brain'], 'cwd': '/home/thomas24/hive_ws2/build/hive_nav_brain', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share/hive_simulation/worlds:/opt/ros/jazzy/share/hive_simulation/models', 'USER': 'thomas24', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/thomas24/hive_ws2/install/hive_nav_brain/share:/home/thomas24/hive_ws2/install/hive_route_planner/share', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/thomas24/hive_ws2/install/nav2_planner/lib:/home/thomas24/hive_ws2/install/nav2_controller/lib:/home/thomas24/hive_ws2/install/nav2_costmap_2d/lib:/home/thomas24/hive_ws2/install/nav2_map_server/lib:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager/lib:/home/thomas24/hive_ws2/install/nav2_behavior_tree/lib:/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_voxel_grid/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:/home/thomas24/hive_ws2/install/hive_interface2/lib:/home/thomas24/hive_ws2/install/hive_nav_brain/lib:/home/thomas24/hive_ws2/install/opennav_docking/lib:/home/thomas24/hive_ws2/install/opennav_docking_bt/lib:/home/thomas24/hive_ws2/install/dwb_plugins/lib:/home/thomas24/hive_ws2/install/dwb_critics/lib:/home/thomas24/hive_ws2/install/dwb_core/lib:/home/thomas24/hive_ws2/install/nav_2d_utils/lib:/home/thomas24/hive_ws2/install/dwb_msgs/lib:/home/thomas24/hive_ws2/install/nav_2d_msgs/lib:/home/thomas24/hive_ws2/install/nav2_waypoint_follower/lib:/home/thomas24/hive_ws2/install/nav2_theta_star_planner/lib:/home/thomas24/hive_ws2/install/nav2_smoother/lib:/home/thomas24/hive_ws2/install/nav2_smac_planner/lib:/home/thomas24/hive_ws2/install/nav2_rviz_plugins/lib:/home/thomas24/hive_ws2/install/nav2_route/lib:/home/thomas24/hive_ws2/install/nav2_rotation_shim_controller/lib:/home/thomas24/hive_ws2/install/nav2_regulated_pure_pursuit_controller/lib:/home/thomas24/hive_ws2/install/nav2_navfn_planner/lib:/home/thomas24/hive_ws2/install/nav2_mppi_controller/lib:/home/thomas24/hive_ws2/install/nav2_graceful_controller/lib:/home/thomas24/hive_ws2/install/nav2_constrained_smoother/lib:/home/thomas24/hive_ws2/install/nav2_bt_navigator/lib:/home/thomas24/hive_ws2/install/nav2_behaviors/lib:/home/thomas24/hive_ws2/install/nav2_collision_monitor/lib:/home/thomas24/hive_ws2/install/hive_costmap/lib:/home/thomas24/hive_ws2/install/costmap_queue/lib:/home/thomas24/hive_ws2/install/nav2_velocity_smoother/lib:/home/thomas24/hive_ws2/install/nav2_amcl/lib:/home/thomas24/hive_ws2/install/nav2_system_tests/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/thomas24', 'OLDPWD': '/home/thomas24/hive_ws2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3136', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/thomas24/hive_ws2/install:/home/thomas24/hiveverse_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'thomas24', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/thomas24/hive_ws2/install/hive_nav_brain/lib/x86_64-linux-gnu/pkgconfig:/home/thomas24/hive_ws2/install/hive_nav_brain/lib/pkgconfig:/home/thomas24/hive_ws2/install/hive_route_planner/lib/x86_64-linux-gnu/pkgconfig:/home/thomas24/hive_ws2/install/hive_route_planner/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'thomas24', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/thomas24/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/thomas24/.local/bin:/home/thomas24/.local/bin', 'SESSION_MANAGER': 'local/thomas24-Legion-Pro-5-16ARX8:@/tmp/.ICE-unix/3092,unix/thomas24-Legion-Pro-5-16ARX8:/tmp/.ICE-unix/3092', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/48c84c92_fa3c_441a_a1e9_ee1d11b2d6dd', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.126', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/thomas24/hive_ws2/install/hive_nav_brain:/home/thomas24/hive_ws2/install/vanilla_brain_nav2:/home/thomas24/hive_ws2/install/nav2_bringup:/home/thomas24/hive_ws2/install/navigation2:/home/thomas24/hive_ws2/install/opennav_docking:/home/thomas24/hive_ws2/install/opennav_docking_core:/home/thomas24/hive_ws2/install/opennav_docking_bt:/home/thomas24/hive_ws2/install/nav2_dwb_controller:/home/thomas24/hive_ws2/install/dwb_plugins:/home/thomas24/hive_ws2/install/dwb_critics:/home/thomas24/hive_ws2/install/dwb_core:/home/thomas24/hive_ws2/install/nav_2d_utils:/home/thomas24/hive_ws2/install/dwb_msgs:/home/thomas24/hive_ws2/install/nav_2d_msgs:/home/thomas24/hive_ws2/install/nav2_waypoint_follower:/home/thomas24/hive_ws2/install/nav2_theta_star_planner:/home/thomas24/hive_ws2/install/nav2_smoother:/home/thomas24/hive_ws2/install/nav2_smac_planner:/home/thomas24/hive_ws2/install/nav2_rviz_plugins:/home/thomas24/hive_ws2/install/nav2_route:/home/thomas24/hive_ws2/install/nav2_rotation_shim_controller:/home/thomas24/hive_ws2/install/nav2_regulated_pure_pursuit_controller:/home/thomas24/hive_ws2/install/nav2_planner:/home/thomas24/hive_ws2/install/nav2_navfn_planner:/home/thomas24/hive_ws2/install/nav2_mppi_controller:/home/thomas24/hive_ws2/install/nav2_graceful_controller:/home/thomas24/hive_ws2/install/nav2_controller:/home/thomas24/hive_ws2/install/nav2_constrained_smoother:/home/thomas24/hive_ws2/install/nav2_bt_navigator:/home/thomas24/hive_ws2/install/nav2_behaviors:/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_collision_monitor:/home/thomas24/hive_ws2/install/hive_costmap:/home/thomas24/hive_ws2/install/costmap_queue:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_velocity_smoother:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_amcl:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_system_tests:/home/thomas24/hive_ws2/install/nav2_loopback_sim:/home/thomas24/hive_ws2/install/nav2_simple_commander:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/home/thomas24/hive_ws2/install/dev_route_provider:/home/thomas24/hive_ws2/install/hive_interface2:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/home/thomas24/hiveverse_ws/install/hive_simulation:/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/thomas24/hive_ws2/build/hive_nav_brain', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/vanilla_brain_nav2/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav_2d_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_loopback_sim/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages:/home/thomas24/hiveverse_ws/install/hive_tools/lib/python3.12/site-packages:/home/thomas24/hiveverse_ws/install/hive_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/thomas24/hive_ws2/install/nav2_planner:/home/thomas24/hive_ws2/install/nav2_controller:/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/home/thomas24/hive_ws2/install/hive_interface2:/home/thomas24/hive_ws2/install/nav2_bringup:/home/thomas24/hive_ws2/install/navigation2:/home/thomas24/hive_ws2/install/opennav_docking:/home/thomas24/hive_ws2/install/opennav_docking_core:/home/thomas24/hive_ws2/install/opennav_docking_bt:/home/thomas24/hive_ws2/install/nav2_dwb_controller:/home/thomas24/hive_ws2/install/dwb_plugins:/home/thomas24/hive_ws2/install/dwb_critics:/home/thomas24/hive_ws2/install/dwb_core:/home/thomas24/hive_ws2/install/nav_2d_utils:/home/thomas24/hive_ws2/install/dwb_msgs:/home/thomas24/hive_ws2/install/nav_2d_msgs:/home/thomas24/hive_ws2/install/nav2_waypoint_follower:/home/thomas24/hive_ws2/install/nav2_theta_star_planner:/home/thomas24/hive_ws2/install/nav2_smoother:/home/thomas24/hive_ws2/install/nav2_smac_planner:/home/thomas24/hive_ws2/install/nav2_rviz_plugins:/home/thomas24/hive_ws2/install/nav2_route:/home/thomas24/hive_ws2/install/nav2_rotation_shim_controller:/home/thomas24/hive_ws2/install/nav2_regulated_pure_pursuit_controller:/home/thomas24/hive_ws2/install/hive_nav_brain:/home/thomas24/hive_ws2/install/nav2_navfn_planner:/home/thomas24/hive_ws2/install/nav2_mppi_controller:/home/thomas24/hive_ws2/install/nav2_graceful_controller:/home/thomas24/hive_ws2/install/nav2_constrained_smoother:/home/thomas24/hive_ws2/install/nav2_bt_navigator:/home/thomas24/hive_ws2/install/nav2_behaviors:/home/thomas24/hive_ws2/install/nav2_collision_monitor:/home/thomas24/hive_ws2/install/hive_costmap:/home/thomas24/hive_ws2/install/costmap_queue:/home/thomas24/hive_ws2/install/nav2_velocity_smoother:/home/thomas24/hive_ws2/install/nav2_amcl:/home/thomas24/hive_ws2/install/nav2_system_tests:/home/thomas24/hive_ws2/install/vanilla_brain_nav2:/home/thomas24/hive_ws2/install/nav2_loopback_sim:/home/thomas24/hive_ws2/install/nav2_simple_commander:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/opt/ros/jazzy:/home/thomas24/hive_ws2/install/hive_route_planner:/home/thomas24/hive_ws2/install/dev_route_provider:/home/thomas24/hiveverse_ws/install/hive_simulation:/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[24.512565] (hive_nav_brain) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.512840] (hive_nav_brain) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[24.513057] (hive_nav_brain) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas24/hive_ws2/install/hive_nav_brain/lib/libhive_nav_brain_lib.a\n'}
+[24.513228] (hive_nav_brain) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas24/hive_ws2/install/hive_nav_brain/lib/hive_nav_brain/hive_nav_brain_node\n'}
+[24.513510] (hive_nav_brain) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas24/hive_ws2/install/hive_nav_brain/include/hive_nav_brain/colors.hpp\n'}
+[24.513615] (hive_nav_brain) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas24/hive_ws2/install/hive_nav_brain/include/hive_nav_brain/data_store.hpp\n'}
+[24.513753] (hive_nav_brain) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas24/hive_ws2/install/hive_nav_brain/include/hive_nav_brain/global_state.hpp\n'}
+[24.513850] (hive_nav_brain) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas24/hive_ws2/install/hive_nav_brain/include/hive_nav_brain/hive_nav_brain_node.hpp\n'}
+[24.513999] (hive_nav_brain) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas24/hive_ws2/install/hive_nav_brain/include/hive_nav_brain/hive_planner.hpp\n'}
+[24.514093] (hive_nav_brain) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas24/hive_ws2/install/hive_nav_brain/include/hive_nav_brain/logging.hpp\n'}
+[24.514166] (hive_nav_brain) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas24/hive_ws2/install/hive_nav_brain/include/hive_nav_brain/params.hpp\n'}
+[24.514228] (hive_nav_brain) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas24/hive_ws2/install/hive_nav_brain/include/hive_nav_brain/path_utils.hpp\n'}
+[24.514305] (hive_nav_brain) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas24/hive_ws2/install/hive_nav_brain/include/hive_nav_brain/tf_helpers.hpp\n'}
+[24.514443] (hive_nav_brain) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas24/hive_ws2/install/hive_nav_brain/share/hive_nav_brain/launch/hive_nav_brain.launch.py\n'}
+[24.514539] (hive_nav_brain) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas24/hive_ws2/install/hive_nav_brain/share/ament_index/resource_index/package_run_dependencies/hive_nav_brain\n'}
+[24.514602] (hive_nav_brain) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas24/hive_ws2/install/hive_nav_brain/share/ament_index/resource_index/parent_prefix_path/hive_nav_brain\n'}
+[24.514720] (hive_nav_brain) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas24/hive_ws2/install/hive_nav_brain/share/hive_nav_brain/environment/ament_prefix_path.sh\n'}
+[24.514806] (hive_nav_brain) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas24/hive_ws2/install/hive_nav_brain/share/hive_nav_brain/environment/ament_prefix_path.dsv\n'}
+[24.514886] (hive_nav_brain) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas24/hive_ws2/install/hive_nav_brain/share/hive_nav_brain/environment/path.sh\n'}
+[24.515037] (hive_nav_brain) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas24/hive_ws2/install/hive_nav_brain/share/hive_nav_brain/environment/path.dsv\n'}
+[24.515122] (hive_nav_brain) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas24/hive_ws2/install/hive_nav_brain/share/hive_nav_brain/local_setup.bash\n'}
+[24.515195] (hive_nav_brain) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas24/hive_ws2/install/hive_nav_brain/share/hive_nav_brain/local_setup.sh\n'}
+[24.515303] (hive_nav_brain) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas24/hive_ws2/install/hive_nav_brain/share/hive_nav_brain/local_setup.zsh\n'}
+[24.515365] (hive_nav_brain) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas24/hive_ws2/install/hive_nav_brain/share/hive_nav_brain/local_setup.dsv\n'}
+[24.515427] (hive_nav_brain) StdoutLine: {'line': b'-- Symlinking: /home/thomas24/hive_ws2/install/hive_nav_brain/share/hive_nav_brain/package.dsv\n'}
+[24.529576] (hive_nav_brain) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas24/hive_ws2/install/hive_nav_brain/share/ament_index/resource_index/packages/hive_nav_brain\n'}
+[24.529853] (hive_nav_brain) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas24/hive_ws2/install/hive_nav_brain/share/hive_nav_brain/cmake/hive_nav_brainConfig.cmake\n'}
+[24.530036] (hive_nav_brain) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas24/hive_ws2/install/hive_nav_brain/share/hive_nav_brain/cmake/hive_nav_brainConfig-version.cmake\n'}
+[24.530113] (hive_nav_brain) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas24/hive_ws2/install/hive_nav_brain/share/hive_nav_brain/package.xml\n'}
+[24.531666] (hive_nav_brain) CommandEnded: {'returncode': 0}
+[24.543474] (hive_nav_brain) JobEnded: {'identifier': 'hive_nav_brain', 'rc': 0}
+[24.544439] (-) EventReactorShutdown: {}

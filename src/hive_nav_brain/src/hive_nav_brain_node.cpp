@@ -12,6 +12,62 @@
 using std::placeholders::_1;
 using namespace std::chrono_literals;
 
+// ----------------------------------
+// Utils
+// ----------------------------------
+inline double dist2d(double ax, double ay, double bx, double by) {
+  const double dx = ax - bx;
+  const double dy = ay - by;
+  return std::sqrt(dx*dx + dy*dy);
+}
+
+constexpr double kJoinEps = 0.20; // 20 cm
+
+inline bool near_xy(double x1, double y1, double x2, double y2, double eps = kJoinEps) {
+  const double dx = x1 - x2, dy = y1 - y2;
+  return std::sqrt(dx*dx + dy*dy) <= eps;
+}
+
+static bool get_true_last_endpoint(
+  const std::vector<hive_interface2::msg::LaneletMini2> &path,
+  double goal_x, double goal_y,
+  double &ex, double &ey)
+{
+  if (path.empty()) return false;
+
+  const auto &last = path.back();
+
+  if (path.size() >= 2) {
+    const auto &prev = path[path.size() - 2];
+
+    const bool start_shared =
+        near_xy(last.start_point_x, last.start_point_y, prev.start_point_x, prev.start_point_y) ||
+        near_xy(last.start_point_x, last.start_point_y, prev.end_point_x,   prev.end_point_y);
+
+    const bool end_shared =
+        near_xy(last.end_point_x, last.end_point_y, prev.start_point_x, prev.start_point_y) ||
+        near_xy(last.end_point_x, last.end_point_y, prev.end_point_x,   prev.end_point_y);
+
+    if (start_shared && !end_shared) {
+      // le start du dernier est commun -> la *fin* est son end
+      ex = last.end_point_x; ey = last.end_point_y; return true;
+    }
+    if (end_shared && !start_shared) {
+      // le end du dernier est commun -> la *fin* est son start
+      ex = last.start_point_x; ey = last.start_point_y; return true;
+    }
+    // Cas rare: aucun ou les deux "communs" (données bruitées) -> fallback au goal
+  }
+
+  // Fallback (1 seul lanelet ou jonction non reconnue) : choisir l'extrémité plus proche du goal
+  const double dS = std::hypot(last.start_point_x - goal_x, last.start_point_y - goal_y);
+  const double dE = std::hypot(last.end_point_x   - goal_x, last.end_point_y   - goal_y);
+  if (dE <= dS) { ex = last.end_point_x; ey = last.end_point_y; }
+  else          { ex = last.start_point_x; ey = last.start_point_y; }
+  return true;
+}
+
+
 // =======================
 //   Constructeur
 // =======================
@@ -60,6 +116,12 @@ HiveNavBrainNode::HiveNavBrainNode()
   // Action client Nav2 (ASTAR_PLANNER)
   path_action_client_ = rclcpp_action::create_client<CPTP>(
     this, "/" + P_.ns + "/compute_path_through_poses");
+
+  // Action client Nav2 (controller_server / follow_path)
+  follow_action_client_ = rclcpp_action::create_client<FP>(
+    this, "/" + P_.ns + "/follow_path");
+  RCLCPP_INFO(this->get_logger(), "%s[init]%s follow_path action -> %s/%s%s",
+    FIX, color::RESET, VAR, (P_.ns + "/follow_path").c_str(), FIX);
 
   // Logs init (labels blancs, valeurs vertes)
   RCLCPP_INFO(this->get_logger(),
@@ -217,6 +279,10 @@ void HiveNavBrainNode::onCommand(const hive_interface2::msg::NavBrainCommand::Sh
   store_.set_last_cmd(*cmd);
   { std::lock_guard<std::mutex> lk(path_mtx_); current_path_.clear(); }
   gs_.update_from_command(*cmd, "map");
+  
+  // Si on suivait un path, on annule
+  did_handoff_final_astar_ = false;   // reset du handoff final
+  cancel_follow_if_running("new mission command");
 
   const auto &p = cmd->destination.pose.position;
   const auto &q = cmd->destination.pose.orientation;
@@ -252,24 +318,55 @@ void HiveNavBrainNode::onLoop()
 {
   ++loop_tick_;
 
-  // 1) TF -> pose robot (10 Hz)
+  // ---------------------------
+  // 0) TF -> pose robot (10 Hz)
+  // ---------------------------
   geometry_msgs::msg::PoseStamped pose_map;
   if (hive_tf::try_get_pose_map(*tf_buffer_, map_frame_, base_footprint_frame_,
                                 pose_map, this->get_logger(), *this->get_clock())) {
     gs_.set_robot_pose_map(pose_map);
   }
 
-  // 2) Distance au global path (log 1 Hz)
+  const auto rob = gs_.robot();
+  const auto mis = gs_.mission();
+
+  // ---------------------------------------------------------
+  // 1) Distances (path et goal) + détection d'arrivée (<= 0.30 m)
+  // ---------------------------------------------------------
   double dist_to_path_m = 0.0;
   std::string dist_note;
-  const auto rob = gs_.robot();
+
+  double dist_to_goal_m = 0.0;
+  std::string goal_note;
+
+  if (mis.status == hive_nav::MissionStatus::IDLE) {
+    goal_note = "(idle)";
+  } else if (!rob.has_pose) {
+    goal_note = "(no robot pose / TF)";
+  } else {
+    const auto &rp = rob.pose_map.pose.position;
+    const auto &gp = mis.destination.pose.position;  // en "map"
+    dist_to_goal_m = std::hypot(rp.x - gp.x, rp.y - gp.y);
+    goal_note.clear();
+
+    if (dist_to_goal_m <= 0.30) {
+      RCLCPP_INFO(this->get_logger(),
+        "%s[arrival]%s goal reached: dist=%s%.2f%s m ≤ %s0.30%s m -> status=%sidle%s (stop follow)",
+        FIX, color::RESET,
+        VAR, dist_to_goal_m, FIX,
+        VAR, FIX,
+        VAR, FIX);
+      cancel_follow_if_running("arrived at goal");
+      gs_.set_status(hive_nav::MissionStatus::IDLE);
+    }
+  }
 
   if (rob.has_pose) {
-    std::vector<hive_interface2::msg::LaneletMini2> path_copy;
-    { std::lock_guard<std::mutex> lk(path_mtx_); path_copy = current_path_; }
+    std::vector<hive_interface2::msg::LaneletMini2> path_copy_for_dist;
+    { std::lock_guard<std::mutex> lk(path_mtx_); path_copy_for_dist = current_path_; }
 
     dist_to_path_m = hive_nav_utils::distance_to_path_xy(
-      path_copy,
+      path_copy_for_dist,
       rob.pose_map.pose.position.x,
       rob.pose_map.pose.position.y,
       dist_note
@@ -278,20 +375,45 @@ void HiveNavBrainNode::onLoop()
     dist_note = "(no robot pose / TF)";
   }
 
-  // 3) Hystérésis du MovementMode (si path présent)
+  // -----------------------------------------------------------------
+  // 2) Sélection / hystérésis du MovementMode
+  //    - AVANT handoff final : hystérésis hive<->astar
+  //    - APRÈS handoff final : on reste en ASTAR jusqu'à l'arrivée
+  // -----------------------------------------------------------------
   if (dist_note.empty()) {
-    constexpr double THRESH_LOW  = 0.9; // < 0.9  -> hive_planner
-    constexpr double THRESH_HIGH = 1.1; // > 1.1  -> astar_planner
-    auto mode = gs_.movement_mode();
+    if (!did_handoff_final_astar_) {
+      constexpr double THRESH_LOW  = 0.9; // < 0.9  -> hive_planner
+      constexpr double THRESH_HIGH = 1.1; // > 1.1  -> astar_planner
+      auto mode = gs_.movement_mode();
 
-    if (mode == hive_nav::MovementMode::HIVE_PLANNER && dist_to_path_m > THRESH_HIGH) {
-      gs_.set_movement_mode(hive_nav::MovementMode::ASTAR_PLANNER);
-    } else if (mode == hive_nav::MovementMode::ASTAR_PLANNER && dist_to_path_m < THRESH_LOW) {
-      gs_.set_movement_mode(hive_nav::MovementMode::HIVE_PLANNER);
+      if (mode == hive_nav::MovementMode::HIVE_PLANNER && dist_to_path_m > THRESH_HIGH) {
+        gs_.set_movement_mode(hive_nav::MovementMode::ASTAR_PLANNER);
+      } else if (mode == hive_nav::MovementMode::ASTAR_PLANNER && dist_to_path_m < THRESH_LOW) {
+        gs_.set_movement_mode(hive_nav::MovementMode::HIVE_PLANNER);
+      }
+    } else {
+      if (gs_.movement_mode() != hive_nav::MovementMode::ASTAR_PLANNER) {
+        gs_.set_movement_mode(hive_nav::MovementMode::ASTAR_PLANNER);
+      }
     }
   }
 
-  // 4) Target locale (10 Hz) + marker
+  // -----------------------------------------------------------------
+  // 3) Si on suit déjà un path et que le mode a changé -> replanifier
+  // -----------------------------------------------------------------
+  if (running_follow_ && gs_.movement_mode() != last_follow_mode_) {
+    RCLCPP_INFO(this->get_logger(),
+      "%s[follow]%s mode changed while running: %s%s%s -> %s%s%s, cancel & replan",
+      FIX, color::RESET,
+      VAR, hive_nav::to_string(last_follow_mode_), FIX,
+      VAR, hive_nav::to_string(gs_.movement_mode()), FIX);
+    cancel_follow_if_running("mode changed");
+    gs_.set_status(hive_nav::MissionStatus::READY_FOR_PATH);
+  }
+
+  // -------------------------------------------
+  // 4) Target locale + markers + handoff “fin”
+  // -------------------------------------------
   if (rob.has_pose) {
     std::vector<hive_interface2::msg::LaneletMini2> path_copy;
     { std::lock_guard<std::mutex> lk(path_mtx_); path_copy = current_path_; }
@@ -300,21 +422,23 @@ void HiveNavBrainNode::onLoop()
     std::string tgt_note;
     const auto goal = gs_.mission().destination.pose.position;
 
-    if (hive_nav_utils::compute_local_target(
-          path_copy,
-          rob.pose_map.pose.position.x, rob.pose_map.pose.position.y,
-          goal.x, goal.y,
-          gs_.movement_mode(),
-          /*lookahead_m=*/6.0,
-          tx, ty, tgt_note))
-    {
+    const bool have_target = hive_nav_utils::compute_local_target(
+      path_copy,
+      rob.pose_map.pose.position.x, rob.pose_map.pose.position.y,
+      goal.x, goal.y,
+      gs_.movement_mode(),
+      /*lookahead_m=*/6.0,
+      tx, ty, tgt_note);
+
+    if (have_target) {
+      // --- Publier la target
       geometry_msgs::msg::PointStamped pmsg;
       pmsg.header.stamp = this->now();
       pmsg.header.frame_id = map_frame_;
       pmsg.point.x = tx; pmsg.point.y = ty; pmsg.point.z = 0.0;
       target_pub_->publish(pmsg);
 
-      // Marker sphère (position)
+      // --- Marker sphère (position)
       visualization_msgs::msg::Marker m;
       m.header = pmsg.header;
       m.ns = "target_local"; m.id = 1;
@@ -328,7 +452,7 @@ void HiveNavBrainNode::onLoop()
       else                                                             { m.color.r = 0.1; m.color.g = 0.4; m.color.b = 1.0; }
       target_marker_pub_->publish(m);
 
-      // Marker flèche (orientation) — alignée lanelet start->end
+      // --- Marker flèche (orientation le long du lanelet sous-jacent)
       double yaw_path = 0.0;
       if (heading_on_path_at(tx, ty, yaw_path)) {
         visualization_msgs::msg::Marker a;
@@ -342,16 +466,173 @@ void HiveNavBrainNode::onLoop()
         a.pose.orientation.y = 0.0;
         a.pose.orientation.z = std::sin(h);
         a.pose.orientation.w = std::cos(h);
-        // longueur/épaisseur
-        a.scale.x = 0.9;  // longueur
-        a.scale.y = 0.25; // largeur
-        a.scale.z = 0.25; // hauteur
-        a.color.a = 0.9;
-        a.color.r = 1.0; a.color.g = 0.7; a.color.b = 0.2;
+        a.scale.x = 0.9;  a.scale.y = 0.25; a.scale.z = 0.25;
+        a.color.a = 0.9;  a.color.r = 1.0;  a.color.g = 0.7;  a.color.b = 0.2;
         target_marker_pub_->publish(a);
       }
+
+      // ---------- Handoff vers ASTAR final (une seule fois) ----------
+      // Helper local : vrai "dernier point" du chemin (utilise N-1 si possible)
+      auto get_true_last_endpoint = [](const std::vector<hive_interface2::msg::LaneletMini2>& path,
+                                       double gx, double gy,
+                                       double &ex, double &ey) -> bool
+      {
+        if (path.empty()) return false;
+
+        // Trouver dernier lanelet non dégénéré
+        int last_i = -1;
+        for (int i = static_cast<int>(path.size()) - 1; i >= 0; --i) {
+          const auto &ll = path[static_cast<size_t>(i)];
+          const double L = std::hypot(ll.end_point_x - ll.start_point_x,
+                                      ll.end_point_y - ll.start_point_y);
+          if (L > 1e-6) { last_i = i; break; }
+        }
+        if (last_i < 0) return false;
+
+        const auto &L = path[static_cast<size_t>(last_i)];
+        const double Ax = L.start_point_x, Ay = L.start_point_y;
+        const double Bx = L.end_point_x,   By = L.end_point_y;
+
+        // Chercher un précédent non dégénéré
+        int prev_i = -1;
+        for (int i = last_i - 1; i >= 0; --i) {
+          const auto &ll = path[static_cast<size_t>(i)];
+          const double len = std::hypot(ll.end_point_x - ll.start_point_x,
+                                        ll.end_point_y - ll.start_point_y);
+          if (len > 1e-6) { prev_i = i; break; }
+        }
+
+        auto near2 = [](double x1,double y1,double x2,double y2){ return std::hypot(x1-x2, y1-y2) <= 0.25; };
+
+        if (prev_i >= 0) {
+          const auto &P = path[static_cast<size_t>(prev_i)];
+          // Le point commun avec N-1 est le "début réel" du dernier segment;
+          // le "vrai dernier point" est l'autre extrémité.
+          if (near2(Ax, Ay, P.start_point_x, P.start_point_y) ||
+              near2(Ax, Ay, P.end_point_x,   P.end_point_y)) {
+            ex = Bx; ey = By; return true; // A est le joint -> fin = B
+          }
+          if (near2(Bx, By, P.start_point_x, P.start_point_y) ||
+              near2(Bx, By, P.end_point_x,   P.end_point_y)) {
+            ex = Ax; ey = Ay; return true; // B est le joint -> fin = A
+          }
+          // Pas trouvé ? fallback sur proximité du goal
+        }
+
+        // Fallback: l’extrémité la plus proche du goal est la fin
+        double dA = std::hypot(Ax - gx, Ay - gy);
+        double dB = std::hypot(Bx - gx, By - gy);
+        if (dB <= dA) { ex = Bx; ey = By; } else { ex = Ax; ey = Ay; }
+        return true;
+      };
+
+      bool at_end = false;
+      if (!path_copy.empty()) {
+        double ex=0.0, ey=0.0;
+        if (get_true_last_endpoint(path_copy, goal.x, goal.y, ex, ey)) {
+          at_end = (std::hypot(tx - ex, ty - ey) <= 0.25);
+        }
+      }
+
+      // Ne déclencher le handoff FINAL que :
+      // - si on touche la fin,
+      // - si on ne l’a pas déjà fait,
+      // - et si on n’est pas déjà en attente de planning.
+      if (at_end &&
+          !did_handoff_final_astar_ &&
+          gs_.status() != hive_nav::MissionStatus::WAITING_FOR_HIVE_PLANNER)
+      {
+        if (gs_.movement_mode() != hive_nav::MovementMode::ASTAR_PLANNER) {
+          gs_.set_movement_mode(hive_nav::MovementMode::ASTAR_PLANNER);
+          RCLCPP_INFO(this->get_logger(),
+            "%s[handoff]%s local target is at end of lanelets -> switch to %sastar_planner%s and plan to final goal",
+            FIX, color::RESET, VAR, FIX);
+        } else {
+          RCLCPP_INFO(this->get_logger(),
+            "%s[handoff]%s local target is at end of lanelets -> plan to final goal",
+            FIX, color::RESET);
+        }
+
+        cancel_follow_if_running("handoff to final astar");
+
+        // CPTP FINAL vers la destination (une seule fois)
+        if (!path_action_client_->wait_for_action_server(100ms)) {
+          RCLCPP_ERROR(this->get_logger(), "%s[astar]%s action server %s/%s%s not available",
+                       FIX, color::RESET, VAR, ("/"+P_.ns+"/compute_path_through_poses").c_str(), FIX);
+        } else {
+          CPTP::Goal gmsg;
+          gmsg.use_start = true;
+          gmsg.start.header.frame_id = map_frame_;
+          gmsg.start.header.stamp = this->now();
+          gmsg.start.pose = gs_.robot().pose_map.pose;
+
+          geometry_msgs::msg::PoseStamped g;
+          g.header.frame_id = map_frame_;
+          g.header.stamp = this->now();
+          g.pose = gs_.mission().destination.pose; // but final (pos + yaw)
+
+          gmsg.goals.goals.clear();
+          gmsg.goals.goals.push_back(g);
+
+          waiting_astar_ = true;
+          did_handoff_final_astar_ = true; // verrou pour ne pas relancer
+          gs_.set_status(hive_nav::MissionStatus::WAITING_FOR_HIVE_PLANNER);
+
+          RCLCPP_INFO(this->get_logger(),
+            "%s[astar]%s send CPTP FINAL: start(%s%.2f%s,%s%.2f%s) -> goal(%s%.2f%s,%s%.2f%s)",
+            FIX, color::RESET,
+            VAR, gmsg.start.pose.position.x, FIX, VAR, gmsg.start.pose.position.y, FIX,
+            VAR, g.pose.position.x, FIX, VAR, g.pose.position.y, FIX);
+
+          auto send_goal_options = rclcpp_action::Client<CPTP>::SendGoalOptions();
+          send_goal_options.result_callback =
+            [this](const rclcpp_action::ClientGoalHandle<CPTP>::WrappedResult &res)
+            {
+              waiting_astar_ = false;
+
+              if (res.code != rclcpp_action::ResultCode::SUCCEEDED) {
+                RCLCPP_ERROR(this->get_logger(),
+                  "%s[astar]%s FINAL action result code != SUCCEEDED (%s%d%s)",
+                  FIX, color::RESET, VAR, static_cast<int>(res.code), FIX);
+                gs_.set_status(hive_nav::MissionStatus::READY_FOR_PATH);
+                did_handoff_final_astar_ = false; // autorise un retry
+                return;
+              }
+
+              const auto &path = res.result->path;
+              const auto err   = res.result->error_code;
+              if (err != nav2_msgs::action::ComputePathThroughPoses_Result::NONE || path.poses.empty()) {
+                RCLCPP_ERROR(this->get_logger(),
+                  "%s[astar]%s FINAL planner error_code=%s%u%s msg=%s\"%s\"%s",
+                  FIX, color::RESET,
+                  VAR, err, FIX,
+                  VAR, res.result->error_msg.c_str(), FIX);
+                gs_.set_status(hive_nav::MissionStatus::READY_FOR_PATH);
+                did_handoff_final_astar_ = false; // autorise un retry
+                return;
+              }
+
+              auto path_copy2 = path;
+              path_copy2.header.stamp = this->now();
+              hive_path_pub_->publish(path_copy2);
+              gs_.set_mission_path(path_copy2);
+              gs_.set_status(hive_nav::MissionStatus::READY_TO_RUN);
+
+              const double tplan = res.result->planning_time.sec + res.result->planning_time.nanosec*1e-9;
+              RCLCPP_INFO(this->get_logger(),
+                "%s[astar]%s FINAL path received: poses=%s%zu%s planning_time=%s%.3f%s s -> status=%s%s%s",
+                FIX, color::RESET,
+                VAR, path_copy2.poses.size(), FIX,
+                VAR, tplan, FIX,
+                VAR, hive_nav::to_string(gs_.status()), FIX);
+            };
+
+          path_action_client_->async_send_goal(gmsg, send_goal_options);
+        }
+      }
+
     } else {
-      // delete markers
+      // Pas de target -> supprimer les markers
       for (int id : {1,2}) {
         visualization_msgs::msg::Marker m;
         m.header.stamp = this->now();
@@ -364,12 +645,14 @@ void HiveNavBrainNode::onLoop()
     }
   }
 
-  // 5) Heartbeat (1 Hz)
+  // ---------------------------------
+  // 5) Heartbeat (1 Hz, logs utiles)
+  // ---------------------------------
   if ((loop_tick_ % 10) == 0) {
     const auto mode = gs_.movement_mode();
     if (rob.has_pose) {
       RCLCPP_INFO(this->get_logger(),
-        "%s[loop]%s heartbeat — data: route=%s%s%s poi=%s%s%s free_zone=%s%s%s  status=%s%s%s  mode=%s%s%s  pose(map)=%s%.2f%s,%s%.2f%s,%s%.2f%s  dist_to_path=%s%.2f%s m %s%s%s",
+        "%s[loop]%s heartbeat — data: route=%s%s%s poi=%s%s%s free_zone=%s%s%s  status=%s%s%s  mode=%s%s%s  pose(map)=%s%.2f%s,%s%.2f%s,%s%.2f%s  dist_to_path=%s%.2f%s m %s%s%s  dist_to_goal=%s%.2f%s m %s%s%s",
         FIX, color::RESET,
         VAR, (store_.has_lanelets() ? "OK" : "—"), FIX,
         VAR, (store_.has_pois() ? "OK" : "—"), FIX,
@@ -380,11 +663,13 @@ void HiveNavBrainNode::onLoop()
         VAR, rob.pose_map.pose.position.y, FIX,
         VAR, rob.pose_map.pose.position.z, FIX,
         VAR, dist_to_path_m, FIX,
-        VAR, dist_note.c_str(), FIX
+        VAR, dist_note.c_str(), FIX,
+        VAR, dist_to_goal_m, FIX,
+        VAR, goal_note.c_str(), FIX
       );
     } else {
       RCLCPP_INFO(this->get_logger(),
-        "%s[loop]%s heartbeat — data: route=%s%s%s poi=%s%s%s free_zone=%s%s%s  status=%s%s%s  mode=%s%s%s  pose(map)=%sN/A%s  dist_to_path=%s%.2f%s m %s%s%s",
+        "%s[loop]%s heartbeat — data: route=%s%s%s poi=%s%s%s free_zone=%s%s%s  status=%s%s%s  mode=%s%s%s  pose(map)=%sN/A%s  dist_to_path=%s%.2f%s m %s%s%s  dist_to_goal=%s%.2f%s m %s%s%s",
         FIX, color::RESET,
         VAR, (store_.has_lanelets() ? "OK" : "—"), FIX,
         VAR, (store_.has_pois() ? "OK" : "—"), FIX,
@@ -393,17 +678,23 @@ void HiveNavBrainNode::onLoop()
         VAR, hive_nav::to_string(gs_.movement_mode()), FIX,
         VAR, FIX,
         VAR, dist_to_path_m, FIX,
-        VAR, dist_note.c_str(), FIX
+        VAR, dist_note.c_str(), FIX,
+        VAR, dist_to_goal_m, FIX,
+        VAR, goal_note.c_str(), FIX
       );
     }
   }
 
-  // 6) Demande du global path (lanelets)
+  // -----------------------------------------------------
+  // 6) Réception des lanelets globaux si demandé
+  // -----------------------------------------------------
   if (gs_.status() == hive_nav::MissionStatus::READY_TO_GET_GLOBAL_PATH) {
     try_request_global_path();
   }
 
-  // 7) Si READY_FOR_PATH :
+  // -----------------------------------------------------
+  // 7) Construction / demande de path selon mode courant
+  // -----------------------------------------------------
   if (gs_.status() == hive_nav::MissionStatus::READY_FOR_PATH) {
 
     // HIVE_PLANNER -> construire nav_msgs/Path depuis lanelets
@@ -443,11 +734,11 @@ void HiveNavBrainNode::onLoop()
       );
     }
 
-    // ASTAR_PLANNER -> envoyer une CPTP au point local avec orientation alignée lanelet
+    // ASTAR_PLANNER -> CPTP vers la target locale (orientée lanelet)
     if (gs_.movement_mode() == hive_nav::MovementMode::ASTAR_PLANNER &&
         !waiting_astar_)
     {
-      // Construire la cible locale (règle ASTAR déjà gérée)
+      // Construire la cible locale
       std::vector<hive_interface2::msg::LaneletMini2> path_copy;
       { std::lock_guard<std::mutex> lk(path_mtx_); path_copy = current_path_; }
 
@@ -470,11 +761,11 @@ void HiveNavBrainNode::onLoop()
         RCLCPP_ERROR(this->get_logger(), "%s[astar]%s action server %s/%s%s not available",
                      FIX, color::RESET, VAR, ("/"+P_.ns+"/compute_path_through_poses").c_str(), FIX);
       } else {
-        CPTP::Goal goal;
-        goal.use_start = true;
-        goal.start.header.frame_id = map_frame_;
-        goal.start.header.stamp = this->now();
-        goal.start.pose = gs_.robot().pose_map.pose;
+        CPTP::Goal gmsg;
+        gmsg.use_start = true;
+        gmsg.start.header.frame_id = map_frame_;
+        gmsg.start.header.stamp = this->now();
+        gmsg.start.pose = gs_.robot().pose_map.pose;
 
         geometry_msgs::msg::PoseStamped g;
         g.header.frame_id = map_frame_;
@@ -483,7 +774,7 @@ void HiveNavBrainNode::onLoop()
         g.pose.position.y = ty;
         g.pose.position.z = 0.0;
 
-        // Orientation alignée lanelet start->end au point (tx,ty)
+        // Orientation alignée lanelet
         double yaw_path = 0.0;
         if (heading_on_path_at(tx, ty, yaw_path)) {
           const double h = yaw_path * 0.5;
@@ -495,19 +786,17 @@ void HiveNavBrainNode::onLoop()
           g.pose.orientation.w = 1.0; // fallback
         }
 
-        // Jazzy+ : wrapper Goals -> goal.goals.goals
-        goal.goals.goals.clear();
-        goal.goals.goals.push_back(g);
+        gmsg.goals.goals.clear();
+        gmsg.goals.goals.push_back(g);
 
         waiting_astar_ = true;
-        gs_.set_status(hive_nav::MissionStatus::WAITING_FOR_HIVE_PLANNER); // "en attente d'un planner"
+        gs_.set_status(hive_nav::MissionStatus::WAITING_FOR_HIVE_PLANNER);
 
         RCLCPP_INFO(this->get_logger(),
-          "%s[astar]%s send CPTP: start(%s%.2f%s,%s%.2f%s) -> local(%s%.2f%s,%s%.2f%s) yaw=%s%.2f%s rad",
+          "%s[astar]%s send CPTP: start(%s%.2f%s,%s%.2f%s) -> local(%s%.2f%s,%s%.2f%s)",
           FIX, color::RESET,
-          VAR, goal.start.pose.position.x, FIX, VAR, goal.start.pose.position.y, FIX,
-          VAR, g.pose.position.x, FIX, VAR, g.pose.position.y, FIX,
-          VAR, yaw_path, FIX);
+          VAR, gmsg.start.pose.position.x, FIX, VAR, gmsg.start.pose.position.y, FIX,
+          VAR, g.pose.position.x, FIX, VAR, g.pose.position.y, FIX);
 
         auto send_goal_options = rclcpp_action::Client<CPTP>::SendGoalOptions();
         send_goal_options.result_callback =
@@ -535,24 +824,33 @@ void HiveNavBrainNode::onLoop()
               return;
             }
 
-            auto path_copy = path;
-            path_copy.header.stamp = this->now();
-            hive_path_pub_->publish(path_copy);
-            gs_.set_mission_path(path_copy);
+            auto path_copy2 = path;
+            path_copy2.header.stamp = this->now();
+            hive_path_pub_->publish(path_copy2);
+            gs_.set_mission_path(path_copy2);
             gs_.set_status(hive_nav::MissionStatus::READY_TO_RUN);
 
             const double tplan = res.result->planning_time.sec + res.result->planning_time.nanosec*1e-9;
             RCLCPP_INFO(this->get_logger(),
               "%s[astar]%s path received: poses=%s%zu%s planning_time=%s%.3f%s s -> status=%s%s%s",
               FIX, color::RESET,
-              VAR, path_copy.poses.size(), FIX,
+              VAR, path_copy2.poses.size(), FIX,
               VAR, tplan, FIX,
               VAR, hive_nav::to_string(gs_.status()), FIX);
           };
 
-        path_action_client_->async_send_goal(goal, send_goal_options);
+        path_action_client_->async_send_goal(gmsg, send_goal_options);
       }
     }
+  }
+
+  // -----------------------------------------------
+  // 8) READY_TO_RUN -> envoyer au controller (MPPI)
+  // -----------------------------------------------
+  if (gs_.status() == hive_nav::MissionStatus::READY_TO_RUN
+      && !running_follow_
+      && !waiting_follow_) {
+    maybe_send_follow_path();
   }
 }
 
@@ -690,7 +988,6 @@ bool HiveNavBrainNode::heading_on_path_at(double x, double y, double &yaw) const
 
     double d = 0.0;
     if (vv <= 1e-12) {
-      // Segment dégénéré
       const double dx = x - ax, dy = y - ay;
       d = std::sqrt(dx*dx + dy*dy);
     } else {
@@ -713,4 +1010,102 @@ bool HiveNavBrainNode::heading_on_path_at(double x, double y, double &yaw) const
 
   yaw = std::atan2(best_vy, best_vx); // start -> end
   return true;
+}
+
+// =======================
+//   Controller server
+// =======================
+void HiveNavBrainNode::maybe_send_follow_path()
+{
+  // Éviter les envois multiples
+  if (waiting_follow_ || running_follow_) return;
+
+  // Récupérer le path stocké (hive ou astar)
+  if (!gs_.has_mission_path()) {
+    RCLCPP_WARN_THROTTLE(this->get_logger(), *this->get_clock(), 2000,
+      "%s[follow]%s no mission path available to send", FIX, color::RESET);
+    return;
+  }
+  if (!follow_action_client_->wait_for_action_server(100ms)) {
+    RCLCPP_ERROR(this->get_logger(), "%s[follow]%s action server %s/%s%s not available",
+                 FIX, color::RESET, VAR, (P_.ns + "/follow_path").c_str(), FIX);
+    return;
+  }
+
+  auto path = gs_.mission().general_path;      // copie
+  path.header.stamp = this->now();             // fraicheur
+
+  FP::Goal goal;
+  goal.path = path;
+  goal.controller_id = "";     // laisser vide -> défaut
+  goal.goal_checker_id = "";   // laisser vide -> défaut
+
+  waiting_follow_   = true;
+  last_follow_mode_ = gs_.movement_mode();
+
+  RCLCPP_INFO(this->get_logger(),
+    "%s[follow]%s send path to controller: poses=%s%zu%s mode=%s%s%s",
+    FIX, color::RESET,
+    VAR, path.poses.size(), FIX,
+    VAR, hive_nav::to_string(last_follow_mode_), FIX);
+
+  auto send_opts = rclcpp_action::Client<FP>::SendGoalOptions();
+
+  send_opts.goal_response_callback =
+    [this](std::shared_ptr<FPGoalHandle> handle)
+    {
+      waiting_follow_ = false;
+      if (!handle) {
+        RCLCPP_ERROR(this->get_logger(), "%s[follow]%s goal was rejected by controller",
+                     FIX, color::RESET);
+        return;
+      }
+      follow_goal_handle_ = handle;
+      running_follow_ = true;
+      RCLCPP_INFO(this->get_logger(), "%s[follow]%s goal accepted by controller",
+                  FIX, color::RESET);
+    };
+
+  send_opts.result_callback =
+    [this](const rclcpp_action::ClientGoalHandle<FP>::WrappedResult &res)
+    {
+      running_follow_ = false;
+      waiting_follow_ = false;
+
+      if (res.code == rclcpp_action::ResultCode::SUCCEEDED) {
+        RCLCPP_INFO(this->get_logger(), "%s[follow]%s result: SUCCEEDED", FIX, color::RESET);
+
+        // ✅ ARRÊT DU CYCLE : on passe en IDLE et on annule tout suivi restant.
+        gs_.set_status(hive_nav::MissionStatus::IDLE);
+        cancel_follow_if_running("goal reached");
+        return;
+      }
+
+      RCLCPP_ERROR(this->get_logger(),
+        "%s[follow]%s result code: %s%d%s",
+        FIX, color::RESET, VAR, static_cast<int>(res.code), FIX);
+
+      // En cas d’échec : on redevient "prêt à replanifier", pas READY_TO_RUN
+      gs_.set_status(hive_nav::MissionStatus::READY_FOR_PATH);
+    };
+
+  follow_action_client_->async_send_goal(goal, send_opts);
+}
+
+void HiveNavBrainNode::cancel_follow_if_running(const char* why)
+{
+  if (!running_follow_ && !waiting_follow_) return;
+
+  if (follow_goal_handle_) {
+    RCLCPP_INFO(this->get_logger(), "%s[follow]%s cancel current follow (reason=%s%s%s)",
+                FIX, color::RESET, VAR, (why ? why : ""), FIX);
+    follow_action_client_->async_cancel_goal(follow_goal_handle_);
+  } else {
+    RCLCPP_INFO(this->get_logger(), "%s[follow]%s cancel all goals (no handle) (reason=%s%s%s)",
+                FIX, color::RESET, VAR, (why ? why : ""), FIX);
+    follow_action_client_->async_cancel_all_goals();
+  }
+  running_follow_ = false;
+  waiting_follow_ = false;
+  follow_goal_handle_.reset();
 }

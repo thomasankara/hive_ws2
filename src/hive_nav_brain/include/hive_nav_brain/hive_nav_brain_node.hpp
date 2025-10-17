@@ -23,7 +23,9 @@
 #include <visualization_msgs/msg/marker.hpp>
 #include <nav_msgs/msg/path.hpp>
 #include <nav_msgs/msg/goals.hpp>  // Jazzy+: wrapper des poses
+
 #include <nav2_msgs/action/compute_path_through_poses.hpp>
+#include <nav2_msgs/action/follow_path.hpp>
 
 #include "hive_nav_brain/hive_planner.hpp"
 #include "hive_nav_brain/params.hpp"
@@ -36,13 +38,13 @@ public:
   void blocking_startup();
 
 private:
-  // Callbacks topics
+  // ===== Callbacks topics =====
   void onLanelets(const hive_interface2::msg::LaneletMini2Array::SharedPtr msg);
   void onPois(const hive_interface2::msg::PoiArray::SharedPtr msg);
   void onFreeZones(const hive_interface2::msg::FreeZoneArray::SharedPtr msg);
   void onCommand(const hive_interface2::msg::NavBrainCommand::SharedPtr cmd);
 
-  // Helpers
+  // ===== Helpers =====
   bool have_all_required_data(bool need_poi, bool need_fz) const;
 
   // Boucle 10 Hz
@@ -51,19 +53,23 @@ private:
   // Demande de global path (lanelets)
   void try_request_global_path();
 
-  // --- Distance au path lanelets ---
+  // Distance au path lanelets
   double compute_distance_to_current_path_xy(double x, double y, std::string &note) const;
 
-  // --- Yaw local aligné avec le lanelet sous-jacent (start->end) au point (x,y) ---
+  // Yaw local aligné lanelet (start->end) au point (x,y)
   bool heading_on_path_at(double x, double y, double &yaw) const;
 
+  // ===== Navigation (controller_server) =====
+  void maybe_send_follow_path();                          // envoie le path courant au controller
+  void cancel_follow_if_running(const char* reason = ""); // annule le follow en cours
+
 private:
-  // Params / store / état global
+  // ===== Params / store / état global =====
   HiveNavParams P_;
   DataStore     store_;
   hive_nav::GlobalState gs_;
 
-  // ROS comms
+  // ===== ROS comms =====
   rclcpp::Subscription<hive_interface2::msg::LaneletMini2Array>::SharedPtr sub_lanelets_;
   rclcpp::Subscription<hive_interface2::msg::PoiArray>::SharedPtr          sub_pois_;
   rclcpp::Subscription<hive_interface2::msg::FreeZoneArray>::SharedPtr     sub_freezones_;
@@ -74,34 +80,45 @@ private:
   rclcpp::TimerBase::SharedPtr loop_timer_;
   uint64_t                     loop_tick_ = 0;
 
-  // TF
+  // ===== TF =====
   std::shared_ptr<tf2_ros::Buffer> tf_buffer_;
   std::shared_ptr<tf2_ros::TransformListener> tf_listener_;
   std::string map_frame_ = "map";
   std::string base_footprint_frame_; // <ns>/base_footprint
 
-  // Service route planner (lanelets)
+  // ===== Service route planner (lanelets) =====
   rclcpp::Client<hive_interface2::srv::ComputeRoute>::SharedPtr route_client_;
 
-  // Stockage du dernier global path (lanelets)
+  // ===== Stockage du dernier global path (lanelets) =====
   std::vector<hive_interface2::msg::LaneletMini2> current_path_;
   mutable std::mutex path_mtx_;
 
-  // Publishers target locale
+  // ===== Publishers target locale =====
   rclcpp::Publisher<geometry_msgs::msg::PointStamped>::SharedPtr target_pub_;
   rclcpp::Publisher<visualization_msgs::msg::Marker>::SharedPtr  target_marker_pub_;
 
-  // Chemins nav2 (visualisation unique, on y publie aussi bien hive/astar)
+  // ===== Chemins nav2 (visualisation unique: hive/astar) =====
   rclcpp::Publisher<nav_msgs::msg::Path>::SharedPtr hive_path_pub_;
 
-  // Hive planner (éviter builds concurrents)
+  // ===== Hive planner (éviter builds concurrents) =====
   bool building_hive_path_{false};
 
-  // Action Nav2: ComputePathThroughPoses (pour ASTAR_PLANNER)
+  // ===== Actions Nav2 =====
+  // Planner (ASTAR_PLANNER)
   using CPTP = nav2_msgs::action::ComputePathThroughPoses;
   rclcpp_action::Client<CPTP>::SharedPtr path_action_client_;
   bool waiting_astar_{false};
 
-  // Constante lookahead (m) pour hive_planner
-  static constexpr double kLookaheadM = 6.0;
+  // Controller (FollowPath)
+  using FP = nav2_msgs::action::FollowPath;
+  using FPGoalHandle = rclcpp_action::ClientGoalHandle<FP>;
+  rclcpp_action::Client<FP>::SharedPtr follow_action_client_;
+  std::shared_ptr<FPGoalHandle> follow_goal_handle_{nullptr};
+  bool waiting_follow_{false};
+  bool running_follow_{false};
+  hive_nav::MovementMode last_follow_mode_{hive_nav::MovementMode::ASTAR_PLANNER};
+
+  // ===== Constantes =====
+  bool did_handoff_final_astar_{false};
+  static constexpr double kLookaheadM = 6.0; // lookahead (m) pour hive_planner
 };
