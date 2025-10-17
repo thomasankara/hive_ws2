@@ -1,0 +1,10 @@
+In file included from [01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/src/hive_nav_brain_node.cpp:1[m[K:
+[01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/hive_nav_brain_node.hpp:99:66:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Krclcpp::Publisher<geometry_msgs::msg::PointStamped_<std::allocator<void> > >::SharedPtr HiveNavBrainNode::target_pub_[m[K’
+   99 |   rclcpp::Publisher<geometry_msgs::msg::PointStamped>::SharedPtr [01;31m[Ktarget_pub_[m[K;
+      |                                                                  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/hive_nav_brain_node.hpp:95:66:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krclcpp::Publisher<geometry_msgs::msg::PointStamped_<std::allocator<void> > >::SharedPtr HiveNavBrainNode::target_pub_[m[K’
+   95 |   rclcpp::Publisher<geometry_msgs::msg::PointStamped>::SharedPtr [01;36m[Ktarget_pub_[m[K;
+      |                                                                  [01;36m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/hive_nav_brain_lib.dir/build.make:76: CMakeFiles/hive_nav_brain_lib.dir/src/hive_nav_brain_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/hive_nav_brain_lib.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
