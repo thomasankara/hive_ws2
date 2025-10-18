@@ -954,6 +954,9 @@ void HiveNavBrainNode::maybe_send_follow_path()
 
   auto path = gs_.mission().general_path; // copie locale
 
+  last_follow_sent_ = path;
+  have_frozen_follow_ = true;
+
   // 2) Path vide ? -> replanifier
   if (path.poses.empty()) {
     RCLCPP_WARN(this->get_logger(),
@@ -974,7 +977,7 @@ void HiveNavBrainNode::maybe_send_follow_path()
   // 4) Envoyer le path
   path.header.stamp = this->now(); // fraîcheur du header
   FP::Goal goal;
-  goal.path = path;
+  goal.path = last_follow_sent_;
   goal.controller_id = "";     // défaut
   goal.goal_checker_id = "";   // défaut
 
@@ -994,17 +997,25 @@ void HiveNavBrainNode::maybe_send_follow_path()
     {
       waiting_follow_ = false;
       if (!handle) {
-        // Rejeté par le controller -> repasser en READY_FOR_PATH
-        RCLCPP_ERROR(this->get_logger(),
-          "%s[follow]%s goal was REJECTED by controller -> set READY_FOR_PATH",
-          FIX, color::RESET);
+        RCLCPP_ERROR(get_logger(), "[follow] goal REJECTED -> READY_FOR_PATH");
+        have_frozen_follow_ = false; // on libère le freeze seulement si REJECT
         gs_.set_status(hive_nav::MissionStatus::READY_FOR_PATH);
         return;
       }
       follow_goal_handle_ = handle;
       running_follow_ = true;
-      RCLCPP_INFO(this->get_logger(), "%s[follow]%s goal accepted by controller",
-                  FIX, color::RESET);
+
+      // Log défensif : taille + 1er/dernier point
+      const auto& p = last_follow_sent_;
+      if (!p.poses.empty()) {
+        const auto &a = p.poses.front().pose.position;
+        const auto &b = p.poses.back().pose.position;
+        RCLCPP_INFO(get_logger(),
+          "[follow] accepted: frozen plan poses=%zu frame=%s first=(%.2f,%.2f) last=(%.2f,%.2f)",
+          p.poses.size(), p.header.frame_id.c_str(), a.x,a.y, b.x,b.y);
+      } else {
+        RCLCPP_WARN(get_logger(), "[follow] accepted but frozen plan is EMPTY (bug guard)");
+      }
     };
 
   send_opts.result_callback =
@@ -1012,19 +1023,15 @@ void HiveNavBrainNode::maybe_send_follow_path()
     {
       running_follow_ = false;
       waiting_follow_ = false;
+      have_frozen_follow_ = false;   // on libère le freeze UNIQUEMENT ici
 
       if (res.code == rclcpp_action::ResultCode::SUCCEEDED) {
-        RCLCPP_INFO(this->get_logger(), "%s[follow]%s result: SUCCEEDED", FIX, color::RESET);
-        // On s’assure d’annuler les restes
-        cancel_follow_if_running("goal reached");
+        RCLCPP_INFO(get_logger(), "[follow] result: SUCCEEDED");
+        cancel_follow_if_running("goal reached"); // juste au cas où
         return;
       }
 
-      RCLCPP_ERROR(this->get_logger(),
-        "%s[follow]%s result code: %s%d%s -> set READY_FOR_PATH",
-        FIX, color::RESET, VAR, static_cast<int>(res.code), FIX);
-
-      // Échec : on redemande un path
+      RCLCPP_ERROR(get_logger(), "[follow] result code: %d -> READY_FOR_PATH", (int)res.code);
       gs_.set_status(hive_nav::MissionStatus::READY_FOR_PATH);
     };
 

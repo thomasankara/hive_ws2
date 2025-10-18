@@ -126,4 +126,6 @@ private:
   // ===== Constantes =====
   bool did_handoff_final_astar_{false};
   static constexpr double kLookaheadM = 6.0; // lookahead (m) pour hive_planner
+  nav_msgs::msg::Path last_follow_sent_;  // copie gelée du plan envoyé
+  bool have_frozen_follow_{false};
 };

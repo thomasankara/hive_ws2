@@ -1,0 +1,1152 @@
+[0.049s] Invoking command in '/home/thomas24/hive_ws2/build/hive_nav_brain': CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_planner:/home/thomas24/hive_ws2/install/nav2_controller:/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/home/thomas24/hive_ws2/install/hive_interface2:/home/thomas24/hive_ws2/install/nav2_bringup:/home/thomas24/hive_ws2/install/navigation2:/home/thomas24/hive_ws2/install/opennav_docking:/home/thomas24/hive_ws2/install/opennav_docking_core:/home/thomas24/hive_ws2/install/opennav_docking_bt:/home/thomas24/hive_ws2/install/nav2_dwb_controller:/home/thomas24/hive_ws2/install/dwb_plugins:/home/thomas24/hive_ws2/install/dwb_critics:/home/thomas24/hive_ws2/install/dwb_core:/home/thomas24/hive_ws2/install/nav_2d_utils:/home/thomas24/hive_ws2/install/dwb_msgs:/home/thomas24/hive_ws2/install/nav_2d_msgs:/home/thomas24/hive_ws2/install/nav2_waypoint_follower:/home/thomas24/hive_ws2/install/nav2_theta_star_planner:/home/thomas24/hive_ws2/install/nav2_smoother:/home/thomas24/hive_ws2/install/nav2_smac_planner:/home/thomas24/hive_ws2/install/nav2_rviz_plugins:/home/thomas24/hive_ws2/install/nav2_route:/home/thomas24/hive_ws2/install/nav2_rotation_shim_controller:/home/thomas24/hive_ws2/install/nav2_regulated_pure_pursuit_controller:/home/thomas24/hive_ws2/install/hive_nav_brain:/home/thomas24/hive_ws2/install/nav2_navfn_planner:/home/thomas24/hive_ws2/install/nav2_mppi_controller:/home/thomas24/hive_ws2/install/nav2_graceful_controller:/home/thomas24/hive_ws2/install/nav2_constrained_smoother:/home/thomas24/hive_ws2/install/nav2_bt_navigator:/home/thomas24/hive_ws2/install/nav2_behaviors:/home/thomas24/hive_ws2/install/nav2_collision_monitor:/home/thomas24/hive_ws2/install/hive_costmap:/home/thomas24/hive_ws2/install/costmap_queue:/home/thomas24/hive_ws2/install/nav2_velocity_smoother:/home/thomas24/hive_ws2/install/nav2_amcl:/home/thomas24/hive_ws2/install/nav2_system_tests:/home/thomas24/hive_ws2/install/vanilla_brain_nav2:/home/thomas24/hive_ws2/install/nav2_loopback_sim:/home/thomas24/hive_ws2/install/nav2_simple_commander:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/opt/ros/jazzy:/home/thomas24/hive_ws2/install/hive_route_planner:/home/thomas24/hive_ws2/install/dev_route_provider:/home/thomas24/hiveverse_ws/install/hive_simulation:/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_planner/lib:/home/thomas24/hive_ws2/install/nav2_controller/lib:/home/thomas24/hive_ws2/install/nav2_costmap_2d/lib:/home/thomas24/hive_ws2/install/nav2_map_server/lib:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager/lib:/home/thomas24/hive_ws2/install/nav2_behavior_tree/lib:/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_voxel_grid/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:/home/thomas24/hive_ws2/install/hive_interface2/lib:/home/thomas24/hive_ws2/install/hive_nav_brain/lib:/home/thomas24/hive_ws2/install/opennav_docking/lib:/home/thomas24/hive_ws2/install/opennav_docking_bt/lib:/home/thomas24/hive_ws2/install/dwb_plugins/lib:/home/thomas24/hive_ws2/install/dwb_critics/lib:/home/thomas24/hive_ws2/install/dwb_core/lib:/home/thomas24/hive_ws2/install/nav_2d_utils/lib:/home/thomas24/hive_ws2/install/dwb_msgs/lib:/home/thomas24/hive_ws2/install/nav_2d_msgs/lib:/home/thomas24/hive_ws2/install/nav2_waypoint_follower/lib:/home/thomas24/hive_ws2/install/nav2_theta_star_planner/lib:/home/thomas24/hive_ws2/install/nav2_smoother/lib:/home/thomas24/hive_ws2/install/nav2_smac_planner/lib:/home/thomas24/hive_ws2/install/nav2_rviz_plugins/lib:/home/thomas24/hive_ws2/install/nav2_route/lib:/home/thomas24/hive_ws2/install/nav2_rotation_shim_controller/lib:/home/thomas24/hive_ws2/install/nav2_regulated_pure_pursuit_controller/lib:/home/thomas24/hive_ws2/install/nav2_navfn_planner/lib:/home/thomas24/hive_ws2/install/nav2_mppi_controller/lib:/home/thomas24/hive_ws2/install/nav2_graceful_controller/lib:/home/thomas24/hive_ws2/install/nav2_constrained_smoother/lib:/home/thomas24/hive_ws2/install/nav2_bt_navigator/lib:/home/thomas24/hive_ws2/install/nav2_behaviors/lib:/home/thomas24/hive_ws2/install/nav2_collision_monitor/lib:/home/thomas24/hive_ws2/install/hive_costmap/lib:/home/thomas24/hive_ws2/install/costmap_queue/lib:/home/thomas24/hive_ws2/install/nav2_velocity_smoother/lib:/home/thomas24/hive_ws2/install/nav2_amcl/lib:/home/thomas24/hive_ws2/install/nav2_system_tests/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/vanilla_brain_nav2/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav_2d_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_loopback_sim/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages:/home/thomas24/hiveverse_ws/install/hive_tools/lib/python3.12/site-packages:/home/thomas24/hiveverse_ws/install/hive_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/thomas24/hive_ws2/build/hive_nav_brain -- -j16 -l16
+[0.139s] [ 14%] [32mBuilding CXX object CMakeFiles/hive_nav_brain_lib.dir/src/hive_nav_brain_node.cpp.o[0m
+[0.148s] [01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/src/hive_nav_brain_node.cpp:1:1:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K`[m[K’ in program
+[0.148s]     1 | [01;31m[K`[m[K``cpp
+[0.149s]       | [01;31m[K^[m[K
+[0.149s] [01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/src/hive_nav_brain_node.cpp:1:2:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K`[m[K’ in program
+[0.149s]     1 | `[01;31m[K`[m[K`cpp
+[0.149s]       |  [01;31m[K^[m[K
+[0.149s] [01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/src/hive_nav_brain_node.cpp:1:3:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K`[m[K’ in program
+[0.149s]     1 | ``[01;31m[K`[m[Kcpp
+[0.149s]       |   [01;31m[K^[m[K
+[0.459s] [01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/src/hive_nav_brain_node.cpp:1276:1:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K`[m[K’ in program
+[0.459s]  1276 | [01;31m[K`[m[K``
+[0.459s]       | [01;31m[K^[m[K
+[0.459s] [01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/src/hive_nav_brain_node.cpp:1276:2:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K`[m[K’ in program
+[0.459s]  1276 | `[01;31m[K`[m[K`
+[0.459s]       |  [01;31m[K^[m[K
+[0.459s] [01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/src/hive_nav_brain_node.cpp:1276:3:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K`[m[K’ in program
+[0.459s]  1276 | ``[01;31m[K`[m[K
+[0.459s]       |   [01;31m[K^[m[K
+[0.460s] [01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/src/hive_nav_brain_node.cpp:1:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kcpp[m[K’ does not name a type
+[0.460s]     1 | ```[01;31m[Kcpp[m[K
+[0.460s]       |    [01;31m[K^~~[m[K
+[0.462s] In file included from [01m[K/usr/include/c++/13/bits/stl_algobase.h:62[m[K,
+[0.462s]                  from [01m[K/usr/include/c++/13/vector:62[m[K,
+[0.462s]                  from [01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/include/hive_nav_brain/hive_nav_brain_node.hpp:3[m[K,
+[0.462s]                  from [01m[K/home/thomas24/hive_ws2/src/hive_nav_brain/src/hive_nav_brain_node.cpp:2[m[K:
+[0.462s] [01m[K/usr/include/c++/13/ext/type_traits.h:164:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr const bool __gnu_cxx::__is_null_pointer[m[K’ redeclared as different kind of entity
+[0.462s]   164 |   __is_null_pointer(std::nullptr_t[01;31m[K)[m[K
+[0.462s]       |                                   [01;31m[K^[m[K
+[0.462s] [01m[K/usr/include/c++/13/ext/type_traits.h:159:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Ktemplate<class _Type> constexpr bool __gnu_cxx::[01;32m[K__is_null_pointer[m[K(_Type)[m[K’
+[0.462s]   159 |     [01;36m[K__is_null_pointer[m[K(_Type)
+[0.462s]       |     [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[0.462s] [01m[K/usr/include/c++/13/ext/type_traits.h:164:26:[m[K [01;31m[Kerror: [m[K‘[01m[Knullptr_t[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.462s]   164 |   __is_null_pointer(std::[01;31m[Knullptr_t[m[K)
+[0.462s]       |                          [01;31m[K^~~~~~~~~[m[K
+[0.463s] In file included from [01m[K/usr/include/c++/13/bits/stl_pair.h:60[m[K,
+[0.463s]                  from [01m[K/usr/include/c++/13/bits/stl_algobase.h:64[m[K:
+[0.463s] [01m[K/usr/include/c++/13/type_traits:275:27:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.463s]   275 |   template <typename _Tp, [01;31m[Ksize_t[m[K = sizeof(_Tp)>
+[0.464s]       |                           [01;31m[K^~~~~~[m[K
+[0.464s] [01m[K/usr/include/c++/13/type_traits:510:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::size_t[m[K’ has not been declared
+[0.464s]   510 |   template<typename _Tp, [01;31m[Kstd[m[K::size_t _Size>
+[0.464s]       |                          [01;31m[K^~~[m[K
+[0.465s] [01m[K/usr/include/c++/13/type_traits:511:25:[m[K [01;31m[Kerror: [m[K‘[01m[K_Size[m[K’ was not declared in this scope
+[0.465s]   511 |     struct is_array<_Tp[[01;31m[K_Size[m[K]>
+[0.465s]       |                         [01;31m[K^~~~~[m[K
+[0.465s] [01m[K/usr/include/c++/13/type_traits:511:31:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.465s]   511 |     struct is_array<_Tp[_Size][01;31m[K>[m[K
+[0.465s]       |                               [01;31m[K^[m[K
+[0.466s] [01m[K/usr/include/c++/13/type_traits:617:33:[m[K [01;31m[Kerror: [m[K‘[01m[Knullptr_t[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.466s]   617 |     struct is_null_pointer<std::[01;31m[Knullptr_t[m[K>
+[0.466s]       |                                 [01;31m[K^~~~~~~~~[m[K
+[0.466s] [01m[K/usr/include/c++/13/type_traits:617:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.466s]   617 |     struct is_null_pointer<std::nullptr_t[01;31m[K>[m[K
+[0.466s]       |                                          [01;31m[K^[m[K
+[0.466s] [01m[K/usr/include/c++/13/type_traits:621:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.466s]   621 |     struct is_null_pointer<const std::nullptr_t[01;31m[K>[m[K
+[0.466s]       |                                                [01;31m[K^[m[K
+[0.466s] [01m[K/usr/include/c++/13/type_traits:625:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.466s]   625 |     struct is_null_pointer<volatile std::nullptr_t[01;31m[K>[m[K
+[0.466s]       |                                                   [01;31m[K^[m[K
+[0.466s] [01m[K/usr/include/c++/13/type_traits:629:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.466s]   629 |     struct is_null_pointer<const volatile std::nullptr_t[01;31m[K>[m[K
+[0.466s]       |                                                         [01;31m[K^[m[K
+[0.466s] [01m[K/usr/include/c++/13/type_traits:914:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.467s]   914 |   template<typename _Tp, [01;31m[Ksize_t[m[K _Size>
+[0.467s]       |                          [01;31m[K^~~~~~[m[K
+[0.467s] [01m[K/usr/include/c++/13/type_traits:915:40:[m[K [01;31m[Kerror: [m[K‘[01m[K_Size[m[K’ was not declared in this scope
+[0.467s]   915 |     struct __is_array_known_bounds<_Tp[[01;31m[K_Size[m[K]>
+[0.468s]       |                                        [01;31m[K^~~~~[m[K
+[0.468s] [01m[K/usr/include/c++/13/type_traits:915:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.468s]   915 |     struct __is_array_known_bounds<_Tp[_Size][01;31m[K>[m[K
+[0.468s]       |                                              [01;31m[K^[m[K
+[0.469s] [01m[K/usr/include/c++/13/type_traits:1348:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.469s]  1348 |     : public integral_constant<std::[01;31m[Ksize_t[m[K, alignof(_Tp)>
+[0.469s]       |                                     [01;31m[K^~~~~~[m[K
+[0.469s] [01m[K/usr/include/c++/13/type_traits:1348:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.469s]  1348 |     : public integral_constant<std::size_t, alignof(_Tp)[01;31m[K>[m[K
+[0.469s]       |                                                         [01;31m[K^[m[K
+[0.469s] [01m[K/usr/include/c++/13/type_traits:1348:57:[m[K [01;36m[Knote: [m[Kinvalid template non-type parameter
+[0.469s] [01m[K/usr/include/c++/13/type_traits:1357:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.469s]  1357 |     : public integral_constant<std::[01;31m[Ksize_t[m[K, 0> { };
+[0.469s]       |                                     [01;31m[K^~~~~~[m[K
+[0.469s] [01m[K/usr/include/c++/13/type_traits:1357:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.469s]  1357 |     : public integral_constant<std::size_t, 0[01;31m[K>[m[K { };
+[0.469s]       |                                              [01;31m[K^[m[K
+[0.469s] [01m[K/usr/include/c++/13/type_traits:1357:46:[m[K [01;36m[Knote: [m[Kinvalid template non-type parameter
+[0.469s] [01m[K/usr/include/c++/13/type_traits:1359:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::size_t[m[K’ has not been declared
+[0.469s]  1359 |   template<typename _Tp, [01;31m[Kstd[m[K::size_t _Size>
+[0.470s]       |                          [01;31m[K^~~[m[K
+[0.470s] [01m[K/usr/include/c++/13/type_traits:1360:21:[m[K [01;31m[Kerror: [m[K‘[01m[K_Size[m[K’ was not declared in this scope
+[0.470s]  1360 |     struct rank<_Tp[[01;31m[K_Size[m[K]>
+[0.470s]       |                     [01;31m[K^~~~~[m[K
+[0.470s] [01m[K/usr/include/c++/13/type_traits:1360:27:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.471s]  1360 |     struct rank<_Tp[_Size][01;31m[K>[m[K
+[0.471s]       |                           [01;31m[K^[m[K
+[0.471s] [01m[K/usr/include/c++/13/type_traits:1361:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.471s]  1361 |     : public integral_constant<std::[01;31m[Ksize_t[m[K, 1 + rank<_Tp>::value> { };
+[0.471s]       |                                     [01;31m[K^~~~~~[m[K
+[0.471s] [01m[K/usr/include/c++/13/type_traits:1361:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.471s]  1361 |     : public integral_constant<std::size_t, 1 + rank<_Tp>::value[01;31m[K>[m[K { };
+[0.471s]       |                                                                 [01;31m[K^[m[K
+[0.471s] [01m[K/usr/include/c++/13/type_traits:1361:65:[m[K [01;36m[Knote: [m[Kinvalid template non-type parameter
+[0.471s] [01m[K/usr/include/c++/13/type_traits:1365:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.471s]  1365 |     : public integral_constant<std::[01;31m[Ksize_t[m[K, 1 + rank<_Tp>::value> { };
+[0.471s]       |                                     [01;31m[K^~~~~~[m[K
+[0.471s] [01m[K/usr/include/c++/13/type_traits:1365:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.471s]  1365 |     : public integral_constant<std::size_t, 1 + rank<_Tp>::value[01;31m[K>[m[K { };
+[0.471s]       |                                                                 [01;31m[K^[m[K
+[0.472s] [01m[K/usr/include/c++/13/type_traits:1365:65:[m[K [01;36m[Knote: [m[Kinvalid template non-type parameter
+[0.472s] [01m[K/usr/include/c++/13/type_traits:1370:32:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ was not declared in this scope
+[0.472s]  1370 |     : public integral_constant<[01;31m[Ksize_t[m[K, 0> { };
+[0.472s]       |                                [01;31m[K^~~~~~[m[K
+[0.472s] [01m[K/usr/include/c++/13/type_traits:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.472s]   +++ |+[32m[K#include <cstddef>[m[K
+[0.472s]     1 | // C++11 <type_traits> -*- C++ -*-
+[0.472s] [01m[K/usr/include/c++/13/type_traits:1370:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.472s]  1370 |     : public integral_constant<size_t, 0[01;31m[K>[m[K { };
+[0.472s]       |                                         [01;31m[K^[m[K
+[0.472s] [01m[K/usr/include/c++/13/type_traits:1370:41:[m[K [01;36m[Knote: [m[Kinvalid template non-type parameter
+[0.472s] [01m[K/usr/include/c++/13/type_traits:1372:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.472s]  1372 |   template<typename _Tp, [01;31m[Ksize_t[m[K _Size>
+[0.472s]       |                          [01;31m[K^~~~~~[m[K
+[0.472s] [01m[K/usr/include/c++/13/type_traits:1373:23:[m[K [01;31m[Kerror: [m[K‘[01m[K_Size[m[K’ was not declared in this scope
+[0.472s]  1373 |     struct extent<_Tp[[01;31m[K_Size[m[K], 0>
+[0.472s]       |                       [01;31m[K^~~~~[m[K
+[0.473s] [01m[K/usr/include/c++/13/type_traits:1373:32:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.473s]  1373 |     struct extent<_Tp[_Size], 0[01;31m[K>[m[K
+[0.473s]       |                                [01;31m[K^[m[K
+[0.473s] [01m[K/usr/include/c++/13/type_traits:1374:32:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ was not declared in this scope
+[0.473s]  1374 |     : public integral_constant<[01;31m[Ksize_t[m[K, _Size> { };
+[0.473s]       |                                [01;31m[K^~~~~~[m[K
+[0.473s] [01m[K/usr/include/c++/13/type_traits:1374:32:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.473s] [01m[K/usr/include/c++/13/type_traits:1374:40:[m[K [01;31m[Kerror: [m[K‘[01m[K_Size[m[K’ was not declared in this scope
+[0.473s]  1374 |     : public integral_constant<size_t, [01;31m[K_Size[m[K> { };
+[0.473s]       |                                        [01;31m[K^~~~~[m[K
+[0.473s] [01m[K/usr/include/c++/13/type_traits:1374:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.473s]  1374 |     : public integral_constant<size_t, _Size[01;31m[K>[m[K { };
+[0.473s]       |                                             [01;31m[K^[m[K
+[0.473s] [01m[K/usr/include/c++/13/type_traits:1374:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[0.473s] [01m[K/usr/include/c++/13/type_traits:1376:42:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.474s]  1376 |   template<typename _Tp, unsigned _Uint, [01;31m[Ksize_t[m[K _Size>
+[0.474s]       |                                          [01;31m[K^~~~~~[m[K
+[0.474s] [01m[K/usr/include/c++/13/type_traits:1377:23:[m[K [01;31m[Kerror: [m[K‘[01m[K_Size[m[K’ was not declared in this scope
+[0.474s]  1377 |     struct extent<_Tp[[01;31m[K_Size[m[K], _Uint>
+[0.474s]       |                       [01;31m[K^~~~~[m[K
+[0.474s] [01m[K/usr/include/c++/13/type_traits:1377:36:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.474s]  1377 |     struct extent<_Tp[_Size], _Uint[01;31m[K>[m[K
+[0.475s]       |                                    [01;31m[K^[m[K
+[0.475s] [01m[K/usr/include/c++/13/type_traits:1382:32:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ was not declared in this scope
+[0.475s]  1382 |     : public integral_constant<[01;31m[Ksize_t[m[K, 0> { };
+[0.475s]       |                                [01;31m[K^~~~~~[m[K
+[0.475s] [01m[K/usr/include/c++/13/type_traits:1382:32:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.475s] [01m[K/usr/include/c++/13/type_traits:1382:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.475s]  1382 |     : public integral_constant<size_t, 0[01;31m[K>[m[K { };
+[0.475s]       |                                         [01;31m[K^[m[K
+[0.475s] [01m[K/usr/include/c++/13/type_traits:1382:41:[m[K [01;36m[Knote: [m[Kinvalid template non-type parameter
+[0.475s] [01m[K/usr/include/c++/13/type_traits:1764:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.475s]  1764 |       { static constexpr [01;31m[Ksize_t[m[K __size = sizeof(_Tp); };
+[0.475s]       |                          [01;31m[K^~~~~~[m[K
+[0.475s] [01m[K/usr/include/c++/13/type_traits:1764:26:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.475s] [01m[K/usr/include/c++/13/type_traits:1766:14:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.475s]  1766 |     template<[01;31m[Ksize_t[m[K _Sz, typename _Tp, bool = (_Sz <= _Tp::__size)>
+[0.475s]       |              [01;31m[K^~~~~~[m[K
+[0.476s] [01m[K/usr/include/c++/13/type_traits:1766:48:[m[K [01;31m[Kerror: [m[K‘[01m[K_Sz[m[K’ was not declared in this scope
+[0.476s]  1766 |     template<size_t _Sz, typename _Tp, bool = ([01;31m[K_Sz[m[K <= _Tp::__size)>
+[0.477s]       |                                                [01;31m[K^~~[m[K
+[0.477s] [01m[K/usr/include/c++/13/type_traits:1767:14:[m[K [01;31m[Kerror: [m[Kno default argument for ‘[01m[K_Tp[m[K’
+[0.477s]  1767 |       struct [01;31m[K__select[m[K;
+[0.477s]       |              [01;31m[K^~~~~~~~[m[K
+[0.477s] [01m[K/usr/include/c++/13/type_traits:1769:14:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.477s]  1769 |     template<[01;31m[Ksize_t[m[K _Sz, typename _Uint, typename... _UInts>
+[0.477s]       |              [01;31m[K^~~~~~[m[K
+[0.478s] [01m[K/usr/include/c++/13/type_traits:1770:23:[m[K [01;31m[Kerror: [m[K‘[01m[K_Sz[m[K’ was not declared in this scope
+[0.478s]  1770 |       struct __select<[01;31m[K_Sz[m[K, _List<_Uint, _UInts...>, true>
+[0.478s]       |                       [01;31m[K^~~[m[K
+[0.478s] [01m[K/usr/include/c++/13/type_traits:1770:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.478s]  1770 |       struct __select<_Sz, _List<_Uint, _UInts...>, true[01;31m[K>[m[K
+[0.478s]       |                                                         [01;31m[K^[m[K
+[0.478s] [01m[K/usr/include/c++/13/type_traits:1773:14:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.478s]  1773 |     template<[01;31m[Ksize_t[m[K _Sz, typename _Uint, typename... _UInts>
+[0.478s]       |              [01;31m[K^~~~~~[m[K
+[0.479s] [01m[K/usr/include/c++/13/type_traits:1774:23:[m[K [01;31m[Kerror: [m[K‘[01m[K_Sz[m[K’ was not declared in this scope
+[0.479s]  1774 |       struct __select<[01;31m[K_Sz[m[K, _List<_Uint, _UInts...>, false>
+[0.479s]       |                       [01;31m[K^~~[m[K
+[0.479s] [01m[K/usr/include/c++/13/type_traits:1774:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.479s]  1774 |       struct __select<_Sz, _List<_Uint, _UInts...>, false[01;31m[K>[m[K
+[0.479s]       |                                                          [01;31m[K^[m[K
+[0.480s] [01m[K/usr/include/c++/13/type_traits:1775:18:[m[K [01;31m[Kerror: [m[K‘[01m[K_Sz[m[K’ was not declared in this scope
+[0.480s]  1775 |       : __select<[01;31m[K_Sz[m[K, _List<_UInts...>>
+[0.481s]       |                  [01;31m[K^~~[m[K
+[0.481s] [01m[K/usr/include/c++/13/type_traits:1775:38:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.481s]  1775 |       : __select<_Sz, _List<_UInts...[01;31m[K>>[m[K
+[0.481s]       |                                      [01;31m[K^~[m[K
+[0.481s] [01m[K/usr/include/c++/13/type_traits:1766:60:[m[K [01;31m[Kerror: [m[K‘[01m[K__size[m[K’ is not a member of ‘[01m[Kstd::__make_unsigned_selector_base::_List<unsigned char, short unsigned int, unsigned int, long unsigned int, long long unsigned int>[m[K’
+[0.481s]  1766 |     template<size_t _Sz, typename _Tp, bool = (_Sz <= _Tp::[01;31m[K__size[m[K)>
+[0.481s]       |                                                            [01;31m[K^~~~~~[m[K
+[0.481s] [01m[K/usr/include/c++/13/type_traits:1788:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[0.481s]  1788 |       using __unsigned_type = typename __select<sizeof(_Tp), _UInts[01;31m[K>[m[K::__type;
+[0.481s]       |                                                                    [01;31m[K^[m[K
+[0.484s] [01m[K/usr/include/c++/13/type_traits:1792:47:[m[K [01;31m[Kerror: [m[K‘[01m[K__unsigned_type[m[K’ was not declared in this scope
+[0.484s]  1792 |         = typename __match_cv_qualifiers<_Tp, [01;31m[K__unsigned_type[m[K>::__type;
+[0.484s]       |                                               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.484s] [01m[K/usr/include/c++/13/type_traits:1792:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[0.484s]  1792 |         = typename __match_cv_qualifiers<_Tp, __unsigned_type[01;31m[K>[m[K::__type;
+[0.485s]       |                                                              [01;31m[K^[m[K
+[0.485s] [01m[K/usr/include/c++/13/type_traits:1803:68:[m[K [01;31m[Kerror: [m[K‘[01m[K__type[m[K’ in ‘[01m[Kclass std::__make_unsigned_selector<wchar_t, false, true>[m[K’ does not name a type
+[0.485s]  1803 |         = typename __make_unsigned_selector<wchar_t, false, true>::[01;31m[K__type[m[K;
+[0.485s]       |                                                                    [01;31m[K^~~~~~[m[K
+[0.485s] [01m[K/usr/include/c++/13/type_traits:1819:69:[m[K [01;31m[Kerror: [m[K‘[01m[K__type[m[K’ in ‘[01m[Kclass std::__make_unsigned_selector<char16_t, false, true>[m[K’ does not name a type
+[0.485s]  1819 |         = typename __make_unsigned_selector<char16_t, false, true>::[01;31m[K__type[m[K;
+[0.485s]       |                                                                     [01;31m[K^~~~~~[m[K
+[0.485s] [01m[K/usr/include/c++/13/type_traits:1826:69:[m[K [01;31m[Kerror: [m[K‘[01m[K__type[m[K’ in ‘[01m[Kclass std::__make_unsigned_selector<char32_t, false, true>[m[K’ does not name a type
+[0.485s]  1826 |         = typename __make_unsigned_selector<char32_t, false, true>::[01;31m[K__type[m[K;
+[0.485s]       |                                                                     [01;31m[K^~~~~~[m[K
+[0.485s] /usr/include/c++/13/type_traits: In instantiation of ‘[01m[Kclass std::__make_unsigned_selector<wchar_t, true, false>[m[K’:
+[0.485s] [01m[K/usr/include/c++/13/type_traits:1921:62:[m[K   required from ‘[01m[Kclass std::__make_signed_selector<wchar_t, false, true>[m[K’
+[0.486s] [01m[K/usr/include/c++/13/type_traits:1935:57:[m[K   required from here
+[0.486s] [01m[K/usr/include/c++/13/type_traits:1749:13:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K__type[m[K’ in ‘[01m[Kstruct std::__make_unsigned<wchar_t>[m[K’
+[0.486s]  1749 |       using [01;31m[K__unsigned_type[m[K
+[0.486s]       |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.486s] [01m[K/usr/include/c++/13/type_traits:1753:13:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K__type[m[K’ in ‘[01m[Kstruct std::__make_unsigned<wchar_t>[m[K’
+[0.486s]  1753 |       using [01;31m[K__type[m[K
+[0.486s]       |             [01;31m[K^~~~~~[m[K
+[0.486s] [01m[K/usr/include/c++/13/type_traits:1935:66:[m[K [01;31m[Kerror: [m[Kinvalid combination of multiple type-specifiers
+[0.486s]  1935 |         = typename __make_signed_selector<wchar_t, false, true>::[01;31m[K__type[m[K;
+[0.486s]       |                                                                  [01;31m[K^~~~~~[m[K
+[0.486s] /usr/include/c++/13/type_traits: In instantiation of ‘[01m[Kclass std::__make_unsigned_selector<char16_t, true, false>[m[K’:
+[0.486s] [01m[K/usr/include/c++/13/type_traits:1921:62:[m[K   required from ‘[01m[Kclass std::__make_signed_selector<char16_t, false, true>[m[K’
+[0.486s] [01m[K/usr/include/c++/13/type_traits:1951:58:[m[K   required from here
+[0.486s] [01m[K/usr/include/c++/13/type_traits:1749:13:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K__type[m[K’ in ‘[01m[Kstruct std::__make_unsigned<char16_t>[m[K’
+[0.486s]  1749 |       using [01;31m[K__unsigned_type[m[K
+[0.486s]       |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.486s] [01m[K/usr/include/c++/13/type_traits:1753:13:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K__type[m[K’ in ‘[01m[Kstruct std::__make_unsigned<char16_t>[m[K’
+[0.487s]  1753 |       using [01;31m[K__type[m[K
+[0.487s]       |             [01;31m[K^~~~~~[m[K
+[0.487s] [01m[K/usr/include/c++/13/type_traits:1951:67:[m[K [01;31m[Kerror: [m[Kinvalid combination of multiple type-specifiers
+[0.487s]  1951 |         = typename __make_signed_selector<char16_t, false, true>::[01;31m[K__type[m[K;
+[0.487s]       |                                                                   [01;31m[K^~~~~~[m[K
+[0.487s] /usr/include/c++/13/type_traits: In instantiation of ‘[01m[Kclass std::__make_unsigned_selector<char32_t, true, false>[m[K’:
+[0.487s] [01m[K/usr/include/c++/13/type_traits:1921:62:[m[K   required from ‘[01m[Kclass std::__make_signed_selector<char32_t, false, true>[m[K’
+[0.487s] [01m[K/usr/include/c++/13/type_traits:1958:58:[m[K   required from here
+[0.487s] [01m[K/usr/include/c++/13/type_traits:1749:13:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K__type[m[K’ in ‘[01m[Kstruct std::__make_unsigned<char32_t>[m[K’
+[0.487s]  1749 |       using [01;31m[K__unsigned_type[m[K
+[0.487s]       |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.487s] [01m[K/usr/include/c++/13/type_traits:1753:13:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K__type[m[K’ in ‘[01m[Kstruct std::__make_unsigned<char32_t>[m[K’
+[0.487s]  1753 |       using [01;31m[K__type[m[K
+[0.487s]       |             [01;31m[K^~~~~~[m[K
+[0.488s] [01m[K/usr/include/c++/13/type_traits:1958:67:[m[K [01;31m[Kerror: [m[Kinvalid combination of multiple type-specifiers
+[0.488s]  1958 |         = typename __make_signed_selector<char32_t, false, true>::[01;31m[K__type[m[K;
+[0.488s]       |                                                                   [01;31m[K^~~~~~[m[K
+[0.488s] [01m[K/usr/include/c++/13/type_traits:1993:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::size_t[m[K’ has not been declared
+[0.488s]  1993 |   template<typename _Tp, [01;31m[Kstd[m[K::size_t _Size>
+[0.488s]       |                          [01;31m[K^~~[m[K
+[0.488s] [01m[K/usr/include/c++/13/type_traits:1994:30:[m[K [01;31m[Kerror: [m[K‘[01m[K_Size[m[K’ was not declared in this scope
+[0.488s]  1994 |     struct remove_extent<_Tp[[01;31m[K_Size[m[K]>
+[0.488s]       |                              [01;31m[K^~~~~[m[K
+[0.488s] [01m[K/usr/include/c++/13/type_traits:1994:36:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.488s]  1994 |     struct remove_extent<_Tp[_Size][01;31m[K>[m[K
+[0.488s]       |                                    [01;31m[K^[m[K
+[0.488s] [01m[K/usr/include/c++/13/type_traits:2006:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::size_t[m[K’ has not been declared
+[0.488s]  2006 |   template<typename _Tp, [01;31m[Kstd[m[K::size_t _Size>
+[0.488s]       |                          [01;31m[K^~~[m[K
+[0.488s] [01m[K/usr/include/c++/13/type_traits:2007:35:[m[K [01;31m[Kerror: [m[K‘[01m[K_Size[m[K’ was not declared in this scope
+[0.488s]  2007 |     struct remove_all_extents<_Tp[[01;31m[K_Size[m[K]>
+[0.489s]       |                                   [01;31m[K^~~~~[m[K
+[0.489s] [01m[K/usr/include/c++/13/type_traits:2007:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.489s]  2007 |     struct remove_all_extents<_Tp[_Size][01;31m[K>[m[K
+[0.489s]       |                                         [01;31m[K^[m[K
+[0.489s] [01m[K/usr/include/c++/13/type_traits:2072:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::size_t[m[K’ has not been declared
+[0.489s]  2072 |   template<[01;31m[Kstd[m[K::size_t _Len>
+[0.489s]       |            [01;31m[K^~~[m[K
+[0.490s] [01m[K/usr/include/c++/13/type_traits:2077:30:[m[K [01;31m[Kerror: [m[K‘[01m[K_Len[m[K’ was not declared in this scope
+[0.490s]  2077 |         unsigned char __data[[01;31m[K_Len[m[K];
+[0.490s]       |                              [01;31m[K^~~~[m[K
+[0.490s] [01m[K/usr/include/c++/13/type_traits:2095:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::size_t[m[K’ has not been declared
+[0.490s]  2095 |   template<[01;31m[Kstd[m[K::size_t _Len, std::size_t _Align =
+[0.490s]       |            [01;31m[K^~~[m[K
+[0.490s] [01m[K/usr/include/c++/13/type_traits:2095:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::size_t[m[K’ has not been declared
+[0.490s]  2095 |   template<std::size_t _Len, [01;31m[Kstd[m[K::size_t _Align =
+[0.490s]       |                              [01;31m[K^~~[m[K
+[0.491s] [01m[K/usr/include/c++/13/type_traits:2096:55:[m[K [01;31m[Kerror: [m[K‘[01m[K_Len[m[K’ was not declared in this scope
+[0.491s]  2096 |            __alignof__(typename __aligned_storage_msa<[01;31m[K_Len[m[K>::__type)>
+[0.491s]       |                                                       [01;31m[K^~~~[m[K
+[0.491s] [01m[K/usr/include/c++/13/type_traits:2096:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.491s]  2096 |            __alignof__(typename __aligned_storage_msa<_Len[01;31m[K>[m[K::__type)>
+[0.491s]       |                                                           [01;31m[K^[m[K
+[0.492s] [01m[K/usr/include/c++/13/type_traits:2103:30:[m[K [01;31m[Kerror: [m[K‘[01m[K_Len[m[K’ was not declared in this scope
+[0.492s]  2103 |         unsigned char __data[[01;31m[K_Len[m[K];
+[0.493s]       |                              [01;31m[K^~~~[m[K
+[0.494s] [01m[K/usr/include/c++/13/type_traits:2104:44:[m[K [01;31m[Kerror: [m[K‘[01m[K_Align[m[K’ was not declared in this scope
+[0.494s]  2104 |         struct __attribute__((__aligned__(([01;31m[K_Align[m[K)))) { } __align;
+[0.495s]       |                                            [01;31m[K^~~~~~[m[K
+[0.495s] [01m[K/usr/include/c++/13/type_traits:2111:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.495s]  2111 |       static const [01;31m[Ksize_t[m[K _S_alignment = 0;
+[0.495s]       |                    [01;31m[K^~~~~~[m[K
+[0.495s] [01m[K/usr/include/c++/13/type_traits:2111:20:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.495s] [01m[K/usr/include/c++/13/type_traits:2112:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.495s]  2112 |       static const [01;31m[Ksize_t[m[K _S_size = 0;
+[0.495s]       |                    [01;31m[K^~~~~~[m[K
+[0.495s] [01m[K/usr/include/c++/13/type_traits:2112:20:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.495s] [01m[K/usr/include/c++/13/type_traits:2118:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.495s]  2118 |       static const [01;31m[Ksize_t[m[K _S_alignment =
+[0.495s]       |                    [01;31m[K^~~~~~[m[K
+[0.495s] [01m[K/usr/include/c++/13/type_traits:2118:20:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.495s] [01m[K/usr/include/c++/13/type_traits:2121:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.495s]  2121 |       static const [01;31m[Ksize_t[m[K _S_size =
+[0.495s]       |                    [01;31m[K^~~~~~[m[K
+[0.495s] [01m[K/usr/include/c++/13/type_traits:2121:20:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.495s] [01m[K/usr/include/c++/13/type_traits:2141:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.495s]  2141 |   template <[01;31m[Ksize_t[m[K _Len, typename... _Types>
+[0.496s]       |             [01;31m[K^~~~~~[m[K
+[0.496s] [01m[K/usr/include/c++/13/type_traits:2150:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.496s]  2150 |       static const [01;31m[Ksize_t[m[K _S_len = _Len > __strictest::_S_size
+[0.496s]       |                    [01;31m[K^~~~~~[m[K
+[0.496s] [01m[K/usr/include/c++/13/type_traits:2150:20:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.496s] [01m[K/usr/include/c++/13/type_traits:2154:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.496s]  2154 |       static const [01;31m[Ksize_t[m[K alignment_value = __strictest::_S_alignment;
+[0.496s]       |                    [01;31m[K^~~~~~[m[K
+[0.496s] [01m[K/usr/include/c++/13/type_traits:2154:20:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.496s] [01m[K/usr/include/c++/13/type_traits:2156:40:[m[K [01;31m[Kerror: [m[K‘[01m[K_S_len[m[K’ was not declared in this scope
+[0.496s]  2156 |       typedef typename aligned_storage<[01;31m[K_S_len[m[K, alignment_value>::type type;
+[0.496s]       |                                        [01;31m[K^~~~~~[m[K
+[0.497s] [01m[K/usr/include/c++/13/type_traits:2156:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kalignment_value[m[K’ was not declared in this scope; did you mean ‘[01m[Kalignment_of[m[K’?
+[0.497s]  2156 |       typedef typename aligned_storage<_S_len, [01;31m[Kalignment_value[m[K>::type type;
+[0.498s]       |                                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.498s]       |                                                [32m[Kalignment_of[m[K
+[0.498s] [01m[K/usr/include/c++/13/type_traits:2156:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.498s]  2156 |       typedef typename aligned_storage<_S_len, alignment_value[01;31m[K>[m[K::type type;
+[0.498s]       |                                                               [01;31m[K^[m[K
+[0.498s] [01m[K/usr/include/c++/13/type_traits:2156:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[0.498s] [01m[K/usr/include/c++/13/type_traits:2159:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.498s]  2159 |   template <[01;31m[Ksize_t[m[K _Len, typename... _Types>
+[0.498s]       |             [01;31m[K^~~~~~[m[K
+[0.498s] [01m[K/usr/include/c++/13/type_traits:2160:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.498s]  2160 |     const [01;31m[Ksize_t[m[K aligned_union<_Len, _Types...>::alignment_value;
+[0.498s]       |           [01;31m[K^~~~~~[m[K
+[0.498s] [01m[K/usr/include/c++/13/type_traits:2160:11:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.498s] [01m[K/usr/include/c++/13/type_traits:2174:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.498s]  2174 |   template<typename _Up, [01;31m[Ksize_t[m[K _Nm>
+[0.498s]       |                          [01;31m[K^~~~~~[m[K
+[0.499s] [01m[K/usr/include/c++/13/type_traits:2175:33:[m[K [01;31m[Kerror: [m[K‘[01m[K_Nm[m[K’ was not declared in this scope
+[0.499s]  2175 |     struct __decay_selector<_Up[[01;31m[K_Nm[m[K]>
+[0.499s]       |                                 [01;31m[K^~~[m[K
+[0.499s] [01m[K/usr/include/c++/13/type_traits:2175:37:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.499s]  2175 |     struct __decay_selector<_Up[_Nm][01;31m[K>[m[K
+[0.499s]       |                                     [01;31m[K^[m[K
+[0.500s] [01m[K/usr/include/c++/13/type_traits:2596:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.500s]  2596 |   template<[01;31m[Ksize_t[m[K _Len, size_t _Align =
+[0.500s]       |            [01;31m[K^~~~~~[m[K
+[0.500s] [01m[K/usr/include/c++/13/type_traits:2596:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.500s]  2596 |   template<size_t _Len, [01;31m[Ksize_t[m[K _Align =
+[0.500s]       |                         [01;31m[K^~~~~~[m[K
+[0.501s] [01m[K/usr/include/c++/13/type_traits:2597:56:[m[K [01;31m[Kerror: [m[K‘[01m[K_Len[m[K’ was not declared in this scope
+[0.501s]  2597 |             __alignof__(typename __aligned_storage_msa<[01;31m[K_Len[m[K>::__type)>
+[0.501s]       |                                                        [01;31m[K^~~~[m[K
+[0.501s] [01m[K/usr/include/c++/13/type_traits:2597:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.501s]  2597 |             __alignof__(typename __aligned_storage_msa<_Len[01;31m[K>[m[K::__type)>
+[0.501s]       |                                                            [01;31m[K^[m[K
+[0.502s] [01m[K/usr/include/c++/13/type_traits:2598:78:[m[K [01;31m[Kerror: [m[K‘[01m[K_Len[m[K’ was not declared in this scope
+[0.502s]  2598 |     using aligned_storage_t _GLIBCXX23_DEPRECATED = typename aligned_storage<[01;31m[K_Len[m[K, _Align>::type;
+[0.502s]       |                                                                              [01;31m[K^~~~[m[K
+[0.503s] [01m[K/usr/include/c++/13/type_traits:2598:84:[m[K [01;31m[Kerror: [m[K‘[01m[K_Align[m[K’ was not declared in this scope
+[0.503s]  2598 |     using aligned_storage_t _GLIBCXX23_DEPRECATED = typename aligned_storage<_Len, [01;31m[K_Align[m[K>::type;
+[0.503s]       |                                                                                    [01;31m[K^~~~~~[m[K
+[0.503s] [01m[K/usr/include/c++/13/type_traits:2598:90:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.503s]  2598 |     using aligned_storage_t _GLIBCXX23_DEPRECATED = typename aligned_storage<_Len, _Align[01;31m[K>[m[K::type;
+[0.503s]       |                                                                                          [01;31m[K^[m[K
+[0.503s] [01m[K/usr/include/c++/13/type_traits:2598:90:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[0.503s] [01m[K/usr/include/c++/13/type_traits:2600:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.503s]  2600 |   template <[01;31m[Ksize_t[m[K _Len, typename... _Types>
+[0.503s]       |             [01;31m[K^~~~~~[m[K
+[0.504s] [01m[K/usr/include/c++/13/type_traits:2601:74:[m[K [01;31m[Kerror: [m[K‘[01m[K_Len[m[K’ was not declared in this scope
+[0.504s]  2601 |     using aligned_union_t _GLIBCXX23_DEPRECATED = typename aligned_union<[01;31m[K_Len[m[K, _Types...>::type;
+[0.504s]       |                                                                          [01;31m[K^~~~[m[K
+[0.504s] [01m[K/usr/include/c++/13/type_traits:2601:89:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.504s]  2601 |     using aligned_union_t _GLIBCXX23_DEPRECATED = typename aligned_union<_Len, _Types...[01;31m[K>[m[K::type;
+[0.504s]       |                                                                                         [01;31m[K^[m[K
+[0.504s] [01m[K/usr/include/c++/13/type_traits:2728:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.504s]  2728 |   template<typename _Tp, [01;31m[Ksize_t[m[K _Nm>
+[0.504s]       |                          [01;31m[K^~~~~~[m[K
+[0.505s] [01m[K/usr/include/c++/13/type_traits:2732:21:[m[K [01;31m[Kerror: [m[K‘[01m[K_Nm[m[K’ was not declared in this scope
+[0.505s]  2732 |     swap(_Tp (&__a)[[01;31m[K_Nm[m[K], _Tp (&__b)[_Nm])
+[0.505s]       |                     [01;31m[K^~~[m[K
+[0.505s] [01m[K/usr/include/c++/13/type_traits:2732:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ktemplate<class _Tp, <declaration error> > std::__enable_if_t<std::__is_swappable<_Tp>::value> std::swap[m[K’ conflicts with a previous declaration
+[0.505s]  2732 |     swap(_Tp (&__a)[_Nm[01;31m[K][m[K, _Tp (&__b)[_Nm])
+[0.505s]       |                        [01;31m[K^[m[K
+[0.505s] [01m[K/usr/include/c++/13/type_traits:2724:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kstd::_Require<std::__not_<std::__is_tuple_like<_Tp> >, std::is_move_constructible<_Tp>, std::is_move_assignable<_Tp> > std::[01;32m[Kswap[m[K(_Tp&, _Tp&)[m[K’
+[0.505s]  2724 |     [01;36m[Kswap[m[K(_Tp&, _Tp&)
+[0.505s]       |     [01;36m[K^~~~[m[K
+[0.506s] [01m[K/usr/include/c++/13/type_traits:2732:16:[m[K [01;31m[Kerror: [m[K‘[01m[K__a[m[K’ was not declared in this scope
+[0.506s]  2732 |     swap(_Tp (&[01;31m[K__a[m[K)[_Nm], _Tp (&__b)[_Nm])
+[0.506s]       |                [01;31m[K^~~[m[K
+[0.506s] [01m[K/usr/include/c++/13/type_traits:2732:21:[m[K [01;31m[Kerror: [m[K‘[01m[K_Nm[m[K’ was not declared in this scope
+[0.506s]  2732 |     swap(_Tp (&__a)[[01;31m[K_Nm[m[K], _Tp (&__b)[_Nm])
+[0.506s]       |                     [01;31m[K^~~[m[K
+[0.507s] [01m[K/usr/include/c++/13/type_traits:2732:33:[m[K [01;31m[Kerror: [m[K‘[01m[K__b[m[K’ was not declared in this scope
+[0.507s]  2732 |     swap(_Tp (&__a)[_Nm], _Tp (&[01;31m[K__b[m[K)[_Nm])
+[0.507s]       |                                 [01;31m[K^~~[m[K
+[0.508s] [01m[K/usr/include/c++/13/type_traits:2732:38:[m[K [01;31m[Kerror: [m[K‘[01m[K_Nm[m[K’ was not declared in this scope
+[0.508s]  2732 |     swap(_Tp (&__a)[_Nm], _Tp (&__b)[[01;31m[K_Nm[m[K])
+[0.508s]       |                                      [01;31m[K^~~[m[K
+[0.508s] [01m[K/usr/include/c++/13/type_traits:2732:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Knoexcept[m[K’
+[0.508s]  2732 |     swap(_Tp (&__a)[_Nm], _Tp (&__b)[_Nm])
+[0.508s]       |                                           [01;31m[K^[m[K
+[0.508s]       |                                           [32m[K;[m[K
+[0.508s]  2733 |     [32m[Knoexcept[m[K(__is_nothrow_swappable<_Tp>::value);
+[0.508s]       |     [32m[K~~~~~~~~[m[K                               
+[0.509s] [01m[K/usr/include/c++/13/type_traits:3168:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.509s]  3168 | template <typename _Tp, [01;31m[Ksize_t[m[K _Num>
+[0.509s]       |                         [01;31m[K^~~~~~[m[K
+[0.510s] [01m[K/usr/include/c++/13/type_traits:3169:40:[m[K [01;31m[Kerror: [m[K‘[01m[K_Num[m[K’ was not declared in this scope
+[0.510s]  3169 |   inline constexpr bool is_array_v<_Tp[[01;31m[K_Num[m[K]> = true;
+[0.510s]       |                                        [01;31m[K^~~~[m[K
+[0.510s] [01m[K/usr/include/c++/13/type_traits:3169:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.510s]  3169 |   inline constexpr bool [01;31m[Kis_array_v<_Tp[_Num]>[m[K = true;
+[0.510s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[0.510s] [01m[K/usr/include/c++/13/type_traits:3169:25:[m[K [01;31m[Kerror: [m[Ktemplate-id ‘[01m[Kis_array_v<<expression error> >[m[K’ for ‘[01m[Kstd::is_array_v[m[K’ does not match any template declaration
+[0.510s] [01m[K/usr/include/c++/13/type_traits:3165:25:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Ktemplate<class _Tp> constexpr const bool std::is_array_v<_Tp>[m[K’
+[0.510s]  3165 |   inline constexpr bool [01;36m[Kis_array_v[m[K = false;
+[0.510s]       |                         [01;36m[K^~~~~~~~~~[m[K
+[0.510s] [01m[K/usr/include/c++/13/type_traits:3331:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.510s]  3331 |   inline constexpr [01;31m[Ksize_t[m[K alignment_of_v = alignment_of<_Tp>::value;
+[0.510s]       |                    [01;31m[K^~~~~~[m[K
+[0.510s] [01m[K/usr/include/c++/13/type_traits:3331:20:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.511s] [01m[K/usr/include/c++/13/type_traits:3334:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.511s]  3334 |   inline constexpr [01;31m[Ksize_t[m[K rank_v = 0;
+[0.511s]       |                    [01;31m[K^~~~~~[m[K
+[0.511s] [01m[K/usr/include/c++/13/type_traits:3334:20:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.511s] [01m[K/usr/include/c++/13/type_traits:3335:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.511s]  3335 | template <typename _Tp, [01;31m[Ksize_t[m[K _Size>
+[0.511s]       |                         [01;31m[K^~~~~~[m[K
+[0.511s] [01m[K/usr/include/c++/13/type_traits:3336:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.511s]  3336 |   inline constexpr [01;31m[Ksize_t[m[K rank_v<_Tp[_Size]> = 1 + rank_v<_Tp>;
+[0.511s]       |                    [01;31m[K^~~~~~[m[K
+[0.511s] [01m[K/usr/include/c++/13/type_traits:3336:20:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.511s] [01m[K/usr/include/c++/13/type_traits:3338:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.511s]  3338 |   inline constexpr [01;31m[Ksize_t[m[K rank_v<_Tp[]> = 1 + rank_v<_Tp>;
+[0.511s]       |                    [01;31m[K^~~~~~[m[K
+[0.511s] [01m[K/usr/include/c++/13/type_traits:3338:20:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.512s] [01m[K/usr/include/c++/13/type_traits:3341:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.512s]  3341 |   inline constexpr [01;31m[Ksize_t[m[K extent_v = 0;
+[0.512s]       |                    [01;31m[K^~~~~~[m[K
+[0.512s] [01m[K/usr/include/c++/13/type_traits:3341:20:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.512s] [01m[K/usr/include/c++/13/type_traits:3342:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.512s]  3342 | template <typename _Tp, [01;31m[Ksize_t[m[K _Size>
+[0.512s]       |                         [01;31m[K^~~~~~[m[K
+[0.512s] [01m[K/usr/include/c++/13/type_traits:3343:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.512s]  3343 |   inline constexpr [01;31m[Ksize_t[m[K extent_v<_Tp[_Size], 0> = _Size;
+[0.512s]       |                    [01;31m[K^~~~~~[m[K
+[0.512s] [01m[K/usr/include/c++/13/type_traits:3343:20:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.512s] [01m[K/usr/include/c++/13/type_traits:3344:40:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.512s]  3344 | template <typename _Tp, unsigned _Idx, [01;31m[Ksize_t[m[K _Size>
+[0.512s]       |                                        [01;31m[K^~~~~~[m[K
+[0.512s] [01m[K/usr/include/c++/13/type_traits:3345:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.512s]  3345 |   inline constexpr [01;31m[Ksize_t[m[K extent_v<_Tp[_Size], _Idx> = extent_v<_Tp, _Idx - 1>;
+[0.512s]       |                    [01;31m[K^~~~~~[m[K
+[0.512s] [01m[K/usr/include/c++/13/type_traits:3345:20:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.512s] [01m[K/usr/include/c++/13/type_traits:3347:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.513s]  3347 |   inline constexpr [01;31m[Ksize_t[m[K extent_v<_Tp[], 0> = 0;
+[0.513s]       |                    [01;31m[K^~~~~~[m[K
+[0.513s] [01m[K/usr/include/c++/13/type_traits:3347:20:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.513s] [01m[K/usr/include/c++/13/type_traits:3349:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.513s]  3349 |   inline constexpr [01;31m[Ksize_t[m[K extent_v<_Tp[], _Idx> = extent_v<_Tp, _Idx - 1>;
+[0.513s]       |                    [01;31m[K^~~~~~[m[K
+[0.513s] [01m[K/usr/include/c++/13/type_traits:3349:20:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.513s] In file included from [01m[K/usr/include/c++/13/bits/stl_pair.h:61[m[K:
+[0.513s] [01m[K/usr/include/c++/13/bits/move.h:205:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.513s]   205 |   template<typename _Tp, [01;31m[Ksize_t[m[K _Nm>
+[0.513s]       |                          [01;31m[K^~~~~~[m[K
+[0.513s] [01m[K/usr/include/c++/13/bits/move.h:213:21:[m[K [01;31m[Kerror: [m[K‘[01m[K_Nm[m[K’ was not declared in this scope
+[0.513s]   213 |     swap(_Tp (&__a)[[01;31m[K_Nm[m[K], _Tp (&__b)[_Nm])
+[0.513s]       |                     [01;31m[K^~~[m[K
+[0.513s] [01m[K/usr/include/c++/13/bits/move.h:213:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ktemplate<class _Tp, <declaration error> > typename std::enable_if<std::__is_swappable<_Tp>::value, void>::type std::swap[m[K’ conflicts with a previous declaration
+[0.513s]   213 |     swap(_Tp (&__a)[_Nm[01;31m[K][m[K, _Tp (&__b)[_Nm])
+[0.514s]       |                        [01;31m[K^[m[K
+[0.514s] [01m[K/usr/include/c++/13/bits/move.h:189:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kstd::_Require<std::__not_<std::__is_tuple_like<_Tp> >, std::is_move_constructible<_Tp>, std::is_move_assignable<_Tp> > std::[01;32m[Kswap[m[K(_Tp&, _Tp&)[m[K’
+[0.514s]   189 |     [01;36m[Kswap[m[K(_Tp& __a, _Tp& __b)
+[0.514s]       |     [01;36m[K^~~~[m[K
+[0.514s] [01m[K/usr/include/c++/13/bits/move.h:213:16:[m[K [01;31m[Kerror: [m[K‘[01m[K__a[m[K’ was not declared in this scope
+[0.514s]   213 |     swap(_Tp (&[01;31m[K__a[m[K)[_Nm], _Tp (&__b)[_Nm])
+[0.514s]       |                [01;31m[K^~~[m[K
+[0.514s] [01m[K/usr/include/c++/13/bits/move.h:213:21:[m[K [01;31m[Kerror: [m[K‘[01m[K_Nm[m[K’ was not declared in this scope
+[0.514s]   213 |     swap(_Tp (&__a)[[01;31m[K_Nm[m[K], _Tp (&__b)[_Nm])
+[0.514s]       |                     [01;31m[K^~~[m[K
+[0.514s] [01m[K/usr/include/c++/13/bits/move.h:213:33:[m[K [01;31m[Kerror: [m[K‘[01m[K__b[m[K’ was not declared in this scope
+[0.514s]   213 |     swap(_Tp (&__a)[_Nm], _Tp (&[01;31m[K__b[m[K)[_Nm])
+[0.514s]       |                                 [01;31m[K^~~[m[K
+[0.514s] [01m[K/usr/include/c++/13/bits/move.h:213:38:[m[K [01;31m[Kerror: [m[K‘[01m[K_Nm[m[K’ was not declared in this scope
+[0.514s]   213 |     swap(_Tp (&__a)[_Nm], _Tp (&__b)[[01;31m[K_Nm[m[K])
+[0.515s]       |                                      [01;31m[K^~~[m[K
+[0.515s] [01m[K/usr/include/c++/13/bits/move.h:213:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Knoexcept[m[K’
+[0.515s]   213 |     swap(_Tp (&__a)[_Nm], _Tp (&__b)[_Nm])
+[0.515s]       |                                           [01;31m[K^[m[K
+[0.515s]       |                                           [32m[K;[m[K
+[0.515s] In file included from [01m[K/usr/include/c++/13/bits/stl_pair.h:62[m[K:
+[0.515s] [01m[K/usr/include/c++/13/bits/utility.h:58:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.515s]    58 |            [01;31m[Ksize_t[m[K = tuple_size<_Tp>::value>
+[0.515s]       |            [01;31m[K^~~~~~[m[K
+[0.515s] [01m[K/usr/include/c++/13/bits/utility.h:62:56:[m[K [01;36m[Knote: [m[Kinvalid template non-type parameter
+[0.515s]    62 |     struct tuple_size<const __enable_if_has_tuple_size<[01;36m[K_Tp[m[K>>
+[0.515s]       |                                                        [01;36m[K^~~[m[K
+[0.515s] [01m[K/usr/include/c++/13/bits/utility.h:62:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.515s]    62 |     struct tuple_size<const __enable_if_has_tuple_size<_Tp[01;31m[K>>[m[K
+[0.516s]       |                                                           [01;31m[K^~[m[K
+[0.516s] [01m[K/usr/include/c++/13/bits/utility.h:66:59:[m[K [01;36m[Knote: [m[Kinvalid template non-type parameter
+[0.516s]    66 |     struct tuple_size<volatile __enable_if_has_tuple_size<[01;36m[K_Tp[m[K>>
+[0.516s]       |                                                           [01;36m[K^~~[m[K
+[0.516s] [01m[K/usr/include/c++/13/bits/utility.h:66:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.516s]    66 |     struct tuple_size<volatile __enable_if_has_tuple_size<_Tp[01;31m[K>>[m[K
+[0.516s]       |                                                              [01;31m[K^~[m[K
+[0.516s] [01m[K/usr/include/c++/13/bits/utility.h:70:65:[m[K [01;36m[Knote: [m[Kinvalid template non-type parameter
+[0.516s]    70 |     struct tuple_size<const volatile __enable_if_has_tuple_size<[01;36m[K_Tp[m[K>>
+[0.516s]       |                                                                 [01;36m[K^~~[m[K
+[0.516s] [01m[K/usr/include/c++/13/bits/utility.h:70:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.516s]    70 |     struct tuple_size<const volatile __enable_if_has_tuple_size<_Tp[01;31m[K>>[m[K
+[0.516s]       |                                                                    [01;31m[K^~[m[K
+[0.517s] [01m[K/usr/include/c++/13/bits/utility.h:75:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.517s]    75 |     inline constexpr [01;31m[Ksize_t[m[K tuple_size_v = tuple_size<_Tp>::value;
+[0.517s]       |                      [01;31m[K^~~~~~[m[K
+[0.517s] [01m[K/usr/include/c++/13/bits/utility.h:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.517s]   +++ |+[32m[K#include <cstddef>[m[K
+[0.517s]     1 | // Utilities used throughout the library -*- C++ -*-
+[0.517s] [01m[K/usr/include/c++/13/bits/utility.h:79:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.517s]    79 |   template<[01;31m[Ksize_t[m[K __i, typename _Tp>
+[0.517s]       |            [01;31m[K^~~~~~[m[K
+[0.517s] [01m[K/usr/include/c++/13/bits/utility.h:80:12:[m[K [01;31m[Kerror: [m[Kno default argument for ‘[01m[K_Tp[m[K’
+[0.517s]    80 |     struct [01;31m[Ktuple_element[m[K;
+[0.517s]       |            [01;31m[K^~~~~~~~~~~~~[m[K
+[0.517s] [01m[K/usr/include/c++/13/bits/utility.h:83:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.517s]    83 |   template<[01;31m[Ksize_t[m[K __i, typename _Tp>
+[0.517s]       |            [01;31m[K^~~~~~[m[K
+[0.518s] [01m[K/usr/include/c++/13/bits/utility.h:84:54:[m[K [01;31m[Kerror: [m[K‘[01m[K__i[m[K’ was not declared in this scope
+[0.518s]    84 |     using __tuple_element_t = typename tuple_element<[01;31m[K__i[m[K, _Tp>::type;
+[0.518s]       |                                                      [01;31m[K^~~[m[K
+[0.518s] [01m[K/usr/include/c++/13/bits/utility.h:84:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.518s]    84 |     using __tuple_element_t = typename tuple_element<__i, _Tp[01;31m[K>[m[K::type;
+[0.518s]       |                                                              [01;31m[K^[m[K
+[0.518s] [01m[K/usr/include/c++/13/bits/utility.h:86:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.518s]    86 |   template<[01;31m[Ksize_t[m[K __i, typename _Tp>
+[0.518s]       |            [01;31m[K^~~~~~[m[K
+[0.518s] [01m[K/usr/include/c++/13/bits/utility.h:87:26:[m[K [01;31m[Kerror: [m[K‘[01m[K__i[m[K’ was not declared in this scope
+[0.518s]    87 |     struct tuple_element<[01;31m[K__i[m[K, const _Tp>
+[0.518s]       |                          [01;31m[K^~~[m[K
+[0.518s] [01m[K/usr/include/c++/13/bits/utility.h:87:40:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.518s]    87 |     struct tuple_element<__i, const _Tp[01;31m[K>[m[K
+[0.518s]       |                                        [01;31m[K^[m[K
+[0.518s] [01m[K/usr/include/c++/13/bits/utility.h:92:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.519s]    92 |   template<[01;31m[Ksize_t[m[K __i, typename _Tp>
+[0.519s]       |            [01;31m[K^~~~~~[m[K
+[0.519s] [01m[K/usr/include/c++/13/bits/utility.h:93:26:[m[K [01;31m[Kerror: [m[K‘[01m[K__i[m[K’ was not declared in this scope
+[0.519s]    93 |     struct tuple_element<[01;31m[K__i[m[K, volatile _Tp>
+[0.519s]       |                          [01;31m[K^~~[m[K
+[0.519s] [01m[K/usr/include/c++/13/bits/utility.h:93:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.519s]    93 |     struct tuple_element<__i, volatile _Tp[01;31m[K>[m[K
+[0.519s]       |                                           [01;31m[K^[m[K
+[0.519s] [01m[K/usr/include/c++/13/bits/utility.h:98:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.519s]    98 |   template<[01;31m[Ksize_t[m[K __i, typename _Tp>
+[0.519s]       |            [01;31m[K^~~~~~[m[K
+[0.519s] [01m[K/usr/include/c++/13/bits/utility.h:99:26:[m[K [01;31m[Kerror: [m[K‘[01m[K__i[m[K’ was not declared in this scope
+[0.519s]    99 |     struct tuple_element<[01;31m[K__i[m[K, const volatile _Tp>
+[0.519s]       |                          [01;31m[K^~~[m[K
+[0.519s] [01m[K/usr/include/c++/13/bits/utility.h:99:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.519s]    99 |     struct tuple_element<__i, const volatile _Tp[01;31m[K>[m[K
+[0.519s]       |                                                 [01;31m[K^[m[K
+[0.519s] [01m[K/usr/include/c++/13/bits/utility.h:109:15:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.519s]   109 |     constexpr [01;31m[Ksize_t[m[K
+[0.520s]       |               [01;31m[K^~~~~~[m[K
+[0.520s] [01m[K/usr/include/c++/13/bits/utility.h:109:15:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.520s] [01m[K/usr/include/c++/13/bits/utility.h:134:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.520s]   134 |   template<[01;31m[Ksize_t[m[K __i, typename _Tp>
+[0.520s]       |            [01;31m[K^~~~~~[m[K
+[0.520s] [01m[K/usr/include/c++/13/bits/utility.h:135:52:[m[K [01;31m[Kerror: [m[K‘[01m[K__i[m[K’ was not declared in this scope
+[0.520s]   135 |     using tuple_element_t = typename tuple_element<[01;31m[K__i[m[K, _Tp>::type;
+[0.520s]       |                                                    [01;31m[K^~~[m[K
+[0.520s] [01m[K/usr/include/c++/13/bits/utility.h:135:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.520s]   135 |     using tuple_element_t = typename tuple_element<__i, _Tp[01;31m[K>[m[K::type;
+[0.520s]       |                                                            [01;31m[K^[m[K
+[0.520s] [01m[K/usr/include/c++/13/bits/utility.h:140:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.520s]   140 |   template<[01;31m[Ksize_t[m[K... _Indexes> struct _Index_tuple { };
+[0.520s]       |            [01;31m[K^~~~~~[m[K
+[0.520s] [01m[K/usr/include/c++/13/bits/utility.h:143:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.520s]   143 |   template<[01;31m[Ksize_t[m[K _Num>
+[0.520s]       |            [01;31m[K^~~~~~[m[K
+[0.520s] [01m[K/usr/include/c++/13/bits/utility.h:154:50:[m[K [01;31m[Kerror: [m[K‘[01m[K_Num[m[K’ was not declared in this scope
+[0.520s]   154 |       using __type = _Index_tuple<__integer_pack([01;31m[K_Num[m[K)...>;
+[0.521s]       |                                                  [01;31m[K^~~~[m[K
+[0.521s] [01m[K/usr/include/c++/13/bits/utility.h:154:55:[m[K [01;31m[Kerror: [m[Kexpected parameter pack before ‘[01m[K...[m[K’
+[0.521s]   154 |       using __type = _Index_tuple<__integer_pack(_Num)[01;31m[K...[m[K>;
+[0.521s]       |                                                       [01;31m[K^~~[m[K
+[0.521s] [01m[K/usr/include/c++/13/bits/utility.h:154:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.521s]   154 |       using __type = _Index_tuple<__integer_pack(_Num)...[01;31m[K>[m[K;
+[0.521s]       |                                                          [01;31m[K^[m[K
+[0.521s] [01m[K/usr/include/c++/13/bits/utility.h:170:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.521s]   170 |       static constexpr [01;31m[Ksize_t[m[K size() noexcept { return sizeof...(_Idx); }
+[0.521s]       |                        [01;31m[K^~~~~~[m[K
+[0.521s] [01m[K/usr/include/c++/13/bits/utility.h:170:24:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.521s] [01m[K/usr/include/c++/13/bits/utility.h:183:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.521s]   183 |   template<[01;31m[Ksize_t[m[K... _Idx>
+[0.521s]       |            [01;31m[K^~~~~~[m[K
+[0.521s] [01m[K/usr/include/c++/13/bits/utility.h:184:45:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ was not declared in this scope
+[0.521s]   184 |     using index_sequence = integer_sequence<[01;31m[Ksize_t[m[K, _Idx...>;
+[0.521s]       |                                             [01;31m[K^~~~~~[m[K
+[0.521s] [01m[K/usr/include/c++/13/bits/utility.h:184:45:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.521s] [01m[K/usr/include/c++/13/bits/utility.h:184:53:[m[K [01;31m[Kerror: [m[K‘[01m[K_Idx[m[K’ was not declared in this scope
+[0.522s]   184 |     using index_sequence = integer_sequence<size_t, [01;31m[K_Idx[m[K...>;
+[0.522s]       |                                                     [01;31m[K^~~~[m[K
+[0.522s] [01m[K/usr/include/c++/13/bits/utility.h:184:57:[m[K [01;31m[Kerror: [m[Kexpected parameter pack before ‘[01m[K...[m[K’
+[0.522s]   184 |     using index_sequence = integer_sequence<size_t, _Idx[01;31m[K...[m[K>;
+[0.522s]       |                                                         [01;31m[K^~~[m[K
+[0.522s] [01m[K/usr/include/c++/13/bits/utility.h:184:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.522s]   184 |     using index_sequence = integer_sequence<size_t, _Idx...[01;31m[K>[m[K;
+[0.522s]       |                                                            [01;31m[K^[m[K
+[0.522s] [01m[K/usr/include/c++/13/bits/utility.h:184:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[0.522s] [01m[K/usr/include/c++/13/bits/utility.h:187:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.522s]   187 |   template<[01;31m[Ksize_t[m[K _Num>
+[0.522s]       |            [01;31m[K^~~~~~[m[K
+[0.522s] [01m[K/usr/include/c++/13/bits/utility.h:188:55:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ was not declared in this scope
+[0.522s]   188 |     using make_index_sequence = make_integer_sequence<[01;31m[Ksize_t[m[K, _Num>;
+[0.522s]       |                                                       [01;31m[K^~~~~~[m[K
+[0.522s] [01m[K/usr/include/c++/13/bits/utility.h:188:55:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.522s] [01m[K/usr/include/c++/13/bits/utility.h:188:63:[m[K [01;31m[Kerror: [m[K‘[01m[K_Num[m[K’ was not declared in this scope
+[0.522s]   188 |     using make_index_sequence = make_integer_sequence<size_t, [01;31m[K_Num[m[K>;
+[0.522s]       |                                                               [01;31m[K^~~~[m[K
+[0.523s] [01m[K/usr/include/c++/13/bits/utility.h:188:67:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.523s]   188 |     using make_index_sequence = make_integer_sequence<size_t, _Num[01;31m[K>[m[K;
+[0.523s]       |                                                                   [01;31m[K^[m[K
+[0.523s] [01m[K/usr/include/c++/13/bits/utility.h:188:67:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[0.523s] [01m[K/usr/include/c++/13/bits/utility.h:192:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_index_sequence[m[K’ does not name a type; did you mean ‘[01m[Kmake_integer_sequence[m[K’?
+[0.523s]   192 |     using index_sequence_for = [01;31m[Kmake_index_sequence[m[K<sizeof...(_Types)>;
+[0.523s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.523s]       |                                [32m[Kmake_integer_sequence[m[K
+[0.523s] [01m[K/usr/include/c++/13/bits/utility.h:210:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.523s]   210 |   template<[01;31m[Ksize_t[m[K _Idx> struct in_place_index_t
+[0.523s]       |            [01;31m[K^~~~~~[m[K
+[0.523s] [01m[K/usr/include/c++/13/bits/utility.h:215:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.524s]   215 |   template<[01;31m[Ksize_t[m[K _Idx>
+[0.524s]       |            [01;31m[K^~~~~~[m[K
+[0.524s] [01m[K/usr/include/c++/13/bits/utility.h:216:39:[m[K [01;31m[Kerror: [m[K‘[01m[K_Idx[m[K’ was not declared in this scope
+[0.524s]   216 |     inline constexpr in_place_index_t<[01;31m[K_Idx[m[K> in_place_index{};
+[0.524s]       |                                       [01;31m[K^~~~[m[K
+[0.524s] [01m[K/usr/include/c++/13/bits/utility.h:216:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.524s]   216 |     inline constexpr in_place_index_t<_Idx[01;31m[K>[m[K in_place_index{};
+[0.524s]       |                                           [01;31m[K^[m[K
+[0.524s] [01m[K/usr/include/c++/13/bits/utility.h:230:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.524s]   230 |   template<[01;31m[Ksize_t[m[K _Np, typename... _Types>
+[0.524s]       |            [01;31m[K^~~~~~[m[K
+[0.524s] [01m[K/usr/include/c++/13/bits/utility.h:246:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.524s]   246 |   template<[01;31m[Ksize_t[m[K _Np, typename _Tp0, typename _Tp1, typename _Tp2,
+[0.524s]       |            [01;31m[K^~~~~~[m[K
+[0.524s] [01m[K/usr/include/c++/13/bits/utility.h:251:22:[m[K [01;31m[Kerror: [m[K‘[01m[K_Np[m[K’ was not declared in this scope
+[0.524s]   251 |     struct _Nth_type<[01;31m[K_Np[m[K, _Tp0, _Tp1, _Tp2, _Rest...>
+[0.524s]       |                      [01;31m[K^~~[m[K
+[0.525s] [01m[K/usr/include/c++/13/bits/utility.h:251:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.525s]   251 |     struct _Nth_type<_Np, _Tp0, _Tp1, _Tp2, _Rest...[01;31m[K>[m[K
+[0.525s]       |                                                     [01;31m[K^[m[K
+[0.525s] [01m[K/usr/include/c++/13/bits/utility.h:252:17:[m[K [01;31m[Kerror: [m[K‘[01m[K_Np[m[K’ was not declared in this scope
+[0.525s]   252 |     : _Nth_type<[01;31m[K_Np[m[K - 3, _Rest...>
+[0.525s]       |                 [01;31m[K^~~[m[K
+[0.525s] [01m[K/usr/include/c++/13/bits/utility.h:252:34:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.525s]   252 |     : _Nth_type<_Np - 3, _Rest...[01;31m[K>[m[K
+[0.525s]       |                                  [01;31m[K^[m[K
+[0.525s] [01m[K/usr/include/c++/13/bits/stl_pair.h:92:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.525s]    92 |   template<[01;31m[Ksize_t[m[K...>
+[0.525s]       |            [01;31m[K^~~~~~[m[K
+[0.525s] [01m[K/usr/include/c++/13/bits/stl_pair.h:235:36:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.525s]   235 |       template<typename... _Args1, [01;31m[Ksize_t[m[K... _Indexes1,
+[0.525s]       |                                    [01;31m[K^~~~~~[m[K
+[0.525s] [01m[K/usr/include/c++/13/bits/stl_pair.h:236:36:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.525s]   236 |                typename... _Args2, [01;31m[Ksize_t[m[K... _Indexes2>
+[0.525s]       |                                    [01;31m[K^~~~~~[m[K
+[0.527s] [01m[K/usr/include/c++/13/bits/stl_pair.h:239:27:[m[K [01;31m[Kerror: [m[K‘[01m[K_Indexes1[m[K’ was not declared in this scope
+[0.528s]   239 |              _Index_tuple<[01;31m[K_Indexes1[m[K...>, _Index_tuple<_Indexes2...>);
+[0.528s]       |                           [01;31m[K^~~~~~~~~[m[K
+[0.528s] [01m[K/usr/include/c++/13/bits/stl_pair.h:239:36:[m[K [01;31m[Kerror: [m[Kexpected parameter pack before ‘[01m[K...[m[K’
+[0.528s]   239 |              _Index_tuple<_Indexes1[01;31m[K...[m[K>, _Index_tuple<_Indexes2...>);
+[0.528s]       |                                    [01;31m[K^~~[m[K
+[0.528s] [01m[K/usr/include/c++/13/bits/stl_pair.h:239:39:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.528s]   239 |              _Index_tuple<_Indexes1...[01;31m[K>[m[K, _Index_tuple<_Indexes2...>);
+[0.528s]       |                                       [01;31m[K^[m[K
+[0.530s] [01m[K/usr/include/c++/13/bits/stl_pair.h:239:55:[m[K [01;31m[Kerror: [m[K‘[01m[K_Indexes2[m[K’ was not declared in this scope
+[0.530s]   239 |              _Index_tuple<_Indexes1...>, _Index_tuple<[01;31m[K_Indexes2[m[K...>);
+[0.530s]       |                                                       [01;31m[K^~~~~~~~~[m[K
+[0.530s] [01m[K/usr/include/c++/13/bits/stl_pair.h:239:64:[m[K [01;31m[Kerror: [m[Kexpected parameter pack before ‘[01m[K...[m[K’
+[0.530s]   239 |              _Index_tuple<_Indexes1...>, _Index_tuple<_Indexes2[01;31m[K...[m[K>);
+[0.530s]       |                                                                [01;31m[K^~~[m[K
+[0.530s] [01m[K/usr/include/c++/13/bits/stl_pair.h:239:67:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.531s]   239 |              _Index_tuple<_Indexes1...>, _Index_tuple<_Indexes2...[01;31m[K>[m[K);
+[0.531s]       |                                                                   [01;31m[K^[m[K
+[0.532s] [01m[K/usr/include/c++/13/bits/stl_pair.h:950:32:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ was not declared in this scope
+[0.532s]   950 |     : public integral_constant<[01;31m[Ksize_t[m[K, 2> { };
+[0.532s]       |                                [01;31m[K^~~~~~[m[K
+[0.532s] [01m[K/usr/include/c++/13/bits/stl_pair.h:63:1:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.532s]    62 | # include <bits/utility.h> // for std::tuple_element, std::tuple_size
+[0.532s]   +++ |+[32m[K#include <cstddef>[m[K
+[0.532s]    63 | #endif
+[0.533s] [01m[K/usr/include/c++/13/bits/stl_pair.h:950:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.533s]   950 |     : public integral_constant<size_t, 2[01;31m[K>[m[K { };
+[0.533s]       |                                         [01;31m[K^[m[K
+[0.533s] [01m[K/usr/include/c++/13/bits/stl_pair.h:950:41:[m[K [01;36m[Knote: [m[Kinvalid template non-type parameter
+[0.533s] [01m[K/usr/include/c++/13/bits/stl_pair.h:964:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.533s]   964 |     inline constexpr [01;31m[Ksize_t[m[K tuple_size_v<pair<_Tp1, _Tp2>> = 2;
+[0.533s]       |                      [01;31m[K^~~~~~[m[K
+[0.533s] [01m[K/usr/include/c++/13/bits/stl_pair.h:964:22:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.533s] [01m[K/usr/include/c++/13/bits/stl_pair.h:967:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.533s]   967 |     inline constexpr [01;31m[Ksize_t[m[K tuple_size_v<const pair<_Tp1, _Tp2>> = 2;
+[0.533s]       |                      [01;31m[K^~~~~~[m[K
+[0.533s] [01m[K/usr/include/c++/13/bits/stl_pair.h:967:22:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.533s] [01m[K/usr/include/c++/13/bits/stl_pair.h:977:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.533s]   977 |   template<[01;31m[Ksize_t[m[K _Int>
+[0.533s]       |            [01;31m[K^~~~~~[m[K
+[0.533s] [01m[K/usr/include/c++/13/bits/stl_pair.h:1033:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.534s]  1033 |   template<[01;31m[Ksize_t[m[K _Int, class _Tp1, class _Tp2>
+[0.534s]       |            [01;31m[K^~~~~~[m[K
+[0.534s] [01m[K/usr/include/c++/13/bits/stl_pair.h:1034:38:[m[K [01;31m[Kerror: [m[K‘[01m[K_Int[m[K’ was not declared in this scope
+[0.534s]  1034 |     constexpr typename tuple_element<[01;31m[K_Int[m[K, pair<_Tp1, _Tp2>>::type&
+[0.534s]       |                                      [01;31m[K^~~~[m[K
+[0.534s] [01m[K/usr/include/c++/13/bits/stl_pair.h:1034:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.534s]  1034 |     constexpr typename tuple_element<_Int, pair<_Tp1, _Tp2[01;31m[K>>[m[K::type&
+[0.534s]       |                                                           [01;31m[K^~[m[K
+[0.534s] [01m[K/usr/include/c++/13/bits/stl_pair.h:[m[K In function ‘[01m[Kconstexpr int& std::[01;32m[Kget[m[K(pair<_Tp1, _Tp2>&)[m[K’:
+[0.534s] [01m[K/usr/include/c++/13/bits/stl_pair.h:1036:25:[m[K [01;31m[Kerror: [m[K‘[01m[K_Int[m[K’ was not declared in this scope
+[0.534s]  1036 |     { return __pair_get<[01;31m[K_Int[m[K>::__get(__in); }
+[0.534s]       |                         [01;31m[K^~~~[m[K
+[0.534s] [01m[K/usr/include/c++/13/bits/stl_pair.h:1036:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.535s]  1036 |     { return __pair_get<_Int[01;31m[K>[m[K::__get(__in); }
+[0.535s]       |                             [01;31m[K^[m[K
+[0.535s] [01m[K/usr/include/c++/13/bits/stl_pair.h:[m[K At global scope:
+[0.535s] [01m[K/usr/include/c++/13/bits/stl_pair.h:1038:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.535s]  1038 |   template<[01;31m[Ksize_t[m[K _Int, class _Tp1, class _Tp2>
+[0.535s]       |            [01;31m[K^~~~~~[m[K
+[0.535s] [01m[K/usr/include/c++/13/bits/stl_pair.h:1039:38:[m[K [01;31m[Kerror: [m[K‘[01m[K_Int[m[K’ was not declared in this scope
+[0.535s]  1039 |     constexpr typename tuple_element<[01;31m[K_Int[m[K, pair<_Tp1, _Tp2>>::type&&
+[0.535s]       |                                      [01;31m[K^~~~[m[K
+[0.535s] [01m[K/usr/include/c++/13/bits/stl_pair.h:1039:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.535s]  1039 |     constexpr typename tuple_element<_Int, pair<_Tp1, _Tp2[01;31m[K>>[m[K::type&&
+[0.536s]       |                                                           [01;31m[K^~[m[K
+[0.536s] [01m[K/usr/include/c++/13/bits/stl_pair.h:[m[K In function ‘[01m[Kconstexpr int&& std::[01;32m[Kget[m[K(pair<_Tp1, _Tp2>&&)[m[K’:
+[0.536s] [01m[K/usr/include/c++/13/bits/stl_pair.h:1041:25:[m[K [01;31m[Kerror: [m[K‘[01m[K_Int[m[K’ was not declared in this scope
+[0.536s]  1041 |     { return __pair_get<[01;31m[K_Int[m[K>::__move_get(std::move(__in)); }
+[0.536s]       |                         [01;31m[K^~~~[m[K
+[0.536s] [01m[K/usr/include/c++/13/bits/stl_pair.h:1041:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.537s]  1041 |     { return __pair_get<_Int[01;31m[K>[m[K::__move_get(std::move(__in)); }
+[0.537s]       |                             [01;31m[K^[m[K
+[0.537s] [01m[K/usr/include/c++/13/bits/stl_pair.h:[m[K At global scope:
+[0.537s] [01m[K/usr/include/c++/13/bits/stl_pair.h:1043:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.537s]  1043 |   template<[01;31m[Ksize_t[m[K _Int, class _Tp1, class _Tp2>
+[0.537s]       |            [01;31m[K^~~~~~[m[K
+[0.537s] [01m[K/usr/include/c++/13/bits/stl_pair.h:1044:44:[m[K [01;31m[Kerror: [m[K‘[01m[K_Int[m[K’ was not declared in this scope
+[0.537s]  1044 |     constexpr const typename tuple_element<[01;31m[K_Int[m[K, pair<_Tp1, _Tp2>>::type&
+[0.537s]       |                                            [01;31m[K^~~~[m[K
+[0.537s] [01m[K/usr/include/c++/13/bits/stl_pair.h:1044:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.537s]  1044 |     constexpr const typename tuple_element<_Int, pair<_Tp1, _Tp2[01;31m[K>>[m[K::type&
+[0.537s]       |                                                                 [01;31m[K^~[m[K
+[0.538s] [01m[K/usr/include/c++/13/bits/stl_pair.h:[m[K In function ‘[01m[Kconstexpr const int& std::[01;32m[Kget[m[K(const pair<_Tp1, _Tp2>&)[m[K’:
+[0.538s] [01m[K/usr/include/c++/13/bits/stl_pair.h:1046:25:[m[K [01;31m[Kerror: [m[K‘[01m[K_Int[m[K’ was not declared in this scope
+[0.538s]  1046 |     { return __pair_get<[01;31m[K_Int[m[K>::__const_get(__in); }
+[0.538s]       |                         [01;31m[K^~~~[m[K
+[0.538s] [01m[K/usr/include/c++/13/bits/stl_pair.h:1046:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.538s]  1046 |     { return __pair_get<_Int[01;31m[K>[m[K::__const_get(__in); }
+[0.538s]       |                             [01;31m[K^[m[K
+[0.538s] [01m[K/usr/include/c++/13/bits/stl_pair.h:[m[K At global scope:
+[0.538s] [01m[K/usr/include/c++/13/bits/stl_pair.h:1048:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.538s]  1048 |   template<[01;31m[Ksize_t[m[K _Int, class _Tp1, class _Tp2>
+[0.538s]       |            [01;31m[K^~~~~~[m[K
+[0.538s] [01m[K/usr/include/c++/13/bits/stl_pair.h:1049:44:[m[K [01;31m[Kerror: [m[K‘[01m[K_Int[m[K’ was not declared in this scope
+[0.539s]  1049 |     constexpr const typename tuple_element<[01;31m[K_Int[m[K, pair<_Tp1, _Tp2>>::type&&
+[0.539s]       |                                            [01;31m[K^~~~[m[K
+[0.539s] [01m[K/usr/include/c++/13/bits/stl_pair.h:1049:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.539s]  1049 |     constexpr const typename tuple_element<_Int, pair<_Tp1, _Tp2[01;31m[K>>[m[K::type&&
+[0.539s]       |                                                                 [01;31m[K^~[m[K
+[0.539s] [01m[K/usr/include/c++/13/bits/stl_pair.h:[m[K In function ‘[01m[Kconstexpr const int&& std::[01;32m[Kget[m[K(const pair<_Tp1, _Tp2>&&)[m[K’:
+[0.539s] [01m[K/usr/include/c++/13/bits/stl_pair.h:1051:25:[m[K [01;31m[Kerror: [m[K‘[01m[K_Int[m[K’ was not declared in this scope
+[0.539s]  1051 |     { return __pair_get<[01;31m[K_Int[m[K>::__const_move_get(std::move(__in)); }
+[0.540s]       |                         [01;31m[K^~~~[m[K
+[0.540s] [01m[K/usr/include/c++/13/bits/stl_pair.h:1051:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.540s]  1051 |     { return __pair_get<_Int[01;31m[K>[m[K::__const_move_get(std::move(__in)); }
+[0.540s]       |                             [01;31m[K^[m[K
+[0.540s] In file included from [01m[K/usr/include/c++/13/bits/stl_algobase.h:65[m[K:
+[0.540s] [01m[K/usr/include/c++/13/bits/stl_iterator_base_types.h:[m[K At global scope:
+[0.540s] [01m[K/usr/include/c++/13/bits/stl_iterator_base_types.h:125:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kptrdiff_t[m[K’ does not name a type
+[0.540s]   125 |   template<typename _Category, typename _Tp, typename _Distance = [01;31m[Kptrdiff_t[m[K,
+[0.540s]       |                                                                   [01;31m[K^~~~~~~~~[m[K
+[0.540s] [01m[K/usr/include/c++/13/bits/stl_iterator_base_types.h:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kptrdiff_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.541s]   +++ |+[32m[K#include <cstddef>[m[K
+[0.541s]     1 | // Types used in iterator implementation -*- C++ -*-
+[0.541s] [01m[K/usr/include/c++/13/bits/stl_iterator_base_types.h:214:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kptrdiff_t[m[K’ does not name a type
+[0.541s]   214 |       typedef [01;31m[Kptrdiff_t[m[K                   difference_type;
+[0.541s]       |               [01;31m[K^~~~~~~~~[m[K
+[0.541s] [01m[K/usr/include/c++/13/bits/stl_iterator_base_types.h:214:15:[m[K [01;36m[Knote: [m[K‘[01m[Kptrdiff_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.541s] [01m[K/usr/include/c++/13/bits/stl_iterator_base_types.h:225:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kptrdiff_t[m[K’ does not name a type
+[0.541s]   225 |       typedef [01;31m[Kptrdiff_t[m[K                   difference_type;
+[0.541s]       |               [01;31m[K^~~~~~~~~[m[K
+[0.541s] [01m[K/usr/include/c++/13/bits/stl_iterator_base_types.h:225:15:[m[K [01;36m[Knote: [m[K‘[01m[Kptrdiff_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.541s] In file included from [01m[K/usr/include/c++/13/bits/stl_algobase.h:66[m[K:
+[0.541s] [01m[K/usr/include/c++/13/bits/stl_iterator_base_funcs.h:112:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kptrdiff_t[m[K’ does not name a type
+[0.541s]   112 |     [01;31m[Kptrdiff_t[m[K
+[0.541s]       |     [01;31m[K^~~~~~~~~[m[K
+[0.541s] [01m[K/usr/include/c++/13/bits/stl_iterator_base_funcs.h:66:1:[m[K [01;36m[Knote: [m[K‘[01m[Kptrdiff_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.542s]    65 | #include <debug/assertions.h>
+[0.542s]   +++ |+[32m[K#include <cstddef>[m[K
+[0.542s]    66 | #include <bits/stl_iterator_base_types.h>
+[0.542s] [01m[K/usr/include/c++/13/bits/stl_iterator_base_funcs.h:118:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kptrdiff_t[m[K’ does not name a type
+[0.542s]   118 |     [01;31m[Kptrdiff_t[m[K
+[0.542s]       |     [01;31m[K^~~~~~~~~[m[K
+[0.542s] [01m[K/usr/include/c++/13/bits/stl_iterator_base_funcs.h:118:5:[m[K [01;36m[Knote: [m[K‘[01m[Kptrdiff_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.542s] In file included from [01m[K/usr/include/c++/13/bits/stl_iterator.h:67[m[K,
+[0.542s]                  from [01m[K/usr/include/c++/13/bits/stl_algobase.h:67[m[K:
+[0.542s] [01m[K/usr/include/c++/13/bits/ptr_traits.h:163:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kptrdiff_t[m[K’ was not declared in this scope
+[0.542s]   163 |       using difference_type = __detected_or_t<[01;31m[Kptrdiff_t[m[K, __diff_t, _Ptr>;
+[0.542s]       |                                               [01;31m[K^~~~~~~~~[m[K
+[0.542s] [01m[K/usr/include/c++/13/bits/ptr_traits.h:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kptrdiff_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.542s]   +++ |+[32m[K#include <cstddef>[m[K
+[0.542s]     1 | // Pointer Traits -*- C++ -*-
+[0.542s] [01m[K/usr/include/c++/13/bits/ptr_traits.h:163:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.542s]   163 |       using difference_type = __detected_or_t<ptrdiff_t, __diff_t, _Ptr[01;31m[K>[m[K;
+[0.542s]       |                                                                        [01;31m[K^[m[K
+[0.542s] [01m[K/usr/include/c++/13/bits/ptr_traits.h:201:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kptrdiff_t[m[K’ does not name a type
+[0.542s]   201 |       typedef [01;31m[Kptrdiff_t[m[K difference_type;
+[0.543s]       |               [01;31m[K^~~~~~~~~[m[K
+[0.543s] [01m[K/usr/include/c++/13/bits/ptr_traits.h:201:15:[m[K [01;36m[Knote: [m[K‘[01m[Kptrdiff_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.545s] [01m[K/usr/include/c++/13/bits/stl_algobase.h:93:56:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.545s]    93 |     __memcmp(const _Tp* __first1, const _Up* __first2, [01;31m[Ksize_t[m[K __num)
+[0.545s]       |                                                        [01;31m[K^~~~~~[m[K
+[0.546s] [01m[K/usr/include/c++/13/bits/stl_algobase.h:[m[K In static member function ‘[01m[Kstatic _Up* std::__copy_move<_IsMove, true, std::random_access_iterator_tag>::[01;32m[K__copy_m[m[K(_Tp*, _Tp*, _Up*)[m[K’:
+[0.546s] [01m[K/usr/include/c++/13/bits/stl_algobase.h:435:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kptrdiff_t[m[K’ does not name a type
+[0.546s]   435 |           const [01;31m[Kptrdiff_t[m[K _Num = __last - __first;
+[0.546s]       |                 [01;31m[K^~~~~~~~~[m[K
+[0.546s] [01m[K/usr/include/c++/13/bits/stl_algobase.h:77:1:[m[K [01;36m[Knote: [m[K‘[01m[Kptrdiff_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.546s]    76 | # include <bit> // std::__bit_width
+[0.546s]   +++ |+[32m[K#include <cstddef>[m[K
+[0.546s]    77 | #endif
+[0.547s] [01m[K/usr/include/c++/13/bits/stl_algobase.h:436:32:[m[K [01;31m[Kerror: [m[K‘[01m[K_Num[m[K’ was not declared in this scope
+[0.547s]   436 |           if (__builtin_expect([01;31m[K_Num[m[K > 1, true))
+[0.547s]       |                                [01;31m[K^~~~[m[K
+[0.549s] [01m[K/usr/include/c++/13/bits/stl_algobase.h:441:29:[m[K [01;31m[Kerror: [m[K‘[01m[K_Num[m[K’ was not declared in this scope
+[0.549s]   441 |           return __result + [01;31m[K_Num[m[K;
+[0.549s]       |                             [01;31m[K^~~~[m[K
+[0.550s] [01m[K/usr/include/c++/13/bits/stl_algobase.h:[m[K In static member function ‘[01m[Kstatic _Up* std::__copy_move_backward<_IsMove, true, std::random_access_iterator_tag>::[01;32m[K__copy_move_b[m[K(_Tp*, _Tp*, _Up*)[m[K’:
+[0.550s] [01m[K/usr/include/c++/13/bits/stl_algobase.h:746:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kptrdiff_t[m[K’ does not name a type
+[0.550s]   746 |           const [01;31m[Kptrdiff_t[m[K _Num = __last - __first;
+[0.550s]       |                 [01;31m[K^~~~~~~~~[m[K
+[0.550s] [01m[K/usr/include/c++/13/bits/stl_algobase.h:746:17:[m[K [01;36m[Knote: [m[K‘[01m[Kptrdiff_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.551s] [01m[K/usr/include/c++/13/bits/stl_algobase.h:747:32:[m[K [01;31m[Kerror: [m[K‘[01m[K_Num[m[K’ was not declared in this scope
+[0.551s]   747 |           if (__builtin_expect([01;31m[K_Num[m[K > 1, true))
+[0.551s]       |                                [01;31m[K^~~~[m[K
+[0.553s] [01m[K/usr/include/c++/13/bits/stl_algobase.h:752:29:[m[K [01;31m[Kerror: [m[K‘[01m[K_Num[m[K’ was not declared in this scope
+[0.553s]   752 |           return __result - [01;31m[K_Num[m[K;
+[0.553s]       |                             [01;31m[K^~~~[m[K
+[0.553s] [01m[K/usr/include/c++/13/bits/stl_algobase.h:[m[K In function ‘[01m[Ktypename __gnu_cxx::__enable_if<std::__is_byte<_Tp>::__value, void>::__type std::[01;32m[K__fill_a1[m[K(_Tp*, _Tp*, const _Tp&)[m[K’:
+[0.553s] [01m[K/usr/include/c++/13/bits/stl_algobase.h:950:24:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K__len[m[K’
+[0.553s]   950 |       if (const size_t [01;31m[K__len[m[K = __last - __first)
+[0.553s]       |                        [01;31m[K^~~~~[m[K
+[0.553s] [01m[K/usr/include/c++/13/bits/stl_algobase.h:950:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K__len[m[K’
+[0.553s]   950 |       if [34m[K([m[Kconst size_t[01;31m[K [m[K[32m[K__len[m[K = __last - __first)
+[0.553s]       |          [34m[K~[m[K            [01;31m[K^[m[K[32m[K~~~~~[m[K
+[0.554s]       |                       [32m[K)[m[K
+[0.554s] [01m[K/usr/include/c++/13/bits/stl_algobase.h:951:70:[m[K [01;31m[Kerror: [m[K‘[01m[K__len[m[K’ was not declared in this scope
+[0.554s]   951 |         __builtin_memset(__first, static_cast<unsigned char>(__tmp), [01;31m[K__len[m[K);
+[0.554s]       |                                                                      [01;31m[K^~~~~[m[K
+[0.555s] [01m[K/usr/include/c++/13/bits/stl_algobase.h:[m[K In static member function ‘[01m[Kstatic bool std::__equal<true>::[01;32m[Kequal[m[K(const _Tp*, const _Tp*, const _Tp*)[m[K’:
+[0.555s] [01m[K/usr/include/c++/13/bits/stl_algobase.h:1184:28:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K__len[m[K’
+[0.555s]  1184 |           if (const size_t [01;31m[K__len[m[K = (__last1 - __first1))
+[0.555s]       |                            [01;31m[K^~~~~[m[K
+[0.555s] [01m[K/usr/include/c++/13/bits/stl_algobase.h:1184:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K__len[m[K’
+[0.555s] [01m[K/usr/include/c++/13/bits/stl_algobase.h:1184:14:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[0.555s]  1184 |           if [01;36m[K([m[Kconst size_t __len = (__last1 - __first1))
+[0.555s]       |              [01;36m[K^[m[K
+[0.556s] [01m[K/usr/include/c++/13/bits/stl_algobase.h:1185:55:[m[K [01;31m[Kerror: [m[K‘[01m[K__len[m[K’ was not declared in this scope
+[0.556s]  1185 |             return !std::__memcmp(__first1, __first2, [01;31m[K__len[m[K);
+[0.556s]       |                                                       [01;31m[K^~~~~[m[K
+[0.557s] [01m[K/usr/include/c++/13/bits/stl_algobase.h:[m[K At global scope:
+[0.557s] [01m[K/usr/include/c++/13/bits/stl_algobase.h:1357:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kptrdiff_t[m[K’ does not name a type
+[0.557s]  1357 |         static [01;31m[Kptrdiff_t[m[K
+[0.557s]       |                [01;31m[K^~~~~~~~~[m[K
+[0.557s] [01m[K/usr/include/c++/13/bits/stl_algobase.h:1357:16:[m[K [01;36m[Knote: [m[K‘[01m[Kptrdiff_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.558s] In file included from [01m[K/usr/include/c++/13/bits/new_allocator.h:34[m[K,
+[0.558s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:33[m[K,
+[0.558s]                  from [01m[K/usr/include/c++/13/bits/allocator.h:46[m[K,
+[0.558s]                  from [01m[K/usr/include/c++/13/vector:63[m[K:
+[0.558s] [01m[K/usr/include/c++/13/new:89:25:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+[0.558s]    89 |   enum class align_val_t[01;31m[K:[m[K size_t {};
+[0.558s]       |                         [01;31m[K^[m[K
+[0.559s]       |                         [32m[K::[m[K
+[0.559s] [01m[K/usr/include/c++/13/new:89:27:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ in ‘[01m[Kenum class std::align_val_t[m[K’ does not name a type
+[0.559s]    89 |   enum class align_val_t: [01;31m[Ksize_t[m[K {};
+[0.559s]       |                           [01;31m[K^~~~~~[m[K
+[0.559s] [01m[K/usr/include/c++/13/new:89:34:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+[0.559s]    89 |   enum class align_val_t: size_t [01;31m[K{[m[K};
+[0.559s]       |                                  [01;31m[K^[m[K
+[0.559s] [01m[K/usr/include/c++/13/new:126:26:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Koperator new[m[K’ as non-function
+[0.559s]   126 | _GLIBCXX_NODISCARD void* [01;31m[Koperator[m[K new(std::size_t) _GLIBCXX_THROW (std::bad_alloc)
+[0.559s]       |                          [01;31m[K^~~~~~~~[m[K
+[0.560s] [01m[K/usr/include/c++/13/new:126:44:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.560s]   126 | _GLIBCXX_NODISCARD void* operator new(std::[01;31m[Ksize_t[m[K) _GLIBCXX_THROW (std::bad_alloc)
+[0.560s]       |                                            [01;31m[K^~~~~~[m[K
+[0.560s] [01m[K/usr/include/c++/13/new:127:41:[m[K [01;31m[Kerror: [m[Kattributes after parenthesized initializer ignored [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[0.560s]   127 |   __attribute__((__externally_visible__)[01;31m[K)[m[K;
+[0.560s]       |                                         [01;31m[K^[m[K
+[0.560s] [01m[K/usr/include/c++/13/new:128:26:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Koperator new [][m[K’ as non-function
+[0.560s]   128 | _GLIBCXX_NODISCARD void* [01;31m[Koperator[m[K new[](std::size_t) _GLIBCXX_THROW (std::bad_alloc)
+[0.560s]       |                          [01;31m[K^~~~~~~~[m[K
+[0.560s] [01m[K/usr/include/c++/13/new:128:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.560s]   128 | _GLIBCXX_NODISCARD void* operator new[](std::[01;31m[Ksize_t[m[K) _GLIBCXX_THROW (std::bad_alloc)
+[0.560s]       |                                              [01;31m[K^~~~~~[m[K
+[0.561s] [01m[K/usr/include/c++/13/new:129:41:[m[K [01;31m[Kerror: [m[Kattributes after parenthesized initializer ignored [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[0.561s]   129 |   __attribute__((__externally_visible__)[01;31m[K)[m[K;
+[0.561s]       |                                         [01;31m[K^[m[K
+[0.561s] [01m[K/usr/include/c++/13/new:135:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::size_t[m[K’ has not been declared
+[0.561s]   135 | void operator delete(void*, [01;31m[Kstd[m[K::size_t) _GLIBCXX_USE_NOEXCEPT
+[0.561s]       |                             [01;31m[K^~~[m[K
+[0.561s] [01m[K/usr/include/c++/13/new:137:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::size_t[m[K’ has not been declared
+[0.561s]   137 | void operator delete[](void*, [01;31m[Kstd[m[K::size_t) _GLIBCXX_USE_NOEXCEPT
+[0.561s]       |                               [01;31m[K^~~[m[K
+[0.561s] [01m[K/usr/include/c++/13/new:140:26:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Koperator new[m[K’ as non-function
+[0.561s]   140 | _GLIBCXX_NODISCARD void* [01;31m[Koperator[m[K new(std::size_t, const std::nothrow_t&) _GLIBCXX_USE_NOEXCEPT
+[0.561s]       |                          [01;31m[K^~~~~~~~[m[K
+[0.561s] [01m[K/usr/include/c++/13/new:140:44:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.561s]   140 | _GLIBCXX_NODISCARD void* operator new(std::[01;31m[Ksize_t[m[K, const std::nothrow_t&) _GLIBCXX_USE_NOEXCEPT
+[0.561s]       |                                            [01;31m[K^~~~~~[m[K
+[0.562s] [01m[K/usr/include/c++/13/new:140:52:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[0.562s]   140 | _GLIBCXX_NODISCARD void* operator new(std::size_t, [01;31m[Kconst[m[K std::nothrow_t&) _GLIBCXX_USE_NOEXCEPT
+[0.562s]       |                                                    [01;31m[K^~~~~[m[K
+[0.562s] [01m[K/usr/include/c++/13/new:142:26:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Koperator new [][m[K’ as non-function
+[0.562s]   142 | _GLIBCXX_NODISCARD void* [01;31m[Koperator[m[K new[](std::size_t, const std::nothrow_t&) _GLIBCXX_USE_NOEXCEPT
+[0.562s]       |                          [01;31m[K^~~~~~~~[m[K
+[0.562s] [01m[K/usr/include/c++/13/new:142:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.562s]   142 | _GLIBCXX_NODISCARD void* operator new[](std::[01;31m[Ksize_t[m[K, const std::nothrow_t&) _GLIBCXX_USE_NOEXCEPT
+[0.562s]       |                                              [01;31m[K^~~~~~[m[K
+[0.562s] [01m[K/usr/include/c++/13/new:142:54:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[0.562s]   142 | _GLIBCXX_NODISCARD void* operator new[](std::size_t, [01;31m[Kconst[m[K std::nothrow_t&) _GLIBCXX_USE_NOEXCEPT
+[0.562s]       |                                                      [01;31m[K^~~~~[m[K
+[0.562s] [01m[K/usr/include/c++/13/new:149:26:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Koperator new[m[K’ as non-function
+[0.562s]   149 | _GLIBCXX_NODISCARD void* [01;31m[Koperator[m[K new(std::size_t, std::align_val_t)
+[0.562s]       |                          [01;31m[K^~~~~~~~[m[K
+[0.562s] [01m[K/usr/include/c++/13/new:149:44:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.562s]   149 | _GLIBCXX_NODISCARD void* operator new(std::[01;31m[Ksize_t[m[K, std::align_val_t)
+[0.563s]       |                                            [01;31m[K^~~~~~[m[K
+[0.563s] [01m[K/usr/include/c++/13/new:149:68:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[0.563s]   149 | _GLIBCXX_NODISCARD void* operator new(std::size_t, std::align_val_t[01;31m[K)[m[K
+[0.563s]       |                                                                    [01;31m[K^[m[K
+[0.563s] [01m[K/usr/include/c++/13/new:150:73:[m[K [01;31m[Kerror: [m[Kattributes after parenthesized initializer ignored [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[0.563s]   150 |   __attribute__((__externally_visible__, __alloc_size__ (1), __malloc__)[01;31m[K)[m[K;
+[0.563s]       |                                                                         [01;31m[K^[m[K
+[0.563s] [01m[K/usr/include/c++/13/new:151:26:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Koperator new[m[K’ as non-function
+[0.563s]   151 | _GLIBCXX_NODISCARD void* [01;31m[Koperator[m[K new(std::size_t, std::align_val_t, const std::nothrow_t&)
+[0.563s]       |                          [01;31m[K^~~~~~~~[m[K
+[0.563s] [01m[K/usr/include/c++/13/new:151:44:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.563s]   151 | _GLIBCXX_NODISCARD void* operator new(std::[01;31m[Ksize_t[m[K, std::align_val_t, const std::nothrow_t&)
+[0.563s]       |                                            [01;31m[K^~~~~~[m[K
+[0.563s] [01m[K/usr/include/c++/13/new:151:68:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[0.563s]   151 | _GLIBCXX_NODISCARD void* operator new(std::size_t, std::align_val_t[01;31m[K,[m[K const std::nothrow_t&)
+[0.564s]       |                                                                    [01;31m[K^[m[K
+[0.564s] [01m[K/usr/include/c++/13/new:151:70:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[0.564s]   151 | _GLIBCXX_NODISCARD void* operator new(std::size_t, std::align_val_t, [01;31m[Kconst[m[K std::nothrow_t&)
+[0.564s]       |                                                                      [01;31m[K^~~~~[m[K
+[0.564s] [01m[K/usr/include/c++/13/new:157:26:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Koperator new [][m[K’ as non-function
+[0.564s]   157 | _GLIBCXX_NODISCARD void* [01;31m[Koperator[m[K new[](std::size_t, std::align_val_t)
+[0.564s]       |                          [01;31m[K^~~~~~~~[m[K
+[0.564s] [01m[K/usr/include/c++/13/new:157:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.564s]   157 | _GLIBCXX_NODISCARD void* operator new[](std::[01;31m[Ksize_t[m[K, std::align_val_t)
+[0.564s]       |                                              [01;31m[K^~~~~~[m[K
+[0.564s] [01m[K/usr/include/c++/13/new:157:70:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[0.564s]   157 | _GLIBCXX_NODISCARD void* operator new[](std::size_t, std::align_val_t[01;31m[K)[m[K
+[0.564s]       |                                                                      [01;31m[K^[m[K
+[0.564s] [01m[K/usr/include/c++/13/new:158:73:[m[K [01;31m[Kerror: [m[Kattributes after parenthesized initializer ignored [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[0.565s]   158 |   __attribute__((__externally_visible__, __alloc_size__ (1), __malloc__)[01;31m[K)[m[K;
+[0.565s]       |                                                                         [01;31m[K^[m[K
+[0.565s] [01m[K/usr/include/c++/13/new:159:26:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Koperator new [][m[K’ as non-function
+[0.565s]   159 | _GLIBCXX_NODISCARD void* [01;31m[Koperator[m[K new[](std::size_t, std::align_val_t, const std::nothrow_t&)
+[0.565s]       |                          [01;31m[K^~~~~~~~[m[K
+[0.565s] [01m[K/usr/include/c++/13/new:159:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.565s]   159 | _GLIBCXX_NODISCARD void* operator new[](std::[01;31m[Ksize_t[m[K, std::align_val_t, const std::nothrow_t&)
+[0.565s]       |                                              [01;31m[K^~~~~~[m[K
+[0.565s] [01m[K/usr/include/c++/13/new:159:70:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[0.565s]   159 | _GLIBCXX_NODISCARD void* operator new[](std::size_t, std::align_val_t[01;31m[K,[m[K const std::nothrow_t&)
+[0.565s]       |                                                                      [01;31m[K^[m[K
+[0.565s] [01m[K/usr/include/c++/13/new:159:72:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[0.565s]   159 | _GLIBCXX_NODISCARD void* operator new[](std::size_t, std::align_val_t, [01;31m[Kconst[m[K std::nothrow_t&)
+[0.565s]       |                                                                        [01;31m[K^~~~~[m[K
+[0.565s] [01m[K/usr/include/c++/13/new:166:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::size_t[m[K’ has not been declared
+[0.565s]   166 | void operator delete(void*, [01;31m[Kstd[m[K::size_t, std::align_val_t)
+[0.566s]       |                             [01;31m[K^~~[m[K
+[0.566s] [01m[K/usr/include/c++/13/new:168:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::size_t[m[K’ has not been declared
+[0.566s]   168 | void operator delete[](void*, [01;31m[Kstd[m[K::size_t, std::align_val_t)
+[0.566s]       |                               [01;31m[K^~~[m[K
+[0.566s] [01m[K/usr/include/c++/13/new:174:33:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Koperator new[m[K’ as non-function
+[0.566s]   174 | _GLIBCXX_NODISCARD inline void* [01;31m[Koperator[m[K new(std::size_t, void* __p) _GLIBCXX_USE_NOEXCEPT
+[0.566s]       |                                 [01;31m[K^~~~~~~~[m[K
+[0.566s] [01m[K/usr/include/c++/13/new:174:51:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.566s]   174 | _GLIBCXX_NODISCARD inline void* operator new(std::[01;31m[Ksize_t[m[K, void* __p) _GLIBCXX_USE_NOEXCEPT
+[0.566s]       |                                                   [01;31m[K^~~~~~[m[K
+[0.566s] [01m[K/usr/include/c++/13/new:174:59:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kvoid[m[K’
+[0.566s]   174 | _GLIBCXX_NODISCARD inline void* operator new(std::size_t, [01;31m[Kvoid[m[K* __p) _GLIBCXX_USE_NOEXCEPT
+[0.566s]       |                                                           [01;31m[K^~~~[m[K
+[0.566s] [01m[K/usr/include/c++/13/new:176:33:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Koperator new [][m[K’ as non-function
+[0.566s]   176 | _GLIBCXX_NODISCARD inline void* [01;31m[Koperator[m[K new[](std::size_t, void* __p) _GLIBCXX_USE_NOEXCEPT
+[0.566s]       |                                 [01;31m[K^~~~~~~~[m[K
+[0.567s] [01m[K/usr/include/c++/13/new:176:53:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.567s]   176 | _GLIBCXX_NODISCARD inline void* operator new[](std::[01;31m[Ksize_t[m[K, void* __p) _GLIBCXX_USE_NOEXCEPT
+[0.567s]       |                                                     [01;31m[K^~~~~~[m[K
+[0.567s] [01m[K/usr/include/c++/13/new:176:61:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kvoid[m[K’
+[0.567s]   176 | _GLIBCXX_NODISCARD inline void* operator new[](std::size_t, [01;31m[Kvoid[m[K* __p) _GLIBCXX_USE_NOEXCEPT
+[0.567s]       |                                                             [01;31m[K^~~~[m[K
+[0.567s] [01m[K/usr/include/c++/13/new:212:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.567s]   212 |   inline constexpr [01;31m[Ksize_t[m[K hardware_destructive_interference_size = __GCC_DESTRUCTIVE_SIZE;
+[0.567s]       |                    [01;31m[K^~~~~~[m[K
+[0.567s] [01m[K/usr/include/c++/13/new:42:1:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.567s]    41 | #include <bits/exception.h>
+[0.567s]   +++ |+[32m[K#include <cstddef>[m[K
+[0.567s]    42 | 
+[0.567s] [01m[K/usr/include/c++/13/new:213:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.567s]   213 |   inline constexpr [01;31m[Ksize_t[m[K hardware_constructive_interference_size = __GCC_CONSTRUCTIVE_SIZE;
+[0.567s]       |                    [01;31m[K^~~~~~[m[K
+[0.567s] [01m[K/usr/include/c++/13/new:213:20:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.568s] [01m[K/usr/include/c++/13/bits/new_allocator.h:67:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+[0.568s]    67 |       typedef std::[01;31m[Ksize_t[m[K     size_type;
+[0.568s]       |                    [01;31m[K^~~~~~[m[K
+[0.568s] [01m[K/usr/include/c++/13/bits/new_allocator.h:68:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kptrdiff_t[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+[0.568s]    68 |       typedef std::[01;31m[Kptrdiff_t[m[K  difference_type;
+[0.568s]       |                    [01;31m[K^~~~~~~~~[m[K
+[0.568s] [01m[K/usr/include/c++/13/bits/new_allocator.h:126:16:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_type[m[K’ has not been declared
+[0.568s]   126 |       allocate([01;31m[Ksize_type[m[K __n, const void* = static_cast<const void*>(0))
+[0.568s]       |                [01;31m[K^~~~~~~~~[m[K
+[0.568s] [01m[K/usr/include/c++/13/bits/new_allocator.h:156:28:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_type[m[K’ has not been declared
+[0.568s]   156 |       deallocate(_Tp* __p, [01;31m[Ksize_type[m[K __n __attribute__ ((__unused__)))
+[0.568s]       |                            [01;31m[K^~~~~~~~~[m[K
+[0.568s] [01m[K/usr/include/c++/13/bits/new_allocator.h:181:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_type[m[K’ does not name a type; did you mean ‘[01m[Ktrue_type[m[K’?
+[0.568s]   181 |       [01;31m[Ksize_type[m[K
+[0.568s]       |       [01;31m[K^~~~~~~~~[m[K
+[0.568s]       |       [32m[Ktrue_type[m[K
+[0.569s] [01m[K/usr/include/c++/13/bits/new_allocator.h:229:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_type[m[K’ does not name a type; did you mean ‘[01m[Ktrue_type[m[K’?
+[0.569s]   229 |       _GLIBCXX_CONSTEXPR [01;31m[Ksize_type[m[K
+[0.569s]       |                          [01;31m[K^~~~~~~~~[m[K
+[0.569s]       |                          [32m[Ktrue_type[m[K
+[0.569s] [01m[K/usr/include/c++/13/bits/new_allocator.h:[m[K In member function ‘[01m[K_Tp* std::__new_allocator<_Tp>::[01;32m[Kallocate[m[K(int, const void*)[m[K’:
+[0.569s] [01m[K/usr/include/c++/13/bits/new_allocator.h:138:29:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.569s]   138 |             if (__n > (std::[01;31m[Ksize_t[m[K(-1) / sizeof(_Tp)))
+[0.569s]       |                             [01;31m[K^~~~~~[m[K
+[0.569s] [01m[K/usr/include/c++/13/bits/allocator.h:[m[K At global scope:
+[0.569s] [01m[K/usr/include/c++/13/bits/allocator.h:79:15:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.569s]    79 |       typedef [01;31m[Ksize_t[m[K      size_type;
+[0.569s]       |               [01;31m[K^~~~~~[m[K
+[0.569s] [01m[K/usr/include/c++/13/bits/allocator.h:48:1:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.569s]    47 | #include <bits/memoryfwd.h>
+[0.569s]   +++ |+[32m[K#include <cstddef>[m[K
+[0.569s]    48 | #if __cplusplus >= 201103L
+[0.570s] [01m[K/usr/include/c++/13/bits/allocator.h:80:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kptrdiff_t[m[K’ does not name a type
+[0.570s]    80 |       typedef [01;31m[Kptrdiff_t[m[K   difference_type;
+[0.570s]       |               [01;31m[K^~~~~~~~~[m[K
+[0.570s] [01m[K/usr/include/c++/13/bits/allocator.h:80:15:[m[K [01;36m[Knote: [m[K‘[01m[Kptrdiff_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.570s] [01m[K/usr/include/c++/13/bits/allocator.h:134:15:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.570s]   134 |       typedef [01;31m[Ksize_t[m[K     size_type;
+[0.570s]       |               [01;31m[K^~~~~~[m[K
+[0.570s] [01m[K/usr/include/c++/13/bits/allocator.h:134:15:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.570s] [01m[K/usr/include/c++/13/bits/allocator.h:135:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kptrdiff_t[m[K’ does not name a type
+[0.570s]   135 |       typedef [01;31m[Kptrdiff_t[m[K  difference_type;
+[0.570s]       |               [01;31m[K^~~~~~~~~[m[K
+[0.570s] [01m[K/usr/include/c++/13/bits/allocator.h:135:15:[m[K [01;36m[Knote: [m[K‘[01m[Kptrdiff_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.570s] In file included from [01m[K/usr/include/c++/13/ext/alloc_traits.h:34[m[K,
+[0.570s]                  from [01m[K/usr/include/c++/13/bits/stl_uninitialized.h:64[m[K,
+[0.571s]                  from [01m[K/usr/include/c++/13/vector:65[m[K:
+[0.571s] [01m[K/usr/include/c++/13/bits/alloc_traits.h:449:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kptrdiff_t[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+[0.571s]   449 |       using difference_type = std::[01;31m[Kptrdiff_t[m[K;
+[0.571s]       |                                    [01;31m[K^~~~~~~~~[m[K
+[0.571s] [01m[K/usr/include/c++/13/bits/alloc_traits.h:452:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+[0.571s]   452 |       using size_type = std::[01;31m[Ksize_t[m[K;
+[0.571s]       |                              [01;31m[K^~~~~~[m[K
+[0.571s] [01m[K/usr/include/c++/13/bits/alloc_traits.h:481:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_type[m[K’ has not been declared
+[0.571s]   481 |       allocate(allocator_type& __a, [01;31m[Ksize_type[m[K __n)
+[0.571s]       |                                     [01;31m[K^~~~~~~~~[m[K
+[0.571s] [01m[K/usr/include/c++/13/bits/alloc_traits.h:496:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_type[m[K’ has not been declared
+[0.572s]   496 |       allocate(allocator_type& __a, [01;31m[Ksize_type[m[K __n,
+[0.572s]       |                                     [01;31m[K^~~~~~~~~[m[K
+[0.572s] [01m[K/usr/include/c++/13/bits/alloc_traits.h:516:52:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_type[m[K’ has not been declared
+[0.572s]   516 |       deallocate(allocator_type& __a, pointer __p, [01;31m[Ksize_type[m[K __n)
+[0.572s]       |                                                    [01;31m[K^~~~~~~~~[m[K
+[0.572s] [01m[K/usr/include/c++/13/bits/alloc_traits.h:570:35:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_type[m[K’ does not name a type; did you mean ‘[01m[Ktrue_type[m[K’?
+[0.572s]   570 |       static _GLIBCXX20_CONSTEXPR [01;31m[Ksize_type[m[K
+[0.572s]       |                                   [01;31m[K^~~~~~~~~[m[K
+[0.572s]       |                                   [32m[Ktrue_type[m[K
+[0.572s] [01m[K/usr/include/c++/13/bits/alloc_traits.h:614:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kptrdiff_t[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+[0.572s]   614 |       using difference_type = std::[01;31m[Kptrdiff_t[m[K;
+[0.572s]       |                                    [01;31m[K^~~~~~~~~[m[K
+[0.572s] [01m[K/usr/include/c++/13/bits/alloc_traits.h:617:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+[0.573s]   617 |       using size_type = std::[01;31m[Ksize_t[m[K;
+[0.573s]       |                              [01;31m[K^~~~~~[m[K
+[0.573s] [01m[K/usr/include/c++/13/bits/alloc_traits.h:639:33:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_type[m[K’ has not been declared
+[0.573s]   639 |       allocate(allocator_type&, [01;31m[Ksize_type[m[K, const void* = nullptr) = delete;
+[0.573s]       |                                 [01;31m[K^~~~~~~~~[m[K
+[0.573s] [01m[K/usr/include/c++/13/bits/alloc_traits.h:643:42:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_type[m[K’ has not been declared
+[0.573s]   643 |       deallocate(allocator_type&, void*, [01;31m[Ksize_type[m[K) = delete;
+[0.573s]       |                                          [01;31m[K^~~~~~~~~[m[K
+[0.573s] [01m[K/usr/include/c++/13/bits/alloc_traits.h:678:14:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_type[m[K’ does not name a type; did you mean ‘[01m[Ktrue_type[m[K’?
+[0.573s]   678 |       static [01;31m[Ksize_type[m[K
+[0.573s]       |              [01;31m[K^~~~~~~~~[m[K
+[0.573s]       |              [32m[Ktrue_type[m[K
+[0.573s] [01m[K/usr/include/c++/13/bits/alloc_traits.h:849:58:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ was not declared in this scope
+[0.573s]   849 |                decltype(std::declval<_Alloc&>().allocate([01;31m[Ksize_t[m[K{}))>>
+[0.574s]       |                                                          [01;31m[K^~~~~~[m[K
+[0.574s] [01m[K/usr/include/c++/13/bits/alloc_traits.h:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.574s]   +++ |+[32m[K#include <cstddef>[m[K
+[0.574s]     1 | // Allocator traits -*- C++ -*-
+[0.574s] [01m[K/usr/include/c++/13/bits/alloc_traits.h:849:58:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ was not declared in this scope
+[0.574s]   849 |                decltype(std::declval<_Alloc&>().allocate([01;31m[Ksize_t[m[K{}))>>
+[0.574s]       |                                                          [01;31m[K^~~~~~[m[K
+[0.574s] [01m[K/usr/include/c++/13/bits/alloc_traits.h:849:58:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.574s] [01m[K/usr/include/c++/13/bits/stl_uninitialized.h:[m[K In function ‘[01m[Kstd::__enable_if_t<std::__is_bitwise_relocatable<_Tp>::value, _Tp*> std::[01;32m[K__relocate_a_1[m[K(_Tp*, _Tp*, _Tp*, allocator<_T2>&)[m[K’:
+[0.574s] [01m[K/usr/include/c++/13/bits/stl_uninitialized.h:1118:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kptrdiff_t[m[K’ was not declared in this scope
+[0.574s]  1118 |       [01;31m[Kptrdiff_t[m[K __count = __last - __first;
+[0.574s]       |       [01;31m[K^~~~~~~~~[m[K
+[0.574s] [01m[K/usr/include/c++/13/bits/stl_uninitialized.h:65:1:[m[K [01;36m[Knote: [m[K‘[01m[Kptrdiff_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.574s]    64 | #include <ext/alloc_traits.h>     // __alloc_traits
+[0.574s]   +++ |+[32m[K#include <cstddef>[m[K
+[0.575s]    65 | 
+[0.575s] [01m[K/usr/include/c++/13/bits/stl_uninitialized.h:1119:11:[m[K [01;31m[Kerror: [m[K‘[01m[K__count[m[K’ was not declared in this scope; did you mean ‘[01m[K__popcount[m[K’?
+[0.575s]  1119 |       if ([01;31m[K__count[m[K > 0)
+[0.575s]       |           [01;31m[K^~~~~~~[m[K
+[0.575s]       |           [32m[K__popcount[m[K
+[0.577s] [01m[K/usr/include/c++/13/bits/stl_uninitialized.h:1133:25:[m[K [01;31m[Kerror: [m[K‘[01m[K__count[m[K’ was not declared in this scope; did you mean ‘[01m[K__popcount[m[K’?
+[0.577s]  1133 |       return __result + [01;31m[K__count[m[K;
+[0.577s]       |                         [01;31m[K^~~~~~~[m[K
+[0.577s]       |                         [32m[K__popcount[m[K
+[0.577s] In file included from [01m[K/usr/include/c++/13/bits/stl_vector.h:63[m[K,
+[0.577s]                  from [01m[K/usr/include/c++/13/vector:66[m[K:
+[0.577s] [01m[K/usr/include/c++/13/initializer_list:[m[K At global scope:
+[0.577s] [01m[K/usr/include/c++/13/initializer_list:51:15:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.578s]    51 |       typedef [01;31m[Ksize_t[m[K            size_type;
+[0.578s]       |               [01;31m[K^~~~~~[m[K
+[0.578s] [01m[K/usr/include/c++/13/initializer_list:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.578s]   +++ |+[32m[K#include <cstddef>[m[K
+[0.578s]     1 | // std::initializer_list support -*- C++ -*-
+[0.578s] [01m[K/usr/include/c++/13/initializer_list:57:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_type[m[K’ does not name a type; did you mean ‘[01m[Ktrue_type[m[K’?
+[0.578s]    57 |       [01;31m[Ksize_type[m[K                 _M_len;
+[0.578s]       |       [01;31m[K^~~~~~~~~[m[K
+[0.579s]       |       [32m[Ktrue_type[m[K
+[0.579s] [01m[K/usr/include/c++/13/initializer_list:60:54:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_type[m[K’ has not been declared
+[0.579s]    60 |       constexpr initializer_list(const_iterator __a, [01;31m[Ksize_type[m[K __l)
+[0.579s]       |                                                      [01;31m[K^~~~~~~~~[m[K
+[0.580s] [01m[K/usr/include/c++/13/initializer_list:68:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_type[m[K’ does not name a type; did you mean ‘[01m[Ktrue_type[m[K’?
+[0.580s]    68 |       constexpr [01;31m[Ksize_type[m[K
+[0.580s]       |                 [01;31m[K^~~~~~~~~[m[K
+[0.580s]       |                 [32m[Ktrue_type[m[K
+[0.580s] [01m[K/usr/include/c++/13/initializer_list:45:11:[m[K [01;31m[Kfatal error: [m[Kdefinition of ‘[01m[Kclass std::initializer_list<_E>[m[K’ does not match ‘[01m[K#include <initializer_list>[m[K’
+[0.580s]    45 |     class [01;31m[Kinitializer_list[m[K
+[0.580s]       |           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[0.580s] compilation terminated.
+[0.585s] gmake[2]: *** [CMakeFiles/hive_nav_brain_lib.dir/build.make:76: CMakeFiles/hive_nav_brain_lib.dir/src/hive_nav_brain_node.cpp.o] Error 1
+[0.585s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/hive_nav_brain_lib.dir/all] Error 2
+[0.585s] gmake: *** [Makefile:146: all] Error 2
+[0.588s] Invoked command in '/home/thomas24/hive_ws2/build/hive_nav_brain' returned '2': CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_planner:/home/thomas24/hive_ws2/install/nav2_controller:/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/home/thomas24/hive_ws2/install/hive_interface2:/home/thomas24/hive_ws2/install/nav2_bringup:/home/thomas24/hive_ws2/install/navigation2:/home/thomas24/hive_ws2/install/opennav_docking:/home/thomas24/hive_ws2/install/opennav_docking_core:/home/thomas24/hive_ws2/install/opennav_docking_bt:/home/thomas24/hive_ws2/install/nav2_dwb_controller:/home/thomas24/hive_ws2/install/dwb_plugins:/home/thomas24/hive_ws2/install/dwb_critics:/home/thomas24/hive_ws2/install/dwb_core:/home/thomas24/hive_ws2/install/nav_2d_utils:/home/thomas24/hive_ws2/install/dwb_msgs:/home/thomas24/hive_ws2/install/nav_2d_msgs:/home/thomas24/hive_ws2/install/nav2_waypoint_follower:/home/thomas24/hive_ws2/install/nav2_theta_star_planner:/home/thomas24/hive_ws2/install/nav2_smoother:/home/thomas24/hive_ws2/install/nav2_smac_planner:/home/thomas24/hive_ws2/install/nav2_rviz_plugins:/home/thomas24/hive_ws2/install/nav2_route:/home/thomas24/hive_ws2/install/nav2_rotation_shim_controller:/home/thomas24/hive_ws2/install/nav2_regulated_pure_pursuit_controller:/home/thomas24/hive_ws2/install/hive_nav_brain:/home/thomas24/hive_ws2/install/nav2_navfn_planner:/home/thomas24/hive_ws2/install/nav2_mppi_controller:/home/thomas24/hive_ws2/install/nav2_graceful_controller:/home/thomas24/hive_ws2/install/nav2_constrained_smoother:/home/thomas24/hive_ws2/install/nav2_bt_navigator:/home/thomas24/hive_ws2/install/nav2_behaviors:/home/thomas24/hive_ws2/install/nav2_collision_monitor:/home/thomas24/hive_ws2/install/hive_costmap:/home/thomas24/hive_ws2/install/costmap_queue:/home/thomas24/hive_ws2/install/nav2_velocity_smoother:/home/thomas24/hive_ws2/install/nav2_amcl:/home/thomas24/hive_ws2/install/nav2_system_tests:/home/thomas24/hive_ws2/install/vanilla_brain_nav2:/home/thomas24/hive_ws2/install/nav2_loopback_sim:/home/thomas24/hive_ws2/install/nav2_simple_commander:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/opt/ros/jazzy:/home/thomas24/hive_ws2/install/hive_route_planner:/home/thomas24/hive_ws2/install/dev_route_provider:/home/thomas24/hiveverse_ws/install/hive_simulation:/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_planner/lib:/home/thomas24/hive_ws2/install/nav2_controller/lib:/home/thomas24/hive_ws2/install/nav2_costmap_2d/lib:/home/thomas24/hive_ws2/install/nav2_map_server/lib:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager/lib:/home/thomas24/hive_ws2/install/nav2_behavior_tree/lib:/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_voxel_grid/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:/home/thomas24/hive_ws2/install/hive_interface2/lib:/home/thomas24/hive_ws2/install/hive_nav_brain/lib:/home/thomas24/hive_ws2/install/opennav_docking/lib:/home/thomas24/hive_ws2/install/opennav_docking_bt/lib:/home/thomas24/hive_ws2/install/dwb_plugins/lib:/home/thomas24/hive_ws2/install/dwb_critics/lib:/home/thomas24/hive_ws2/install/dwb_core/lib:/home/thomas24/hive_ws2/install/nav_2d_utils/lib:/home/thomas24/hive_ws2/install/dwb_msgs/lib:/home/thomas24/hive_ws2/install/nav_2d_msgs/lib:/home/thomas24/hive_ws2/install/nav2_waypoint_follower/lib:/home/thomas24/hive_ws2/install/nav2_theta_star_planner/lib:/home/thomas24/hive_ws2/install/nav2_smoother/lib:/home/thomas24/hive_ws2/install/nav2_smac_planner/lib:/home/thomas24/hive_ws2/install/nav2_rviz_plugins/lib:/home/thomas24/hive_ws2/install/nav2_route/lib:/home/thomas24/hive_ws2/install/nav2_rotation_shim_controller/lib:/home/thomas24/hive_ws2/install/nav2_regulated_pure_pursuit_controller/lib:/home/thomas24/hive_ws2/install/nav2_navfn_planner/lib:/home/thomas24/hive_ws2/install/nav2_mppi_controller/lib:/home/thomas24/hive_ws2/install/nav2_graceful_controller/lib:/home/thomas24/hive_ws2/install/nav2_constrained_smoother/lib:/home/thomas24/hive_ws2/install/nav2_bt_navigator/lib:/home/thomas24/hive_ws2/install/nav2_behaviors/lib:/home/thomas24/hive_ws2/install/nav2_collision_monitor/lib:/home/thomas24/hive_ws2/install/hive_costmap/lib:/home/thomas24/hive_ws2/install/costmap_queue/lib:/home/thomas24/hive_ws2/install/nav2_velocity_smoother/lib:/home/thomas24/hive_ws2/install/nav2_amcl/lib:/home/thomas24/hive_ws2/install/nav2_system_tests/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/vanilla_brain_nav2/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav_2d_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_loopback_sim/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_simple_commander/lib/python3.12/site-packages:/home/thomas24/hiveverse_ws/install/hive_tools/lib/python3.12/site-packages:/home/thomas24/hiveverse_ws/install/hive_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/thomas24/hive_ws2/build/hive_nav_brain -- -j16 -l16
