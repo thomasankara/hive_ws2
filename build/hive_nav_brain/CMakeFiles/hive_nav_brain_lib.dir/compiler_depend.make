@@ -1076,6 +1076,7 @@ CMakeFiles/hive_nav_brain_lib.dir/src/hive_planner.cpp.o: /home/thomas24/hive_ws
   /usr/include/c++/13/bits/cpp_type_traits.h \
   /usr/include/c++/13/bits/cxxabi_forced.h \
   /usr/include/c++/13/bits/cxxabi_init_exception.h \
+  /usr/include/c++/13/bits/enable_special_members.h \
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
   /usr/include/c++/13/bits/exception_ptr.h \
@@ -1169,6 +1170,7 @@ CMakeFiles/hive_nav_brain_lib.dir/src/hive_planner.cpp.o: /home/thomas24/hive_ws
   /usr/include/c++/13/locale \
   /usr/include/c++/13/memory \
   /usr/include/c++/13/new \
+  /usr/include/c++/13/optional \
   /usr/include/c++/13/ostream \
   /usr/include/c++/13/pstl/execution_defs.h \
   /usr/include/c++/13/pstl/glue_algorithm_defs.h \

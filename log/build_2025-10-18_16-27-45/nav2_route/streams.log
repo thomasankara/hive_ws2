@@ -1,0 +1,110 @@
+[0.078s] Invoking command in '/home/thomas24/hive_ws2/build/nav2_route': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/home/thomas24/hiveverse_ws/install/hive_simulation:/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_costmap_2d/lib:/home/thomas24/hive_ws2/install/nav2_map_server/lib:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager/lib:/home/thomas24/hive_ws2/install/nav2_behavior_tree/lib:/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_voxel_grid/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas24/hive_ws2/build/nav2_route -- -j16 -l16
+[0.223s] [  2%] Built target gtest
+[0.223s] [  5%] Built target graph_file_savers
+[0.239s] [  8%] Built target graph_file_loaders
+[0.251s] [ 11%] Built target gtest_main
+[0.261s] [ 27%] Built target route_server_core
+[0.267s] [ 35%] Built target route_operations
+[0.334s] [ 48%] Built target edge_scorers
+[0.339s] [ 51%] Built target test_utils_and_types
+[0.351s] [ 54%] Built target route_server
+[0.361s] [ 57%] Built target test_spatial_tree
+[0.367s] [ 60%] Built target test_geojson_graph_file_loader
+[0.376s] [ 62%] Built target test_geojson_graph_file_saver
+[0.376s] [ 65%] Built target performance_benchmarking
+[0.381s] [ 68%] Built target test_graph_loader
+[0.425s] [ 71%] Built target test_edge_scorers
+[0.426s] [ 74%] Built target test_operations
+[0.427s] [ 77%] Built target test_graph_saver
+[0.439s] [ 80%] Built target test_goal_intent_extractor
+[0.439s] [ 82%] Built target test_path_converter
+[0.449s] [ 85%] Built target test_route_server
+[0.459s] [ 88%] Built target test_corner_smoothing
+[0.461s] [ 91%] Built target test_route_tracker
+[0.461s] [ 94%] Built target test_collision_operation
+[0.475s] [ 97%] Built target test_route_planner
+[0.478s] [100%] Built target test_goal_intent_search
+[0.666s] Invoked command in '/home/thomas24/hive_ws2/build/nav2_route' returned '0': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/home/thomas24/hiveverse_ws/install/hive_simulation:/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_costmap_2d/lib:/home/thomas24/hive_ws2/install/nav2_map_server/lib:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager/lib:/home/thomas24/hive_ws2/install/nav2_behavior_tree/lib:/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_voxel_grid/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas24/hive_ws2/build/nav2_route -- -j16 -l16
+[0.667s] Invoking command in '/home/thomas24/hive_ws2/build/nav2_route': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/home/thomas24/hiveverse_ws/install/hive_simulation:/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_costmap_2d/lib:/home/thomas24/hive_ws2/install/nav2_map_server/lib:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager/lib:/home/thomas24/hive_ws2/install/nav2_behavior_tree/lib:/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_voxel_grid/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas24/hive_ws2/build/nav2_route
+[0.733s] -- Install configuration: "Release"
+[0.733s] -- Execute custom install script
+[0.733s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route//plugins.xml
+[0.733s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/corner_smoothing.hpp
+[0.733s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/edge_scorer.hpp
+[0.733s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/goal_intent_extractor.hpp
+[0.733s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/goal_intent_search.hpp
+[0.733s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/graph_loader.hpp
+[0.733s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/graph_saver.hpp
+[0.733s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/interfaces/edge_cost_function.hpp
+[0.734s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/interfaces/graph_file_loader.hpp
+[0.734s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/interfaces/graph_file_saver.hpp
+[0.734s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/interfaces/route_operation.hpp
+[0.734s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/node_spatial_tree.hpp
+[0.734s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/operations_manager.hpp
+[0.734s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/path_converter.hpp
+[0.734s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/plugins/edge_cost_functions/costmap_scorer.hpp
+[0.734s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/plugins/edge_cost_functions/distance_scorer.hpp
+[0.734s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/plugins/edge_cost_functions/dynamic_edges_scorer.hpp
+[0.734s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/plugins/edge_cost_functions/goal_orientation_scorer.hpp
+[0.734s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/plugins/edge_cost_functions/penalty_scorer.hpp
+[0.734s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/plugins/edge_cost_functions/semantic_scorer.hpp
+[0.734s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/plugins/edge_cost_functions/start_pose_orientation_scorer.hpp
+[0.734s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/plugins/edge_cost_functions/time_scorer.hpp
+[0.734s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/plugins/graph_file_loaders/geojson_graph_file_loader.hpp
+[0.734s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/plugins/graph_file_savers/geojson_graph_file_saver.hpp
+[0.735s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/plugins/route_operation_client.hpp
+[0.735s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/plugins/route_operations/adjust_speed_limit.hpp
+[0.735s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/plugins/route_operations/collision_monitor.hpp
+[0.735s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/plugins/route_operations/rerouting_service.hpp
+[0.735s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/plugins/route_operations/time_marker.hpp
+[0.735s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/plugins/route_operations/trigger_event.hpp
+[0.735s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/route_planner.hpp
+[0.735s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/route_server.hpp
+[0.735s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/route_tracker.hpp
+[0.735s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/types.hpp
+[0.735s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/include/nav2_route/nav2_route/utils.hpp
+[0.735s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/lib/nav2_route/route_server
+[0.735s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/graphs/aws_graph.geojson
+[0.735s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/graphs/sample_graph.geojson
+[0.735s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/graphs/scripts/README.md
+[0.735s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/graphs/scripts/export_shapefiles.py
+[0.736s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/graphs/scripts/generate_start_and_end_id.sql
+[0.736s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/graphs/scripts/increment_edge_id.json
+[0.736s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/graphs/scripts/increment_node_id.json
+[0.736s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/graphs/turtlebot3_graph.geojson
+[0.736s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/graphs/turtlebot4_graph.geojson
+[0.736s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/test/test_graphs/error_codes.geojson
+[0.736s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/test/test_graphs/invalid.json
+[0.737s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/test/test_graphs/no_frame.json
+[0.737s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/lib/nav2_route/performance_benchmarking
+[0.737s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/environment/library_path.sh
+[0.737s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/environment/library_path.dsv
+[0.737s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/ament_index/resource_index/package_run_dependencies/nav2_route
+[0.737s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/ament_index/resource_index/parent_prefix_path/nav2_route
+[0.737s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/environment/ament_prefix_path.sh
+[0.737s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/environment/ament_prefix_path.dsv
+[0.737s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/environment/path.sh
+[0.737s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/environment/path.dsv
+[0.737s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/local_setup.bash
+[0.737s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/local_setup.sh
+[0.737s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/local_setup.zsh
+[0.737s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/local_setup.dsv
+[0.737s] -- Symlinking: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/package.dsv
+[0.741s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/ament_index/resource_index/packages/nav2_route
+[0.745s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/ament_index/resource_index/nav2_route__pluginlib__plugin/nav2_route
+[0.745s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/ament_index/resource_index/rclcpp_components/nav2_route
+[0.745s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.745s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.745s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/cmake/ament_cmake_export_libraries-extras.cmake
+[0.745s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/cmake/ament_cmake_export_targets-extras.cmake
+[0.745s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/cmake/nav2_routeConfig.cmake
+[0.745s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/cmake/nav2_routeConfig-version.cmake
+[0.746s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/package.xml
+[0.746s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_route/lib/libroute_server_core.so
+[0.746s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_route/lib/libedge_scorers.so
+[0.746s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_route/lib/libroute_operations.so
+[0.746s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_route/lib/libgraph_file_loaders.so
+[0.746s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_route/lib/libgraph_file_savers.so
+[0.746s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/cmake/export_nav2_routeExport.cmake
+[0.746s] -- Up-to-date: /home/thomas24/hive_ws2/install/nav2_route/share/nav2_route/cmake/export_nav2_routeExport-release.cmake
+[0.872s] Invoked command in '/home/thomas24/hive_ws2/build/nav2_route' returned '0': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav2_core:/home/thomas24/hive_ws2/install/nav2_costmap_2d:/home/thomas24/hive_ws2/install/nav2_map_server:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager:/home/thomas24/hive_ws2/install/nav2_behavior_tree:/home/thomas24/hive_ws2/install/nav2_util:/home/thomas24/hive_ws2/install/nav2_ros_common:/home/thomas24/hive_ws2/install/nav2_voxel_grid:/home/thomas24/hive_ws2/install/nav2_msgs:/home/thomas24/hive_ws2/install/nav2_common:/home/thomas24/hiveverse_ws/install/hive_simulation:/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav2_costmap_2d/lib:/home/thomas24/hive_ws2/install/nav2_map_server/lib:/home/thomas24/hive_ws2/install/nav2_lifecycle_manager/lib:/home/thomas24/hive_ws2/install/nav2_behavior_tree/lib:/home/thomas24/hive_ws2/install/nav2_util/lib:/home/thomas24/hive_ws2/install/nav2_voxel_grid/lib:/home/thomas24/hive_ws2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas24/hive_ws2/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas24/hive_ws2/build/nav2_route

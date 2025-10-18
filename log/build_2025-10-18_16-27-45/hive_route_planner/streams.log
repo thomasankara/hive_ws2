@@ -1,0 +1,30 @@
+[0.016s] Invoking command in '/home/thomas24/hive_ws2/build/hive_route_planner': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/hive_interface2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/hive_interface2:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/hive_interface2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas24/hive_ws2/build/hive_route_planner -- -j16 -l16
+[0.076s] [ 33%] Built target astar_planner
+[0.079s] [ 66%] Built target route_utils
+[0.133s] [100%] Built target hive_route_planner_node
+[0.151s] Invoked command in '/home/thomas24/hive_ws2/build/hive_route_planner' returned '0': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/hive_interface2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/hive_interface2:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/hive_interface2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas24/hive_ws2/build/hive_route_planner -- -j16 -l16
+[0.151s] Invoking command in '/home/thomas24/hive_ws2/build/hive_route_planner': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/hive_interface2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/hive_interface2:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/hive_interface2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas24/hive_ws2/build/hive_route_planner
+[0.160s] -- Install configuration: ""
+[0.160s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/lib/hive_route_planner/hive_route_planner_node
+[0.161s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/include/hive_route_planner
+[0.161s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/include/hive_route_planner/route_utils.hpp
+[0.161s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/include/hive_route_planner/astar_planner.hpp
+[0.161s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/launch
+[0.161s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/launch/hive_route_planner.launch.py
+[0.161s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/share/ament_index/resource_index/package_run_dependencies/hive_route_planner
+[0.161s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/share/ament_index/resource_index/parent_prefix_path/hive_route_planner
+[0.161s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/environment/ament_prefix_path.sh
+[0.161s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/environment/ament_prefix_path.dsv
+[0.161s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/environment/path.sh
+[0.162s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/environment/path.dsv
+[0.164s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/local_setup.bash
+[0.164s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/local_setup.sh
+[0.164s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/local_setup.zsh
+[0.165s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/local_setup.dsv
+[0.165s] -- Installing: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/package.dsv
+[0.165s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/share/ament_index/resource_index/packages/hive_route_planner
+[0.165s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.165s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/cmake/hive_route_plannerConfig.cmake
+[0.165s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/cmake/hive_route_plannerConfig-version.cmake
+[0.165s] -- Up-to-date: /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/package.xml
+[0.165s] Invoked command in '/home/thomas24/hive_ws2/build/hive_route_planner' returned '0': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/hive_interface2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/hive_interface2:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/hive_interface2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/hive_interface2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas24/hive_ws2/build/hive_route_planner

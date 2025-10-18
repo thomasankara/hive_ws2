@@ -1,22 +1,19 @@
+// path_utils.cpp
 #include "hive_nav_brain/path_utils.hpp"
+
 #include <algorithm>
+#include <cmath>
+#include <limits>
 
 namespace {
 
 // ———————————————————————————————————————————————————————
-// Petits helpers
+// Petits helpers & seuils
 inline double sqr(double v) { return v * v; }
+inline double dist2(double ax, double ay, double bx, double by) { return sqr(ax - bx) + sqr(ay - by); }
+inline double dist(double ax, double ay, double bx, double by) { return std::sqrt(dist2(ax, ay, bx, by)); }
 
-inline double dist2(double ax, double ay, double bx, double by) {
-  return sqr(ax - bx) + sqr(ay - by);
-}
-inline double dist(double ax, double ay, double bx, double by) {
-  return std::sqrt(dist2(ax, ay, bx, by));
-}
-
-inline double seg_len(double ax, double ay, double bx, double by) {
-  return dist(ax, ay, bx, by);
-}
+inline double seg_len(double ax, double ay, double bx, double by) { return dist(ax, ay, bx, by); }
 
 inline double point_segment_distance(double px, double py, double ax, double ay, double bx, double by)
 {
@@ -30,21 +27,52 @@ inline double point_segment_distance(double px, double py, double ax, double ay,
   return std::hypot(px - qx, py - qy);
 }
 
-// Seuils
-constexpr double kJoinEps2   = 0.10 * 0.10;   // 10 cm² (pour matcher les sommets adjacents)
-constexpr double kEndClampEps = 0.25;         // 25 cm : pour tagger "(at_end)"
+// seuils : tolérance de joint et pince à la fin
+constexpr double kJoinEps2     = 0.20 * 0.20;  // 20 cm² : pour matcher les sommets adjacents
+constexpr double kEndClampEps  = 0.25;         // 25 cm : clamp de la target sur la vraie fin
 
-// Retourne vrai si (x1,y1) et (x2,y2) sont “proches”
 inline bool near_xy(double x1, double y1, double x2, double y2, double eps2 = kJoinEps2) {
   return dist2(x1,y1,x2,y2) <= eps2;
 }
 
-// Détermine le sens “logique” d’avancement sur le lanelet i.
-// - Si i n’est pas le dernier, on détecte le point commun entre i et i+1
-//   et on choisit le sens qui mène vers ce point commun.
-// - Si i est le dernier, on choisit la borne la plus proche du goal.
-// Renvoie true => avancer vers end(i), false => vers start(i).
-bool choose_forward_to_B_on_segment(
+// Retourne la **vraie** extrémité de la chaîne : l’extrémité du dernier lanelet
+// qui n’est PAS partagée avec l’avant-dernier. Fallback: extrémité la plus proche du goal.
+inline bool true_last_endpoint(
+  const std::vector<hive_interface2::msg::LaneletMini2>& path,
+  double goal_x, double goal_y,
+  double &ex, double &ey)
+{
+  if (path.empty()) return false;
+  const auto &last = path.back();
+
+  if (path.size() >= 2) {
+    const auto &prev = path[path.size()-2];
+
+    const bool start_shared =
+      near_xy(last.start_point_x, last.start_point_y, prev.start_point_x, prev.start_point_y) ||
+      near_xy(last.start_point_x, last.start_point_y, prev.end_point_x,   prev.end_point_y);
+
+    const bool end_shared =
+      near_xy(last.end_point_x, last.end_point_y, prev.start_point_x, prev.start_point_y) ||
+      near_xy(last.end_point_x, last.end_point_y, prev.end_point_x,   prev.end_point_y);
+
+    if (start_shared && !end_shared) { ex = last.end_point_x; ey = last.end_point_y; return true; }
+    if (end_shared   && !start_shared) { ex = last.start_point_x; ey = last.start_point_y; return true; }
+    // ambigu => fallback ci-dessous
+  }
+
+  // Fallback: extrémité la plus proche du goal
+  const double dS = dist(last.start_point_x, last.start_point_y, goal_x, goal_y);
+  const double dE = dist(last.end_point_x,   last.end_point_y,   goal_x, goal_y);
+  if (dE <= dS) { ex = last.end_point_x; ey = last.end_point_y; }
+  else          { ex = last.start_point_x; ey = last.start_point_y; }
+  return true;
+}
+
+// Décide le sens d’avancement sur le lanelet i.
+// - Cas général: continuité avec i+1 (on suit le *vrai* joint si détecté).
+// - Dernier lanelet: aller vers la **vraie** extrémité non partagée.
+inline bool choose_forward_to_B_on_segment(
   const std::vector<hive_interface2::msg::LaneletMini2> &path,
   size_t i,
   double goal_x, double goal_y)
@@ -53,35 +81,46 @@ bool choose_forward_to_B_on_segment(
   const double ax = ll.start_point_x, ay = ll.start_point_y;
   const double bx = ll.end_point_x,   by = ll.end_point_y;
 
-  // Cas général : on se fie à la continuité avec i+1
   if (i + 1 < path.size()) {
     const auto &nxt = path[i+1];
     const double asx = nxt.start_point_x, asy = nxt.start_point_y;
     const double bex = nxt.end_point_x,   bey = nxt.end_point_y;
 
-    // On regarde quel couple d’extrémités est le plus proche
     const double d_B_A = dist2(bx,by, asx,asy);
     const double d_B_B = dist2(bx,by, bex,bey);
     const double d_A_A = dist2(ax,ay, asx,asy);
     const double d_A_B = dist2(ax,ay, bex,bey);
     const double best  = std::min(std::min(d_B_A, d_B_B), std::min(d_A_A, d_A_B));
 
-    // Si la meilleure correspondance implique end(i) => on va vers B
-    if (best == d_B_A || best == d_B_B) return true;
-    // Si elle implique start(i) => on va vers A
-    if (best == d_A_A || best == d_A_B) return false;
+    // Si un vrai joint (≤ kJoinEps2) est détecté, on le suit strictement
+    if (best <= kJoinEps2) {
+      if (best == d_B_A || best == d_B_B) return true;   // sens vers B
+      else                                 return false;  // sens vers A
+    }
 
-    // Fallback ultra rare: choisir l’extrémité la plus proche du goal
+    // Sinon, fallback: on choisit la config qui minimise la rupture
+    if (best == d_B_A || best == d_B_B) return true;
+    if (best == d_A_A || best == d_A_B) return false;
   }
 
-  // Dernier lanelet (ou fallback) : se rapprocher du goal
+  // Dernier lanelet (ou fallback) : aller vers la vraie fin
+  double ex=0.0, ey=0.0;
+  if (true_last_endpoint(path, goal_x, goal_y, ex, ey)) {
+    const bool end_is_B = near_xy(bx,by, ex,ey);
+    return end_is_B; // true => vers B, false => vers A
+  }
+
+  // Ultime fallback (ne devrait pas arriver)
   const double dA = dist2(ax, ay, goal_x, goal_y);
   const double dB = dist2(bx, by, goal_x, goal_y);
-  return (dB <= dA);  // true => vers end, false => vers start
+  return (dB <= dA);
 }
 
 } // anon
 
+// ===================================================================
+//  Implémentations publiques
+// ===================================================================
 namespace hive_nav_utils {
 
 // ———————————————————————————————————————————————————————
@@ -139,7 +178,7 @@ PathProjection project_on_path(
 }
 
 // ———————————————————————————————————————————————————————
-// Target locale
+// Target locale (lookahead) — évite le wrap au dernier lanelet
 bool compute_local_target(
   const std::vector<hive_interface2::msg::LaneletMini2> &path,
   double rx, double ry,
@@ -154,7 +193,7 @@ bool compute_local_target(
   auto proj = project_on_path(path, rx, ry);
   if (!proj.ok) { note = "(projection failed)"; return false; }
 
-  // Distance robot -> projection (règle ASTAR)
+  // Règle ASTAR : si la projection est plus loin que lookahead, on vise la proj.
   double rem = 0.0;
   if (mode == hive_nav::MovementMode::ASTAR_PLANNER) {
     const double d_robot_proj = dist(rx, ry, proj.px, proj.py);
@@ -166,10 +205,10 @@ bool compute_local_target(
       tx = proj.px; ty = proj.py; note.clear(); return true;
     }
   } else {
-    rem = lookahead_m; // HIVE: avance toujours du lookahead
+    rem = lookahead_m; // HIVE: avancer d'un lookahead complet
   }
 
-  // On avance le long du chemin avec la logique de continuité
+  // Avancer le long des segments en respectant la continuité
   size_t i = proj.seg_idx;
   double cur_x = proj.px, cur_y = proj.py;
 
@@ -180,14 +219,13 @@ bool compute_local_target(
     const double L  = seg_len(ax, ay, bx, by);
     if (L < 1e-9) { ++i; continue; }
 
-    // sens sur ce segment
+    // sens “logique” sur ce segment (orienté vers le joint ou la vraie fin)
     const bool toB = choose_forward_to_B_on_segment(path, i, goal_x, goal_y);
-    // vecteur unitaire selon le sens
-    double ux = toB ? (bx - ax)/L : (ax - bx)/L;
-    double uy = toB ? (by - ay)/L : (ay - by)/L;
+    // vecteur unitaire selon ce sens
+    const double ux = toB ? (bx - ax)/L : (ax - bx)/L;
+    const double uy = toB ? (by - ay)/L : (ay - by)/L;
 
     if (i == proj.seg_idx) {
-      // Distance disponible sur ce segment à partir de la projection
       const double rem_on_seg = toB ? ((1.0 - proj.t) * L) : (proj.t * L);
 
       if (rem <= rem_on_seg) {
@@ -195,10 +233,11 @@ bool compute_local_target(
         tx = cur_x + ux * rem;
         ty = cur_y + uy * rem;
 
-        // Si on est très proche de la borne terminale globale -> marquer at_end
-        const auto &last = path.back();
-        const double ex = last.end_point_x, ey = last.end_point_y;
-        if (dist(tx,ty, ex,ey) <= kEndClampEps) {
+        // 🔒 pince à la vraie fin si on est très proche
+        double ex=0.0, ey=0.0;
+        if (true_last_endpoint(path, goal_x, goal_y, ex, ey) &&
+            dist(tx,ty, ex,ey) <= kEndClampEps) {
+          tx = ex; ty = ey;
           note = "(at_end)";
         } else {
           note.clear();
@@ -206,42 +245,36 @@ bool compute_local_target(
         return true;
       }
 
-      // Sinon, on consomme tout ce segment et on passe au suivant
+      // consommer ce segment et passer au suivant
       rem -= rem_on_seg;
-      // Avancer jusqu’à l’extrémité atteinte
       cur_x = toB ? bx : ax;
       cur_y = toB ? by : ay;
-
-      ++i; // prochain segment
+      ++i;
       continue;
     }
 
     // Segments suivants
-    // On part de l’extrémité de 'i-1' atteinte (cur_x,cur_y).
-    // Pour robustesse, on choisit le "start" de ce segment comme l’extrémité la plus proche de (cur_x,cur_y)
-    double sx = ax, sy = ay, ex = bx, ey = by; // repères locaux
-    // Si l’extrémité B est plus proche, on swap “start”<->“end”
+    // Choisir pour robustesse le “start” de i comme l’extrémité la plus proche de (cur_x,cur_y)
+    double sx = ax, sy = ay, ex = bx, ey = by;
     if (dist2(cur_x,cur_y, bx,by) < dist2(cur_x,cur_y, ax,ay)) {
-      // swap
-      sx = bx; sy = by; ex = ax; ey = ay;
+      std::swap(sx, ex); std::swap(sy, ey);
     }
 
     const double Ls = seg_len(sx, sy, ex, ey);
     if (Ls < 1e-9) { ++i; continue; }
 
-    // Orienter dans le sens qui mène à l’extrémité prévue (cohérent avec choose_forward_to_B_on_segment(j))
-    bool toEnd = true; // on veut aller vers (ex,ey) depuis (sx,sy)
-    double ux2 = (ex - sx) / Ls;
-    double uy2 = (ey - sy) / Ls;
+    const double ux2 = (ex - sx) / Ls;
+    const double uy2 = (ey - sy) / Ls;
 
     if (rem <= Ls) {
       tx = sx + ux2 * rem;
       ty = sy + uy2 * rem;
 
-      // Fin proche ?
-      const auto &last = path.back();
-      const double gx = last.end_point_x, gy = last.end_point_y;
-      if (dist(tx,ty, gx,gy) <= kEndClampEps) {
+      // 🔒 pince à la vraie fin si on est très proche
+      double endx=0.0, endy=0.0;
+      if (true_last_endpoint(path, goal_x, goal_y, endx, endy) &&
+          dist(tx,ty, endx,endy) <= kEndClampEps) {
+        tx = endx; ty = endy;
         note = "(at_end)";
       } else {
         note.clear();
@@ -255,21 +288,11 @@ bool compute_local_target(
     ++i;
   }
 
-  // Si on sort de la boucle : clamp à la fin “canonique”
-  if (!path.empty()) {
-    const auto &last = path.back();
-
-    // Déterminer si la “fin canonique” est end(last) ou start(last)
-    bool forward_on_last = choose_forward_to_B_on_segment(path, path.size()-1, goal_x, goal_y);
-    if (forward_on_last) {
-      tx = last.end_point_x; ty = last.end_point_y;
-      note = "(at_end)";
-    } else {
-      // Rare : on a estimé que START est la fin canonique -> on préfère tout de même renvoyer end(last)
-      // pour garder une convention unique et éviter de “glisser à l’envers” en bas de route.
-      tx = last.end_point_x; ty = last.end_point_y;
-      note = "(at_end)(reversed_last)";
-    }
+  // Fin de boucle : clamp explicite à la vraie fin
+  double end_x=0.0, end_y=0.0;
+  if (true_last_endpoint(path, goal_x, goal_y, end_x, end_y)) {
+    tx = end_x; ty = end_y;
+    note = "(at_end)";
     return true;
   }
 

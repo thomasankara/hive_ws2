@@ -63,8 +63,13 @@ private:
   void maybe_send_follow_path();                          // envoie le path courant au controller
   void cancel_follow_if_running(const char* reason = ""); // annule le follow en cours
 
+  bool maybe_finish_mission_if_close(double radius_m = 0.30);
+
 private:
-  // ===== Params / store / état global =====
+
+  void request_astar_local(double tx, double ty, bool align_yaw);
+  void request_astar_final();
+
   HiveNavParams P_;
   DataStore     store_;
   hive_nav::GlobalState gs_;

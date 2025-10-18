@@ -1,0 +1,267 @@
+[0.018s] Invoking command in '/home/thomas24/hive_ws2/build/dwb_msgs': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav_2d_msgs:/home/thomas24/hiveverse_ws/install/hive_simulation:/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav_2d_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas24/hive_ws2/build/dwb_msgs -- -j16 -l16
+[0.076s] [  1%] Built target dwb_msgs__rosidl_generator_type_description
+[0.092s] [  1%] Built target ament_cmake_python_symlink_dwb_msgs
+[0.119s] [  1%] Built target dwb_msgs__cpp
+[0.129s] [ 27%] Built target dwb_msgs__rosidl_generator_c
+[0.161s] [ 51%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c
+[0.163s] [ 55%] Built target dwb_msgs__rosidl_typesupport_c
+[0.163s] [ 56%] Built target dwb_msgs__rosidl_typesupport_fastrtps_cpp
+[0.164s] [ 66%] Built target dwb_msgs__rosidl_typesupport_introspection_c
+[0.172s] [ 76%] Built target dwb_msgs__rosidl_typesupport_cpp
+[0.187s] [ 85%] Built target dwb_msgs__rosidl_typesupport_introspection_cpp
+[0.215s] [ 85%] Built target dwb_msgs
+[0.255s] [ 86%] Built target dwb_msgs__py
+[0.291s] [ 94%] Built target dwb_msgs__rosidl_generator_py
+[0.328s] [ 96%] Built target dwb_msgs_s__rosidl_typesupport_introspection_c
+[0.337s] [ 98%] Built target dwb_msgs_s__rosidl_typesupport_c
+[0.339s] running egg_info
+[0.354s] [100%] Built target dwb_msgs_s__rosidl_typesupport_fastrtps_c
+[0.361s] writing dwb_msgs.egg-info/PKG-INFO
+[0.361s] writing dependency_links to dwb_msgs.egg-info/dependency_links.txt
+[0.361s] writing top-level names to dwb_msgs.egg-info/top_level.txt
+[0.419s] reading manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[0.419s] writing manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[0.456s] [100%] Built target ament_cmake_python_build_dwb_msgs_egg
+[0.475s] Invoked command in '/home/thomas24/hive_ws2/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav_2d_msgs:/home/thomas24/hiveverse_ws/install/hive_simulation:/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav_2d_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas24/hive_ws2/build/dwb_msgs -- -j16 -l16
+[0.476s] Invoking command in '/home/thomas24/hive_ws2/build/dwb_msgs': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav_2d_msgs:/home/thomas24/hiveverse_ws/install/hive_simulation:/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav_2d_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas24/hive_ws2/build/dwb_msgs
+[0.487s] -- Install configuration: ""
+[0.488s] -- Execute custom install script
+[0.488s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/ament_index/resource_index/rosidl_interfaces/dwb_msgs
+[0.488s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.json
+[0.488s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.json
+[0.488s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.json
+[0.489s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.json
+[0.489s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.json
+[0.489s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.json
+[0.489s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.json
+[0.489s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.json
+[0.489s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.json
+[0.490s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/critic_score.h
+[0.490s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__functions.h
+[0.490s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__struct.h
+[0.490s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.h
+[0.491s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__functions.h
+[0.491s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__struct.h
+[0.491s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.h
+[0.491s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__functions.h
+[0.491s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__struct.h
+[0.491s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.h
+[0.491s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__functions.h
+[0.492s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__struct.h
+[0.492s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.h
+[0.492s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/local_plan_evaluation.h
+[0.492s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.492s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory2_d.h
+[0.492s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory_score.h
+[0.492s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/debug_local_plan.h
+[0.492s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__functions.h
+[0.492s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__struct.h
+[0.492s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.h
+[0.492s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__functions.h
+[0.492s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__struct.h
+[0.492s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.h
+[0.492s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__functions.h
+[0.493s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__struct.h
+[0.493s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.h
+[0.493s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__functions.h
+[0.493s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__struct.h
+[0.493s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.h
+[0.493s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__functions.h
+[0.493s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__struct.h
+[0.493s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.h
+[0.493s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_trajectory.h
+[0.493s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_twists.h
+[0.494s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/get_critic_score.h
+[0.494s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/score_trajectory.h
+[0.494s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/environment/library_path.sh
+[0.494s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/environment/library_path.dsv
+[0.494s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_c.h
+[0.494s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_c.h
+[0.494s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_c.h
+[0.494s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_c.h
+[0.494s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.494s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_c.h
+[0.495s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_c.h
+[0.495s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_c.h
+[0.495s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_c.h
+[0.495s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_c.h
+[0.495s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/critic_score.hpp
+[0.496s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__builder.hpp
+[0.496s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__struct.hpp
+[0.496s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__traits.hpp
+[0.496s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.hpp
+[0.497s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__builder.hpp
+[0.497s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__struct.hpp
+[0.497s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__traits.hpp
+[0.497s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.hpp
+[0.497s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__builder.hpp
+[0.497s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__struct.hpp
+[0.497s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__traits.hpp
+[0.498s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.hpp
+[0.498s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__builder.hpp
+[0.498s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__struct.hpp
+[0.498s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__traits.hpp
+[0.498s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.hpp
+[0.498s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/local_plan_evaluation.hpp
+[0.498s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.498s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory2_d.hpp
+[0.498s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory_score.hpp
+[0.498s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/debug_local_plan.hpp
+[0.498s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__builder.hpp
+[0.498s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__struct.hpp
+[0.498s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__traits.hpp
+[0.498s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.hpp
+[0.499s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__builder.hpp
+[0.499s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__struct.hpp
+[0.499s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__traits.hpp
+[0.499s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.hpp
+[0.499s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__builder.hpp
+[0.499s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__struct.hpp
+[0.499s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__traits.hpp
+[0.499s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.hpp
+[0.499s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__builder.hpp
+[0.499s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__struct.hpp
+[0.499s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__traits.hpp
+[0.500s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.hpp
+[0.500s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__builder.hpp
+[0.500s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__struct.hpp
+[0.500s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__traits.hpp
+[0.500s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.hpp
+[0.500s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_trajectory.hpp
+[0.500s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_twists.hpp
+[0.500s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/get_critic_score.hpp
+[0.500s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/score_trajectory.hpp
+[0.501s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[0.501s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_cpp.hpp
+[0.501s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[0.501s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_cpp.hpp
+[0.501s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.501s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[0.501s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[0.502s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_cpp.hpp
+[0.502s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[0.502s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[0.502s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_c.h
+[0.502s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_c.h
+[0.503s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_c.h
+[0.503s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_c.h
+[0.503s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.503s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_c.h
+[0.503s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_c.h
+[0.503s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_c.h
+[0.503s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_c.h
+[0.503s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_c.h
+[0.503s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_cpp.hpp
+[0.504s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_cpp.hpp
+[0.504s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_cpp.hpp
+[0.504s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_cpp.hpp
+[0.504s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_cpp.hpp
+[0.504s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[0.504s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_cpp.hpp
+[0.504s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_cpp.hpp
+[0.504s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[0.504s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.sh
+[0.504s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.dsv
+[0.505s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs-1.4.0-py3.12.egg-info/PKG-INFO
+[0.505s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs-1.4.0-py3.12.egg-info/SOURCES.txt
+[0.505s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs-1.4.0-py3.12.egg-info/dependency_links.txt
+[0.505s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs-1.4.0-py3.12.egg-info/top_level.txt
+[0.506s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/__init__.py
+[0.506s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_c.c
+[0.506s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.506s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.506s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.so
+[0.506s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.so
+[0.506s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.so
+[0.507s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/__init__.py
+[0.507s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_critic_score.py
+[0.507s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_critic_score_s.c
+[0.507s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_local_plan_evaluation.py
+[0.507s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_local_plan_evaluation_s.c
+[0.507s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory2_d.py
+[0.507s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory2_d_s.c
+[0.507s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory_score.py
+[0.507s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory_score_s.c
+[0.507s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/__init__.py
+[0.508s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_debug_local_plan.py
+[0.508s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_debug_local_plan_s.c
+[0.508s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_trajectory.py
+[0.508s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_trajectory_s.c
+[0.508s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_twists.py
+[0.508s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_twists_s.c
+[0.508s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_get_critic_score.py
+[0.508s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_get_critic_score_s.c
+[0.508s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_score_trajectory.py
+[0.508s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_score_trajectory_s.c
+[0.508s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.so
+[0.509s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.so
+[0.509s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.so
+[0.509s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.idl
+[0.510s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.idl
+[0.510s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.idl
+[0.511s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.idl
+[0.511s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.idl
+[0.511s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.idl
+[0.511s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.idl
+[0.511s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.idl
+[0.511s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.idl
+[0.511s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.msg
+[0.511s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.msg
+[0.511s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.msg
+[0.511s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.msg
+[0.511s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.srv
+[0.511s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.srv
+[0.511s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.srv
+[0.512s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.srv
+[0.512s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.srv
+[0.512s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/ament_index/resource_index/package_run_dependencies/dwb_msgs
+[0.512s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/ament_index/resource_index/parent_prefix_path/dwb_msgs
+[0.512s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.sh
+[0.512s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.dsv
+[0.512s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/environment/path.sh
+[0.512s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/environment/path.dsv
+[0.512s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/local_setup.bash
+[0.512s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/local_setup.sh
+[0.512s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/local_setup.zsh
+[0.513s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/local_setup.dsv
+[0.513s] -- Symlinking: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/package.dsv
+[0.525s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/ament_index/resource_index/packages/dwb_msgs
+[0.525s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake-extras.cmake
+[0.525s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.525s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.525s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.525s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.525s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.525s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.526s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig.cmake
+[0.526s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig-version.cmake
+[0.526s] -- Up-to-date symlink: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/package.xml
+[0.526s] -- Up-to-date: /home/thomas24/hive_ws2/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_c.so
+[0.526s] -- Up-to-date: /home/thomas24/hive_ws2/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so
+[0.527s] -- Up-to-date: /home/thomas24/hive_ws2/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.527s] -- Up-to-date: /home/thomas24/hive_ws2/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_c.so
+[0.527s] -- Up-to-date: /home/thomas24/hive_ws2/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_c.so
+[0.528s] -- Up-to-date: /home/thomas24/hive_ws2/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so
+[0.528s] -- Up-to-date: /home/thomas24/hive_ws2/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_cpp.so
+[0.563s] Listing '/home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs'...
+[0.563s] Listing '/home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg'...
+[0.563s] Listing '/home/thomas24/hive_ws2/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv'...
+[0.569s] -- Up-to-date: /home/thomas24/hive_ws2/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_py.so
+[0.570s] -- Up-to-date: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cExport.cmake
+[0.570s] -- Up-to-date: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.570s] -- Up-to-date: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.570s] -- Up-to-date: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.571s] -- Up-to-date: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cppExport.cmake
+[0.571s] -- Up-to-date: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.571s] -- Up-to-date: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.571s] -- Up-to-date: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.571s] -- Up-to-date: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.571s] -- Up-to-date: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport.cmake
+[0.571s] -- Up-to-date: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.571s] -- Up-to-date: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.572s] -- Up-to-date: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.572s] -- Up-to-date: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport.cmake
+[0.572s] -- Up-to-date: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.572s] -- Up-to-date: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_pyExport.cmake
+[0.572s] -- Up-to-date: /home/thomas24/hive_ws2/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_pyExport-noconfig.cmake
+[0.577s] Invoked command in '/home/thomas24/hive_ws2/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas24/hive_ws2/install/nav_2d_msgs:/home/thomas24/hiveverse_ws/install/hive_simulation:/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas24/hiveverse_ws/install/hive_tools:/home/thomas24/hiveverse_ws/install/hive_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas24/hive_ws2/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas24/hive_ws2/install/nav_2d_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas24/hive_ws2/build/dwb_msgs

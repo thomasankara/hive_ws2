@@ -30,8 +30,8 @@ public:
     map_size_    = 20.0;   // m
     resolution_  = 0.05;   // m
     publish_hz_  = 10.0;   // Hz
-    min_height_  = 0.15;    // m
-    max_height_  = 2.5;    // m
+    min_height_  = 0.075;    // m
+    max_height_  = 1.5;    // m
     min_pts_cell_ = 2;     // minimum points par cellule
     decay_s_     = 0.5;   // persistance obstacles
     footprint_flat_ = {0.25,0.42, 0.25,-0.42, -1.05,-0.42, -1.05,0.42};

@@ -1,6 +1,4 @@
 /home/thomas24/hive_ws2/install/hive_route_planner/lib/hive_route_planner/hive_route_planner_node
-/home/thomas24/hive_ws2/install/hive_route_planner/lib/libroute_utils.a
-/home/thomas24/hive_ws2/install/hive_route_planner/lib/libastar_planner.a
 /home/thomas24/hive_ws2/install/hive_route_planner/include/hive_route_planner/route_utils.hpp
 /home/thomas24/hive_ws2/install/hive_route_planner/include/hive_route_planner/astar_planner.hpp
 /home/thomas24/hive_ws2/install/hive_route_planner/share/hive_route_planner/launch/hive_route_planner.launch.py
